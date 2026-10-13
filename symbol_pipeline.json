@@ -1,0 +1,61 @@
+{
+  "pipeline": "rf-detr-small-equations-v1",
+  "classes": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "x",
+    "y",
+    "z",
+    "a",
+    "b",
+    "+",
+    "-",
+    "=",
+    "×"
+  ],
+  "resolution": 512,
+  "variant": "nano",
+  "package_version": "1.11.2",
+  "scope": "One line: integers, x/y/z/a/b, +, -, multiplication, equality, integer superscripts. No fractions, roots, functions, parentheses or multiline layouts.",
+  "dataset_validation": {
+    "valid": true,
+    "splits": {
+      "train": 1620,
+      "valid": 184,
+      "test": 196
+    },
+    "classes": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "x",
+      "y",
+      "z",
+      "a",
+      "b",
+      "+",
+      "-",
+      "=",
+      "×"
+    ],
+    "training_started": false
+  },
+  "inference_threshold": 0.5,
+  "max_symbols": 24,
+  "best_checkpoint": "checkpoint_best_total.pth"
+}

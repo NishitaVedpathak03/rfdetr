@@ -1,0 +1,6 @@
+*
+!.gitignore
+!.gitattributes
+!README.md
+!checkpoint_best_total.pth
+!symbol_pipeline.json
