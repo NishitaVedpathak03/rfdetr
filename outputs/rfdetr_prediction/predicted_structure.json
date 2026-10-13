@@ -1,0 +1,356 @@
+{
+  "schema_version": 1,
+  "image": "dataset_improved\\sample_000006\\original.png",
+  "image_size": [
+    335,
+    193
+  ],
+  "coordinate_format": "xyxy in original-image pixels; right/bottom exclusive",
+  "nodes": [
+    {
+      "kind": "binary",
+      "text": "=",
+      "bbox": [
+        66.55495643615723,
+        79.77191547015765,
+        259.36946964263916,
+        102.99585290857263
+      ],
+      "confidence": null,
+      "geometry_derived": true,
+      "id": 0,
+      "parent_id": null,
+      "role": "group",
+      "children": [
+        1,
+        7,
+        8
+      ],
+      "terminal": false,
+      "relationship_source": "spatial grammar",
+      "relationship_confidence": null
+    },
+    {
+      "kind": "binary",
+      "text": "+",
+      "bbox": [
+        66.55495643615723,
+        80.06142322437184,
+        164.5887131690979,
+        101.00530538473043
+      ],
+      "confidence": null,
+      "geometry_derived": true,
+      "id": 1,
+      "parent_id": 0,
+      "role": "group",
+      "children": [
+        2,
+        5,
+        6
+      ],
+      "terminal": false,
+      "relationship_source": "spatial grammar",
+      "relationship_confidence": null
+    },
+    {
+      "kind": "product",
+      "text": null,
+      "bbox": [
+        66.55495643615723,
+        80.06142322437184,
+        100.18566358089447,
+        97.10764677030546
+      ],
+      "confidence": null,
+      "geometry_derived": true,
+      "id": 2,
+      "parent_id": 1,
+      "role": "group",
+      "children": [
+        3,
+        4
+      ],
+      "terminal": false,
+      "relationship_source": "spatial grammar",
+      "relationship_confidence": null
+    },
+    {
+      "kind": "leaf",
+      "text": "7",
+      "bbox": [
+        66.55495643615723,
+        80.06142322437184,
+        80.2315444946289,
+        97.10764677030546
+      ],
+      "confidence": 0.927793025970459,
+      "detection_index": 4,
+      "id": 3,
+      "parent_id": 2,
+      "role": "group",
+      "children": [],
+      "terminal": true,
+      "relationship_source": "spatial grammar",
+      "relationship_confidence": null
+    },
+    {
+      "kind": "leaf",
+      "text": "z",
+      "bbox": [
+        86.92708814144135,
+        82.0129079732809,
+        100.18566358089447,
+        94.07572675825239
+      ],
+      "confidence": 0.7249910235404968,
+      "detection_index": 6,
+      "id": 4,
+      "parent_id": 2,
+      "role": "group",
+      "children": [],
+      "terminal": true,
+      "relationship_source": "spatial grammar",
+      "relationship_confidence": null
+    },
+    {
+      "kind": "symbol",
+      "text": "+",
+      "bbox": [
+        118.73179030418396,
+        82.05171877199464,
+        134.7600405216217,
+        98.54619838955166
+      ],
+      "confidence": 0.9503098130226135,
+      "detection_index": 3,
+      "id": 5,
+      "parent_id": 1,
+      "role": "operator",
+      "children": [],
+      "terminal": true,
+      "relationship_source": "spatial grammar",
+      "relationship_confidence": null
+    },
+    {
+      "kind": "leaf",
+      "text": "7",
+      "bbox": [
+        149.38724422454834,
+        81.07117592751443,
+        164.5887131690979,
+        101.00530538473043
+      ],
+      "confidence": 0.9552950263023376,
+      "detection_index": 1,
+      "id": 6,
+      "parent_id": 1,
+      "role": "group",
+      "children": [],
+      "terminal": true,
+      "relationship_source": "spatial grammar",
+      "relationship_confidence": null
+    },
+    {
+      "kind": "symbol",
+      "text": "=",
+      "bbox": [
+        184.08840703964233,
+        84.98597538578618,
+        203.68762159347534,
+        96.08188388583896
+      ],
+      "confidence": 0.9532606601715088,
+      "detection_index": 2,
+      "id": 7,
+      "parent_id": 0,
+      "role": "operator",
+      "children": [],
+      "terminal": true,
+      "relationship_source": "spatial grammar",
+      "relationship_confidence": null
+    },
+    {
+      "kind": "unary",
+      "text": "-",
+      "bbox": [
+        218.99963188171387,
+        79.77191547015765,
+        259.36946964263916,
+        102.99585290857263
+      ],
+      "confidence": null,
+      "geometry_derived": true,
+      "id": 8,
+      "parent_id": 0,
+      "role": "group",
+      "children": [
+        9,
+        10
+      ],
+      "terminal": false,
+      "relationship_source": "spatial grammar",
+      "relationship_confidence": null
+    },
+    {
+      "kind": "symbol",
+      "text": "-",
+      "bbox": [
+        218.99963188171387,
+        79.77191547015765,
+        234.31235027313232,
+        82.48230090442004
+      ],
+      "confidence": 0.8070322275161743,
+      "detection_index": 5,
+      "id": 9,
+      "parent_id": 8,
+      "role": "operator",
+      "children": [],
+      "terminal": true,
+      "relationship_source": "spatial grammar",
+      "relationship_confidence": null
+    },
+    {
+      "kind": "leaf",
+      "text": "2",
+      "bbox": [
+        243.11129188537598,
+        82.9058600073462,
+        259.36946964263916,
+        102.99585290857263
+      ],
+      "confidence": 0.963532030582428,
+      "detection_index": 0,
+      "id": 10,
+      "parent_id": 8,
+      "role": "group",
+      "children": [],
+      "terminal": true,
+      "relationship_source": "spatial grammar",
+      "relationship_confidence": null
+    }
+  ],
+  "root_id": 0,
+  "raw_symbols": [
+    {
+      "text": "2",
+      "bbox": [
+        243.11129188537598,
+        82.9058600073462,
+        259.36946964263916,
+        102.99585290857263
+      ],
+      "confidence": 0.963532030582428
+    },
+    {
+      "text": "7",
+      "bbox": [
+        149.38724422454834,
+        81.07117592751443,
+        164.5887131690979,
+        101.00530538473043
+      ],
+      "confidence": 0.9552950263023376
+    },
+    {
+      "text": "=",
+      "bbox": [
+        184.08840703964233,
+        84.98597538578618,
+        203.68762159347534,
+        96.08188388583896
+      ],
+      "confidence": 0.9532606601715088
+    },
+    {
+      "text": "+",
+      "bbox": [
+        118.73179030418396,
+        82.05171877199464,
+        134.7600405216217,
+        98.54619838955166
+      ],
+      "confidence": 0.9503098130226135
+    },
+    {
+      "text": "7",
+      "bbox": [
+        66.55495643615723,
+        80.06142322437184,
+        80.2315444946289,
+        97.10764677030546
+      ],
+      "confidence": 0.927793025970459
+    },
+    {
+      "text": "-",
+      "bbox": [
+        218.99963188171387,
+        79.77191547015765,
+        234.31235027313232,
+        82.48230090442004
+      ],
+      "confidence": 0.8070322275161743
+    },
+    {
+      "text": "z",
+      "bbox": [
+        86.92708814144135,
+        82.0129079732809,
+        100.18566358089447,
+        94.07572675825239
+      ],
+      "confidence": 0.7249910235404968
+    }
+  ],
+  "latex": "7 z + 7 = -2",
+  "latex_metadata": {
+    "status": "parsed",
+    "verified": false,
+    "warnings": [],
+    "unresolved_node_ids": [],
+    "max_depth": 3,
+    "source": "detected symbol identities and spatial grammar"
+  },
+  "metadata": {
+    "backend": "rf-detr",
+    "pipeline": "rf-detr-small-equations-v1",
+    "checkpoint_path": "D:\\eq_ocr\\checkpoints\\rfdetr_small\\checkpoint_best_total.pth",
+    "checkpoint_epoch": null,
+    "inference_seconds": 1.9608301999978721,
+    "threshold": 0.5,
+    "max_symbols": 24,
+    "raw_symbol_count": 7,
+    "node_limit_reached": false,
+    "layout_valid": true,
+    "layout_source": "spatial grammar; not a learned container detector",
+    "preprocessing": {
+      "crop": [
+        55,
+        68,
+        271,
+        115
+      ],
+      "sx": 2.3703703703703702,
+      "sy": 2.3617021276595747,
+      "left": 0,
+      "top": 200,
+      "width": 512,
+      "height": 111,
+      "side": 512
+    },
+    "padding_rejections": 0,
+    "visualization": {
+      "ink_components": 8,
+      "colored_components": 7,
+      "ambiguous_components_left_unchanged": 0
+    },
+    "confidence_note": "uncalibrated symbol confidence; geometry has no learned confidence",
+    "limitations": [
+      "Only small single-line equations and integer superscripts are supported.",
+      "A parsed result does not establish correct symbol recognition.",
+      "Fractions, roots, functions, parentheses and multiline layouts are outside this stage."
+    ]
+  }
+}

@@ -1,9 +1,9 @@
 """CPU RF-DETR inference adapter; no dataset or previous detector imports."""
 import torch
 
-from src.rfdetr_symbols import load_symbol_predictor, predict_symbol_image
+from src.model import load_symbol_predictor, predict_symbol_image
 from src.visualize import recursive_steps
-from .hierarchy import normalize_nodes, validate_steps
+from .steps import normalize_nodes, validate_steps
 
 
 def load_predictor(checkpoint_path):

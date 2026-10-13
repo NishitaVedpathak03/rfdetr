@@ -1,12 +1,12 @@
-"""Explicit image-only RF-DETR prediction using a local trained symbol checkpoint."""
+"""Run RF-DETR prediction on an image and save symbols, hierarchy and LaTeX."""
 import argparse
 import json
 from pathlib import Path
 
 from PIL import Image
 
-from .rfdetr_symbols import load_symbol_predictor, predict_symbol_image
-from .symbol_data import composite_rgb, write_json
+from .model import load_symbol_predictor, predict_symbol_image
+from .data import composite_rgb, write_json
 
 
 def predict(image_path, checkpoint='checkpoints/rfdetr_small/checkpoint_best_total.pth',

@@ -1,4 +1,4 @@
-"""Lazy RF-DETR adapter. Imports/previews never instantiate or download a model."""
+"""Load the trained RF-DETR model and detect symbols; imports never start a model."""
 import json
 import math
 import time
@@ -6,8 +6,8 @@ from dataclasses import dataclass
 from importlib.metadata import PackageNotFoundError, version
 from pathlib import Path
 
-from .small_equation_layout import parse_small_equation
-from .symbol_data import SYMBOLS, composite_rgb, letterbox_image, transform_box
+from .layout import parse_small_equation
+from .data import SYMBOLS, composite_rgb, letterbox_image, transform_box
 
 
 PACKAGE_VERSION = '1.11.2'

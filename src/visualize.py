@@ -5,7 +5,7 @@ import numpy as np
 from PIL import Image, ImageColor, ImageDraw
 from scipy import ndimage
 
-from .hierarchy import ink_mask, validate_hierarchy
+from .validation import ink_mask, validate_hierarchy
 
 
 ROLE_COLORS = {"base": "#2878D0", "superscript": "#24A46B", "numerator": "#9348BD",

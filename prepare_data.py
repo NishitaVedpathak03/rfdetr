@@ -2,7 +2,7 @@
 import argparse
 import json
 
-from src.symbol_data import export_existing, validate_export
+from src.data import export_existing, validate_export
 
 
 if __name__ == '__main__':

@@ -1,0 +1,13 @@
+{
+  "split": "test",
+  "scope": "full_split",
+  "images": 196,
+  "symbol_precision": 1.0,
+  "symbol_recall": 1.0,
+  "symbol_f1": 1.0,
+  "complete_equation_accuracy": 1.0,
+  "equations_with_reference": 196,
+  "layout_valid_rate": 1.0,
+  "note": "Layout validity alone is not correct OCR; exact comparison uses held-out references.",
+  "training_started": false
+}

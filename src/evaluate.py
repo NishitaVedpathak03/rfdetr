@@ -7,9 +7,9 @@ from pathlib import Path
 
 from PIL import Image
 
-from .rfdetr_symbols import load_symbol_predictor, predict_symbol_image
-from .small_equation_layout import _iou
-from .symbol_data import SYMBOLS, validate_export, write_json
+from .model import load_symbol_predictor, predict_symbol_image
+from .layout import _iou
+from .data import SYMBOLS, validate_export, write_json
 
 
 def match_symbols(predictions, truth, threshold=.5):

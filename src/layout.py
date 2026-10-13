@@ -6,7 +6,7 @@ one equality, and integer superscripts. It never reads images or dataset labels.
 import math
 import statistics
 
-from .symbol_data import canonical_symbol
+from .data import canonical_symbol
 
 
 class LayoutError(ValueError):

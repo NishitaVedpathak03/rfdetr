@@ -10,7 +10,7 @@ from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFont
 
-from src.symbol_data import SYMBOLS, export_records
+from src.data import SYMBOLS, export_records
 
 
 def installed_fonts():

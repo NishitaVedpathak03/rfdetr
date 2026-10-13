@@ -6,8 +6,8 @@ from pathlib import Path
 import streamlit as st
 from PIL import Image
 
-from ui.hierarchy import step_description
-from ui.visualization import render_overlay, uploaded_image
+from ui.steps import step_description
+from ui.images import render_overlay, uploaded_image
 
 
 PROJECT = Path(__file__).resolve().parent
@@ -160,9 +160,9 @@ def main():
         stamp = (checkpoint_path.stat().st_mtime_ns, checkpoint_path.stat().st_size,
                  (PROJECT / 'ui/inference.py').stat().st_mtime_ns,
                  (PROJECT / 'src/visualize.py').stat().st_mtime_ns,
-                 (PROJECT / 'src/symbol_data.py').stat().st_mtime_ns,
-                 (PROJECT / 'src/rfdetr_symbols.py').stat().st_mtime_ns,
-                 (PROJECT / 'src/small_equation_layout.py').stat().st_mtime_ns,
+                 (PROJECT / 'src/data.py').stat().st_mtime_ns,
+                 (PROJECT / 'src/model.py').stat().st_mtime_ns,
+                 (PROJECT / 'src/layout.py').stat().st_mtime_ns,
                  ((checkpoint_path.parent / 'symbol_pipeline.json').stat().st_mtime_ns
                   if checkpoint_path.suffix == '.pth' and (checkpoint_path.parent / 'symbol_pipeline.json').is_file() else None))
         identity = (hashlib.sha256(data).hexdigest(), str(checkpoint_path), stamp)

@@ -8,15 +8,15 @@ import re
 import zipfile
 from pathlib import Path
 
-from src.symbol_data import validate_export, write_json
-from src.train_rfdetr import read_config
+from src.data import validate_export, write_json
+from src.train import read_config
 
 
 PROJECT = Path(__file__).resolve().parent
-SOURCE_FILES = ('src/symbol_data.py', 'src/small_equation_layout.py', 'src/rfdetr_symbols.py',
-                'src/train_rfdetr.py', 'src/evaluate_rfdetr_symbols.py', 'src/predict_rfdetr.py',
-                'src/__init__.py', 'src/visualize.py', 'src/hierarchy.py',
-                'configs/rfdetr_small_equations.json', 'requirements-rfdetr.txt')
+SOURCE_FILES = ('src/data.py', 'src/layout.py', 'src/model.py',
+                'src/train.py', 'src/evaluate.py', 'src/predict.py',
+                'src/__init__.py', 'src/visualize.py', 'src/validation.py',
+                'configs/training.json', 'requirements-rfdetr.txt')
 
 RUN_TEMPLATE = '''"""Generated RF-DETR pilot; runs only in Kaggle, only when explicitly submitted."""
 import base64
@@ -62,7 +62,7 @@ def locate_dataset():
 def main():
     working = Path('/kaggle/working')
     if not working.is_dir():
-        raise RuntimeError('Kaggle-only entry point. Local training uses src.train_rfdetr --start-training explicitly.')
+        raise RuntimeError('Kaggle-only entry point. Local training uses src.train --start-training explicitly.')
     original_out, original_err = sys.stdout, sys.stderr
     with (working / 'training.log').open('w', encoding='utf-8', buffering=1) as log:
         sys.stdout, sys.stderr = Tee(original_out, log), Tee(original_err, log)
@@ -94,9 +94,9 @@ def main():
                 data = locate_dataset()
                 print('Resolved symbol dataset:', data, flush=True)
                 sys.path.insert(0, str(code))
-                from src.train_rfdetr import main as train
+                from src.train import main as train
                 best = train(['--data', str(data), '--output', str(working / 'rfdetr_small'), '--device', 'cuda', '--start-training'])
-                from src.evaluate_rfdetr_symbols import evaluate
+                from src.evaluate import evaluate
                 metrics = evaluate(data, best, working / 'equation_evaluation', device='cuda')
                 print('Held-out equation evaluation:', metrics, flush=True)
         finally:
@@ -112,7 +112,7 @@ def prepare(data, project=PROJECT, account='nishitavedpathak03'):
         raise ValueError('Invalid Kaggle username')
     project, data = Path(project).resolve(), Path(data).resolve()
     report = validate_export(data)
-    config = read_config(project / 'configs/rfdetr_small_equations.json')
+    config = read_config(project / 'configs/training.json')
     metadata = json.loads((data / 'symbol_dataset.json').read_text(encoding='utf-8'))
     if metadata['resolution'] != config['resolution']:
         raise ValueError('Dataset and model resolutions differ')

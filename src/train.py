@@ -1,15 +1,15 @@
-"""Preview RF-DETR training by default. Training requires --start-training."""
+"""Preview training settings; start RF-DETR training only with --start-training."""
 import argparse
 import json
 import math
 from pathlib import Path
 
-from .rfdetr_symbols import PACKAGE_VERSION, PIPELINE, require_backend
-from .symbol_data import SYMBOLS, validate_export, write_json
+from .model import PACKAGE_VERSION, PIPELINE, require_backend
+from .data import SYMBOLS, validate_export, write_json
 
 
 PROJECT = Path(__file__).resolve().parents[1]
-CONFIG = PROJECT / 'configs/rfdetr_small_equations.json'
+CONFIG = PROJECT / 'configs/training.json'
 TRAIN_FIELDS = ('epochs', 'batch_size', 'grad_accum_steps', 'lr', 'lr_encoder', 'num_workers',
                 'checkpoint_interval', 'early_stopping', 'early_stopping_patience', 'use_ema',
                 'aug_config', 'scale_jitter', 'multi_scale', 'augmentation_backend')

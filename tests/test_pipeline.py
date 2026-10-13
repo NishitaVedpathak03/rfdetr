@@ -11,12 +11,12 @@ from unittest.mock import patch
 import numpy as np
 from PIL import Image, ImageDraw
 
-from src.small_equation_layout import parse_small_equation
-from src.symbol_data import SYMBOLS, eligible_symbols, letterbox_image, transform_box, validate_export
-from src.rfdetr_symbols import (PIPELINE, SymbolPredictor, load_symbol_predictor,
+from src.layout import parse_small_equation
+from src.data import SYMBOLS, eligible_symbols, letterbox_image, transform_box, validate_export
+from src.model import (PIPELINE, SymbolPredictor, load_symbol_predictor,
                                 map_detections, predict_symbol_image)
-from src.train_rfdetr import main, read_config
-from src.evaluate_rfdetr_symbols import match_symbols
+from src.train import main, read_config
+from src.evaluate import match_symbols
 
 
 PROJECT = Path(__file__).resolve().parents[1]
@@ -32,7 +32,7 @@ class LayoutTests(unittest.TestCase):
         self.assertTrue(result['layout_valid'], result['latex_metadata']['warnings'])
         self.assertEqual(result['latex'], expected)
         self.assertFalse(result['latex_metadata']['verified'])
-        from src.hierarchy import validate_hierarchy
+        from src.validation import validate_hierarchy
         validate_hierarchy(result['nodes'])
         self.assertEqual(sum(n['terminal'] for n in result['nodes']), len(symbols))
         return result
@@ -93,7 +93,7 @@ class SymbolDataTests(unittest.TestCase):
                 eligible_symbols([{**base, **change}])
 
     def test_small_generated_coco_is_disjoint_complete_and_refuses_overwrite(self):
-        from generate_small_equations import generate
+        from generate_data import generate
         with tempfile.TemporaryDirectory(prefix='eqocr_symbols_test_') as tmp:
             folder = Path(tmp) / 'symbols'
             report = generate(folder, count=100, seed=9)
@@ -108,11 +108,11 @@ class SymbolDataTests(unittest.TestCase):
             with self.assertRaises(FileExistsError):
                 generate(folder, count=100)
             # Existing outputs are rejected before importing/constructing RF-DETR.
-            from src.train_rfdetr import start_training, training_plan
+            from src.train import start_training, training_plan
             output = Path(tmp) / 'existing_checkpoints'
             output.mkdir()
             (output / 'keep.pth').write_bytes(b'protected fixture')
-            with patch('src.train_rfdetr.require_backend', side_effect=AssertionError('No backend')):
+            with patch('src.train.require_backend', side_effect=AssertionError('No backend')):
                 with self.assertRaises(FileExistsError):
                     start_training(read_config(), training_plan(read_config(), folder, output), 'cpu')
             self.assertEqual((output / 'keep.pth').read_bytes(), b'protected fixture')
@@ -123,8 +123,8 @@ class SymbolDataTests(unittest.TestCase):
         import hashlib
         import shutil
         import zipfile
-        from generate_small_equations import generate
-        from prepare_rfdetr_training import SOURCE_FILES, prepare
+        from generate_data import generate
+        from prepare_kaggle import SOURCE_FILES, prepare
         with tempfile.TemporaryDirectory(prefix='eqocr_rf_package_test_') as tmp:
             project = Path(tmp) / 'project'
             project.mkdir()
@@ -157,7 +157,7 @@ class SymbolDataTests(unittest.TestCase):
     def test_generated_equations_are_parseable_from_their_symbol_geometry(self):
         # This tests renderer/parser compatibility, NOT neural recognition.
         import random
-        from generate_small_equations import installed_fonts, render_symbols, template
+        from generate_data import installed_fonts, render_symbols, template
         fonts, italic = installed_fonts()
         rng = random.Random(10)
         for index in range(3 * len(SYMBOLS), 3 * len(SYMBOLS) + 80):
@@ -173,7 +173,7 @@ class AdapterAndStartupTests(unittest.TestCase):
     def test_default_training_command_is_a_preview_without_backend_or_dataset(self):
         with tempfile.TemporaryDirectory(prefix='eqocr_plan_test_') as tmp:
             output = Path(tmp) / 'checkpoints'
-            with patch('src.train_rfdetr.start_training', side_effect=AssertionError('No training')), contextlib.redirect_stdout(io.StringIO()):
+            with patch('src.train.start_training', side_effect=AssertionError('No training')), contextlib.redirect_stdout(io.StringIO()):
                 plan = main(['--data', str(Path(tmp) / 'missing'), '--output', str(output)])
             self.assertFalse(plan['training_started'])
             self.assertFalse(output.exists())
@@ -184,7 +184,7 @@ class AdapterAndStartupTests(unittest.TestCase):
 
     def test_missing_checkpoint_never_imports_or_constructs_rf_detr(self):
         with tempfile.TemporaryDirectory(prefix='eqocr_missing_test_') as tmp:
-            with patch('src.rfdetr_symbols.require_backend', side_effect=AssertionError('No backend access')):
+            with patch('src.model.require_backend', side_effect=AssertionError('No backend access')):
                 with self.assertRaises(FileNotFoundError):
                     load_symbol_predictor(Path(tmp) / 'missing.pth')
 

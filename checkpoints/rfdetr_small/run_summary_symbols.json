@@ -1,0 +1,7 @@
+{
+  "pipeline": "rf-detr-small-equations-v1",
+  "training_finished": true,
+  "best_checkpoint": "/kaggle/working/rfdetr_small/checkpoint_best_total.pth",
+  "scope": "One line: integers, x/y/z/a/b, +, -, multiplication, equality, integer superscripts. No fractions, roots, functions, parentheses or multiline layouts.",
+  "note": "Detection mAP selects this checkpoint. Run image-only equation evaluation before claiming OCR accuracy."
+}
