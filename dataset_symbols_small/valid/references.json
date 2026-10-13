@@ -1,0 +1,1474 @@
+[
+  {
+    "image_id": 0,
+    "source": "generated_000518",
+    "group": "[[\"a\", null], [\"3\", 0], [\"-\", null], [\"7\", null], [\"a\", null], [\"+\", null], [\"1\", null], [\"=\", null], [\"0\", null]]",
+    "image_sha256": "0e5ec229ea98e076105e8ecdaf1695cff83c0eaab2588fb8fdb82a794bef91d1",
+    "latex": "a^{3} - 7 a + 1 = 0",
+    "calibration": false
+  },
+  {
+    "image_id": 1,
+    "source": "generated_001110",
+    "group": "[[\"y\", null], [\"2\", 0], [\"+\", null], [\"5\", null], [\"y\", null], [\"+\", null], [\"1\", null], [\"=\", null], [\"0\", null]]",
+    "image_sha256": "c0e3f0e95b0c56836959e3cd6cbe8c25b347950ad8502fcda6ad35874f35e365",
+    "latex": "y^{2} + 5 y + 1 = 0",
+    "calibration": false
+  },
+  {
+    "image_id": 2,
+    "source": "generated_001010",
+    "group": "[[\"b\", null], [\"2\", 0], [\"+\", null], [\"9\", null], [\"b\", null], [\"+\", null], [\"9\", null], [\"=\", null], [\"0\", null]]",
+    "image_sha256": "61a2eb6451bfed54364bc7a110864b3cf5f11b4260c126cae63a3e2a78736767",
+    "latex": "b^{2} + 9 b + 9 = 0",
+    "calibration": false
+  },
+  {
+    "image_id": 3,
+    "source": "generated_000267",
+    "group": "[[\"x\", null], [\"3\", 0], [\"=\", null], [\"1\", null], [\"1\", null]]",
+    "image_sha256": "e5267080fee487a0ae5973bc6f6c90d55b205a5e14c45ea805e568ee0a0116e7",
+    "latex": "x^{3} = 11",
+    "calibration": false
+  },
+  {
+    "image_id": 4,
+    "source": "generated_000196",
+    "group": "[[\"1\", null], [\"7\", null], [\"+\", null], [\"1\", null], [\"8\", null], [\"=\", null], [\"3\", null], [\"5\", null]]",
+    "image_sha256": "eb62699d363fa63653eeb5f1719a2adf549ac213db98346d400fbce8cc48f8fb",
+    "latex": "17 + 18 = 35",
+    "calibration": false
+  },
+  {
+    "image_id": 5,
+    "source": "generated_001641",
+    "group": "[[\"3\", null], [\"x\", null], [\"-\", null], [\"0\", null], [\"=\", null], [\"-\", null], [\"1\", null], [\"8\", null]]",
+    "image_sha256": "0c7086ffe9ef1336fdcdcf2c180ab024cca2a58c1469a3e498f7a33f6a207717",
+    "latex": "3 x - 0 = -18",
+    "calibration": false
+  },
+  {
+    "image_id": 6,
+    "source": "generated_000119",
+    "group": "[[\"z\", null], [\"2\", 0], [\"=\", null], [\"1\", null], [\"8\", null]]",
+    "image_sha256": "805b8b66f4c34d00781b0b6fbc39fa5d09776cbadf7f3cf060d553bf7aa43271",
+    "latex": "z^{2} = 18",
+    "calibration": false
+  },
+  {
+    "image_id": 7,
+    "source": "generated_000715",
+    "group": "[[\"z\", null], [\"2\", 0], [\"=\", null], [\"1\", null], [\"8\", null]]",
+    "image_sha256": "53f31687d1c85a7089b34b778eb55d3b8467ad7b2ca5763d72aaef0edaa979fb",
+    "latex": "z^{2} = 18",
+    "calibration": false
+  },
+  {
+    "image_id": 8,
+    "source": "generated_001171",
+    "group": "[[\"z\", null], [\"2\", 0], [\"=\", null], [\"1\", null], [\"8\", null]]",
+    "image_sha256": "95a563e09c99af338d7d703fef25d78972709e85c4efba43728dc0c5f861c5b0",
+    "latex": "z^{2} = 18",
+    "calibration": false
+  },
+  {
+    "image_id": 9,
+    "source": "generated_001191",
+    "group": "[[\"z\", null], [\"2\", 0], [\"=\", null], [\"1\", null], [\"8\", null]]",
+    "image_sha256": "d27b93291a18fb4c964013ed25441b6076bfc606a603affa4b729c28a2cd8a9d",
+    "latex": "z^{2} = 18",
+    "calibration": false
+  },
+  {
+    "image_id": 10,
+    "source": "generated_001571",
+    "group": "[[\"z\", null], [\"2\", 0], [\"=\", null], [\"1\", null], [\"8\", null]]",
+    "image_sha256": "73f2324968666a1db4e8d35223b8bb0b5029b46d17723c80d9364c27f392ab41",
+    "latex": "z^{2} = 18",
+    "calibration": false
+  },
+  {
+    "image_id": 11,
+    "source": "generated_001679",
+    "group": "[[\"z\", null], [\"2\", 0], [\"=\", null], [\"1\", null], [\"8\", null]]",
+    "image_sha256": "aa05b668c0d569e138b3f58db304f3b4e29edb3b8009afcee8e6c65d39872403",
+    "latex": "z^{2} = 18",
+    "calibration": false
+  },
+  {
+    "image_id": 12,
+    "source": "generated_000618",
+    "group": "[[\"y\", null], [\"2\", 0], [\"-\", null], [\"3\", null], [\"y\", null], [\"+\", null], [\"4\", null], [\"=\", null], [\"0\", null]]",
+    "image_sha256": "4147ce6fff599f0e3e54cedaae9df85fd79050fcd17a26c810c242fc43c2fb28",
+    "latex": "y^{2} - 3 y + 4 = 0",
+    "calibration": false
+  },
+  {
+    "image_id": 13,
+    "source": "generated_000562",
+    "group": "[[\"b\", null], [\"2\", 0], [\"+\", null], [\"2\", null], [\"b\", null], [\"+\", null], [\"0\", null], [\"=\", null], [\"0\", null]]",
+    "image_sha256": "fcf76407d7b6b549b9be66c989cdb6e51cb49bc68292342a404db36d992da890",
+    "latex": "b^{2} + 2 b + 0 = 0",
+    "calibration": false
+  },
+  {
+    "image_id": 14,
+    "source": "generated_000701",
+    "group": "[[\"6\", null], [\"z\", null], [\"-\", null], [\"4\", null], [\"=\", null], [\"2\", null]]",
+    "image_sha256": "e5c6057f9aee973d6df9884d579ff1ab246f53adae80ac8807413c366ee35ff2",
+    "latex": "6 z - 4 = 2",
+    "calibration": false
+  },
+  {
+    "image_id": 15,
+    "source": "generated_000895",
+    "group": "[[\"y\", null], [\"3\", 0], [\"=\", null], [\"0\", null]]",
+    "image_sha256": "465093823e9b542b1365e4f119ec5186fc6692723a690e5a8c8fcad63a69dd80",
+    "latex": "y^{3} = 0",
+    "calibration": false
+  },
+  {
+    "image_id": 16,
+    "source": "generated_000178",
+    "group": "[[\"a\", null], [\"3\", 0], [\"+\", null], [\"4\", null], [\"a\", null], [\"+\", null], [\"2\", null], [\"=\", null], [\"0\", null]]",
+    "image_sha256": "ed958a55a66a78f7b632b804c14b9c3263f3ff6181c63aeba27754614e373ad5",
+    "latex": "a^{3} + 4 a + 2 = 0",
+    "calibration": false
+  },
+  {
+    "image_id": 17,
+    "source": "generated_001161",
+    "group": "[[\"7\", null], [\"y\", null], [\"-\", null], [\"2\", null], [\"=\", null], [\"1\", null], [\"2\", null]]",
+    "image_sha256": "dd0ca3bd0f0fc186653a0b1f2469d08a1d3e897a0b89d13cc17aa1f15fae99e7",
+    "latex": "7 y - 2 = 12",
+    "calibration": false
+  },
+  {
+    "image_id": 18,
+    "source": "generated_001749",
+    "group": "[[\"5\", null], [\"b\", null], [\"+\", null], [\"0\", null], [\"=\", null], [\"2\", null], [\"5\", null]]",
+    "image_sha256": "d13c2b2316751275712d635db51a14b2787d4853e8c148b40185805686b64882",
+    "latex": "5 b + 0 = 25",
+    "calibration": false
+  },
+  {
+    "image_id": 19,
+    "source": "generated_000521",
+    "group": "[[\"7\", null], [\"b\", null], [\"+\", null], [\"1\", null], [\"4\", null], [\"=\", null], [\"3\", null], [\"5\", null]]",
+    "image_sha256": "751e411f96b38400539e51cdcdba6c7e13ee2a266783307c058e80b03a8ef21a",
+    "latex": "7 b + 14 = 35",
+    "calibration": false
+  },
+  {
+    "image_id": 20,
+    "source": "generated_000553",
+    "group": "[[\"6\", null], [\"z\", null], [\"-\", null], [\"1\", null], [\"4\", null], [\"=\", null], [\"1\", null], [\"0\", null]]",
+    "image_sha256": "d2425e171534ad182b7aad1ff04438bdd0053e804d5caaaf3e34b3c5c759a205",
+    "latex": "6 z - 14 = 10",
+    "calibration": false
+  },
+  {
+    "image_id": 21,
+    "source": "generated_000258",
+    "group": "[[\"z\", null], [\"2\", 0], [\"-\", null], [\"4\", null], [\"z\", null], [\"+\", null], [\"7\", null], [\"=\", null], [\"0\", null]]",
+    "image_sha256": "c22427e5d733784a5f986c64e446bb4ee74253a8303c2088f2124f80f3338452",
+    "latex": "z^{2} - 4 z + 7 = 0",
+    "calibration": false
+  },
+  {
+    "image_id": 22,
+    "source": "generated_001429",
+    "group": "[[\"2\", null], [\"a\", null], [\"-\", null], [\"3\", null], [\"=\", null], [\"1\", null]]",
+    "image_sha256": "77d2f48821557e12f94ffb08c4bc2e634f11784ec32bef91e4520df3d852cf63",
+    "latex": "2 a - 3 = 1",
+    "calibration": false
+  },
+  {
+    "image_id": 23,
+    "source": "generated_000778",
+    "group": "[[\"x\", null], [\"2\", 0], [\"-\", null], [\"2\", null], [\"x\", null], [\"+\", null], [\"2\", null], [\"=\", null], [\"0\", null]]",
+    "image_sha256": "e508887afc40afcb5fcd5085925decb3138b5075114081af149ce0db38dd3d4d",
+    "latex": "x^{2} - 2 x + 2 = 0",
+    "calibration": false
+  },
+  {
+    "image_id": 24,
+    "source": "generated_001278",
+    "group": "[[\"b\", null], [\"3\", 0], [\"+\", null], [\"7\", null], [\"b\", null], [\"+\", null], [\"0\", null], [\"=\", null], [\"0\", null]]",
+    "image_sha256": "e699361eb6b33cbd08e7dad58a76b4fd8b878219ddf3a82ac1cf608ed9f450c3",
+    "latex": "b^{3} + 7 b + 0 = 0",
+    "calibration": false
+  },
+  {
+    "image_id": 25,
+    "source": "generated_000773",
+    "group": "[[\"9\", null], [\"a\", null], [\"-\", null], [\"1\", null], [\"5\", null], [\"=\", null], [\"-\", null], [\"2\", null], [\"4\", null]]",
+    "image_sha256": "1bcdb24389b9e9cdb20ea46be3b6ad9a8ac969cf8cea4ac2cec88ad126ac73d6",
+    "latex": "9 a - 15 = -24",
+    "calibration": false
+  },
+  {
+    "image_id": 26,
+    "source": "generated_001413",
+    "group": "[[\"8\", null], [\"x\", null], [\"-\", null], [\"6\", null], [\"=\", null], [\"6\", null], [\"6\", null]]",
+    "image_sha256": "e6394def66949c10a48e25c1c0e50ab716bd02067ab89c6e2597d33151b7fdd8",
+    "latex": "8 x - 6 = 66",
+    "calibration": false
+  },
+  {
+    "image_id": 27,
+    "source": "generated_000537",
+    "group": "[[\"8\", null], [\"a\", null], [\"+\", null], [\"1\", null], [\"1\", null], [\"=\", null], [\"-\", null], [\"1\", null], [\"3\", null]]",
+    "image_sha256": "30434547b58568eac06b8b67a7e417e16ca31a07fef048329b96681b4de2770e",
+    "latex": "8 a + 11 = -13",
+    "calibration": false
+  },
+  {
+    "image_id": 28,
+    "source": "generated_000062",
+    "group": "[[\"a\", null], [\"3\", 0], [\"-\", null], [\"6\", null], [\"a\", null], [\"+\", null], [\"2\", null], [\"=\", null], [\"0\", null]]",
+    "image_sha256": "d06044556c35232079a3056d2552a947d042be6f5043eb863ccbaf93bd04ce65",
+    "latex": "a^{3} - 6 a + 2 = 0",
+    "calibration": false
+  },
+  {
+    "image_id": 29,
+    "source": "generated_001166",
+    "group": "[[\"x\", null], [\"3\", 0], [\"-\", null], [\"9\", null], [\"x\", null], [\"+\", null], [\"6\", null], [\"=\", null], [\"0\", null]]",
+    "image_sha256": "76e84c8e972b08d729b4ac691057e0447ee0289b4a31ddcd463d49cc2e7851e5",
+    "latex": "x^{3} - 9 x + 6 = 0",
+    "calibration": false
+  },
+  {
+    "image_id": 30,
+    "source": "generated_000623",
+    "group": "[[\"a\", null], [\"2\", 0], [\"=\", null], [\"5\", null]]",
+    "image_sha256": "a142037978c20ad0e3d275d7f6e841a470abedc4b085fa46a0693b9ee70788d4",
+    "latex": "a^{2} = 5",
+    "calibration": false
+  },
+  {
+    "image_id": 31,
+    "source": "generated_001667",
+    "group": "[[\"a\", null], [\"2\", 0], [\"=\", null], [\"5\", null]]",
+    "image_sha256": "b64b05576a9e6cf5f7ec8c61fa35b678d607668254084271428d80a3de1891f5",
+    "latex": "a^{2} = 5",
+    "calibration": false
+  },
+  {
+    "image_id": 32,
+    "source": "generated_001694",
+    "group": "[[\"z\", null], [\"3\", 0], [\"+\", null], [\"2\", null], [\"z\", null], [\"+\", null], [\"5\", null], [\"=\", null], [\"0\", null]]",
+    "image_sha256": "1b367f04b0090515eb75c7056c9b03aa5ee8f062c2172495d68a6922a4bfcc0e",
+    "latex": "z^{3} + 2 z + 5 = 0",
+    "calibration": false
+  },
+  {
+    "image_id": 33,
+    "source": "generated_000807",
+    "group": "[[\"b\", null], [\"3\", 0], [\"=\", null], [\"2\", null], [\"4\", null]]",
+    "image_sha256": "b009a49c283fdc3c652856745ee27a4d5a472cc6025148bb5091e3110db65b48",
+    "latex": "b^{3} = 24",
+    "calibration": false
+  },
+  {
+    "image_id": 34,
+    "source": "generated_000524",
+    "group": "[[\"6\", null], [\"+\", null], [\"1\", null], [\"0\", null], [\"=\", null], [\"1\", null], [\"6\", null]]",
+    "image_sha256": "54fc32ce82437246f7b669d658b9fa4cbe42a59ccf9f8f36e5f8f1cc2ca237b9",
+    "latex": "6 + 10 = 16",
+    "calibration": false
+  },
+  {
+    "image_id": 35,
+    "source": "generated_001917",
+    "group": "[[\"9\", null], [\"b\", null], [\"+\", null], [\"1\", null], [\"9\", null], [\"=\", null], [\"1\", null], [\"0\", null], [\"0\", null]]",
+    "image_sha256": "91ea44d8dc72a2fabc1dce67e95809150bf9a0ba143baf3a512941b5e793c893",
+    "latex": "9 b + 19 = 100",
+    "calibration": false
+  },
+  {
+    "image_id": 36,
+    "source": "generated_001852",
+    "group": "[[\"1\", null], [\"2\", null], [\"+\", null], [\"1\", null], [\"0\", null], [\"=\", null], [\"2\", null], [\"2\", null]]",
+    "image_sha256": "354db4eb233596abccc096ef65cae32e47c7b00b8f86e3cc5416dd4915e2d50e",
+    "latex": "12 + 10 = 22",
+    "calibration": false
+  },
+  {
+    "image_id": 37,
+    "source": "generated_000173",
+    "group": "[[\"7\", null], [\"b\", null], [\"-\", null], [\"1\", null], [\"9\", null], [\"=\", null], [\"-\", null], [\"4\", null], [\"7\", null]]",
+    "image_sha256": "7b3725a3ed96a8a3739a8c6b6feb71aeda8e3dbe1a2e6641dda1dfb1c78eb0c5",
+    "latex": "7 b - 19 = -47",
+    "calibration": false
+  },
+  {
+    "image_id": 38,
+    "source": "generated_000238",
+    "group": "[[\"z\", null], [\"2\", 0], [\"+\", null], [\"8\", null], [\"z\", null], [\"+\", null], [\"8\", null], [\"=\", null], [\"0\", null]]",
+    "image_sha256": "639f9ba94f0430e1fd1de771d17313e28493913d4d3f0eb4216373772c9f445b",
+    "latex": "z^{2} + 8 z + 8 = 0",
+    "calibration": false
+  },
+  {
+    "image_id": 39,
+    "source": "generated_000190",
+    "group": "[[\"b\", null], [\"3\", 0], [\"-\", null], [\"8\", null], [\"b\", null], [\"+\", null], [\"6\", null], [\"=\", null], [\"0\", null]]",
+    "image_sha256": "84fb3c21003ac7d74eb8349f6695977a2c650e2219ca2f583beb76c0fe07ba4c",
+    "latex": "b^{3} - 8 b + 6 = 0",
+    "calibration": false
+  },
+  {
+    "image_id": 40,
+    "source": "generated_001568",
+    "group": "[[\"1\", null], [\"6\", null], [\"×\", null], [\"1\", null], [\"1\", null], [\"=\", null], [\"1\", null], [\"7\", null], [\"6\", null]]",
+    "image_sha256": "82bf28842e1aed0200e32fc7d9af1209912705653b43c1a8bb483a7eeb7a49a6",
+    "latex": "16 \\times 11 = 176",
+    "calibration": false
+  },
+  {
+    "image_id": 41,
+    "source": "generated_000522",
+    "group": "[[\"x\", null], [\"2\", 0], [\"-\", null], [\"6\", null], [\"x\", null], [\"+\", null], [\"1\", null], [\"=\", null], [\"0\", null]]",
+    "image_sha256": "3fb4667ea994eb3b11529061732134e4c504862e8064c39df2fa1c8992218e80",
+    "latex": "x^{2} - 6 x + 1 = 0",
+    "calibration": false
+  },
+  {
+    "image_id": 42,
+    "source": "generated_000879",
+    "group": "[[\"z\", null], [\"2\", 0], [\"=\", null], [\"1\", null], [\"1\", null]]",
+    "image_sha256": "0b5c98b14b568af288e3920fa3db29f6b4c05fa9c3887855f61ef1eef784ec1f",
+    "latex": "z^{2} = 11",
+    "calibration": false
+  },
+  {
+    "image_id": 43,
+    "source": "generated_000389",
+    "group": "[[\"7\", null], [\"a\", null], [\"+\", null], [\"6\", null], [\"=\", null], [\"5\", null], [\"5\", null]]",
+    "image_sha256": "a6f39ec58d5174f00c813ad829b814cc956c9b73a8e3007a647393e5d18d15b4",
+    "latex": "7 a + 6 = 55",
+    "calibration": false
+  },
+  {
+    "image_id": 44,
+    "source": "generated_001273",
+    "group": "[[\"3\", null], [\"b\", null], [\"+\", null], [\"1\", null], [\"3\", null], [\"=\", null], [\"1\", null], [\"0\", null]]",
+    "image_sha256": "2a209da00435dcdb41923443a70366c2aa459f627558d8df1cb95d0d1378ccca",
+    "latex": "3 b + 13 = 10",
+    "calibration": false
+  },
+  {
+    "image_id": 45,
+    "source": "generated_000980",
+    "group": "[[\"5\", null], [\"×\", null], [\"1\", null], [\"7\", null], [\"=\", null], [\"8\", null], [\"5\", null]]",
+    "image_sha256": "560c4a1635e75d75e21933f4100dc2dc325e9d50c1890b77163bde2a0e0bb7dd",
+    "latex": "5 \\times 17 = 85",
+    "calibration": false
+  },
+  {
+    "image_id": 46,
+    "source": "generated_000916",
+    "group": "[[\"1\", null], [\"4\", null], [\"-\", null], [\"1\", null], [\"5\", null], [\"=\", null], [\"-\", null], [\"1\", null]]",
+    "image_sha256": "11746c07d4bf16ffd9f693adedfe11b9c74a345a6b4063c75f416e1d48cb6f71",
+    "latex": "14 - 15 = -1",
+    "calibration": false
+  },
+  {
+    "image_id": 47,
+    "source": "generated_001062",
+    "group": "[[\"b\", null], [\"3\", 0], [\"+\", null], [\"7\", null], [\"b\", null], [\"+\", null], [\"4\", null], [\"=\", null], [\"0\", null]]",
+    "image_sha256": "47b4954233f49715e44fb34baa99b15cf1f0f83cffefd0a1dc0d9709fce2da01",
+    "latex": "b^{3} + 7 b + 4 = 0",
+    "calibration": false
+  },
+  {
+    "image_id": 48,
+    "source": "generated_000504",
+    "group": "[[\"1\", null], [\"6\", null], [\"+\", null], [\"2\", null], [\"=\", null], [\"1\", null], [\"8\", null]]",
+    "image_sha256": "eda5938bef91a23e1951b9f2035418811af3cb82872e5cbe117f0ef401bc88f2",
+    "latex": "16 + 2 = 18",
+    "calibration": false
+  },
+  {
+    "image_id": 49,
+    "source": "generated_001685",
+    "group": "[[\"8\", null], [\"y\", null], [\"-\", null], [\"1\", null], [\"3\", null], [\"=\", null], [\"5\", null], [\"9\", null]]",
+    "image_sha256": "2f33d9bc226158e186a1e8b03c7e745379dcc1b3d167903dfc924d44d3e7688b",
+    "latex": "8 y - 13 = 59",
+    "calibration": false
+  },
+  {
+    "image_id": 50,
+    "source": "generated_001604",
+    "group": "[[\"1\", null], [\"-\", null], [\"6\", null], [\"=\", null], [\"-\", null], [\"5\", null]]",
+    "image_sha256": "ca4f926646d2b51d32c055198f498c308113f2932c509d5ab7f18bebc1e03d89",
+    "latex": "1 - 6 = -5",
+    "calibration": false
+  },
+  {
+    "image_id": 51,
+    "source": "generated_000188",
+    "group": "[[\"0\", null], [\"+\", null], [\"1\", null], [\"8\", null], [\"=\", null], [\"1\", null], [\"8\", null]]",
+    "image_sha256": "b728cd65c14983ecd86bb173dd4aa40b552862e0de0bb2f24a90b4a153fc5322",
+    "latex": "0 + 18 = 18",
+    "calibration": false
+  },
+  {
+    "image_id": 52,
+    "source": "generated_000143",
+    "group": "[[\"x\", null], [\"3\", 0], [\"=\", null], [\"1\", null], [\"5\", null]]",
+    "image_sha256": "3b129213d9437901670abc98731e41276270896e4e924dc34baff6b2f6464fbc",
+    "latex": "x^{3} = 15",
+    "calibration": false
+  },
+  {
+    "image_id": 53,
+    "source": "generated_001227",
+    "group": "[[\"x\", null], [\"3\", 0], [\"=\", null], [\"1\", null], [\"5\", null]]",
+    "image_sha256": "97941d9cea4c440277b0960f08b4bf3d43f7d1db2a942a5952901c0952157a9e",
+    "latex": "x^{3} = 15",
+    "calibration": false
+  },
+  {
+    "image_id": 54,
+    "source": "generated_001503",
+    "group": "[[\"x\", null], [\"3\", 0], [\"=\", null], [\"1\", null], [\"5\", null]]",
+    "image_sha256": "f1dd789762fccfa59bd92d49ab6d5eb0aeef22abf6a8514c8d4eebeaeaaf297b",
+    "latex": "x^{3} = 15",
+    "calibration": false
+  },
+  {
+    "image_id": 55,
+    "source": "generated_001595",
+    "group": "[[\"x\", null], [\"3\", 0], [\"=\", null], [\"1\", null], [\"5\", null]]",
+    "image_sha256": "cd7e0a0116fcae616eb6c4266af1a9f27c8f1c1210c1d3135ae0bd954ca3798b",
+    "latex": "x^{3} = 15",
+    "calibration": false
+  },
+  {
+    "image_id": 56,
+    "source": "generated_001992",
+    "group": "[[\"1\", null], [\"8\", null], [\"-\", null], [\"1\", null], [\"4\", null], [\"=\", null], [\"4\", null]]",
+    "image_sha256": "ef4354c216dbc6f407455cd6c952a2e9042c65ff144ba907c7e050ada039f6b5",
+    "latex": "18 - 14 = 4",
+    "calibration": false
+  },
+  {
+    "image_id": 57,
+    "source": "generated_000304",
+    "group": "[[\"1\", null], [\"9\", null], [\"×\", null], [\"1\", null], [\"0\", null], [\"=\", null], [\"1\", null], [\"9\", null], [\"0\", null]]",
+    "image_sha256": "f0fe7e5324137260228aa4fb42d7fcfab9da4a71238cca65d47b17c650c93fa0",
+    "latex": "19 \\times 10 = 190",
+    "calibration": false
+  },
+  {
+    "image_id": 58,
+    "source": "generated_001944",
+    "group": "[[\"1\", null], [\"9\", null], [\"×\", null], [\"1\", null], [\"0\", null], [\"=\", null], [\"1\", null], [\"9\", null], [\"0\", null]]",
+    "image_sha256": "faa811ce24ad7253612890f8de423fafea9371dd2112824091c8591c51f145ea",
+    "latex": "19 \\times 10 = 190",
+    "calibration": false
+  },
+  {
+    "image_id": 59,
+    "source": "generated_000456",
+    "group": "[[\"0\", null], [\"×\", null], [\"1\", null], [\"4\", null], [\"=\", null], [\"0\", null]]",
+    "image_sha256": "f36c23a432aecbde817d4445ce263a0e7da1d7f15dc1e3ff06121097486fed9d",
+    "latex": "0 \\times 14 = 0",
+    "calibration": false
+  },
+  {
+    "image_id": 60,
+    "source": "generated_001301",
+    "group": "[[\"5\", null], [\"z\", null], [\"+\", null], [\"1\", null], [\"0\", null], [\"=\", null], [\"0\", null]]",
+    "image_sha256": "cc06f5eb0bf3ec538b6250b4f49175f55cfa805d2becdbf28c29377f76e7c3a8",
+    "latex": "5 z + 10 = 0",
+    "calibration": false
+  },
+  {
+    "image_id": 61,
+    "source": "generated_000289",
+    "group": "[[\"7\", null], [\"x\", null], [\"+\", null], [\"4\", null], [\"=\", null], [\"-\", null], [\"1\", null], [\"0\", null]]",
+    "image_sha256": "816adf5d2da5ac30ec47530f6fcbc48b11644ba636aabf1c06788830079e489c",
+    "latex": "7 x + 4 = -10",
+    "calibration": false
+  },
+  {
+    "image_id": 62,
+    "source": "generated_000424",
+    "group": "[[\"1\", null], [\"×\", null], [\"4\", null], [\"=\", null], [\"4\", null]]",
+    "image_sha256": "f293cbcf5e837f0f212505acd7337b356e6e850c505193c8517148a7af50ad18",
+    "latex": "1 \\times 4 = 4",
+    "calibration": false
+  },
+  {
+    "image_id": 63,
+    "source": "generated_000678",
+    "group": "[[\"z\", null], [\"2\", 0], [\"+\", null], [\"7\", null], [\"z\", null], [\"+\", null], [\"2\", null], [\"=\", null], [\"0\", null]]",
+    "image_sha256": "809069d3bec3f127d68756bba2d5f490179086619c97f9cad5f6f5378b6fde17",
+    "latex": "z^{2} + 7 z + 2 = 0",
+    "calibration": false
+  },
+  {
+    "image_id": 64,
+    "source": "generated_001337",
+    "group": "[[\"1\", null], [\"y\", null], [\"-\", null], [\"1\", null], [\"5\", null], [\"=\", null], [\"-\", null], [\"1\", null], [\"3\", null]]",
+    "image_sha256": "67fdf3862eb3c2180cdfeabf5ffcbc0131d8251dd53f73256412d8ba6ddaee3e",
+    "latex": "1 y - 15 = -13",
+    "calibration": false
+  },
+  {
+    "image_id": 65,
+    "source": "generated_000348",
+    "group": "[[\"7\", null], [\"×\", null], [\"5\", null], [\"=\", null], [\"3\", null], [\"5\", null]]",
+    "image_sha256": "ae6cb24f14abd1b274e5513c867593f10e3460feb18458588797eb83774b3f51",
+    "latex": "7 \\times 5 = 35",
+    "calibration": false
+  },
+  {
+    "image_id": 66,
+    "source": "generated_000968",
+    "group": "[[\"7\", null], [\"×\", null], [\"5\", null], [\"=\", null], [\"3\", null], [\"5\", null]]",
+    "image_sha256": "95d468846983ada076656b3543c1bd117dfb72599e6c0b4889f1268907405300",
+    "latex": "7 \\times 5 = 35",
+    "calibration": false
+  },
+  {
+    "image_id": 67,
+    "source": "generated_001753",
+    "group": "[[\"2\", null], [\"y\", null], [\"+\", null], [\"1\", null], [\"8\", null], [\"=\", null], [\"1\", null], [\"2\", null]]",
+    "image_sha256": "c845e4a4aceaf241cdbad053f17847b5f0c8dae2abe64ab2ba802550bc9b745a",
+    "latex": "2 y + 18 = 12",
+    "calibration": false
+  },
+  {
+    "image_id": 68,
+    "source": "generated_001698",
+    "group": "[[\"x\", null], [\"2\", 0], [\"+\", null], [\"7\", null], [\"x\", null], [\"+\", null], [\"0\", null], [\"=\", null], [\"0\", null]]",
+    "image_sha256": "00dce019d1abca99016c44374c3e987f38599ccdcac28801dfc87332d3244989",
+    "latex": "x^{2} + 7 x + 0 = 0",
+    "calibration": false
+  },
+  {
+    "image_id": 69,
+    "source": "generated_000610",
+    "group": "[[\"z\", null], [\"3\", 0], [\"+\", null], [\"6\", null], [\"z\", null], [\"+\", null], [\"4\", null], [\"=\", null], [\"0\", null]]",
+    "image_sha256": "8e5f7b351df623ca71751d4634680a0aea42e4f7291f8d5ef997e4fdecdff64e",
+    "latex": "z^{3} + 6 z + 4 = 0",
+    "calibration": false
+  },
+  {
+    "image_id": 70,
+    "source": "generated_001989",
+    "group": "[[\"2\", null], [\"z\", null], [\"-\", null], [\"1\", null], [\"5\", null], [\"=\", null], [\"-\", null], [\"5\", null]]",
+    "image_sha256": "2bf444a3ee3608aa3a23a7e2c9d398578e0bdca967238a95245e82c3d7b3f5f6",
+    "latex": "2 z - 15 = -5",
+    "calibration": false
+  },
+  {
+    "image_id": 71,
+    "source": "generated_000898",
+    "group": "[[\"x\", null], [\"3\", 0], [\"-\", null], [\"5\", null], [\"x\", null], [\"+\", null], [\"7\", null], [\"=\", null], [\"0\", null]]",
+    "image_sha256": "7379643a32a2e26ff20e0b943c282904927167aefc9da29a6888ec89459a6360",
+    "latex": "x^{3} - 5 x + 7 = 0",
+    "calibration": false
+  },
+  {
+    "image_id": 72,
+    "source": "generated_001097",
+    "group": "[[\"4\", null], [\"x\", null], [\"-\", null], [\"1\", null], [\"=\", null], [\"3\", null]]",
+    "image_sha256": "50ec03370dd1434b77a7130978cfc8a1c4d705761b6d78f79bd6b9d7eace1c86",
+    "latex": "4 x - 1 = 3",
+    "calibration": false
+  },
+  {
+    "image_id": 73,
+    "source": "generated_000541",
+    "group": "[[\"6\", null], [\"z\", null], [\"-\", null], [\"1\", null], [\"5\", null], [\"=\", null], [\"-\", null], [\"1\", null], [\"5\", null]]",
+    "image_sha256": "c3238cd0e95e6dafc604f79b60ad7585623693c8353a288988e6f1a6c3baba5d",
+    "latex": "6 z - 15 = -15",
+    "calibration": false
+  },
+  {
+    "image_id": 74,
+    "source": "generated_001730",
+    "group": "[[\"z\", null], [\"3\", 0], [\"-\", null], [\"7\", null], [\"z\", null], [\"+\", null], [\"2\", null], [\"=\", null], [\"0\", null]]",
+    "image_sha256": "77c6c956392f6da8f9e6b51045970d07bd75f105af4fc19288f74e2df2c6de60",
+    "latex": "z^{3} - 7 z + 2 = 0",
+    "calibration": false
+  },
+  {
+    "image_id": 75,
+    "source": "generated_001001",
+    "group": "[[\"7\", null], [\"a\", null], [\"-\", null], [\"1\", null], [\"0\", null], [\"=\", null], [\"4\", null], [\"6\", null]]",
+    "image_sha256": "d00b1abc7be6bfccfb60565178976eb06ff5825397f5cd99d6b54b3653d70896",
+    "latex": "7 a - 10 = 46",
+    "calibration": false
+  },
+  {
+    "image_id": 76,
+    "source": "generated_000283",
+    "group": "[[\"z\", null], [\"3\", 0], [\"=\", null], [\"2\", null], [\"8\", null]]",
+    "image_sha256": "1483a84e9edfce472b3e08f07b56a53eefd4a2818c2943058e93258439d766fe",
+    "latex": "z^{3} = 28",
+    "calibration": false
+  },
+  {
+    "image_id": 77,
+    "source": "generated_001279",
+    "group": "[[\"z\", null], [\"3\", 0], [\"=\", null], [\"2\", null], [\"8\", null]]",
+    "image_sha256": "e170fa9ea7480efb23a5a096c3a975ccd64e2ed7708d93cb5e080b39f2bb2215",
+    "latex": "z^{3} = 28",
+    "calibration": false
+  },
+  {
+    "image_id": 78,
+    "source": "generated_001878",
+    "group": "[[\"z\", null], [\"2\", 0], [\"-\", null], [\"8\", null], [\"z\", null], [\"+\", null], [\"2\", null], [\"=\", null], [\"0\", null]]",
+    "image_sha256": "f48b1baab22a45154646d90a322df50573022063f29062df37d7bfafa9b374d4",
+    "latex": "z^{2} - 8 z + 2 = 0",
+    "calibration": false
+  },
+  {
+    "image_id": 79,
+    "source": "generated_000677",
+    "group": "[[\"2\", null], [\"x\", null], [\"-\", null], [\"1\", null], [\"1\", null], [\"=\", null], [\"-\", null], [\"3\", null]]",
+    "image_sha256": "33fe27072637e9b95eb7a73898d00ef13022c2c7c5a909a049b3546d880e0fb1",
+    "latex": "2 x - 11 = -3",
+    "calibration": false
+  },
+  {
+    "image_id": 80,
+    "source": "generated_000269",
+    "group": "[[\"6\", null], [\"y\", null], [\"+\", null], [\"1\", null], [\"3\", null], [\"=\", null], [\"1\", null]]",
+    "image_sha256": "5d7e8803923f7b0c595d36ce0c11b003d03a4ecddb37a04d401b0297d51483c0",
+    "latex": "6 y + 13 = 1",
+    "calibration": false
+  },
+  {
+    "image_id": 81,
+    "source": "generated_000704",
+    "group": "[[\"1\", null], [\"9\", null], [\"-\", null], [\"1\", null], [\"0\", null], [\"=\", null], [\"9\", null]]",
+    "image_sha256": "2a67cfe9261d3a6ffaf7dc3ee947b57bc45ee13a7667f647fe36887659d9e8d6",
+    "latex": "19 - 10 = 9",
+    "calibration": false
+  },
+  {
+    "image_id": 82,
+    "source": "generated_000770",
+    "group": "[[\"b\", null], [\"2\", 0], [\"+\", null], [\"1\", null], [\"b\", null], [\"+\", null], [\"9\", null], [\"=\", null], [\"0\", null]]",
+    "image_sha256": "19fecf5e3a9328df4890116d1266cec1f291c5375bbe1a21973e12add6f43ce5",
+    "latex": "b^{2} + 1 b + 9 = 0",
+    "calibration": false
+  },
+  {
+    "image_id": 83,
+    "source": "generated_001910",
+    "group": "[[\"z\", null], [\"3\", 0], [\"-\", null], [\"7\", null], [\"z\", null], [\"+\", null], [\"8\", null], [\"=\", null], [\"0\", null]]",
+    "image_sha256": "133f2d327ebd97ce0aded684603bf1c81ebdf07f26d6c7f197db08b536931f7a",
+    "latex": "z^{3} - 7 z + 8 = 0",
+    "calibration": false
+  },
+  {
+    "image_id": 84,
+    "source": "generated_000993",
+    "group": "[[\"3\", null], [\"b\", null], [\"+\", null], [\"1\", null], [\"=\", null], [\"-\", null], [\"1\", null], [\"4\", null]]",
+    "image_sha256": "44bd7a3a12a1322d27ecd95ba11199264adf710e582c483d53ea672e16300ffc",
+    "latex": "3 b + 1 = -14",
+    "calibration": false
+  },
+  {
+    "image_id": 85,
+    "source": "generated_000366",
+    "group": "[[\"x\", null], [\"2\", 0], [\"+\", null], [\"2\", null], [\"x\", null], [\"+\", null], [\"3\", null], [\"=\", null], [\"0\", null]]",
+    "image_sha256": "179a28b8e6803ffea720440e31bbca0a0f9848f4599c6e9e852af43f9357402c",
+    "latex": "x^{2} + 2 x + 3 = 0",
+    "calibration": false
+  },
+  {
+    "image_id": 86,
+    "source": "generated_001405",
+    "group": "[[\"9\", null], [\"z\", null], [\"+\", null], [\"0\", null], [\"=\", null], [\"-\", null], [\"9\", null]]",
+    "image_sha256": "9c7b642a5df6835a77d34d5c1d5ec2cc9ee6c1fde14973f4f67cb810aaa11357",
+    "latex": "9 z + 0 = -9",
+    "calibration": false
+  },
+  {
+    "image_id": 87,
+    "source": "generated_000752",
+    "group": "[[\"6\", null], [\"+\", null], [\"1\", null], [\"2\", null], [\"=\", null], [\"1\", null], [\"8\", null]]",
+    "image_sha256": "5c5f088d0cade5c929961f526062c1cb29eb0ae2eca2143614bb0de084cae569",
+    "latex": "6 + 12 = 18",
+    "calibration": false
+  },
+  {
+    "image_id": 88,
+    "source": "generated_001340",
+    "group": "[[\"2\", null], [\"0\", null], [\"-\", null], [\"0\", null], [\"=\", null], [\"2\", null], [\"0\", null]]",
+    "image_sha256": "b34bce37096688b0a2e99073d989b344adeca861e21158d22c8b2b8abe0dc85e",
+    "latex": "20 - 0 = 20",
+    "calibration": false
+  },
+  {
+    "image_id": 89,
+    "source": "generated_000776",
+    "group": "[[\"2\", null], [\"×\", null], [\"5\", null], [\"=\", null], [\"1\", null], [\"0\", null]]",
+    "image_sha256": "290ecc60534c4b77166d12f19f4241789d884a98bc714d2473e9957e95f541d7",
+    "latex": "2 \\times 5 = 10",
+    "calibration": false
+  },
+  {
+    "image_id": 90,
+    "source": "generated_000401",
+    "group": "[[\"6\", null], [\"a\", null], [\"-\", null], [\"1\", null], [\"3\", null], [\"=\", null], [\"-\", null], [\"3\", null], [\"1\", null]]",
+    "image_sha256": "62cc54d1b5a422996c64b0db237735ac0f610b5f20ad98f4e6ebdc101576777e",
+    "latex": "6 a - 13 = -31",
+    "calibration": false
+  },
+  {
+    "image_id": 91,
+    "source": "generated_001490",
+    "group": "[[\"a\", null], [\"3\", 0], [\"-\", null], [\"8\", null], [\"a\", null], [\"+\", null], [\"9\", null], [\"=\", null], [\"0\", null]]",
+    "image_sha256": "408f11f0808c83f532198cc941f62fc2b5210589787012d6b8b525e902519b9a",
+    "latex": "a^{3} - 8 a + 9 = 0",
+    "calibration": false
+  },
+  {
+    "image_id": 92,
+    "source": "generated_001814",
+    "group": "[[\"a\", null], [\"3\", 0], [\"-\", null], [\"8\", null], [\"a\", null], [\"+\", null], [\"9\", null], [\"=\", null], [\"0\", null]]",
+    "image_sha256": "f89c30b502256138400d3f9ebbe5d7d9c05af2105ca967ae6b06f21e0e35d386",
+    "latex": "a^{3} - 8 a + 9 = 0",
+    "calibration": false
+  },
+  {
+    "image_id": 93,
+    "source": "generated_000551",
+    "group": "[[\"z\", null], [\"2\", 0], [\"=\", null], [\"1\", null], [\"6\", null]]",
+    "image_sha256": "ab521f7921883fb2f0dfeafa43f0028ff3d104625aa6b053c5f1c1603a4c0959",
+    "latex": "z^{2} = 16",
+    "calibration": false
+  },
+  {
+    "image_id": 94,
+    "source": "generated_001071",
+    "group": "[[\"z\", null], [\"2\", 0], [\"=\", null], [\"1\", null], [\"6\", null]]",
+    "image_sha256": "be2ddd84596879bc3df95397d601200a2c3164e35831e5416f1afa8b00cf8b6c",
+    "latex": "z^{2} = 16",
+    "calibration": false
+  },
+  {
+    "image_id": 95,
+    "source": "generated_001647",
+    "group": "[[\"z\", null], [\"2\", 0], [\"=\", null], [\"1\", null], [\"6\", null]]",
+    "image_sha256": "aa032a7863ee29c6a8902ac0960e7d59145ce134766b257bb0ae512eed762c1b",
+    "latex": "z^{2} = 16",
+    "calibration": false
+  },
+  {
+    "image_id": 96,
+    "source": "generated_001757",
+    "group": "[[\"4\", null], [\"x\", null], [\"+\", null], [\"0\", null], [\"=\", null], [\"2\", null], [\"0\", null]]",
+    "image_sha256": "1c9d12434434b9a73e451c3ffd08e4da09f30959cf6b697bcf17b0510dac1196",
+    "latex": "4 x + 0 = 20",
+    "calibration": false
+  },
+  {
+    "image_id": 97,
+    "source": "generated_000757",
+    "group": "[[\"5\", null], [\"y\", null], [\"+\", null], [\"1\", null], [\"3\", null], [\"=\", null], [\"4\", null], [\"3\", null]]",
+    "image_sha256": "f1e2f945289b114566f377ad31875fa94c06bf268e59970b9eef9a61ee124cb3",
+    "latex": "5 y + 13 = 43",
+    "calibration": false
+  },
+  {
+    "image_id": 98,
+    "source": "generated_000191",
+    "group": "[[\"y\", null], [\"3\", 0], [\"=\", null], [\"8\", null]]",
+    "image_sha256": "23a4fa0479ea976cfa685d084419114f9fbce773916dc24b3fd4c29fdeb8b0df",
+    "latex": "y^{3} = 8",
+    "calibration": false
+  },
+  {
+    "image_id": 99,
+    "source": "generated_000263",
+    "group": "[[\"y\", null], [\"3\", 0], [\"=\", null], [\"8\", null]]",
+    "image_sha256": "d95cf97cd571e3f3907155bd2b666a6397d30cb5052c6a4d80006490ca9681aa",
+    "latex": "y^{3} = 8",
+    "calibration": false
+  },
+  {
+    "image_id": 100,
+    "source": "generated_001755",
+    "group": "[[\"y\", null], [\"3\", 0], [\"=\", null], [\"8\", null]]",
+    "image_sha256": "6484cf1e26496a233ca18528ae543bc92a45ffc79a5286a1aa50ad920ea10145",
+    "latex": "y^{3} = 8",
+    "calibration": false
+  },
+  {
+    "image_id": 101,
+    "source": "generated_001322",
+    "group": "[[\"x\", null], [\"3\", 0], [\"-\", null], [\"2\", null], [\"x\", null], [\"+\", null], [\"2\", null], [\"=\", null], [\"0\", null]]",
+    "image_sha256": "dde15171c47e75c8f510029863b0730c7957e5d21aff98fb702b56ec4d49a737",
+    "latex": "x^{3} - 2 x + 2 = 0",
+    "calibration": false
+  },
+  {
+    "image_id": 102,
+    "source": "generated_001436",
+    "group": "[[\"1\", null], [\"2\", null], [\"×\", null], [\"8\", null], [\"=\", null], [\"9\", null], [\"6\", null]]",
+    "image_sha256": "274748ad5ad6226d6bc23d63d909eaf66edb6b0ea61b6985f8ae342faf8c82f2",
+    "latex": "12 \\times 8 = 96",
+    "calibration": false
+  },
+  {
+    "image_id": 103,
+    "source": "generated_001284",
+    "group": "[[\"1\", null], [\"+\", null], [\"8\", null], [\"=\", null], [\"9\", null]]",
+    "image_sha256": "7cd8347d616be3abf4001bde0b95d5297ff842013cb8c430c5222b88f25fa9ab",
+    "latex": "1 + 8 = 9",
+    "calibration": false
+  },
+  {
+    "image_id": 104,
+    "source": "generated_001230",
+    "group": "[[\"x\", null], [\"2\", 0], [\"-\", null], [\"4\", null], [\"x\", null], [\"+\", null], [\"1\", null], [\"=\", null], [\"0\", null]]",
+    "image_sha256": "3da098fdcc24c45ed797e206720e407648275d2b5ed698cb43b55b69cdd210af",
+    "latex": "x^{2} - 4 x + 1 = 0",
+    "calibration": false
+  },
+  {
+    "image_id": 105,
+    "source": "generated_001537",
+    "group": "[[\"7\", null], [\"y\", null], [\"+\", null], [\"2\", null], [\"=\", null], [\"3\", null], [\"7\", null]]",
+    "image_sha256": "85841c26e2225191113b4df8ff44c7fbc6a5922cf9e89b753635e2a08b7112a0",
+    "latex": "7 y + 2 = 37",
+    "calibration": false
+  },
+  {
+    "image_id": 106,
+    "source": "generated_001172",
+    "group": "[[\"1\", null], [\"9\", null], [\"-\", null], [\"8\", null], [\"=\", null], [\"1\", null], [\"1\", null]]",
+    "image_sha256": "7ab0fd32f6aef7662c30e4e7b9f5ca84af50c964ad7e3527d202d11f8f02ecbe",
+    "latex": "19 - 8 = 11",
+    "calibration": false
+  },
+  {
+    "image_id": 107,
+    "source": "generated_001442",
+    "group": "[[\"a\", null], [\"2\", 0], [\"-\", null], [\"3\", null], [\"a\", null], [\"+\", null], [\"5\", null], [\"=\", null], [\"0\", null]]",
+    "image_sha256": "28723cac843b3eb6c7c9564072d6a184234ef75a68fb9e8fbe8018ccb494bece",
+    "latex": "a^{2} - 3 a + 5 = 0",
+    "calibration": false
+  },
+  {
+    "image_id": 108,
+    "source": "generated_001652",
+    "group": "[[\"1\", null], [\"8\", null], [\"+\", null], [\"6\", null], [\"=\", null], [\"2\", null], [\"4\", null]]",
+    "image_sha256": "651faf737fd46dcc801c3c9b9eb8e5155f56c3e06b86dffebe2ede8c8a3529d1",
+    "latex": "18 + 6 = 24",
+    "calibration": false
+  },
+  {
+    "image_id": 109,
+    "source": "generated_001729",
+    "group": "[[\"8\", null], [\"y\", null], [\"+\", null], [\"1\", null], [\"2\", null], [\"=\", null], [\"-\", null], [\"2\", null], [\"8\", null]]",
+    "image_sha256": "242dd240da85d6f06bbe1812e44d938f160afbc68da0b7d8a52580110cf5fe52",
+    "latex": "8 y + 12 = -28",
+    "calibration": false
+  },
+  {
+    "image_id": 110,
+    "source": "generated_001826",
+    "group": "[[\"z\", null], [\"2\", 0], [\"+\", null], [\"6\", null], [\"z\", null], [\"+\", null], [\"2\", null], [\"=\", null], [\"0\", null]]",
+    "image_sha256": "4f1b07b09bf9eab0c89331f32eff4fea9dd40c0eb13747caa416ee15f1ff6b4e",
+    "latex": "z^{2} + 6 z + 2 = 0",
+    "calibration": false
+  },
+  {
+    "image_id": 111,
+    "source": "generated_000749",
+    "group": "[[\"1\", null], [\"a\", null], [\"-\", null], [\"7\", null], [\"=\", null], [\"-\", null], [\"2\", null]]",
+    "image_sha256": "2e10be9d643a6394aa64f34b979417eea4a6eaed016169c0b4780108bf95595d",
+    "latex": "1 a - 7 = -2",
+    "calibration": false
+  },
+  {
+    "image_id": 112,
+    "source": "generated_000991",
+    "group": "[[\"x\", null], [\"2\", 0], [\"=\", null], [\"2\", null], [\"4\", null]]",
+    "image_sha256": "051efbb1851bfb584f0f34b8e709a2c1f6632a1b49d5720bc849baec455d0c80",
+    "latex": "x^{2} = 24",
+    "calibration": false
+  },
+  {
+    "image_id": 113,
+    "source": "generated_001539",
+    "group": "[[\"x\", null], [\"2\", 0], [\"=\", null], [\"2\", null], [\"4\", null]]",
+    "image_sha256": "533a029f3091340b2d60081447dcc47339c9957cb1cf1c7a3d5113382d9bb16e",
+    "latex": "x^{2} = 24",
+    "calibration": false
+  },
+  {
+    "image_id": 114,
+    "source": "generated_000953",
+    "group": "[[\"4\", null], [\"y\", null], [\"+\", null], [\"1\", null], [\"1\", null], [\"=\", null], [\"-\", null], [\"2\", null], [\"1\", null]]",
+    "image_sha256": "7b7243a671fc4daeae4433ccb3fbeb58cba1010cb4a7906fda4b92a2e345d6fd",
+    "latex": "4 y + 11 = -21",
+    "calibration": false
+  },
+  {
+    "image_id": 115,
+    "source": "generated_001649",
+    "group": "[[\"9\", null], [\"a\", null], [\"+\", null], [\"8\", null], [\"=\", null], [\"5\", null], [\"3\", null]]",
+    "image_sha256": "d91cbb6c38fbb59482355abaa340034a4f7e3f9c30f487ab03d89eefda4f29bb",
+    "latex": "9 a + 8 = 53",
+    "calibration": false
+  },
+  {
+    "image_id": 116,
+    "source": "generated_000096",
+    "group": "[[\"1\", null], [\"1\", null], [\"×\", null], [\"0\", null], [\"=\", null], [\"0\", null]]",
+    "image_sha256": "e817bf04900179c8afa38f20fb6d15dc3e5fa9f64bd6d51471116fd594353413",
+    "latex": "11 \\times 0 = 0",
+    "calibration": false
+  },
+  {
+    "image_id": 117,
+    "source": "generated_000386",
+    "group": "[[\"x\", null], [\"3\", 0], [\"-\", null], [\"9\", null], [\"x\", null], [\"+\", null], [\"7\", null], [\"=\", null], [\"0\", null]]",
+    "image_sha256": "3d5b739231ed537ecdc4dc997ddd66caff21ac39fe77e59c77864163f9b2313f",
+    "latex": "x^{3} - 9 x + 7 = 0",
+    "calibration": false
+  },
+  {
+    "image_id": 118,
+    "source": "generated_000213",
+    "group": "[[\"6\", null], [\"a\", null], [\"-\", null], [\"6\", null], [\"=\", null], [\"-\", null], [\"4\", null], [\"8\", null]]",
+    "image_sha256": "ce61aa8fe0477914a6a080098f89f8dfb39bed59d51bfdcc6b732cd97588523a",
+    "latex": "6 a - 6 = -48",
+    "calibration": false
+  },
+  {
+    "image_id": 119,
+    "source": "generated_000970",
+    "group": "[[\"x\", null], [\"3\", 0], [\"-\", null], [\"4\", null], [\"x\", null], [\"+\", null], [\"9\", null], [\"=\", null], [\"0\", null]]",
+    "image_sha256": "3227437cde01307c1ea5413d3e89bc9dee31ebc4318f771d12298eb86c0226f2",
+    "latex": "x^{3} - 4 x + 9 = 0",
+    "calibration": false
+  },
+  {
+    "image_id": 120,
+    "source": "generated_000234",
+    "group": "[[\"b\", null], [\"2\", 0], [\"-\", null], [\"5\", null], [\"b\", null], [\"+\", null], [\"1\", null], [\"=\", null], [\"0\", null]]",
+    "image_sha256": "38238f8a65ae2f2630c8f8bcd1f8dc97490ed00ca07ff3c4c8f88c528f82e0d3",
+    "latex": "b^{2} - 5 b + 1 = 0",
+    "calibration": false
+  },
+  {
+    "image_id": 121,
+    "source": "generated_000806",
+    "group": "[[\"b\", null], [\"2\", 0], [\"-\", null], [\"5\", null], [\"b\", null], [\"+\", null], [\"1\", null], [\"=\", null], [\"0\", null]]",
+    "image_sha256": "2174d89b888f6f11efa0c1758f1ceb4f14c94ac5c5d0406e845833eeed439eaa",
+    "latex": "b^{2} - 5 b + 1 = 0",
+    "calibration": false
+  },
+  {
+    "image_id": 122,
+    "source": "generated_000508",
+    "group": "[[\"3\", null], [\"×\", null], [\"1\", null], [\"0\", null], [\"=\", null], [\"3\", null], [\"0\", null]]",
+    "image_sha256": "f2625695a4b9d0b1076785f14cb985063e4ad03af96d2524d80f7562cfac3092",
+    "latex": "3 \\times 10 = 30",
+    "calibration": false
+  },
+  {
+    "image_id": 123,
+    "source": "generated_000074",
+    "group": "[[\"b\", null], [\"2\", 0], [\"-\", null], [\"6\", null], [\"b\", null], [\"+\", null], [\"0\", null], [\"=\", null], [\"0\", null]]",
+    "image_sha256": "6da7dfe5ccde0c740e79041de2609c416415a676b1ce8c607274147dcd07a587",
+    "latex": "b^{2} - 6 b + 0 = 0",
+    "calibration": false
+  },
+  {
+    "image_id": 124,
+    "source": "generated_000162",
+    "group": "[[\"z\", null], [\"3\", 0], [\"+\", null], [\"5\", null], [\"z\", null], [\"+\", null], [\"5\", null], [\"=\", null], [\"0\", null]]",
+    "image_sha256": "c3dc1ceeb213b0a7ec897962bc975372b3609770eaf6e9f3009adc68d8e78207",
+    "latex": "z^{3} + 5 z + 5 = 0",
+    "calibration": false
+  },
+  {
+    "image_id": 125,
+    "source": "generated_001600",
+    "group": "[[\"8\", null], [\"×\", null], [\"1\", null], [\"6\", null], [\"=\", null], [\"1\", null], [\"2\", null], [\"8\", null]]",
+    "image_sha256": "f5a8d36daf3baa6f8332aa4a6fdf30972aabb50459297888befbca75f6ad4839",
+    "latex": "8 \\times 16 = 128",
+    "calibration": false
+  },
+  {
+    "image_id": 126,
+    "source": "generated_000774",
+    "group": "[[\"y\", null], [\"3\", 0], [\"-\", null], [\"3\", null], [\"y\", null], [\"+\", null], [\"5\", null], [\"=\", null], [\"0\", null]]",
+    "image_sha256": "32875d1016965134857d2a3e9e1221cb6474b989958a9b70c2e16351e2388e9a",
+    "latex": "y^{3} - 3 y + 5 = 0",
+    "calibration": false
+  },
+  {
+    "image_id": 127,
+    "source": "generated_000901",
+    "group": "[[\"1\", null], [\"b\", null], [\"+\", null], [\"1\", null], [\"6\", null], [\"=\", null], [\"1\", null], [\"9\", null]]",
+    "image_sha256": "6260cffd1b66b9229ea915d9fa0c312bd7fc1277fd138a55095174846d05999e",
+    "latex": "1 b + 16 = 19",
+    "calibration": false
+  },
+  {
+    "image_id": 128,
+    "source": "generated_001221",
+    "group": "[[\"6\", null], [\"b\", null], [\"+\", null], [\"2\", null], [\"=\", null], [\"-\", null], [\"1\", null], [\"0\", null]]",
+    "image_sha256": "cbd45700de1db91cfb18a75ce76a1949f89a9bc4ba5828367e5304d38e1302c7",
+    "latex": "6 b + 2 = -10",
+    "calibration": false
+  },
+  {
+    "image_id": 129,
+    "source": "generated_000989",
+    "group": "[[\"9\", null], [\"z\", null], [\"-\", null], [\"4\", null], [\"=\", null], [\"-\", null], [\"4\", null]]",
+    "image_sha256": "572a2f8821c7fc378026a84323c92f07d10a4390358a840479c40e69efeecd38",
+    "latex": "9 z - 4 = -4",
+    "calibration": false
+  },
+  {
+    "image_id": 130,
+    "source": "generated_000507",
+    "group": "[[\"b\", null], [\"3\", 0], [\"=\", null], [\"2\", null]]",
+    "image_sha256": "af559092b4ab1dc941dfa6474543e090bf4fb9dae42243052b35b06c1c7ab9aa",
+    "latex": "b^{3} = 2",
+    "calibration": false
+  },
+  {
+    "image_id": 131,
+    "source": "generated_000602",
+    "group": "[[\"a\", null], [\"3\", 0], [\"-\", null], [\"2\", null], [\"a\", null], [\"+\", null], [\"9\", null], [\"=\", null], [\"0\", null]]",
+    "image_sha256": "b5838403396950b8c48ebf40295d96b024b2d430dbcb57f0ddc976b8d5f73dd8",
+    "latex": "a^{3} - 2 a + 9 = 0",
+    "calibration": false
+  },
+  {
+    "image_id": 132,
+    "source": "generated_001534",
+    "group": "[[\"a\", null], [\"3\", 0], [\"-\", null], [\"2\", null], [\"a\", null], [\"+\", null], [\"9\", null], [\"=\", null], [\"0\", null]]",
+    "image_sha256": "1b36cf261061ac60c9626be780696fdcb8c08c206a9a2d27527c38cf73ac2740",
+    "latex": "a^{3} - 2 a + 9 = 0",
+    "calibration": false
+  },
+  {
+    "image_id": 133,
+    "source": "generated_001773",
+    "group": "[[\"5\", null], [\"a\", null], [\"+\", null], [\"1\", null], [\"7\", null], [\"=\", null], [\"-\", null], [\"2\", null], [\"8\", null]]",
+    "image_sha256": "7a0c4b786b4d087468c36d6d9887b67c14088b253429a0e7b443d4a087e3ac81",
+    "latex": "5 a + 17 = -28",
+    "calibration": false
+  },
+  {
+    "image_id": 134,
+    "source": "generated_000638",
+    "group": "[[\"z\", null], [\"2\", 0], [\"+\", null], [\"6\", null], [\"z\", null], [\"+\", null], [\"8\", null], [\"=\", null], [\"0\", null]]",
+    "image_sha256": "c2f49e9257e13a2be41d03e2eaa8d3cf5ba88719f766e52fbb0103dd598b8bf9",
+    "latex": "z^{2} + 6 z + 8 = 0",
+    "calibration": false
+  },
+  {
+    "image_id": 135,
+    "source": "generated_001886",
+    "group": "[[\"z\", null], [\"2\", 0], [\"+\", null], [\"6\", null], [\"z\", null], [\"+\", null], [\"8\", null], [\"=\", null], [\"0\", null]]",
+    "image_sha256": "afad568b1523e45e9506a814aa6e1c8bc68f1b3044792cc7218d86442a8eed5a",
+    "latex": "z^{2} + 6 z + 8 = 0",
+    "calibration": false
+  },
+  {
+    "image_id": 136,
+    "source": "generated_000564",
+    "group": "[[\"1\", null], [\"9\", null], [\"+\", null], [\"1\", null], [\"9\", null], [\"=\", null], [\"3\", null], [\"8\", null]]",
+    "image_sha256": "e1afc55a9bda5318c473aeca5a2ffc75aff218de22f476f8e0eeb75fde6c2c55",
+    "latex": "19 + 19 = 38",
+    "calibration": false
+  },
+  {
+    "image_id": 137,
+    "source": "generated_001345",
+    "group": "[[\"5\", null], [\"x\", null], [\"-\", null], [\"1\", null], [\"=\", null], [\"-\", null], [\"4\", null], [\"1\", null]]",
+    "image_sha256": "7969eb217e84dc6df109b3826526cf374da8695dcbfdfd1fba18bc7ee846f234",
+    "latex": "5 x - 1 = -41",
+    "calibration": false
+  },
+  {
+    "image_id": 138,
+    "source": "generated_001449",
+    "group": "[[\"2\", null], [\"a\", null], [\"-\", null], [\"1\", null], [\"1\", null], [\"=\", null], [\"-\", null], [\"2\", null], [\"7\", null]]",
+    "image_sha256": "d4c983fbb41a67dcf3fc5f8cb3077839552fdf3b3de944ec6a72710f4f90023f",
+    "latex": "2 a - 11 = -27",
+    "calibration": false
+  },
+  {
+    "image_id": 139,
+    "source": "generated_000157",
+    "group": "[[\"1\", null], [\"b\", null], [\"-\", null], [\"1\", null], [\"1\", null], [\"=\", null], [\"-\", null], [\"5\", null]]",
+    "image_sha256": "f5ec17c505635f745b353915f0ae72f1d1d057b6ccc6510db7d5b9393c389170",
+    "latex": "1 b - 11 = -5",
+    "calibration": false
+  },
+  {
+    "image_id": 140,
+    "source": "generated_000300",
+    "group": "[[\"5\", null], [\"-\", null], [\"1\", null], [\"4\", null], [\"=\", null], [\"-\", null], [\"9\", null]]",
+    "image_sha256": "d61b630d9c2d0eb9b3a9abdf522691677d01bfd5334c661c6c0f4f8f1bf84671",
+    "latex": "5 - 14 = -9",
+    "calibration": false
+  },
+  {
+    "image_id": 141,
+    "source": "generated_001468",
+    "group": "[[\"1\", null], [\"6\", null], [\"+\", null], [\"7\", null], [\"=\", null], [\"2\", null], [\"3\", null]]",
+    "image_sha256": "9f6f89fcb05cab1f29bb44021ea5b4f0c5d0e76410aa9288a5e4618f8c736fb8",
+    "latex": "16 + 7 = 23",
+    "calibration": false
+  },
+  {
+    "image_id": 142,
+    "source": "generated_001945",
+    "group": "[[\"5\", null], [\"y\", null], [\"-\", null], [\"7\", null], [\"=\", null], [\"8\", null]]",
+    "image_sha256": "d054e159bd9c36de5c0e4da5e552282b05110605e78599947d9d7b0a60f6dab7",
+    "latex": "5 y - 7 = 8",
+    "calibration": false
+  },
+  {
+    "image_id": 143,
+    "source": "generated_000082",
+    "group": "[[\"b\", null], [\"2\", 0], [\"+\", null], [\"1\", null], [\"b\", null], [\"+\", null], [\"2\", null], [\"=\", null], [\"0\", null]]",
+    "image_sha256": "efcf9bd1af7f55609f390931d2425af6a3c32e51fb98fae491dd302f7c8a6cc8",
+    "latex": "b^{2} + 1 b + 2 = 0",
+    "calibration": false
+  },
+  {
+    "image_id": 144,
+    "source": "generated_000849",
+    "group": "[[\"1\", null], [\"x\", null], [\"+\", null], [\"1\", null], [\"1\", null], [\"=\", null], [\"3\", null]]",
+    "image_sha256": "1594a12ab7c5a518bd503b77803141d55054c5e2a48ec6f03132ce4929385373",
+    "latex": "1 x + 11 = 3",
+    "calibration": false
+  },
+  {
+    "image_id": 145,
+    "source": "generated_001632",
+    "group": "[[\"1\", null], [\"×\", null], [\"9\", null], [\"=\", null], [\"9\", null]]",
+    "image_sha256": "b0c45dae542e6ec5d4fe64450c41c6b46355715c41e4831fe14d282c6611d945",
+    "latex": "1 \\times 9 = 9",
+    "calibration": false
+  },
+  {
+    "image_id": 146,
+    "source": "generated_000148",
+    "group": "[[\"0\", null], [\"+\", null], [\"1\", null], [\"3\", null], [\"=\", null], [\"1\", null], [\"3\", null]]",
+    "image_sha256": "a445cca61c44f49d4760c14b5b92d823b641e1110df87a3447473befe2774dd8",
+    "latex": "0 + 13 = 13",
+    "calibration": false
+  },
+  {
+    "image_id": 147,
+    "source": "generated_001488",
+    "group": "[[\"2\", null], [\"0\", null], [\"+\", null], [\"8\", null], [\"=\", null], [\"2\", null], [\"8\", null]]",
+    "image_sha256": "4814af0af11231d124e1cadaf4d280f5870868e52d63dd780e643bb80460bc13",
+    "latex": "20 + 8 = 28",
+    "calibration": false
+  },
+  {
+    "image_id": 148,
+    "source": "generated_000072",
+    "group": "[[\"1\", null], [\"8\", null], [\"×\", null], [\"1\", null], [\"2\", null], [\"=\", null], [\"2\", null], [\"1\", null], [\"6\", null]]",
+    "image_sha256": "9e18425c7df52663566355c2f4af5efabbbac284917bce4c6964d930fe0e342c",
+    "latex": "18 \\times 12 = 216",
+    "calibration": false
+  },
+  {
+    "image_id": 149,
+    "source": "generated_000940",
+    "group": "[[\"1\", null], [\"8\", null], [\"×\", null], [\"1\", null], [\"2\", null], [\"=\", null], [\"2\", null], [\"1\", null], [\"6\", null]]",
+    "image_sha256": "720daa77fa55c3392187b594ede7cb1cdcf238d33c3497e3fd8d94cf5fa24cc0",
+    "latex": "18 \\times 12 = 216",
+    "calibration": false
+  },
+  {
+    "image_id": 150,
+    "source": "generated_000174",
+    "group": "[[\"x\", null], [\"2\", 0], [\"+\", null], [\"9\", null], [\"x\", null], [\"+\", null], [\"5\", null], [\"=\", null], [\"0\", null]]",
+    "image_sha256": "60a6b591d143b0b62da34123c9691188ba9f9c4684fc0455f33c16ccefe5a654",
+    "latex": "x^{2} + 9 x + 5 = 0",
+    "calibration": false
+  },
+  {
+    "image_id": 151,
+    "source": "generated_000149",
+    "group": "[[\"7\", null], [\"x\", null], [\"+\", null], [\"1\", null], [\"3\", null], [\"=\", null], [\"-\", null], [\"4\", null], [\"3\", null]]",
+    "image_sha256": "3af45e02730c62a42c4b2e490f92acfd4586103c6ab35388dd022388e33337dc",
+    "latex": "7 x + 13 = -43",
+    "calibration": false
+  },
+  {
+    "image_id": 152,
+    "source": "generated_000239",
+    "group": "[[\"b\", null], [\"2\", 0], [\"=\", null], [\"1\", null]]",
+    "image_sha256": "3550400621f72479cad16baca0c32107cb0da1f489abc069f013346c0f6e1e43",
+    "latex": "b^{2} = 1",
+    "calibration": false
+  },
+  {
+    "image_id": 153,
+    "source": "generated_001635",
+    "group": "[[\"b\", null], [\"2\", 0], [\"=\", null], [\"1\", null]]",
+    "image_sha256": "9522b531b11f707bd3f5210c7308c91012bcffefbb29ed0c41166f2bfa930c77",
+    "latex": "b^{2} = 1",
+    "calibration": false
+  },
+  {
+    "image_id": 154,
+    "source": "generated_001691",
+    "group": "[[\"b\", null], [\"2\", 0], [\"=\", null], [\"1\", null]]",
+    "image_sha256": "58ac90689f655ea2ef849b7fdb233f4dea5787bde3917c6561676df1df5ac439",
+    "latex": "b^{2} = 1",
+    "calibration": false
+  },
+  {
+    "image_id": 155,
+    "source": "generated_001094",
+    "group": "[[\"a\", null], [\"3\", 0], [\"+\", null], [\"8\", null], [\"a\", null], [\"+\", null], [\"9\", null], [\"=\", null], [\"0\", null]]",
+    "image_sha256": "dbd11f513cd3dad06c1de78b82631d085a7ac6c00b9c0f04f6272b8d2ce47bb5",
+    "latex": "a^{3} + 8 a + 9 = 0",
+    "calibration": false
+  },
+  {
+    "image_id": 156,
+    "source": "generated_001821",
+    "group": "[[\"3\", null], [\"x\", null], [\"-\", null], [\"4\", null], [\"=\", null], [\"-\", null], [\"7\", null]]",
+    "image_sha256": "de91f66df2f2b94b2a6cdad6e55df95a3ddfc87af8686e49bd0be88e998fcad3",
+    "latex": "3 x - 4 = -7",
+    "calibration": false
+  },
+  {
+    "image_id": 157,
+    "source": "generated_001636",
+    "group": "[[\"1\", null], [\"5\", null], [\"-\", null], [\"4\", null], [\"=\", null], [\"1\", null], [\"1\", null]]",
+    "image_sha256": "5bb100b8deab0b6d2f394b5e493cb83c49c96ea24334b3f40e81ac157c739547",
+    "latex": "15 - 4 = 11",
+    "calibration": false
+  },
+  {
+    "image_id": 158,
+    "source": "generated_000581",
+    "group": "[[\"3\", null], [\"z\", null], [\"+\", null], [\"1\", null], [\"4\", null], [\"=\", null], [\"3\", null], [\"2\", null]]",
+    "image_sha256": "fa93dfcb078678028b1c1763b37d051983024a0364a77e38a86ea1a88efe0591",
+    "latex": "3 z + 14 = 32",
+    "calibration": false
+  },
+  {
+    "image_id": 159,
+    "source": "generated_000429",
+    "group": "[[\"7\", null], [\"b\", null], [\"+\", null], [\"4\", null], [\"=\", null], [\"1\", null], [\"1\", null]]",
+    "image_sha256": "fe73e73bd70c366e79d21e51dbbc80db4459f5a4ac68fe294bc98998b78a4a6a",
+    "latex": "7 b + 4 = 11",
+    "calibration": false
+  },
+  {
+    "image_id": 160,
+    "source": "generated_000291",
+    "group": "[[\"x\", null], [\"3\", 0], [\"=\", null], [\"2\", null], [\"2\", null]]",
+    "image_sha256": "2ca5efa869539434b6c690f7f46e2c9517199c1edd5f78497770d601ce316d38",
+    "latex": "x^{3} = 22",
+    "calibration": false
+  },
+  {
+    "image_id": 161,
+    "source": "generated_000627",
+    "group": "[[\"x\", null], [\"3\", 0], [\"=\", null], [\"2\", null], [\"2\", null]]",
+    "image_sha256": "76c9c3a0d12de5ea4fd1f7952ba17858ec24924328c92fa0da58bd8551d2a66c",
+    "latex": "x^{3} = 22",
+    "calibration": false
+  },
+  {
+    "image_id": 162,
+    "source": "generated_001631",
+    "group": "[[\"x\", null], [\"3\", 0], [\"=\", null], [\"2\", null], [\"2\", null]]",
+    "image_sha256": "858121e0c9fafd02bb429d97eb3b54ea4cb94f1bc2c937bea3dc2829d1dd58e2",
+    "latex": "x^{3} = 22",
+    "calibration": false
+  },
+  {
+    "image_id": 163,
+    "source": "generated_001902",
+    "group": "[[\"y\", null], [\"3\", 0], [\"-\", null], [\"8\", null], [\"y\", null], [\"+\", null], [\"7\", null], [\"=\", null], [\"0\", null]]",
+    "image_sha256": "c041b3cd64b73f38e8f6be7ed879d5d69989847c97b8c4a96c5e0b411ff48a24",
+    "latex": "y^{3} - 8 y + 7 = 0",
+    "calibration": false
+  },
+  {
+    "image_id": 164,
+    "source": "generated_001022",
+    "group": "[[\"y\", null], [\"2\", 0], [\"-\", null], [\"8\", null], [\"y\", null], [\"+\", null], [\"0\", null], [\"=\", null], [\"0\", null]]",
+    "image_sha256": "5da9c6204a7f59268c3d5dd1b4d244db925fd2831c78c3120a3272d2dde68a2e",
+    "latex": "y^{2} - 8 y + 0 = 0",
+    "calibration": false
+  },
+  {
+    "image_id": 165,
+    "source": "generated_001000",
+    "group": "[[\"2\", null], [\"0\", null], [\"-\", null], [\"1\", null], [\"4\", null], [\"=\", null], [\"6\", null]]",
+    "image_sha256": "731db74f7828b237af1f1147ec2397b8adb4451df8f414d3ab0f44d8f6cc5562",
+    "latex": "20 - 14 = 6",
+    "calibration": false
+  },
+  {
+    "image_id": 166,
+    "source": "generated_001515",
+    "group": "[[\"a\", null], [\"2\", 0], [\"=\", null], [\"8\", null]]",
+    "image_sha256": "91d677eb9316a5552f49ec20ee5e332d1d9438fc707c3b49c33a79f67aa07e4a",
+    "latex": "a^{2} = 8",
+    "calibration": false
+  },
+  {
+    "image_id": 167,
+    "source": "generated_001407",
+    "group": "[[\"z\", null], [\"3\", 0], [\"=\", null], [\"0\", null]]",
+    "image_sha256": "052a6f70d392ba45a324a09d05d7f6e21ba3120885cb131683a4b6ba688a6587",
+    "latex": "z^{3} = 0",
+    "calibration": false
+  },
+  {
+    "image_id": 168,
+    "source": "generated_001389",
+    "group": "[[\"3\", null], [\"y\", null], [\"-\", null], [\"1\", null], [\"6\", null], [\"=\", null], [\"-\", null], [\"3\", null], [\"1\", null]]",
+    "image_sha256": "a6eabb9dd13a2ef40f3b2ee3a3c0e4bcc215792efc06ed914f56b4e9f2188c7e",
+    "latex": "3 y - 16 = -31",
+    "calibration": false
+  },
+  {
+    "image_id": 169,
+    "source": "generated_001218",
+    "group": "[[\"b\", null], [\"2\", 0], [\"-\", null], [\"9\", null], [\"b\", null], [\"+\", null], [\"7\", null], [\"=\", null], [\"0\", null]]",
+    "image_sha256": "db012725fcb75553688203106cc54ed7adcfafcbdace83b8016c76add087b2ed",
+    "latex": "b^{2} - 9 b + 7 = 0",
+    "calibration": false
+  },
+  {
+    "image_id": 170,
+    "source": "generated_001266",
+    "group": "[[\"b\", null], [\"2\", 0], [\"-\", null], [\"9\", null], [\"b\", null], [\"+\", null], [\"7\", null], [\"=\", null], [\"0\", null]]",
+    "image_sha256": "83fd63477915a9fb81a24ce658cfe5f2fb94909b8a5bece72f6121f7437b4449",
+    "latex": "b^{2} - 9 b + 7 = 0",
+    "calibration": false
+  },
+  {
+    "image_id": 171,
+    "source": "generated_001073",
+    "group": "[[\"5\", null], [\"b\", null], [\"+\", null], [\"9\", null], [\"=\", null], [\"-\", null], [\"1\", null], [\"6\", null]]",
+    "image_sha256": "a59de6b497a0c320efb194590927d3244266d94133e7c47bc5f9eacdb0a48d2b",
+    "latex": "5 b + 9 = -16",
+    "calibration": false
+  },
+  {
+    "image_id": 172,
+    "source": "generated_001829",
+    "group": "[[\"9\", null], [\"a\", null], [\"+\", null], [\"1\", null], [\"9\", null], [\"=\", null], [\"4\", null], [\"6\", null]]",
+    "image_sha256": "754e96c3e6854e3d2d39e35b921f4f03a0dae04848452ae01c983815aea1a650",
+    "latex": "9 a + 19 = 46",
+    "calibration": false
+  },
+  {
+    "image_id": 173,
+    "source": "generated_000271",
+    "group": "[[\"x\", null], [\"2\", 0], [\"=\", null], [\"9\", null]]",
+    "image_sha256": "8dc828a2b4e8e130d5d9f23fad642bb52f3ba0dc36e13bee58d6f3d63b73cf0f",
+    "latex": "x^{2} = 9",
+    "calibration": false
+  },
+  {
+    "image_id": 174,
+    "source": "generated_000763",
+    "group": "[[\"x\", null], [\"2\", 0], [\"=\", null], [\"9\", null]]",
+    "image_sha256": "5b422cfc6b71d060fb13a71bd308110f9f131f9a9cf47f40eba1312cbf36a8ca",
+    "latex": "x^{2} = 9",
+    "calibration": false
+  },
+  {
+    "image_id": 175,
+    "source": "generated_000079",
+    "group": "[[\"a\", null], [\"3\", 0], [\"=\", null], [\"1\", null], [\"3\", null]]",
+    "image_sha256": "4a1a363eefe381a21ac59a4fc1f3413dcf9f6264398f6fb59c9b4fd47c86ab68",
+    "latex": "a^{3} = 13",
+    "calibration": false
+  },
+  {
+    "image_id": 176,
+    "source": "generated_000410",
+    "group": "[[\"y\", null], [\"3\", 0], [\"+\", null], [\"5\", null], [\"y\", null], [\"+\", null], [\"4\", null], [\"=\", null], [\"0\", null]]",
+    "image_sha256": "82b6f1f98df99e1a234cfe5183a359489babe1909fcd3a8058edf7d679e23507",
+    "latex": "y^{3} + 5 y + 4 = 0",
+    "calibration": false
+  },
+  {
+    "image_id": 177,
+    "source": "generated_000802",
+    "group": "[[\"y\", null], [\"3\", 0], [\"-\", null], [\"5\", null], [\"y\", null], [\"+\", null], [\"9\", null], [\"=\", null], [\"0\", null]]",
+    "image_sha256": "b048b4e2207c05871bc710dfead107bc8338ca7ff90aeac8bfb3dc45d494ae29",
+    "latex": "y^{3} - 5 y + 9 = 0",
+    "calibration": false
+  },
+  {
+    "image_id": 178,
+    "source": "generated_001930",
+    "group": "[[\"b\", null], [\"2\", 0], [\"+\", null], [\"1\", null], [\"b\", null], [\"+\", null], [\"6\", null], [\"=\", null], [\"0\", null]]",
+    "image_sha256": "11678e48fa658ad43caef5d3ebe60cd436672d9afb865e8185102da294b42796",
+    "latex": "b^{2} + 1 b + 6 = 0",
+    "calibration": false
+  },
+  {
+    "image_id": 179,
+    "source": "generated_001839",
+    "group": "[[\"b\", null], [\"2\", 0], [\"=\", null], [\"4\", null]]",
+    "image_sha256": "b7c71a5718df0bd6099dc868922338c0fe260c44b7e35bc0881d36eecbc84081",
+    "latex": "b^{2} = 4",
+    "calibration": false
+  },
+  {
+    "image_id": 180,
+    "source": "generated_000462",
+    "group": "[[\"a\", null], [\"3\", 0], [\"+\", null], [\"1\", null], [\"a\", null], [\"+\", null], [\"8\", null], [\"=\", null], [\"0\", null]]",
+    "image_sha256": "c1e4d600e548a31f2b436517c2d13741a169188140078c1990599b977b471549",
+    "latex": "a^{3} + 1 a + 8 = 0",
+    "calibration": false
+  },
+  {
+    "image_id": 181,
+    "source": "generated_001505",
+    "group": "[[\"5\", null], [\"a\", null], [\"+\", null], [\"9\", null], [\"=\", null], [\"-\", null], [\"3\", null], [\"6\", null]]",
+    "image_sha256": "d707d67d7f95358b3836aa74a9afe95e95bee23f424e12368368b9cec94ad4a2",
+    "latex": "5 a + 9 = -36",
+    "calibration": false
+  },
+  {
+    "image_id": 182,
+    "source": "generated_000961",
+    "group": "[[\"5\", null], [\"a\", null], [\"-\", null], [\"4\", null], [\"=\", null], [\"3\", null], [\"1\", null]]",
+    "image_sha256": "1a9ea4ec41a090f2efb6013682fe65ba9fe6c4e9ebdab5f1fb47d97d710f41e2",
+    "latex": "5 a - 4 = 31",
+    "calibration": false
+  },
+  {
+    "image_id": 183,
+    "source": "generated_001403",
+    "group": "[[\"y\", null], [\"2\", 0], [\"=\", null], [\"1\", null], [\"8\", null]]",
+    "image_sha256": "f719fcab5b83b5e10ccb41f143fcb21fa3d4ae8688616ffda34325f93371476f",
+    "latex": "y^{2} = 18",
+    "calibration": false
+  }
+]

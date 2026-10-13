@@ -1,0 +1,23 @@
+"""CPU RF-DETR inference adapter; no dataset or previous detector imports."""
+import torch
+
+from src.rfdetr_symbols import load_symbol_predictor, predict_symbol_image
+from src.visualize import recursive_steps
+from .hierarchy import normalize_nodes, validate_steps
+
+
+def load_predictor(checkpoint_path):
+    torch.set_num_threads(min(4, torch.get_num_threads()))
+    return load_symbol_predictor(checkpoint_path, 'cpu')
+
+
+def analyze_image(image, predictor, name, threshold=.25, max_nodes=400):
+    result, colored = predict_symbol_image(image, predictor,
+        threshold=predictor.metadata.get('inference_threshold', .5),
+        max_symbols=predictor.metadata.get('max_symbols', 24), image_name=name)
+    nodes = normalize_nodes(result['nodes'], image.size)
+    raw_steps = {'schema_version': 1, 'root_id': result['root_id'], 'steps': recursive_steps(nodes)}
+    return {'name': name, 'original': image, 'colored': colored, 'nodes': nodes,
+            'tree': None, 'steps': validate_steps(raw_steps, nodes), 'raw_steps': raw_steps,
+            'warnings': result['latex_metadata']['warnings'],
+            'source': 'model prediction', 'prediction': result}

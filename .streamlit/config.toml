@@ -1,0 +1,14 @@
+# Keep native Streamlit widgets consistent with the Equation Vision dashboard.
+[theme]
+base = "light"
+primaryColor = "#2563EB"
+backgroundColor = "#F6F8FC"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#172033"
+font = "sans serif"
+
+[theme.sidebar]
+primaryColor = "#2563EB"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F1F5F9"
+textColor = "#172033"

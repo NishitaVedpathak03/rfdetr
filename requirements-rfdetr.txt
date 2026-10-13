@@ -1,0 +1,5 @@
+# Optional RF-DETR environment; not installed by preparation or imports.
+rfdetr[train]==1.11.2
+Pillow>=10.4,<13
+numpy>=1.26,<3
+scipy>=1.11,<2
