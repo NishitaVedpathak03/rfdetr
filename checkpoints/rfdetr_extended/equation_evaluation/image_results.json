@@ -1,0 +1,3812 @@
+[
+  {
+    "file": "000000.png",
+    "predicted_latex": "\\frac{y + 15}{2} = 6",
+    "reference_latex": "\\frac{y + 15}{2} = 6",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000001.png",
+    "predicted_latex": "19 y - 9 = -3",
+    "reference_latex": "19 y - 9 = -3",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000002.png",
+    "predicted_latex": "\\sqrt{\\frac{z}{8}} = -5",
+    "reference_latex": "\\sqrt{\\frac{z}{8}} = -5",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000003.png",
+    "predicted_latex": "\\sqrt{\\frac{z}{8}} = -5",
+    "reference_latex": "\\sqrt{\\frac{z}{8}} = -5",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000004.png",
+    "predicted_latex": "\\sqrt{\\frac{z}{8}} = -5",
+    "reference_latex": "\\sqrt{\\frac{z}{8}} = -5",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000005.png",
+    "predicted_latex": "\\sqrt{\\frac{z}{8}} = -5",
+    "reference_latex": "\\sqrt{\\frac{z}{8}} = -5",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000006.png",
+    "predicted_latex": "\\sqrt{\\frac{z}{3}} = 8",
+    "reference_latex": "\\sqrt{\\frac{z}{3}} = 8",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000007.png",
+    "predicted_latex": "a_{i}^{2} = -4",
+    "reference_latex": "a_{i}^{2} = -4",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000008.png",
+    "predicted_latex": "z_{k}^{3} = 4",
+    "reference_latex": "z_{k}^{3} = 4",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000009.png",
+    "predicted_latex": "z_{k}^{3} = 4",
+    "reference_latex": "z_{k}^{3} = 4",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000010.png",
+    "predicted_latex": "16 \\times 9 = 0",
+    "reference_latex": "16 \\times 9 = 0",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000011.png",
+    "predicted_latex": "\\sqrt{\\frac{b}{5}} = 5",
+    "reference_latex": "\\sqrt{\\frac{b}{5}} = 5",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000012.png",
+    "predicted_latex": "\\frac{b + 11}{8} = -4",
+    "reference_latex": "\\frac{b + 11}{8} = -4",
+    "exact_equation_correct": true,
+    "symbol_tp": 9,
+    "predicted_symbols": 9,
+    "actual_symbols": 9,
+    "warnings": []
+  },
+  {
+    "file": "000013.png",
+    "predicted_latex": "\\frac{a + 1}{6} = -4",
+    "reference_latex": "\\frac{a + 1}{6} = -4",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000014.png",
+    "predicted_latex": "a_{n} = 7",
+    "reference_latex": "a_{n} = 7",
+    "exact_equation_correct": true,
+    "symbol_tp": 4,
+    "predicted_symbols": 4,
+    "actual_symbols": 4,
+    "warnings": []
+  },
+  {
+    "file": "000015.png",
+    "predicted_latex": "a_{n} = 7",
+    "reference_latex": "a_{n} = 7",
+    "exact_equation_correct": true,
+    "symbol_tp": 4,
+    "predicted_symbols": 4,
+    "actual_symbols": 4,
+    "warnings": []
+  },
+  {
+    "file": "000016.png",
+    "predicted_latex": "\\sqrt{x + 3} = 2",
+    "reference_latex": "\\sqrt{x + 3} = 2",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000017.png",
+    "predicted_latex": "\\frac{a + 14}{5} = -9",
+    "reference_latex": "\\frac{a + 14}{5} = -9",
+    "exact_equation_correct": true,
+    "symbol_tp": 9,
+    "predicted_symbols": 9,
+    "actual_symbols": 9,
+    "warnings": []
+  },
+  {
+    "file": "000018.png",
+    "predicted_latex": "a_{k}^{2} = -6",
+    "reference_latex": "a_{k}^{2} = -6",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000019.png",
+    "predicted_latex": "b_{j} = 6",
+    "reference_latex": "b_{j} = 6",
+    "exact_equation_correct": true,
+    "symbol_tp": 4,
+    "predicted_symbols": 4,
+    "actual_symbols": 4,
+    "warnings": []
+  },
+  {
+    "file": "000020.png",
+    "predicted_latex": "x_{i}^{2} = -2",
+    "reference_latex": "x_{i}^{2} = -2",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000021.png",
+    "predicted_latex": "\\frac{z + 15}{5} = -3",
+    "reference_latex": "\\frac{z + 15}{5} = -3",
+    "exact_equation_correct": true,
+    "symbol_tp": 9,
+    "predicted_symbols": 9,
+    "actual_symbols": 9,
+    "warnings": []
+  },
+  {
+    "file": "000022.png",
+    "predicted_latex": "y_{i} = -3",
+    "reference_latex": "y_{i} = -3",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000023.png",
+    "predicted_latex": "y_{i} = -3",
+    "reference_latex": "y_{i} = -3",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000024.png",
+    "predicted_latex": "\\frac{z + 3}{2} = 2",
+    "reference_latex": "\\frac{z + 3}{2} = 2",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000025.png",
+    "predicted_latex": "y^{3} = 0",
+    "reference_latex": "y^{3} = 0",
+    "exact_equation_correct": true,
+    "symbol_tp": 4,
+    "predicted_symbols": 4,
+    "actual_symbols": 4,
+    "warnings": []
+  },
+  {
+    "file": "000026.png",
+    "predicted_latex": "\\sqrt{\\frac{y}{5}} = 6",
+    "reference_latex": "\\sqrt{\\frac{y}{5}} = 6",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000027.png",
+    "predicted_latex": "\\sqrt{\\frac{y}{5}} = 6",
+    "reference_latex": "\\sqrt{\\frac{y}{5}} = 6",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000028.png",
+    "predicted_latex": "a_{i} = 4",
+    "reference_latex": "a_{i} = 4",
+    "exact_equation_correct": true,
+    "symbol_tp": 4,
+    "predicted_symbols": 4,
+    "actual_symbols": 4,
+    "warnings": []
+  },
+  {
+    "file": "000029.png",
+    "predicted_latex": "\\frac{x + 16}{6} = 9",
+    "reference_latex": "\\frac{x + 16}{6} = 9",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000030.png",
+    "predicted_latex": "\\sqrt{\\frac{z}{7}} = 6",
+    "reference_latex": "\\sqrt{\\frac{z}{7}} = 6",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000031.png",
+    "predicted_latex": "\\sqrt{\\frac{z}{7}} = 6",
+    "reference_latex": "\\sqrt{\\frac{z}{7}} = 6",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000032.png",
+    "predicted_latex": "x_{k}^{3} = -8",
+    "reference_latex": "x_{k}^{3} = -8",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000033.png",
+    "predicted_latex": "a_{i}^{2} = 4",
+    "reference_latex": "a_{i}^{2} = 4",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000034.png",
+    "predicted_latex": "\\frac{y + 11}{7} = 1",
+    "reference_latex": "\\frac{y + 11}{7} = 1",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000035.png",
+    "predicted_latex": "\\frac{z + 18}{2} = -7",
+    "reference_latex": "\\frac{z + 18}{2} = -7",
+    "exact_equation_correct": true,
+    "symbol_tp": 9,
+    "predicted_symbols": 9,
+    "actual_symbols": 9,
+    "warnings": []
+  },
+  {
+    "file": "000036.png",
+    "predicted_latex": "18 z - 9 = 2",
+    "reference_latex": "18 z - 9 = 2",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000037.png",
+    "predicted_latex": "x^{2} + 7 x + 2 = 6",
+    "reference_latex": "x^{2} + 7 x + 2 = 6",
+    "exact_equation_correct": true,
+    "symbol_tp": 9,
+    "predicted_symbols": 9,
+    "actual_symbols": 9,
+    "warnings": []
+  },
+  {
+    "file": "000038.png",
+    "predicted_latex": "\\sqrt{\\frac{a}{8}} = -5",
+    "reference_latex": "\\sqrt{\\frac{a}{8}} = -5",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000039.png",
+    "predicted_latex": "x_{j} = -6",
+    "reference_latex": "x_{j} = -6",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000040.png",
+    "predicted_latex": "\\sqrt{x + 11} = -5",
+    "reference_latex": "\\sqrt{x + 11} = -5",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000041.png",
+    "predicted_latex": "19 z - 8 = -8",
+    "reference_latex": "19 z - 8 = -8",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000042.png",
+    "predicted_latex": "z_{n}^{3} = -7",
+    "reference_latex": "z_{n}^{3} = -7",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000043.png",
+    "predicted_latex": "\\sqrt{\\frac{b}{3}} = -1",
+    "reference_latex": "\\sqrt{\\frac{b}{3}} = -1",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000044.png",
+    "predicted_latex": "\\sqrt{b + 3} = 2",
+    "reference_latex": "\\sqrt{b + 3} = 2",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000045.png",
+    "predicted_latex": "b_{6} = 0",
+    "reference_latex": "b_{6} = 0",
+    "exact_equation_correct": true,
+    "symbol_tp": 4,
+    "predicted_symbols": 4,
+    "actual_symbols": 4,
+    "warnings": []
+  },
+  {
+    "file": "000046.png",
+    "predicted_latex": "b_{6} = 0",
+    "reference_latex": "b_{6} = 0",
+    "exact_equation_correct": true,
+    "symbol_tp": 4,
+    "predicted_symbols": 4,
+    "actual_symbols": 4,
+    "warnings": []
+  },
+  {
+    "file": "000047.png",
+    "predicted_latex": "a_{k} = -5",
+    "reference_latex": "a_{k} = -5",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000048.png",
+    "predicted_latex": "a_{k} = -5",
+    "reference_latex": "a_{k} = -5",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000049.png",
+    "predicted_latex": "a_{k} = -5",
+    "reference_latex": "a_{k} = -5",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000050.png",
+    "predicted_latex": "\\sqrt{z + 5} = -5",
+    "reference_latex": "\\sqrt{z + 5} = -5",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000051.png",
+    "predicted_latex": "\\frac{z + 3}{4} = 2",
+    "reference_latex": "\\frac{z + 3}{4} = 2",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000052.png",
+    "predicted_latex": "\\frac{z + 13}{9} = -9",
+    "reference_latex": "\\frac{z + 13}{9} = -9",
+    "exact_equation_correct": true,
+    "symbol_tp": 9,
+    "predicted_symbols": 9,
+    "actual_symbols": 9,
+    "warnings": []
+  },
+  {
+    "file": "000053.png",
+    "predicted_latex": "y_{i}^{2} = 2",
+    "reference_latex": "y_{i}^{2} = 2",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000054.png",
+    "predicted_latex": "\\frac{a + 14}{3} = 4",
+    "reference_latex": "\\frac{a + 14}{3} = 4",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000055.png",
+    "predicted_latex": "10 z - 3 = 2",
+    "reference_latex": "10 z - 3 = 2",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000056.png",
+    "predicted_latex": "\\sqrt{\\frac{x}{5}} = -5",
+    "reference_latex": "\\sqrt{\\frac{x}{5}} = -5",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000057.png",
+    "predicted_latex": "8 \\times 7 = 2",
+    "reference_latex": "8 \\times 7 = 2",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000058.png",
+    "predicted_latex": "19 z - 7 = -1",
+    "reference_latex": "19 z - 7 = -1",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000059.png",
+    "predicted_latex": "b_{n}^{3} = 5",
+    "reference_latex": "b_{n}^{3} = 5",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000060.png",
+    "predicted_latex": "b_{n}^{3} = 5",
+    "reference_latex": "b_{n}^{3} = 5",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000061.png",
+    "predicted_latex": "b_{4} = 2",
+    "reference_latex": "b_{4} = 2",
+    "exact_equation_correct": true,
+    "symbol_tp": 4,
+    "predicted_symbols": 4,
+    "actual_symbols": 4,
+    "warnings": []
+  },
+  {
+    "file": "000062.png",
+    "predicted_latex": "\\frac{b + 16}{9} = 3",
+    "reference_latex": "\\frac{b + 16}{9} = 3",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000063.png",
+    "predicted_latex": "\\sqrt{b + 2} = 6",
+    "reference_latex": "\\sqrt{b + 2} = 6",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000064.png",
+    "predicted_latex": "b_{k} = -4",
+    "reference_latex": "b_{k} = -4",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000065.png",
+    "predicted_latex": "b_{k} = -4",
+    "reference_latex": "b_{k} = -4",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000066.png",
+    "predicted_latex": "b_{k} = -4",
+    "reference_latex": "b_{k} = -4",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000067.png",
+    "predicted_latex": "b_{k} = -4",
+    "reference_latex": "b_{k} = -4",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000068.png",
+    "predicted_latex": "\\sqrt{z + 8} = 0",
+    "reference_latex": "\\sqrt{z + 8} = 0",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000069.png",
+    "predicted_latex": "a_{k}^{3} = -4",
+    "reference_latex": "a_{k}^{3} = -4",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000070.png",
+    "predicted_latex": "a_{k}^{3} = -4",
+    "reference_latex": "a_{k}^{3} = -4",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000071.png",
+    "predicted_latex": "\\frac{a + 17}{8} = -5",
+    "reference_latex": "\\frac{a + 17}{8} = -5",
+    "exact_equation_correct": true,
+    "symbol_tp": 9,
+    "predicted_symbols": 9,
+    "actual_symbols": 9,
+    "warnings": []
+  },
+  {
+    "file": "000072.png",
+    "predicted_latex": "\\frac{a + 10}{9} = 9",
+    "reference_latex": "\\frac{a + 10}{9} = 9",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000073.png",
+    "predicted_latex": "\\sqrt{a + 7} = 9",
+    "reference_latex": "\\sqrt{a + 7} = 9",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000074.png",
+    "predicted_latex": "z_{k}^{3} = 0",
+    "reference_latex": "z_{k}^{3} = 0",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000075.png",
+    "predicted_latex": "z_{k}^{3} = 0",
+    "reference_latex": "z_{k}^{3} = 0",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000076.png",
+    "predicted_latex": "\\sqrt{\\frac{z}{7}} = -3",
+    "reference_latex": "\\sqrt{\\frac{z}{7}} = -3",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000077.png",
+    "predicted_latex": "\\sqrt{\\frac{z}{7}} = -3",
+    "reference_latex": "\\sqrt{\\frac{z}{7}} = -3",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000078.png",
+    "predicted_latex": "y_{j}^{3} = -8",
+    "reference_latex": "y_{j}^{3} = -8",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000079.png",
+    "predicted_latex": "y_{j}^{3} = -8",
+    "reference_latex": "y_{j}^{3} = -8",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000080.png",
+    "predicted_latex": "b^{3} = 7",
+    "reference_latex": "b^{3} = 7",
+    "exact_equation_correct": true,
+    "symbol_tp": 4,
+    "predicted_symbols": 4,
+    "actual_symbols": 4,
+    "warnings": []
+  },
+  {
+    "file": "000081.png",
+    "predicted_latex": "y_{j} = -2",
+    "reference_latex": "y_{j} = -2",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000082.png",
+    "predicted_latex": "6 a - 9 = -2",
+    "reference_latex": "6 a - 9 = -2",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000083.png",
+    "predicted_latex": "3 \\times 7 = -6",
+    "reference_latex": "3 \\times 7 = -6",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000084.png",
+    "predicted_latex": "a^{2} + 19 a + 7 = 2",
+    "reference_latex": "a^{2} + 19 a + 7 = 2",
+    "exact_equation_correct": true,
+    "symbol_tp": 10,
+    "predicted_symbols": 10,
+    "actual_symbols": 10,
+    "warnings": []
+  },
+  {
+    "file": "000085.png",
+    "predicted_latex": "z_{i} = -8",
+    "reference_latex": "z_{i} = -8",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000086.png",
+    "predicted_latex": "z_{i} = -8",
+    "reference_latex": "z_{i} = -8",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000087.png",
+    "predicted_latex": "y_{j} = 6",
+    "reference_latex": "y_{j} = 6",
+    "exact_equation_correct": true,
+    "symbol_tp": 4,
+    "predicted_symbols": 4,
+    "actual_symbols": 4,
+    "warnings": []
+  },
+  {
+    "file": "000088.png",
+    "predicted_latex": "\\sqrt{\\frac{a}{9}} = 0",
+    "reference_latex": "\\sqrt{\\frac{a}{9}} = 0",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000089.png",
+    "predicted_latex": "\\sqrt{b + 16} = 1",
+    "reference_latex": "\\sqrt{b + 16} = 1",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000090.png",
+    "predicted_latex": "\\sqrt{\\frac{x}{2}} = 1",
+    "reference_latex": "\\sqrt{\\frac{x}{2}} = 1",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000091.png",
+    "predicted_latex": "\\sqrt{\\frac{x}{2}} = 1",
+    "reference_latex": "\\sqrt{\\frac{x}{2}} = 1",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000092.png",
+    "predicted_latex": "9 x - 2 = 2",
+    "reference_latex": "9 x - 2 = 2",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000093.png",
+    "predicted_latex": "9 a - 6 = -9",
+    "reference_latex": "9 a - 6 = -9",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000094.png",
+    "predicted_latex": "\\sqrt{\\frac{y}{2}} = 5",
+    "reference_latex": "\\sqrt{\\frac{y}{2}} = 5",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000095.png",
+    "predicted_latex": "\\sqrt{x + 10} = -8",
+    "reference_latex": "\\sqrt{x + 10} = -8",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000096.png",
+    "predicted_latex": "x_{j}^{3} = -5",
+    "reference_latex": "x_{j}^{3} = -5",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000097.png",
+    "predicted_latex": "\\frac{a + 11}{6} = -8",
+    "reference_latex": "\\frac{a + 11}{6} = -8",
+    "exact_equation_correct": true,
+    "symbol_tp": 9,
+    "predicted_symbols": 9,
+    "actual_symbols": 9,
+    "warnings": []
+  },
+  {
+    "file": "000098.png",
+    "predicted_latex": "a_{i}^{2} = 3",
+    "reference_latex": "a_{i}^{2} = 3",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000099.png",
+    "predicted_latex": "\\frac{x + 17}{9} = 2",
+    "reference_latex": "\\frac{x + 17}{9} = 2",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000100.png",
+    "predicted_latex": "\\sqrt{y + 15} = 9",
+    "reference_latex": "\\sqrt{y + 15} = 9",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000101.png",
+    "predicted_latex": "\\sqrt{y + 15} = 9",
+    "reference_latex": "\\sqrt{y + 15} = 9",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000102.png",
+    "predicted_latex": "\\sqrt{\\frac{b}{9}} = 4",
+    "reference_latex": "\\sqrt{\\frac{b}{9}} = 4",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000103.png",
+    "predicted_latex": "\\sqrt{\\frac{b}{9}} = 4",
+    "reference_latex": "\\sqrt{\\frac{b}{9}} = 4",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000104.png",
+    "predicted_latex": "\\frac{y + 13}{5} = -6",
+    "reference_latex": "\\frac{y + 13}{5} = -6",
+    "exact_equation_correct": true,
+    "symbol_tp": 9,
+    "predicted_symbols": 9,
+    "actual_symbols": 9,
+    "warnings": []
+  },
+  {
+    "file": "000105.png",
+    "predicted_latex": "a_{j} = 7",
+    "reference_latex": "a_{j} = 7",
+    "exact_equation_correct": true,
+    "symbol_tp": 4,
+    "predicted_symbols": 4,
+    "actual_symbols": 4,
+    "warnings": []
+  },
+  {
+    "file": "000106.png",
+    "predicted_latex": "\\frac{a + 18}{6} = -6",
+    "reference_latex": "\\frac{a + 18}{6} = -6",
+    "exact_equation_correct": true,
+    "symbol_tp": 9,
+    "predicted_symbols": 9,
+    "actual_symbols": 9,
+    "warnings": []
+  },
+  {
+    "file": "000107.png",
+    "predicted_latex": "z^{3} = 3",
+    "reference_latex": "z^{3} = 3",
+    "exact_equation_correct": true,
+    "symbol_tp": 4,
+    "predicted_symbols": 4,
+    "actual_symbols": 4,
+    "warnings": []
+  },
+  {
+    "file": "000108.png",
+    "predicted_latex": "z^{3} = 3",
+    "reference_latex": "z^{3} = 3",
+    "exact_equation_correct": true,
+    "symbol_tp": 4,
+    "predicted_symbols": 4,
+    "actual_symbols": 4,
+    "warnings": []
+  },
+  {
+    "file": "000109.png",
+    "predicted_latex": "y_{6} = 8",
+    "reference_latex": "y_{6} = 8",
+    "exact_equation_correct": true,
+    "symbol_tp": 4,
+    "predicted_symbols": 4,
+    "actual_symbols": 4,
+    "warnings": []
+  },
+  {
+    "file": "000110.png",
+    "predicted_latex": "\\sqrt{\\frac{b}{8}} = -9",
+    "reference_latex": "\\sqrt{\\frac{b}{8}} = -9",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000111.png",
+    "predicted_latex": "x_{n} = -6",
+    "reference_latex": "x_{n} = -6",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000112.png",
+    "predicted_latex": "x_{n} = -6",
+    "reference_latex": "x_{n} = -6",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000113.png",
+    "predicted_latex": "x_{n} = -6",
+    "reference_latex": "x_{n} = -6",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000114.png",
+    "predicted_latex": "\\sqrt{x + 8} = 1",
+    "reference_latex": "\\sqrt{x + 8} = 1",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000115.png",
+    "predicted_latex": "\\sqrt{x + 8} = 1",
+    "reference_latex": "\\sqrt{x + 8} = 1",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000116.png",
+    "predicted_latex": "y^{2} + 3 y + 8 = 6",
+    "reference_latex": "y^{2} + 3 y + 8 = 6",
+    "exact_equation_correct": true,
+    "symbol_tp": 9,
+    "predicted_symbols": 9,
+    "actual_symbols": 9,
+    "warnings": []
+  },
+  {
+    "file": "000117.png",
+    "predicted_latex": "a_{k}^{3} = 9",
+    "reference_latex": "a_{k}^{3} = 9",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000118.png",
+    "predicted_latex": "x_{3} = 2",
+    "reference_latex": "x_{3} = 2",
+    "exact_equation_correct": true,
+    "symbol_tp": 4,
+    "predicted_symbols": 4,
+    "actual_symbols": 4,
+    "warnings": []
+  },
+  {
+    "file": "000119.png",
+    "predicted_latex": "a_{n}^{3} = 5",
+    "reference_latex": "a_{n}^{3} = 5",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000120.png",
+    "predicted_latex": "11 x - 5 = -9",
+    "reference_latex": "11 x - 5 = -9",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000121.png",
+    "predicted_latex": "\\sqrt{x + 5} = 9",
+    "reference_latex": "\\sqrt{x + 5} = 9",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000122.png",
+    "predicted_latex": "\\sqrt{\\frac{y}{3}} = -8",
+    "reference_latex": "\\sqrt{\\frac{y}{3}} = -8",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000123.png",
+    "predicted_latex": "\\sqrt{\\frac{y}{3}} = -8",
+    "reference_latex": "\\sqrt{\\frac{y}{3}} = -8",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000124.png",
+    "predicted_latex": "\\sqrt{a + 3} = -3",
+    "reference_latex": "\\sqrt{a + 3} = -3",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000125.png",
+    "predicted_latex": "\\sqrt{a + 3} = -3",
+    "reference_latex": "\\sqrt{a + 3} = -3",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000126.png",
+    "predicted_latex": "\\frac{a + 13}{8} = 2",
+    "reference_latex": "\\frac{a + 13}{8} = 2",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000127.png",
+    "predicted_latex": "\\frac{a + 13}{8} = 2",
+    "reference_latex": "\\frac{a + 13}{8} = 2",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000128.png",
+    "predicted_latex": "\\sqrt{b + 1} = -7",
+    "reference_latex": "\\sqrt{b + 1} = -7",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000129.png",
+    "predicted_latex": "\\sqrt{\\frac{x}{7}} = -2",
+    "reference_latex": "\\sqrt{\\frac{x}{7}} = -2",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000130.png",
+    "predicted_latex": "y_{8} = -7",
+    "reference_latex": "y_{8} = -7",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000131.png",
+    "predicted_latex": "\\sqrt{a + 4} = 7",
+    "reference_latex": "\\sqrt{a + 4} = 7",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000132.png",
+    "predicted_latex": "a_{4} = -9",
+    "reference_latex": "a_{4} = -9",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000133.png",
+    "predicted_latex": "b_{k}^{3} = 7",
+    "reference_latex": "b_{k}^{3} = 7",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000134.png",
+    "predicted_latex": "10 \\times 2 = -6",
+    "reference_latex": "10 \\times 2 = -6",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000135.png",
+    "predicted_latex": "y_{k} = -9",
+    "reference_latex": "y_{k} = -9",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000136.png",
+    "predicted_latex": "\\sqrt{\\frac{x}{5}} = -4",
+    "reference_latex": "\\sqrt{\\frac{x}{5}} = -4",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000137.png",
+    "predicted_latex": "\\sqrt{\\frac{y}{5}} = 3",
+    "reference_latex": "\\sqrt{\\frac{y}{5}} = 3",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000138.png",
+    "predicted_latex": "\\sqrt{\\frac{y}{5}} = 3",
+    "reference_latex": "\\sqrt{\\frac{y}{5}} = 3",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000139.png",
+    "predicted_latex": "\\frac{y + 19}{9} = 2",
+    "reference_latex": "\\frac{y + 19}{9} = 2",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000140.png",
+    "predicted_latex": "6 a - 3 = 4",
+    "reference_latex": "6 a - 3 = 4",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000141.png",
+    "predicted_latex": "\\sqrt{\\frac{b}{9}} = 2",
+    "reference_latex": "\\sqrt{\\frac{b}{9}} = 2",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000142.png",
+    "predicted_latex": "\\frac{z + 4}{8} = 0",
+    "reference_latex": "\\frac{z + 4}{8} = 0",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000143.png",
+    "predicted_latex": "x_{n} = 9",
+    "reference_latex": "x_{n} = 9",
+    "exact_equation_correct": true,
+    "symbol_tp": 4,
+    "predicted_symbols": 4,
+    "actual_symbols": 4,
+    "warnings": []
+  },
+  {
+    "file": "000144.png",
+    "predicted_latex": "x_{n} = 9",
+    "reference_latex": "x_{n} = 9",
+    "exact_equation_correct": true,
+    "symbol_tp": 4,
+    "predicted_symbols": 4,
+    "actual_symbols": 4,
+    "warnings": []
+  },
+  {
+    "file": "000145.png",
+    "predicted_latex": "\\sqrt{\\frac{x}{3}} = -2",
+    "reference_latex": "\\sqrt{\\frac{x}{3}} = -2",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000146.png",
+    "predicted_latex": "7 y - 7 = 0",
+    "reference_latex": "7 y - 7 = 0",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000147.png",
+    "predicted_latex": "a_{k}^{3} = -5",
+    "reference_latex": "a_{k}^{3} = -5",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000148.png",
+    "predicted_latex": "b_{i}^{3} = -4",
+    "reference_latex": "b_{i}^{3} = -4",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000149.png",
+    "predicted_latex": "b_{i}^{3} = -4",
+    "reference_latex": "b_{i}^{3} = -4",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000150.png",
+    "predicted_latex": "\\frac{a + 12}{9} = -3",
+    "reference_latex": "\\frac{a + 12}{9} = -3",
+    "exact_equation_correct": true,
+    "symbol_tp": 9,
+    "predicted_symbols": 9,
+    "actual_symbols": 9,
+    "warnings": []
+  },
+  {
+    "file": "000151.png",
+    "predicted_latex": "z_{3} = 5",
+    "reference_latex": "z_{3} = 5",
+    "exact_equation_correct": true,
+    "symbol_tp": 4,
+    "predicted_symbols": 4,
+    "actual_symbols": 4,
+    "warnings": []
+  },
+  {
+    "file": "000152.png",
+    "predicted_latex": "17 a - 9 = -7",
+    "reference_latex": "17 a - 9 = -7",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000153.png",
+    "predicted_latex": "\\sqrt{\\frac{x}{2}} = 0",
+    "reference_latex": "\\sqrt{\\frac{x}{2}} = 0",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000154.png",
+    "predicted_latex": "\\sqrt{\\frac{z}{2}} = -4",
+    "reference_latex": "\\sqrt{\\frac{z}{2}} = -4",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000155.png",
+    "predicted_latex": "\\frac{z + 16}{3} = -8",
+    "reference_latex": "\\frac{z + 16}{3} = -8",
+    "exact_equation_correct": true,
+    "symbol_tp": 9,
+    "predicted_symbols": 9,
+    "actual_symbols": 9,
+    "warnings": []
+  },
+  {
+    "file": "000156.png",
+    "predicted_latex": "\\sqrt{z + 7} = 2",
+    "reference_latex": "\\sqrt{z + 7} = 2",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000157.png",
+    "predicted_latex": "\\sqrt{z + 7} = 2",
+    "reference_latex": "\\sqrt{z + 7} = 2",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000158.png",
+    "predicted_latex": "x_{k}^{2} = -3",
+    "reference_latex": "x_{k}^{2} = -3",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000159.png",
+    "predicted_latex": "x_{j}^{3} = -1",
+    "reference_latex": "x_{j}^{3} = -1",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000160.png",
+    "predicted_latex": "x_{j}^{3} = -1",
+    "reference_latex": "x_{j}^{3} = -1",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000161.png",
+    "predicted_latex": "b_{2} = -7",
+    "reference_latex": "b_{2} = -7",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000162.png",
+    "predicted_latex": "b_{2} = -7",
+    "reference_latex": "b_{2} = -7",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000163.png",
+    "predicted_latex": "b_{2} = -7",
+    "reference_latex": "b_{2} = -7",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000164.png",
+    "predicted_latex": "\\frac{b + 3}{7} = 5",
+    "reference_latex": "\\frac{b + 3}{7} = 5",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000165.png",
+    "predicted_latex": "10 a - 3 = -4",
+    "reference_latex": "10 a - 3 = -4",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000166.png",
+    "predicted_latex": "\\frac{z + 16}{6} = 8",
+    "reference_latex": "\\frac{z + 16}{6} = 8",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000167.png",
+    "predicted_latex": "z_{j} = 1",
+    "reference_latex": "z_{j} = 1",
+    "exact_equation_correct": true,
+    "symbol_tp": 4,
+    "predicted_symbols": 4,
+    "actual_symbols": 4,
+    "warnings": []
+  },
+  {
+    "file": "000168.png",
+    "predicted_latex": "\\sqrt{b + 6} = 4",
+    "reference_latex": "\\sqrt{b + 6} = 4",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000169.png",
+    "predicted_latex": "\\sqrt{b + 6} = 4",
+    "reference_latex": "\\sqrt{b + 6} = 4",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000170.png",
+    "predicted_latex": "\\sqrt{b + 19} = -4",
+    "reference_latex": "\\sqrt{b + 19} = -4",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000171.png",
+    "predicted_latex": "\\sqrt{\\frac{a}{3}} = 9",
+    "reference_latex": "\\sqrt{\\frac{a}{3}} = 9",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000172.png",
+    "predicted_latex": "\\sqrt{z + 19} = -4",
+    "reference_latex": "\\sqrt{z + 19} = -4",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000173.png",
+    "predicted_latex": "18 z - 3 = 4",
+    "reference_latex": "18 z - 3 = 4",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000174.png",
+    "predicted_latex": "x_{n}^{2} = 3",
+    "reference_latex": "x_{n}^{2} = 3",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000175.png",
+    "predicted_latex": "x_{n}^{2} = 3",
+    "reference_latex": "x_{n}^{2} = 3",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000176.png",
+    "predicted_latex": "\\frac{x + 3}{8} = -2",
+    "reference_latex": "\\frac{x + 3}{8} = -2",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000177.png",
+    "predicted_latex": "y_{i} = 8",
+    "reference_latex": "y_{i} = 8",
+    "exact_equation_correct": true,
+    "symbol_tp": 4,
+    "predicted_symbols": 4,
+    "actual_symbols": 4,
+    "warnings": []
+  },
+  {
+    "file": "000178.png",
+    "predicted_latex": "x_{k} = -8",
+    "reference_latex": "x_{k} = -8",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000179.png",
+    "predicted_latex": "\\sqrt{b + 1} = -2",
+    "reference_latex": "\\sqrt{b + 1} = -2",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000180.png",
+    "predicted_latex": "b_{i}^{3} = -2",
+    "reference_latex": "b_{i}^{3} = -2",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000181.png",
+    "predicted_latex": "\\frac{a + 15}{7} = 2",
+    "reference_latex": "\\frac{a + 15}{7} = 2",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000182.png",
+    "predicted_latex": "y_{3} = -4",
+    "reference_latex": "y_{3} = -4",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000183.png",
+    "predicted_latex": "\\sqrt{z + 9} = 0",
+    "reference_latex": "\\sqrt{z + 9} = 0",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000184.png",
+    "predicted_latex": "16 + 3 = 2",
+    "reference_latex": "16 + 3 = 2",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000185.png",
+    "predicted_latex": "x_{n}^{3} = 5",
+    "reference_latex": "x_{n}^{3} = 5",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000186.png",
+    "predicted_latex": "\\frac{b + 13}{5} = 0",
+    "reference_latex": "\\frac{b + 13}{5} = 0",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000187.png",
+    "predicted_latex": "\\frac{a + 7}{2} = -9",
+    "reference_latex": "\\frac{a + 7}{2} = -9",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000188.png",
+    "predicted_latex": "b_{i}^{3} = 6",
+    "reference_latex": "b_{i}^{3} = 6",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000189.png",
+    "predicted_latex": "\\sqrt{\\frac{y}{3}} = -5",
+    "reference_latex": "\\sqrt{\\frac{y}{3}} = -5",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000190.png",
+    "predicted_latex": "\\frac{x + 18}{7} = 6",
+    "reference_latex": "\\frac{x + 18}{7} = 6",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000191.png",
+    "predicted_latex": "y_{k}^{2} = 5",
+    "reference_latex": "y_{k}^{2} = 5",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000192.png",
+    "predicted_latex": "\\sqrt{b + 11} = -2",
+    "reference_latex": "\\sqrt{b + 11} = -2",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000193.png",
+    "predicted_latex": "10 z - 6 = 8",
+    "reference_latex": "10 z - 6 = 8",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000194.png",
+    "predicted_latex": "\\frac{x + 6}{5} = -2",
+    "reference_latex": "\\frac{x + 6}{5} = -2",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000195.png",
+    "predicted_latex": "\\frac{y + 9}{3} = 5",
+    "reference_latex": "\\frac{y + 9}{3} = 5",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000196.png",
+    "predicted_latex": "\\frac{a + 18}{9} = -8",
+    "reference_latex": "\\frac{a + 18}{9} = -8",
+    "exact_equation_correct": true,
+    "symbol_tp": 9,
+    "predicted_symbols": 9,
+    "actual_symbols": 9,
+    "warnings": []
+  },
+  {
+    "file": "000197.png",
+    "predicted_latex": "\\sqrt{a + 6} = -8",
+    "reference_latex": "\\sqrt{a + 6} = -8",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000198.png",
+    "predicted_latex": "\\sqrt{y + 16} = 1",
+    "reference_latex": "\\sqrt{y + 16} = 1",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000199.png",
+    "predicted_latex": "z_{i}^{3} = 3",
+    "reference_latex": "z_{i}^{3} = 3",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000200.png",
+    "predicted_latex": "\\sqrt{\\frac{z}{7}} = 1",
+    "reference_latex": "\\sqrt{\\frac{z}{7}} = 1",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000201.png",
+    "predicted_latex": "2 - 3 = -1",
+    "reference_latex": "2 - 3 = -1",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000202.png",
+    "predicted_latex": "\\sqrt{\\frac{x}{8}} = -7",
+    "reference_latex": "\\sqrt{\\frac{x}{8}} = -7",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000203.png",
+    "predicted_latex": "\\frac{b + 10}{3} = 3",
+    "reference_latex": "\\frac{b + 10}{3} = 3",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000204.png",
+    "predicted_latex": "\\sqrt{y + 10} = 4",
+    "reference_latex": "\\sqrt{y + 10} = 4",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000205.png",
+    "predicted_latex": "\\frac{y + 13}{3} = 5",
+    "reference_latex": "\\frac{y + 13}{3} = 5",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000206.png",
+    "predicted_latex": "3 - 8 = 0",
+    "reference_latex": "3 - 8 = 0",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000207.png",
+    "predicted_latex": "\\sqrt{z + 14} = 0",
+    "reference_latex": "\\sqrt{z + 14} = 0",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000208.png",
+    "predicted_latex": "z_{5} = -7",
+    "reference_latex": "z_{5} = -7",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000209.png",
+    "predicted_latex": "z_{i} = -5",
+    "reference_latex": "z_{i} = -5",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000210.png",
+    "predicted_latex": "b^{2} + 16 b + 2 = 2",
+    "reference_latex": "b^{2} + 16 b + 2 = 2",
+    "exact_equation_correct": true,
+    "symbol_tp": 10,
+    "predicted_symbols": 10,
+    "actual_symbols": 10,
+    "warnings": []
+  },
+  {
+    "file": "000211.png",
+    "predicted_latex": "x_{j} = -4",
+    "reference_latex": "x_{j} = -4",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000212.png",
+    "predicted_latex": "x_{j} = -4",
+    "reference_latex": "x_{j} = -4",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000213.png",
+    "predicted_latex": "x_{j} = -4",
+    "reference_latex": "x_{j} = -4",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000214.png",
+    "predicted_latex": "\\frac{a + 6}{2} = 6",
+    "reference_latex": "\\frac{a + 6}{2} = 6",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000215.png",
+    "predicted_latex": "\\sqrt{y + 5} = -1",
+    "reference_latex": "\\sqrt{y + 5} = -1",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000216.png",
+    "predicted_latex": "z_{2} = -2",
+    "reference_latex": "z_{2} = -2",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000217.png",
+    "predicted_latex": "\\sqrt{\\frac{y}{4}} = 7",
+    "reference_latex": "\\sqrt{\\frac{y}{4}} = 7",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000218.png",
+    "predicted_latex": "\\sqrt{\\frac{y}{4}} = 7",
+    "reference_latex": "\\sqrt{\\frac{y}{4}} = 7",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000219.png",
+    "predicted_latex": "\\sqrt{\\frac{y}{4}} = 7",
+    "reference_latex": "\\sqrt{\\frac{y}{4}} = 7",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000220.png",
+    "predicted_latex": "\\sqrt{\\frac{z}{4}} = 6",
+    "reference_latex": "\\sqrt{\\frac{z}{4}} = 6",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000221.png",
+    "predicted_latex": "x^{2} + 11 x + 6 = -4",
+    "reference_latex": "x^{2} + 11 x + 6 = -4",
+    "exact_equation_correct": true,
+    "symbol_tp": 11,
+    "predicted_symbols": 11,
+    "actual_symbols": 11,
+    "warnings": []
+  },
+  {
+    "file": "000222.png",
+    "predicted_latex": "\\frac{a + 4}{6} = -5",
+    "reference_latex": "\\frac{a + 4}{6} = -5",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000223.png",
+    "predicted_latex": "\\sqrt{\\frac{x}{9}} = 9",
+    "reference_latex": "\\sqrt{\\frac{x}{9}} = 9",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000224.png",
+    "predicted_latex": "b^{3} = -7",
+    "reference_latex": "b^{3} = -7",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000225.png",
+    "predicted_latex": "a_{j}^{2} = 6",
+    "reference_latex": "a_{j}^{2} = 6",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000226.png",
+    "predicted_latex": "\\sqrt{x + 14} = -5",
+    "reference_latex": "\\sqrt{x + 14} = -5",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000227.png",
+    "predicted_latex": "\\sqrt{\\frac{x}{4}} = 4",
+    "reference_latex": "\\sqrt{\\frac{x}{4}} = 4",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000228.png",
+    "predicted_latex": "\\frac{x + 7}{7} = 4",
+    "reference_latex": "\\frac{x + 7}{7} = 4",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000229.png",
+    "predicted_latex": "\\sqrt{b + 15} = -5",
+    "reference_latex": "\\sqrt{b + 15} = -5",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000230.png",
+    "predicted_latex": "\\sqrt{x + 17} = 2",
+    "reference_latex": "\\sqrt{x + 17} = 2",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000231.png",
+    "predicted_latex": "z_{j}^{3} = -1",
+    "reference_latex": "z_{j}^{3} = -1",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000232.png",
+    "predicted_latex": "b_{k}^{2} = 2",
+    "reference_latex": "b_{k}^{2} = 2",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000233.png",
+    "predicted_latex": "b_{k}^{2} = 2",
+    "reference_latex": "b_{k}^{2} = 2",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000234.png",
+    "predicted_latex": "18 b - 9 = 6",
+    "reference_latex": "18 b - 9 = 6",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000235.png",
+    "predicted_latex": "b_{i}^{3} = 4",
+    "reference_latex": "b_{i}^{3} = 4",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000236.png",
+    "predicted_latex": "4 x - 2 = -5",
+    "reference_latex": "4 x - 2 = -5",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000237.png",
+    "predicted_latex": "\\sqrt{\\frac{x}{6}} = -6",
+    "reference_latex": "\\sqrt{\\frac{x}{6}} = -6",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000238.png",
+    "predicted_latex": "\\sqrt{\\frac{x}{6}} = -6",
+    "reference_latex": "\\sqrt{\\frac{x}{6}} = -6",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000239.png",
+    "predicted_latex": "\\sqrt{\\frac{x}{6}} = -6",
+    "reference_latex": "\\sqrt{\\frac{x}{6}} = -6",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000240.png",
+    "predicted_latex": "\\sqrt{\\frac{x}{6}} = -6",
+    "reference_latex": "\\sqrt{\\frac{x}{6}} = -6",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000241.png",
+    "predicted_latex": "\\frac{y + 8}{8} = 2",
+    "reference_latex": "\\frac{y + 8}{8} = 2",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000242.png",
+    "predicted_latex": "4 b - 5 = -1",
+    "reference_latex": "4 b - 5 = -1",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000243.png",
+    "predicted_latex": "y_{n} = 9",
+    "reference_latex": "y_{n} = 9",
+    "exact_equation_correct": true,
+    "symbol_tp": 4,
+    "predicted_symbols": 4,
+    "actual_symbols": 4,
+    "warnings": []
+  },
+  {
+    "file": "000244.png",
+    "predicted_latex": "\\sqrt{z + 12} = 6",
+    "reference_latex": "\\sqrt{z + 12} = 6",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000245.png",
+    "predicted_latex": "12 \\times 7 = 7",
+    "reference_latex": "12 \\times 7 = 7",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000246.png",
+    "predicted_latex": "\\frac{z + 14}{9} = -9",
+    "reference_latex": "\\frac{z + 14}{9} = -9",
+    "exact_equation_correct": true,
+    "symbol_tp": 9,
+    "predicted_symbols": 9,
+    "actual_symbols": 9,
+    "warnings": []
+  },
+  {
+    "file": "000247.png",
+    "predicted_latex": "y_{4} = -5",
+    "reference_latex": "y_{4} = -5",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000248.png",
+    "predicted_latex": "\\frac{x + 13}{7} = 7",
+    "reference_latex": "\\frac{x + 13}{7} = 7",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000249.png",
+    "predicted_latex": "z_{n}^{3} = 3",
+    "reference_latex": "z_{n}^{3} = 3",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000250.png",
+    "predicted_latex": "\\sqrt{a + 16} = -5",
+    "reference_latex": "\\sqrt{a + 16} = -5",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000251.png",
+    "predicted_latex": "\\sqrt{a + 10} = 8",
+    "reference_latex": "\\sqrt{a + 10} = 8",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000252.png",
+    "predicted_latex": "\\frac{b + 2}{6} = -6",
+    "reference_latex": "\\frac{b + 2}{6} = -6",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000253.png",
+    "predicted_latex": "\\sqrt{x + 8} = 4",
+    "reference_latex": "\\sqrt{x + 8} = 4",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000254.png",
+    "predicted_latex": "\\sqrt{\\frac{x}{2}} = -9",
+    "reference_latex": "\\sqrt{\\frac{x}{2}} = -9",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000255.png",
+    "predicted_latex": "b_{5} = -8",
+    "reference_latex": "b_{5} = -8",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000256.png",
+    "predicted_latex": "a_{j} = -7",
+    "reference_latex": "a_{j} = -7",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000257.png",
+    "predicted_latex": "a_{i} = 9",
+    "reference_latex": "a_{i} = 9",
+    "exact_equation_correct": true,
+    "symbol_tp": 4,
+    "predicted_symbols": 4,
+    "actual_symbols": 4,
+    "warnings": []
+  },
+  {
+    "file": "000258.png",
+    "predicted_latex": "a_{i} = 9",
+    "reference_latex": "a_{i} = 9",
+    "exact_equation_correct": true,
+    "symbol_tp": 4,
+    "predicted_symbols": 4,
+    "actual_symbols": 4,
+    "warnings": []
+  },
+  {
+    "file": "000259.png",
+    "predicted_latex": "a^{3} = -1",
+    "reference_latex": "a^{3} = -1",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000260.png",
+    "predicted_latex": "a^{3} = -1",
+    "reference_latex": "a^{3} = -1",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000261.png",
+    "predicted_latex": "z^{2} + 11 z + 5 = 5",
+    "reference_latex": "z^{2} + 11 z + 5 = 5",
+    "exact_equation_correct": true,
+    "symbol_tp": 10,
+    "predicted_symbols": 10,
+    "actual_symbols": 10,
+    "warnings": []
+  },
+  {
+    "file": "000262.png",
+    "predicted_latex": "z_{i} = -2",
+    "reference_latex": "z_{i} = -2",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000263.png",
+    "predicted_latex": "x_{i}^{3} = 5",
+    "reference_latex": "x_{i}^{3} = 5",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000264.png",
+    "predicted_latex": "y_{k}^{3} = 0",
+    "reference_latex": "y_{k}^{3} = 0",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000265.png",
+    "predicted_latex": "y_{i}^{2} = 6",
+    "reference_latex": "y_{i}^{2} = 6",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000266.png",
+    "predicted_latex": "9 x - 4 = -5",
+    "reference_latex": "9 x - 4 = -5",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000267.png",
+    "predicted_latex": "\\frac{z + 11}{8} = 9",
+    "reference_latex": "\\frac{z + 11}{8} = 9",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000268.png",
+    "predicted_latex": "\\frac{z + 14}{8} = 3",
+    "reference_latex": "\\frac{z + 14}{8} = 3",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000269.png",
+    "predicted_latex": "\\sqrt{a + 13} = -4",
+    "reference_latex": "\\sqrt{a + 13} = -4",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000270.png",
+    "predicted_latex": "\\sqrt{a + 13} = -4",
+    "reference_latex": "\\sqrt{a + 13} = -4",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000271.png",
+    "predicted_latex": "\\frac{a + 3}{7} = -9",
+    "reference_latex": "\\frac{a + 3}{7} = -9",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000272.png",
+    "predicted_latex": "x_{j}^{2} = 9",
+    "reference_latex": "x_{j}^{2} = 9",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000273.png",
+    "predicted_latex": "x_{2} = -7",
+    "reference_latex": "x_{2} = -7",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000274.png",
+    "predicted_latex": "17 z - 3 = -7",
+    "reference_latex": "17 z - 3 = -7",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000275.png",
+    "predicted_latex": "\\frac{b + 4}{4} = -6",
+    "reference_latex": "\\frac{b + 4}{4} = -6",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000276.png",
+    "predicted_latex": "\\sqrt{\\frac{a}{9}} = -6",
+    "reference_latex": "\\sqrt{\\frac{a}{9}} = -6",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000277.png",
+    "predicted_latex": "\\sqrt{\\frac{a}{9}} = -6",
+    "reference_latex": "\\sqrt{\\frac{a}{9}} = -6",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000278.png",
+    "predicted_latex": "\\sqrt{b + 8} = -1",
+    "reference_latex": "\\sqrt{b + 8} = -1",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000279.png",
+    "predicted_latex": "\\sqrt{b + 8} = -1",
+    "reference_latex": "\\sqrt{b + 8} = -1",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000280.png",
+    "predicted_latex": "a_{k}^{2} = -3",
+    "reference_latex": "a_{k}^{2} = -3",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000281.png",
+    "predicted_latex": "a_{k}^{2} = -3",
+    "reference_latex": "a_{k}^{2} = -3",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000282.png",
+    "predicted_latex": "\\sqrt{\\frac{y}{8}} = 9",
+    "reference_latex": "\\sqrt{\\frac{y}{8}} = 9",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000283.png",
+    "predicted_latex": "\\sqrt{\\frac{y}{8}} = 9",
+    "reference_latex": "\\sqrt{\\frac{y}{8}} = 9",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000284.png",
+    "predicted_latex": "x^{2} + 9 x + 5 = -6",
+    "reference_latex": "x^{2} + 9 x + 5 = -6",
+    "exact_equation_correct": true,
+    "symbol_tp": 10,
+    "predicted_symbols": 10,
+    "actual_symbols": 10,
+    "warnings": []
+  },
+  {
+    "file": "000285.png",
+    "predicted_latex": "b^{3} = -2",
+    "reference_latex": "b^{3} = -2",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000286.png",
+    "predicted_latex": "b^{2} + 5 b + 6 = 7",
+    "reference_latex": "b^{2} + 5 b + 6 = 7",
+    "exact_equation_correct": true,
+    "symbol_tp": 9,
+    "predicted_symbols": 9,
+    "actual_symbols": 9,
+    "warnings": []
+  },
+  {
+    "file": "000287.png",
+    "predicted_latex": "\\sqrt{y + 17} = 2",
+    "reference_latex": "\\sqrt{y + 17} = 2",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000288.png",
+    "predicted_latex": "a_{i}^{2} = 8",
+    "reference_latex": "a_{i}^{2} = 8",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000289.png",
+    "predicted_latex": "x_{n}^{3} = 7",
+    "reference_latex": "x_{n}^{3} = 7",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000290.png",
+    "predicted_latex": "x_{n}^{3} = 7",
+    "reference_latex": "x_{n}^{3} = 7",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000291.png",
+    "predicted_latex": "\\sqrt{y + 7} = 8",
+    "reference_latex": "\\sqrt{y + 7} = 8",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000292.png",
+    "predicted_latex": "17 \\times 7 = 3",
+    "reference_latex": "17 \\times 7 = 3",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000293.png",
+    "predicted_latex": "z_{j} = -6",
+    "reference_latex": "z_{j} = -6",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000294.png",
+    "predicted_latex": "\\sqrt{z + 3} = -9",
+    "reference_latex": "\\sqrt{z + 3} = -9",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000295.png",
+    "predicted_latex": "\\sqrt{z + 15} = -5",
+    "reference_latex": "\\sqrt{z + 15} = -5",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000296.png",
+    "predicted_latex": "\\sqrt{z + 15} = -5",
+    "reference_latex": "\\sqrt{z + 15} = -5",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000297.png",
+    "predicted_latex": "\\sqrt{y + 15} = 7",
+    "reference_latex": "\\sqrt{y + 15} = 7",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000298.png",
+    "predicted_latex": "\\sqrt{y + 15} = 7",
+    "reference_latex": "\\sqrt{y + 15} = 7",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000299.png",
+    "predicted_latex": "x_{n} = 3",
+    "reference_latex": "x_{n} = 3",
+    "exact_equation_correct": true,
+    "symbol_tp": 4,
+    "predicted_symbols": 4,
+    "actual_symbols": 4,
+    "warnings": []
+  },
+  {
+    "file": "000300.png",
+    "predicted_latex": "x_{n} = 3",
+    "reference_latex": "x_{n} = 3",
+    "exact_equation_correct": true,
+    "symbol_tp": 4,
+    "predicted_symbols": 4,
+    "actual_symbols": 4,
+    "warnings": []
+  },
+  {
+    "file": "000301.png",
+    "predicted_latex": "x_{n} = 3",
+    "reference_latex": "x_{n} = 3",
+    "exact_equation_correct": true,
+    "symbol_tp": 4,
+    "predicted_symbols": 4,
+    "actual_symbols": 4,
+    "warnings": []
+  },
+  {
+    "file": "000302.png",
+    "predicted_latex": "\\sqrt{\\frac{a}{8}} = -1",
+    "reference_latex": "\\sqrt{\\frac{a}{8}} = -1",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000303.png",
+    "predicted_latex": "17 x - 2 = 7",
+    "reference_latex": "17 x - 2 = 7",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000304.png",
+    "predicted_latex": "\\sqrt{\\frac{z}{8}} = 3",
+    "reference_latex": "\\sqrt{\\frac{z}{8}} = 3",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000305.png",
+    "predicted_latex": "\\sqrt{\\frac{z}{8}} = 3",
+    "reference_latex": "\\sqrt{\\frac{z}{8}} = 3",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000306.png",
+    "predicted_latex": "\\frac{a + 4}{4} = -7",
+    "reference_latex": "\\frac{a + 4}{4} = -7",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000307.png",
+    "predicted_latex": "\\sqrt{\\frac{y}{4}} = -7",
+    "reference_latex": "\\sqrt{\\frac{y}{4}} = -7",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000308.png",
+    "predicted_latex": "\\sqrt{\\frac{y}{4}} = -7",
+    "reference_latex": "\\sqrt{\\frac{y}{4}} = -7",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000309.png",
+    "predicted_latex": "x_{n} = 1",
+    "reference_latex": "x_{n} = 1",
+    "exact_equation_correct": true,
+    "symbol_tp": 4,
+    "predicted_symbols": 4,
+    "actual_symbols": 4,
+    "warnings": []
+  },
+  {
+    "file": "000310.png",
+    "predicted_latex": "\\frac{b + 9}{7} = 5",
+    "reference_latex": "\\frac{b + 9}{7} = 5",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000311.png",
+    "predicted_latex": "\\sqrt{\\frac{a}{2}} = 2",
+    "reference_latex": "\\sqrt{\\frac{a}{2}} = 2",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000312.png",
+    "predicted_latex": "\\sqrt{\\frac{a}{2}} = 2",
+    "reference_latex": "\\sqrt{\\frac{a}{2}} = 2",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000313.png",
+    "predicted_latex": "\\sqrt{\\frac{a}{2}} = 2",
+    "reference_latex": "\\sqrt{\\frac{a}{2}} = 2",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000314.png",
+    "predicted_latex": "\\sqrt{\\frac{a}{2}} = 2",
+    "reference_latex": "\\sqrt{\\frac{a}{2}} = 2",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000315.png",
+    "predicted_latex": "\\sqrt{b + 5} = 4",
+    "reference_latex": "\\sqrt{b + 5} = 4",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000316.png",
+    "predicted_latex": "\\frac{z + 10}{4} = 1",
+    "reference_latex": "\\frac{z + 10}{4} = 1",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000317.png",
+    "predicted_latex": "b^{3} = -4",
+    "reference_latex": "b^{3} = -4",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000318.png",
+    "predicted_latex": "b^{3} = -4",
+    "reference_latex": "b^{3} = -4",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000319.png",
+    "predicted_latex": "b^{3} = -4",
+    "reference_latex": "b^{3} = -4",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000320.png",
+    "predicted_latex": "a_{n} = 4",
+    "reference_latex": "a_{n} = 4",
+    "exact_equation_correct": true,
+    "symbol_tp": 4,
+    "predicted_symbols": 4,
+    "actual_symbols": 4,
+    "warnings": []
+  },
+  {
+    "file": "000321.png",
+    "predicted_latex": "a_{9} = -4",
+    "reference_latex": "a_{9} = -4",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000322.png",
+    "predicted_latex": "\\frac{y + 10}{7} = 6",
+    "reference_latex": "\\frac{y + 10}{7} = 6",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000323.png",
+    "predicted_latex": "a_{n}^{2} = 7",
+    "reference_latex": "a_{n}^{2} = 7",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000324.png",
+    "predicted_latex": "b_{j} = 1",
+    "reference_latex": "b_{j} = 1",
+    "exact_equation_correct": true,
+    "symbol_tp": 4,
+    "predicted_symbols": 4,
+    "actual_symbols": 4,
+    "warnings": []
+  },
+  {
+    "file": "000325.png",
+    "predicted_latex": "b_{j} = 1",
+    "reference_latex": "b_{j} = 1",
+    "exact_equation_correct": true,
+    "symbol_tp": 4,
+    "predicted_symbols": 4,
+    "actual_symbols": 4,
+    "warnings": []
+  },
+  {
+    "file": "000326.png",
+    "predicted_latex": "b_{j} = 1",
+    "reference_latex": "b_{j} = 1",
+    "exact_equation_correct": true,
+    "symbol_tp": 4,
+    "predicted_symbols": 4,
+    "actual_symbols": 4,
+    "warnings": []
+  },
+  {
+    "file": "000327.png",
+    "predicted_latex": "\\sqrt{\\frac{a}{5}} = 1",
+    "reference_latex": "\\sqrt{\\frac{a}{5}} = 1",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000328.png",
+    "predicted_latex": "y^{3} = -1",
+    "reference_latex": "y^{3} = -1",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000329.png",
+    "predicted_latex": "\\sqrt{a + 11} = 0",
+    "reference_latex": "\\sqrt{a + 11} = 0",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000330.png",
+    "predicted_latex": "11 a - 4 = -6",
+    "reference_latex": "11 a - 4 = -6",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000331.png",
+    "predicted_latex": "\\frac{b + 7}{4} = -5",
+    "reference_latex": "\\frac{b + 7}{4} = -5",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000332.png",
+    "predicted_latex": "\\frac{z + 5}{2} = 2",
+    "reference_latex": "\\frac{z + 5}{2} = 2",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000333.png",
+    "predicted_latex": "y_{7} = -3",
+    "reference_latex": "y_{7} = -3",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000334.png",
+    "predicted_latex": "\\sqrt{y + 6} = 8",
+    "reference_latex": "\\sqrt{y + 6} = 8",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000335.png",
+    "predicted_latex": "17 x - 2 = 6",
+    "reference_latex": "17 x - 2 = 6",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000336.png",
+    "predicted_latex": "z_{8} = 9",
+    "reference_latex": "z_{8} = 9",
+    "exact_equation_correct": true,
+    "symbol_tp": 4,
+    "predicted_symbols": 4,
+    "actual_symbols": 4,
+    "warnings": []
+  },
+  {
+    "file": "000337.png",
+    "predicted_latex": "a_{n}^{3} = -4",
+    "reference_latex": "a_{n}^{3} = -4",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000338.png",
+    "predicted_latex": "a_{n}^{3} = -4",
+    "reference_latex": "a_{n}^{3} = -4",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000339.png",
+    "predicted_latex": "a_{n}^{3} = -4",
+    "reference_latex": "a_{n}^{3} = -4",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000340.png",
+    "predicted_latex": "4 \\times 3 = 3",
+    "reference_latex": "4 \\times 3 = 3",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000341.png",
+    "predicted_latex": "\\sqrt{z + 14} = -4",
+    "reference_latex": "\\sqrt{z + 14} = -4",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000342.png",
+    "predicted_latex": "\\sqrt{y + 18} = 1",
+    "reference_latex": "\\sqrt{y + 18} = 1",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000343.png",
+    "predicted_latex": "\\frac{y + 12}{8} = 7",
+    "reference_latex": "\\frac{y + 12}{8} = 7",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000344.png",
+    "predicted_latex": "\\frac{b + 2}{8} = -7",
+    "reference_latex": "\\frac{b + 2}{8} = -7",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000345.png",
+    "predicted_latex": "\\frac{b + 6}{5} = 0",
+    "reference_latex": "\\frac{b + 6}{5} = 0",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000346.png",
+    "predicted_latex": "z_{i} = 7",
+    "reference_latex": "z_{i} = 7",
+    "exact_equation_correct": true,
+    "symbol_tp": 4,
+    "predicted_symbols": 4,
+    "actual_symbols": 4,
+    "warnings": []
+  },
+  {
+    "file": "000347.png",
+    "predicted_latex": "z_{i} = 7",
+    "reference_latex": "z_{i} = 7",
+    "exact_equation_correct": true,
+    "symbol_tp": 4,
+    "predicted_symbols": 4,
+    "actual_symbols": 4,
+    "warnings": []
+  },
+  {
+    "file": "000348.png",
+    "predicted_latex": "\\sqrt{y + 18} = -3",
+    "reference_latex": "\\sqrt{y + 18} = -3",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000349.png",
+    "predicted_latex": "\\sqrt{a + 16} = 7",
+    "reference_latex": "\\sqrt{a + 16} = 7",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000350.png",
+    "predicted_latex": "13 z - 8 = 8",
+    "reference_latex": "13 z - 8 = 8",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000351.png",
+    "predicted_latex": "\\sqrt{\\frac{x}{7}} = -7",
+    "reference_latex": "\\sqrt{\\frac{x}{7}} = -7",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000352.png",
+    "predicted_latex": "z_{k}^{3} = 5",
+    "reference_latex": "z_{k}^{3} = 5",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000353.png",
+    "predicted_latex": "\\frac{b + 9}{4} = -8",
+    "reference_latex": "\\frac{b + 9}{4} = -8",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000354.png",
+    "predicted_latex": "\\frac{x + 11}{4} = 2",
+    "reference_latex": "\\frac{x + 11}{4} = 2",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000355.png",
+    "predicted_latex": "a_{i} = -1",
+    "reference_latex": "a_{i} = -1",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000356.png",
+    "predicted_latex": "y^{2} + 14 y + 5 = 4",
+    "reference_latex": "y^{2} + 14 y + 5 = 4",
+    "exact_equation_correct": true,
+    "symbol_tp": 10,
+    "predicted_symbols": 10,
+    "actual_symbols": 10,
+    "warnings": []
+  },
+  {
+    "file": "000357.png",
+    "predicted_latex": "\\sqrt{b + 4} = 1",
+    "reference_latex": "\\sqrt{b + 4} = 1",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000358.png",
+    "predicted_latex": "\\sqrt{\\frac{b}{7}} = -6",
+    "reference_latex": "\\sqrt{\\frac{b}{7}} = -6",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000359.png",
+    "predicted_latex": "15 a - 4 = -8",
+    "reference_latex": "15 a - 4 = -8",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000360.png",
+    "predicted_latex": "z_{2} = -7",
+    "reference_latex": "z_{2} = -7",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000361.png",
+    "predicted_latex": "\\sqrt{\\frac{y}{5}} = -7",
+    "reference_latex": "\\sqrt{\\frac{y}{5}} = -7",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000362.png",
+    "predicted_latex": "\\frac{z + 8}{8} = -8",
+    "reference_latex": "\\frac{z + 8}{8} = -8",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000363.png",
+    "predicted_latex": "y_{i}^{3} = 4",
+    "reference_latex": "y_{i}^{3} = 4",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000364.png",
+    "predicted_latex": "b_{n}^{2} = 1",
+    "reference_latex": "b_{n}^{2} = 1",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000365.png",
+    "predicted_latex": "\\sqrt{\\frac{a}{8}} = -4",
+    "reference_latex": "\\sqrt{\\frac{a}{8}} = -4",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000366.png",
+    "predicted_latex": "\\frac{z + 10}{8} = 3",
+    "reference_latex": "\\frac{z + 10}{8} = 3",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000367.png",
+    "predicted_latex": "6 y - 5 = 2",
+    "reference_latex": "6 y - 5 = 2",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000368.png",
+    "predicted_latex": "y_{9} = -4",
+    "reference_latex": "y_{9} = -4",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  },
+  {
+    "file": "000369.png",
+    "predicted_latex": "x^{2} + 8 x + 2 = -3",
+    "reference_latex": "x^{2} + 8 x + 2 = -3",
+    "exact_equation_correct": true,
+    "symbol_tp": 10,
+    "predicted_symbols": 10,
+    "actual_symbols": 10,
+    "warnings": []
+  },
+  {
+    "file": "000370.png",
+    "predicted_latex": "\\frac{z + 12}{9} = -5",
+    "reference_latex": "\\frac{z + 12}{9} = -5",
+    "exact_equation_correct": true,
+    "symbol_tp": 9,
+    "predicted_symbols": 9,
+    "actual_symbols": 9,
+    "warnings": []
+  },
+  {
+    "file": "000371.png",
+    "predicted_latex": "y_{k} = 5",
+    "reference_latex": "y_{k} = 5",
+    "exact_equation_correct": true,
+    "symbol_tp": 4,
+    "predicted_symbols": 4,
+    "actual_symbols": 4,
+    "warnings": []
+  },
+  {
+    "file": "000372.png",
+    "predicted_latex": "y_{k} = 5",
+    "reference_latex": "y_{k} = 5",
+    "exact_equation_correct": true,
+    "symbol_tp": 4,
+    "predicted_symbols": 4,
+    "actual_symbols": 4,
+    "warnings": []
+  },
+  {
+    "file": "000373.png",
+    "predicted_latex": "\\frac{a + 9}{6} = -7",
+    "reference_latex": "\\frac{a + 9}{6} = -7",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000374.png",
+    "predicted_latex": "\\sqrt{a + 18} = -1",
+    "reference_latex": "\\sqrt{a + 18} = -1",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000375.png",
+    "predicted_latex": "\\sqrt{y + 10} = -2",
+    "reference_latex": "\\sqrt{y + 10} = -2",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000376.png",
+    "predicted_latex": "\\sqrt{y + 10} = -2",
+    "reference_latex": "\\sqrt{y + 10} = -2",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000377.png",
+    "predicted_latex": "\\sqrt{\\frac{z}{4}} = 3",
+    "reference_latex": "\\sqrt{\\frac{z}{4}} = 3",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000378.png",
+    "predicted_latex": "\\sqrt{\\frac{z}{4}} = 3",
+    "reference_latex": "\\sqrt{\\frac{z}{4}} = 3",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000379.png",
+    "predicted_latex": "\\sqrt{x + 4} = -5",
+    "reference_latex": "\\sqrt{x + 4} = -5",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000380.png",
+    "predicted_latex": "y^{3} = -3",
+    "reference_latex": "y^{3} = -3",
+    "exact_equation_correct": true,
+    "symbol_tp": 5,
+    "predicted_symbols": 5,
+    "actual_symbols": 5,
+    "warnings": []
+  }
+]

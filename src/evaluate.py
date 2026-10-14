@@ -9,7 +9,7 @@ from PIL import Image
 
 from .model import load_symbol_predictor, predict_symbol_image
 from .layout import _iou
-from .data import SYMBOLS, validate_export, write_json
+from .data import validate_export, write_json
 
 
 def match_symbols(predictions, truth, threshold=.5):
@@ -30,20 +30,24 @@ def normalized_latex(text):
 
 def evaluate(data, checkpoint, out='outputs/rfdetr_evaluation', split='test', limit=None, threshold=.5, device='cpu'):
     data, out = Path(data), Path(out)
-    validate_export(data)
+    dataset_report = validate_export(data)
+    classes = dataset_report['classes']
     coco = json.loads((data / split / '_annotations.coco.json').read_text(encoding='utf-8'))
     refs = {r['image_id']: r for r in json.loads((data / split / 'references.json').read_text(encoding='utf-8'))}
     annotations = {}
     for annotation in coco['annotations']:
         x, y, w, h = annotation['bbox']
         annotations.setdefault(annotation['image_id'], []).append(
-            {'text': SYMBOLS[annotation['category_id']], 'bbox': [x, y, x + w, y + h]})
+            {'text': classes[annotation['category_id']], 'bbox': [x, y, x + w, y + h]})
     images = coco['images'][:limit] if limit else coco['images']
     predictor = load_symbol_predictor(checkpoint, device)
+    if predictor.metadata['classes'] != classes:
+        raise ValueError('Checkpoint and evaluation dataset have different symbol classes')
     totals, records = Counter(), []
     for entry in images:
         with Image.open(data / split / entry['file_name']) as im:
             result, _ = predict_symbol_image(im.convert('RGB'), predictor, threshold,
+                                             max_symbols=predictor.metadata.get('max_symbols', 24),
                                              image_name=entry['file_name'], prepared_image=True)
         predictions, truth = result['raw_symbols'], annotations[entry['id']]
         pairs = match_symbols(predictions, truth)

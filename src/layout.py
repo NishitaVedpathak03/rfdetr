@@ -19,10 +19,21 @@ def _iou(a, b):
     return inter / max(1e-9, aa + bb - inter)
 
 
-def clean_symbols(symbols, max_symbols=24):
+def _nested_roots(first, second):
+    """Distinct enclosing radical spans are not duplicate symbol boxes."""
+    if first['text'] != '√' or second['text'] != '√':
+        return False
+    outer, inner = sorted((first['bbox'], second['bbox']),
+                          key=lambda b: (b[2] - b[0]) * (b[3] - b[1]), reverse=True)
+    height = inner[3] - inner[1]
+    return (inner[0] - outer[0] >= .1 * height and inner[1] - outer[1] >= .03 * height and
+            inner[2] <= outer[2] and inner[3] <= outer[3])
+
+
+def clean_symbols(symbols, max_symbols=24, classes=None):
     warnings, candidates = [], []
     for index, raw in enumerate(symbols):
-        text = canonical_symbol(raw['text'])
+        text = canonical_symbol(raw['text']) if classes is None else canonical_symbol(raw['text'], classes)
         box = list(map(float, raw['bbox']))
         confidence = float(raw.get('confidence', 1.))
         if len(box) != 4 or not all(math.isfinite(v) for v in [*box, confidence]) or not (box[0] < box[2] and box[1] < box[3] and 0 <= confidence <= 1):
@@ -31,7 +42,8 @@ def clean_symbols(symbols, max_symbols=24):
     candidates.sort(key=lambda n: (-n['confidence'], n['detection_index']))
     kept = []
     for candidate in candidates:
-        overlap = next((n for n in kept if _iou(n['bbox'], candidate['bbox']) >= .6), None)
+        overlap = next((n for n in kept if _iou(n['bbox'], candidate['bbox']) >= .6
+                        and not _nested_roots(n, candidate)), None)
         if overlap:
             if overlap['text'] != candidate['text'] and overlap['confidence'] - candidate['confidence'] < .15:
                 warnings.append('Overlapping symbol predictions disagree without a clear confidence margin.')
@@ -48,7 +60,7 @@ def _envelope(children):
 
 
 def _leaf(symbol):
-    return {'kind': 'symbol' if symbol['text'] in '+-=×' else 'leaf', 'text': symbol['text'],
+    return {'kind': 'symbol' if symbol['text'] in '+-=×√' else 'leaf', 'text': symbol['text'],
             'bbox': symbol['bbox'], 'confidence': symbol['confidence'], 'children': [],
             'detection_index': symbol['detection_index']}
 
@@ -194,6 +206,16 @@ def _latex(ast, parent_precedence=0):
         return ''.join(_latex(c) for c in children)
     if kind == 'power':
         return _latex(children[0], 4) + '^{' + _latex(children[1]) + '}'
+    if kind == 'subscript':
+        return _latex(children[0], 4) + '_{' + _latex(children[1]) + '}'
+    if kind == 'scripts':
+        suffix = ''.join(('_' if role == 'subscript' else '^') + '{' + _latex(child) + '}'
+                         for role, child in zip(ast['script_roles'][1:], children[1:]))
+        return _latex(children[0], 4) + suffix
+    if kind == 'fraction':
+        return r'\frac{' + _latex(children[0]) + '}{' + _latex(children[2]) + '}'
+    if kind == 'sqrt':
+        return r'\sqrt{' + _latex(children[1]) + '}'
     if kind == 'unary':
         return ast['text'] + _latex(children[1], 3)
     if kind == 'product':
@@ -219,6 +241,14 @@ def _nodes(ast):
             child_role = 'operator' if child['kind'] == 'symbol' else 'group'
             if item['kind'] == 'power':
                 child_role = 'base' if index == 0 else 'superscript'
+            elif item['kind'] == 'subscript':
+                child_role = 'base' if index == 0 else 'subscript'
+            elif item['kind'] == 'scripts':
+                child_role = item['script_roles'][index]
+            elif item['kind'] == 'fraction':
+                child_role = ('numerator', 'operator', 'denominator')[index]
+            elif item['kind'] == 'sqrt':
+                child_role = 'root' if index == 0 else 'radicand'
             child_id = visit(child, node_id, child_role)
             node['children'].append(child_id)
         return node_id
@@ -227,7 +257,7 @@ def _nodes(ast):
     return nodes
 
 
-def parse_small_equation(symbols, max_symbols=24):
+def parse_small_equation(symbols, max_symbols=24, extended=False):
     """Return a labelled spatial reconstruction or an explicit rejected result."""
     empty = {'nodes': [], 'root_id': None, 'latex': '',
              'latex_metadata': {'status': 'empty', 'verified': False, 'warnings': [],
@@ -237,11 +267,16 @@ def parse_small_equation(symbols, max_symbols=24):
     if not symbols:
         return empty
     try:
-        cleaned, warnings = clean_symbols(symbols, max_symbols)
+        from .profiles import EXTENDED_SYMBOLS
+        cleaned, warnings = clean_symbols(symbols, max_symbols, EXTENDED_SYMBOLS if extended else None)
         if warnings:
             raise LayoutError(' '.join(warnings))
-        main, powers, height = _layout(cleaned)
-        ast = _Parser(main, powers, height).equation()
+        if extended:
+            from .structures import parse_structures
+            ast = parse_structures(cleaned)
+        else:
+            main, powers, height = _layout(cleaned)
+            ast = _Parser(main, powers, height).equation()
         nodes = _nodes(ast)
         terminals = [n for n in nodes if n['terminal']]
         if len(terminals) != len(cleaned) or len({n['detection_index'] for n in terminals}) != len(cleaned):

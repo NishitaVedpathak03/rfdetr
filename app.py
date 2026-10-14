@@ -12,6 +12,7 @@ from ui.images import render_overlay, uploaded_image
 
 PROJECT = Path(__file__).resolve().parent
 RFDETR_CHECKPOINT = PROJECT / 'checkpoints/rfdetr_small/checkpoint_best_total.pth'
+EXTENDED_CHECKPOINT = PROJECT / 'checkpoints/rfdetr_extended/checkpoint_best_total.pth'
 st.set_page_config(page_title='Equation OCR', layout='wide')
 st.markdown('''<style>
 .block-container {max-width: 1150px; padding-top: 2rem; padding-bottom: 2rem;}
@@ -152,7 +153,12 @@ def main():
         digest = hashlib.sha256(data).hexdigest()
         if st.session_state.get('upload_digest') != digest:
             st.session_state.upload_digest = digest
-        checkpoint_path = RFDETR_CHECKPOINT
+        with st.expander('Advanced structures', expanded=False):
+            extended_layout = st.checkbox('Fractions, square roots and subscripts', value=False,
+                                          key='extended_layout')
+            if extended_layout and not EXTENDED_CHECKPOINT.is_file():
+                st.caption('Using the current detector with extended spatial rules. A new trained checkpoint is needed for √ and i/j/k/n.')
+        checkpoint_path = EXTENDED_CHECKPOINT if extended_layout and EXTENDED_CHECKPOINT.is_file() else RFDETR_CHECKPOINT
         if not checkpoint_path.is_file():
             st.error(f'Model checkpoint not found: {checkpoint_path}')
             return
@@ -163,9 +169,11 @@ def main():
                  (PROJECT / 'src/data.py').stat().st_mtime_ns,
                  (PROJECT / 'src/model.py').stat().st_mtime_ns,
                  (PROJECT / 'src/layout.py').stat().st_mtime_ns,
+                 (PROJECT / 'src/structures.py').stat().st_mtime_ns,
+                 (PROJECT / 'src/profiles.py').stat().st_mtime_ns,
                  ((checkpoint_path.parent / 'symbol_pipeline.json').stat().st_mtime_ns
                   if checkpoint_path.suffix == '.pth' and (checkpoint_path.parent / 'symbol_pipeline.json').is_file() else None))
-        identity = (hashlib.sha256(data).hexdigest(), str(checkpoint_path), stamp)
+        identity = (hashlib.sha256(data).hexdigest(), str(checkpoint_path), stamp, extended_layout)
         if st.session_state.get('image_identity') != identity:
             st.session_state.pop('prediction_sample', None)
             st.session_state.playing = False
@@ -173,7 +181,7 @@ def main():
                 from ui.inference import analyze_image
                 predictor = cached_predictor(str(checkpoint_path), stamp)
                 name = Path(getattr(upload, 'name', 'uploaded_equation')).stem
-                sample = analyze_image(image, predictor, name)
+                sample = analyze_image(image, predictor, name, extended_layout=extended_layout)
             st.session_state.prediction_sample = sample
             st.session_state.image_identity = identity
             set_step(0, sample)

@@ -11,10 +11,11 @@ def load_predictor(checkpoint_path):
     return load_symbol_predictor(checkpoint_path, 'cpu')
 
 
-def analyze_image(image, predictor, name, threshold=.25, max_nodes=400):
+def analyze_image(image, predictor, name, threshold=.25, max_nodes=400, extended_layout=None):
     result, colored = predict_symbol_image(image, predictor,
         threshold=predictor.metadata.get('inference_threshold', .5),
-        max_symbols=predictor.metadata.get('max_symbols', 24), image_name=name)
+        max_symbols=predictor.metadata.get('max_symbols', 24), image_name=name,
+        extended_layout=extended_layout)
     nodes = normalize_nodes(result['nodes'], image.size)
     raw_steps = {'schema_version': 1, 'root_id': result['root_id'], 'steps': recursive_steps(nodes)}
     return {'name': name, 'original': image, 'colored': colored, 'nodes': nodes,

@@ -10,11 +10,13 @@ from .data import composite_rgb, write_json
 
 
 def predict(image_path, checkpoint='checkpoints/rfdetr_small/checkpoint_best_total.pth',
-            out='outputs/rfdetr_prediction', threshold=.5, device='cpu'):
+            out='outputs/rfdetr_prediction', threshold=.5, device='cpu', extended_layout=None):
     predictor = load_symbol_predictor(checkpoint, device)
     with Image.open(image_path) as image:
         original = composite_rgb(image)
-    result, colored = predict_symbol_image(original, predictor, threshold, image_name=str(image_path))
+    result, colored = predict_symbol_image(original, predictor, threshold,
+        max_symbols=predictor.metadata.get('max_symbols', 24), image_name=str(image_path),
+        extended_layout=extended_layout)
     from .visualize import hierarchy_overlay, recursive_steps
     folder = Path(out)
     folder.mkdir(parents=True, exist_ok=True)
@@ -37,5 +39,7 @@ if __name__ == '__main__':
     parser.add_argument('--out', default='outputs/rfdetr_prediction')
     parser.add_argument('--threshold', type=float, default=.5)
     parser.add_argument('--device', default='cpu')
+    parser.add_argument('--extended-layout', action='store_true', default=None,
+                        help='Opt into fraction/root/subscript grouping; new glyphs still need trained weights')
     args = parser.parse_args()
-    predict(args.image, args.checkpoint, args.out, args.threshold, args.device)
+    predict(args.image, args.checkpoint, args.out, args.threshold, args.device, args.extended_layout)

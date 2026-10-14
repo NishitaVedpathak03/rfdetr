@@ -2,7 +2,8 @@
 
 RF-DETR Nano detects individual symbols. Spatial rules reconstruct the equation
 hierarchy and LaTeX. This repository contains the current pipeline, its trained
-best checkpoint, a simple Streamlit UI and the 2,000-image symbol dataset.
+best checkpoints, a simple Streamlit UI, the 2,000-image basic dataset and the
+4,000-image extended dataset.
 
 ## Code guide
 
@@ -12,6 +13,9 @@ best checkpoint, a simple Streamlit UI and the 2,000-image symbol dataset.
 | `src/model.py` | Loads the trained RF-DETR model and detects symbols in an image. |
 | `src/data.py` | Prepares images, transforms boxes and reads/writes the COCO dataset. |
 | `src/layout.py` | Groups detected symbols into an equation hierarchy and produces LaTeX. |
+| `src/structures.py` | Optional fraction, root and subscript grouping; reuses the same operator parser. |
+| `src/profiles.py` | Keeps the original and extended vocabularies/settings separate. |
+| `src/render.py` | Draws composable fractions, roots and scripts with exact symbol boxes. |
 | `src/train.py` | Previews settings or starts an explicitly requested training run. |
 | `src/predict.py` | Runs terminal prediction and saves its results. |
 | `src/evaluate.py` | Scores symbol detection and complete-equation accuracy. |
@@ -123,3 +127,66 @@ saved terminal predictions in `outputs/rfdetr_prediction/`. Their input image
 is recorded in `predicted_structure.json`; these saved results are independent
 of the current `image.png` test input. The current `image.png` contains a
 fraction, which is outside this model's supported first-stage scope.
+
+## Trained extended model
+
+The original 19-class checkpoint, default commands, 2,000-image dataset and
+simple-equation parser remain the default. New structure handling is opt-in:
+stacked fractions, square roots with a detected radical/overbar box, digit or
+letter subscripts, and combined subscripts/integer superscripts. Structural
+nesting is bounded to four levels; parentheses, functions and arbitrary
+multiline equations are still outside the scope.
+
+`src/structures.py` first groups fraction bars and radical spans, then attaches
+small raised/lowered symbols, then reuses the existing arithmetic parser.
+Hierarchy/LaTeX serialization and visualization are shared with the original
+pipeline. Every detected glyph must be used exactly once; missing or ambiguous
+structures return a rejected result rather than a fabricated equation.
+
+The UI has a collapsed **Advanced structures** option. Enable **Fractions,
+square roots and subscripts** to select the trained extended checkpoint at
+`checkpoints/rfdetr_extended/checkpoint_best_total.pth`. Its 24-class profile
+appends `√`, `i`, `j`, `k` and `n` without reordering the original 19 IDs.
+Keep `symbol_pipeline.json` alongside the weights. Both checkpoints use Git LFS.
+
+Training completed all 30 epochs; the selected EMA checkpoint is from epoch 30,
+with validation mAP@0.50:0.95 of **0.9813**. On all **381 held-out synthetic
+test images**, symbol precision, recall and F1, exact equation accuracy and
+layout validity were **1.0**. Full test results are in
+`checkpoints/rfdetr_extended/equation_evaluation/`.
+
+The included `dataset_extended/` contains 3,217 training images, 402 validation
+images and 381 test images. Generated-font performance does not establish
+real-image accuracy: the local `image.png` test was parsed as
+`\frac{a + 3}{2} = 7`, while its actual numerator is `x + 3`.
+`outputs/extended_prediction/` preserves this incorrect prediction for review.
+The fraction structure was recognized, but the symbol `x` was misclassified.
+
+Run the extended model in the terminal:
+
+```powershell
+python -m src.predict --image path/to/equation.png --checkpoint checkpoints/rfdetr_extended/checkpoint_best_total.pth --out outputs/extended_prediction --device cpu
+```
+
+Preview the extended training settings without constructing a model or starting
+training:
+
+```powershell
+python -m src.train --config configs/extended.json
+```
+
+For a new dataset, use a separate directory; the generator refuses to overwrite
+existing data:
+
+```powershell
+python prepare_data.py --out dataset_extended --validate-only
+python generate_data.py --profile extended --out dataset_extended_new --count 4000
+python prepare_kaggle.py --prepare --config configs/extended.json --data dataset_extended_new
+```
+
+These commands validate/generate/package data only; they do not upload or train.
+The completed extended run is on Kaggle under
+`nishitavedpathak03/equation-ocr-rfdetr-requirements-rfdetr-txt` because an earlier
+packaging bug used a source filename for the notebook name. The bug is fixed for
+future packages, which use `equation-ocr-rfdetr-extended`; the completed run has
+not been renamed or restarted.

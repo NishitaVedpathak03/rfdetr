@@ -8,10 +8,11 @@ from pathlib import Path
 
 from .layout import parse_small_equation
 from .data import SYMBOLS, composite_rgb, letterbox_image, transform_box
+from .profiles import SMALL_PIPELINE, profile_for
 
 
 PACKAGE_VERSION = '1.11.2'
-PIPELINE = 'rf-detr-small-equations-v1'
+PIPELINE = SMALL_PIPELINE
 
 
 def require_backend():
@@ -39,14 +40,15 @@ def load_symbol_predictor(checkpoint_path, device='cpu'):
     if not sidecar.is_file():
         raise FileNotFoundError('Download symbol_pipeline.json together with the trained RF-DETR checkpoint.')
     metadata = json.loads(sidecar.read_text(encoding='utf-8'))
-    if metadata.get('pipeline') != PIPELINE or metadata.get('classes') != list(SYMBOLS):
-        raise ValueError('Checkpoint label metadata does not belong to the small-equation pipeline')
+    profile = profile_for(metadata.get('pipeline'))
+    if metadata.get('classes') != list(profile['classes']):
+        raise ValueError('Checkpoint label metadata does not match its equation profile')
     require_backend()
     from rfdetr import RFDETR
     # Existing local weights only; from_checkpoint restores the trained model
     # variant, resolution and class names. It never substitutes COCO weights.
     model = RFDETR.from_checkpoint(str(path), device=device)
-    if list(model.class_names or []) != list(SYMBOLS):
+    if list(model.class_names or []) != metadata['classes']:
         raise ValueError('RF-DETR class names do not match symbol_pipeline.json')
     if model.model_config.resolution != metadata['resolution']:
         raise ValueError('RF-DETR resolution does not match preprocessing metadata')
@@ -85,7 +87,8 @@ def map_detections(detections, geometry, original_size, classes=SYMBOLS):
     return symbols, padding_rejections
 
 
-def predict_symbol_image(image, predictor, threshold=.5, max_symbols=24, image_name='upload', prepared_image=False):
+def predict_symbol_image(image, predictor, threshold=.5, max_symbols=24, image_name='upload', prepared_image=False,
+                         extended_layout=None):
     if not 0 < threshold < 1 or max_symbols < 1:
         raise ValueError('Invalid inference threshold or symbol limit')
     image = composite_rgb(image)
@@ -100,8 +103,11 @@ def predict_symbol_image(image, predictor, threshold=.5, max_symbols=24, image_n
         prepared, geometry = letterbox_image(image, predictor.metadata['resolution'])
     started = time.perf_counter()
     detections = predictor.model.predict(prepared, threshold=threshold)
-    raw_symbols, padding_rejections = map_detections(detections, geometry, image.size)
-    parsed = parse_small_equation(raw_symbols, max_symbols)
+    pipeline = predictor.metadata.get('pipeline', PIPELINE)
+    profile = profile_for(pipeline)
+    extended = profile['name'] == 'extended' if extended_layout is None else extended_layout
+    raw_symbols, padding_rejections = map_detections(detections, geometry, image.size, profile['classes'])
+    parsed = parse_small_equation(raw_symbols, max_symbols, extended=extended)
     elapsed = time.perf_counter() - started
     from .visualize import colored_equation
     colored, colors = colored_equation(image, parsed['nodes'])
@@ -109,7 +115,7 @@ def predict_symbol_image(image, predictor, threshold=.5, max_symbols=24, image_n
               'coordinate_format': 'xyxy in original-image pixels; right/bottom exclusive',
               'nodes': parsed['nodes'], 'root_id': parsed['root_id'], 'raw_symbols': raw_symbols,
               'latex': parsed['latex'], 'latex_metadata': parsed['latex_metadata'],
-              'metadata': {'backend': 'rf-detr', 'pipeline': PIPELINE,
+              'metadata': {'backend': 'rf-detr', 'pipeline': pipeline,
                            'checkpoint_path': str(predictor.checkpoint_path),
                            'checkpoint_epoch': predictor.metadata.get('best_epoch'),
                            'inference_seconds': elapsed, 'threshold': threshold,
@@ -121,4 +127,11 @@ def predict_symbol_image(image, predictor, threshold=.5, max_symbols=24, image_n
                            'limitations': ['Only small single-line equations and integer superscripts are supported.',
                                            'A parsed result does not establish correct symbol recognition.',
                                            'Fractions, roots, functions, parentheses and multiline layouts are outside this stage.']}}
+    if extended:
+        result['metadata']['layout_mode'] = 'extended'
+        result['metadata']['limitations'] = [
+            'Fractions, square roots and simple subscripts use detected symbols and geometry only.',
+            'Square-root and i/j/k/n recognition require the extended trained checkpoint.',
+            'Parentheses, functions and arbitrary multiline equations are not supported.',
+            'A parsed result does not establish correct symbol recognition.']
     return result, colored

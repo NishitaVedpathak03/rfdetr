@@ -1,0 +1,208 @@
+{
+  "schema_version": 1,
+  "root_id": 0,
+  "steps": [
+    {
+      "step": 0,
+      "node_id": 0,
+      "parent_id": null,
+      "depth": 0,
+      "action": "divide_region",
+      "kind": "binary",
+      "role": "group",
+      "text": "=",
+      "bbox": [
+        205.91101109981537,
+        119.8011689521897,
+        434.5966248512268,
+        236.0087215799681
+      ],
+      "child_ids": [
+        1,
+        8,
+        9
+      ],
+      "confidence": null,
+      "color": "#666666"
+    },
+    {
+      "step": 1,
+      "node_id": 1,
+      "parent_id": 0,
+      "depth": 1,
+      "action": "divide_region",
+      "kind": "fraction",
+      "role": "group",
+      "text": null,
+      "bbox": [
+        205.91101109981537,
+        119.8011689521897,
+        331.4729495048523,
+        236.0087215799681
+      ],
+      "child_ids": [
+        2,
+        6,
+        7
+      ],
+      "confidence": null,
+      "color": "#666666"
+    },
+    {
+      "step": 2,
+      "node_id": 2,
+      "parent_id": 1,
+      "depth": 2,
+      "action": "divide_region",
+      "kind": "binary",
+      "role": "numerator",
+      "text": "+",
+      "bbox": [
+        206.98509995639324,
+        119.8011689521897,
+        330.4377455711365,
+        161.53034006038183
+      ],
+      "child_ids": [
+        3,
+        4,
+        5
+      ],
+      "confidence": null,
+      "color": "#9348BD"
+    },
+    {
+      "step": 3,
+      "node_id": 3,
+      "parent_id": 2,
+      "depth": 3,
+      "action": "mark_leaf",
+      "kind": "leaf",
+      "role": "group",
+      "text": "a",
+      "bbox": [
+        206.98509995639324,
+        132.69811882771236,
+        236.37283313274384,
+        158.9830507090394
+      ],
+      "child_ids": [],
+      "confidence": 0.7341691851615906,
+      "color": "#666666"
+    },
+    {
+      "step": 4,
+      "node_id": 4,
+      "parent_id": 2,
+      "depth": 3,
+      "action": "mark_leaf",
+      "kind": "symbol",
+      "role": "operator",
+      "text": "+",
+      "bbox": [
+        253.61850905418396,
+        125.85273377324494,
+        290.1885299682617,
+        161.53034006038183
+      ],
+      "child_ids": [],
+      "confidence": 0.9548950791358948,
+      "color": "#E53935"
+    },
+    {
+      "step": 5,
+      "node_id": 5,
+      "parent_id": 2,
+      "depth": 3,
+      "action": "mark_leaf",
+      "kind": "leaf",
+      "role": "group",
+      "text": "3",
+      "bbox": [
+        306.430912733078,
+        119.8011689521897,
+        330.4377455711365,
+        159.32743513080436
+      ],
+      "child_ids": [],
+      "confidence": 0.9568636417388916,
+      "color": "#666666"
+    },
+    {
+      "step": 6,
+      "node_id": 6,
+      "parent_id": 1,
+      "depth": 2,
+      "action": "mark_leaf",
+      "kind": "symbol",
+      "role": "operator",
+      "text": "-",
+      "bbox": [
+        205.91101109981537,
+        181.3415759449274,
+        331.4729495048523,
+        183.9905919894366
+      ],
+      "child_ids": [],
+      "confidence": 0.9418290853500366,
+      "color": "#E53935"
+    },
+    {
+      "step": 7,
+      "node_id": 7,
+      "parent_id": 1,
+      "depth": 2,
+      "action": "mark_leaf",
+      "kind": "leaf",
+      "role": "denominator",
+      "text": "2",
+      "bbox": [
+        257.71442890167236,
+        198.08491408657022,
+        280.6455178260803,
+        236.0087215799681
+      ],
+      "child_ids": [],
+      "confidence": 0.9652954936027527,
+      "color": "#159EAD"
+    },
+    {
+      "step": 8,
+      "node_id": 8,
+      "parent_id": 0,
+      "depth": 1,
+      "action": "mark_leaf",
+      "kind": "symbol",
+      "role": "operator",
+      "text": "=",
+      "bbox": [
+        352.6829743385315,
+        176.512348658602,
+        389.78019523620605,
+        188.91078207526408
+      ],
+      "child_ids": [],
+      "confidence": 0.9736415147781372,
+      "color": "#E53935"
+    },
+    {
+      "step": 9,
+      "node_id": 9,
+      "parent_id": 0,
+      "depth": 1,
+      "action": "mark_leaf",
+      "kind": "leaf",
+      "role": "group",
+      "text": "7",
+      "bbox": [
+        409.7255048751831,
+        159.24674729897941,
+        434.5966248512268,
+        197.94267423387984
+      ],
+      "child_ids": [],
+      "confidence": 0.9753848314285278,
+      "color": "#666666"
+    }
+  ]
+}

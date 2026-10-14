@@ -1,0 +1,7 @@
+{
+  "pipeline": "rf-detr-structured-equations-v2",
+  "training_finished": true,
+  "best_checkpoint": "/kaggle/working/rfdetr_extended/checkpoint_best_total.pth",
+  "scope": "Small expressions with fractions, square roots, digit/letter subscripts and integer superscripts; nesting up to four structural levels. No parentheses, functions or general multiline equations.",
+  "note": "Detection mAP selects this checkpoint. Run image-only equation evaluation before claiming OCR accuracy."
+}

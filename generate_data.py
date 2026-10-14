@@ -11,6 +11,7 @@ from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 
 from src.data import SYMBOLS, export_records
+from src.profiles import EXTENDED_SYMBOLS, EXTENDED_PIPELINE
 
 
 def installed_fonts():
@@ -114,7 +115,43 @@ def render_symbols(tokens, font_path, size=54, math_italic=None, spacing=4):
     return canvas, symbols
 
 
-def generate(out, count=2000, seed=20261013, side=512):
+def extended_example(index, rng, font, size):
+    """Simple mixed curriculum; all structure is rendered rather than inferred."""
+    from src.render import text, join, fraction, square_root, scripts
+    glyph_count = 3 * len(EXTENDED_SYMBOLS)
+    if index < glyph_count:
+        return text(EXTENDED_SYMBOLS[index % len(EXTENDED_SYMBOLS)], font, size), True
+    draw = lambda value: text(value, font, size)
+    variable = rng.choice('xyzab')
+    number, divisor = rng.randint(1, 19), rng.randint(2, 9)
+    mode = index % 6
+    if mode == 0:
+        expression = fraction(join(draw(variable), draw('+'), draw(number)), draw(divisor))
+    elif mode == 1:
+        expression = square_root(join(draw(variable), draw('+'), draw(number)))
+    elif mode == 2:
+        expression = scripts(draw(variable), font, size, sub=rng.choice(('i', 'j', 'k', 'n', str(divisor))))
+    elif mode == 3:
+        expression = scripts(draw(variable), font, size, sub=rng.choice('ijkn'), sup=rng.choice((2, 3)))
+    elif mode == 4:
+        expression = square_root(fraction(draw(variable), draw(divisor)))
+    else:
+        family = rng.randrange(4)
+        if family == 0:
+            expression = join(draw(number), draw(rng.choice('+-×')), draw(divisor))
+        elif family == 1:
+            expression = join(draw(number), draw(variable), draw('-'), draw(divisor))
+        elif family == 2:
+            expression = join(scripts(draw(variable), font, size, sup=2), draw('+'),
+                              draw(number), draw(variable), draw('+'), draw(divisor))
+        else:
+            expression = scripts(draw(variable), font, size, sup=3)
+    return join(expression, draw('='), draw(rng.randint(-9, 9))), False
+
+
+def generate(out, count=2000, seed=20261013, side=512, profile='small'):
+    if profile not in {'small', 'extended'}:
+        raise ValueError('Profile must be small or extended')
     if count < 100:
         raise ValueError('At least 100 images are needed for calibration and disjoint equation splits')
     if Path(out).exists() and any(Path(out).iterdir()):
@@ -122,6 +159,12 @@ def generate(out, count=2000, seed=20261013, side=512):
     fonts, math_italic = installed_fonts()
     rng, records = random.Random(seed), []
     for index in range(count):
+        if profile == 'extended':
+            drawing, calibration = extended_example(index, rng, rng.choice(fonts), rng.randint(40, 64))
+            records.append({'image': drawing.image, 'symbols': drawing.symbols,
+                            'source': f'extended_{index:06d}', 'group': drawing.latex,
+                            'calibration': calibration, 'latex': drawing.latex})
+            continue
         tokens, family, latex = template(index, rng)
         font = rng.choice(fonts)
         use_math = math_italic if index % 3 == 0 else None
@@ -129,7 +172,8 @@ def generate(out, count=2000, seed=20261013, side=512):
         key = json.dumps([(t['text'], t.get('superscript_to')) for t in tokens], ensure_ascii=False)
         records.append({'image': image, 'symbols': symbols, 'source': f'generated_{index:06d}',
                         'group': key, 'calibration': family == 'glyph', 'latex': latex})
-    return export_records(records, out, side, seed)
+    return export_records(records, out, side, seed,
+                          EXTENDED_PIPELINE if profile == 'extended' else 'rf-detr-small-equations-v1')
 
 
 if __name__ == '__main__':
@@ -137,5 +181,8 @@ if __name__ == '__main__':
     parser.add_argument('--out', default='dataset_symbols_small')
     parser.add_argument('--count', type=int, default=2000)
     parser.add_argument('--seed', type=int, default=20261013)
+    parser.add_argument('--profile', choices=('small', 'extended'), default='small')
     args = parser.parse_args()
-    print(json.dumps(generate(args.out, args.count, args.seed), ensure_ascii=True, indent=2))
+    if args.profile == 'extended' and args.out == 'dataset_symbols_small':
+        parser.error('Choose a separate --out directory for extended data, such as dataset_extended')
+    print(json.dumps(generate(args.out, args.count, args.seed, profile=args.profile), ensure_ascii=True, indent=2))

@@ -4,8 +4,9 @@ import json
 import math
 from pathlib import Path
 
-from .model import PACKAGE_VERSION, PIPELINE, require_backend
-from .data import SYMBOLS, validate_export, write_json
+from .model import PACKAGE_VERSION, require_backend
+from .data import validate_export, write_json
+from .profiles import profile_for
 
 
 PROJECT = Path(__file__).resolve().parents[1]
@@ -17,7 +18,8 @@ TRAIN_FIELDS = ('epochs', 'batch_size', 'grad_accum_steps', 'lr', 'lr_encoder', 
 
 def read_config(path=CONFIG):
     config = json.loads(Path(path).read_text(encoding='utf-8'))
-    if config['pipeline'] != PIPELINE or config['package_version'] != PACKAGE_VERSION:
+    profile = profile_for(config['pipeline'])
+    if config['package_version'] != PACKAGE_VERSION:
         raise ValueError('Unsupported pipeline/package configuration')
     if config['variant'] not in {'nano', 'small'}:
         raise ValueError('Use nano or small for the first-stage experiment')
@@ -30,7 +32,7 @@ def read_config(path=CONFIG):
     for key in ('epochs', 'batch_size', 'grad_accum_steps', 'checkpoint_interval', 'early_stopping_patience'):
         if not isinstance(config[key], int) or config[key] < 1:
             raise ValueError(f'{key} must be a positive integer')
-    if config['num_workers'] < 0 or not 1 <= config['max_symbols'] <= 24:
+    if config['num_workers'] < 0 or not 1 <= config['max_symbols'] <= profile['max_symbols']:
         raise ValueError('Invalid worker count or first-stage symbol limit')
     if not 0 < config['inference_threshold'] < 1:
         raise ValueError('Inference threshold must lie between zero and one')
@@ -41,11 +43,12 @@ def read_config(path=CONFIG):
 
 
 def training_plan(config, data=None, output=None):
+    profile = profile_for(config['pipeline'])
     data = Path(data or PROJECT / config['dataset_dir']).resolve()
     output = Path(output or PROJECT / config['output_dir']).resolve()
     if output == data or data in output.parents or output in data.parents:
         raise ValueError('Training output and dataset must be separate directories')
-    return {'pipeline': PIPELINE, 'package_version': PACKAGE_VERSION, 'classes': list(SYMBOLS),
+    return {'pipeline': config['pipeline'], 'package_version': PACKAGE_VERSION, 'classes': list(profile['classes']),
             'variant': config['variant'], 'resolution': config['resolution'], 'scope': config['scope'],
             'dataset_dir': str(data), 'output_dir': str(output),
             'training': {key: config[key] for key in TRAIN_FIELDS},
@@ -55,7 +58,10 @@ def training_plan(config, data=None, output=None):
 
 def start_training(config, plan, device='cuda'):
     dataset_report = validate_export(plan['dataset_dir'])
-    if config['resolution'] != json.loads((Path(plan['dataset_dir']) / 'symbol_dataset.json').read_text(encoding='utf-8'))['resolution']:
+    data_metadata = json.loads((Path(plan['dataset_dir']) / 'symbol_dataset.json').read_text(encoding='utf-8'))
+    if data_metadata['pipeline'] != plan['pipeline'] or dataset_report['classes'] != plan['classes']:
+        raise ValueError('Dataset vocabulary/profile differs from the training plan')
+    if config['resolution'] != data_metadata['resolution']:
         raise ValueError('Prepared image resolution differs from training configuration')
     output = Path(plan['output_dir'])
     if output.exists() and any(output.iterdir()):
@@ -67,7 +73,7 @@ def start_training(config, plan, device='cuda'):
     from rfdetr import RFDETRNano, RFDETRSmall
     print('START TRAINING: RF-DETR will now construct the model and may download its official pretrained weights.', flush=True)
     output.mkdir(parents=True, exist_ok=True)
-    metadata = {'pipeline': PIPELINE, 'classes': list(SYMBOLS), 'resolution': config['resolution'],
+    metadata = {'pipeline': plan['pipeline'], 'classes': plan['classes'], 'resolution': config['resolution'],
                 'variant': config['variant'], 'package_version': PACKAGE_VERSION,
                 'scope': config['scope'], 'dataset_validation': dataset_report,
                 'inference_threshold': config['inference_threshold'], 'max_symbols': config['max_symbols'],
@@ -82,13 +88,13 @@ def start_training(config, plan, device='cuda'):
     write_json(output / 'requested_training_plan.json', active_plan)
     options = dict(plan['training'])
     options.update({'dataset_dir': plan['dataset_dir'], 'output_dir': str(output),
-                    'class_names': list(SYMBOLS), 'device': device,
+                    'class_names': plan['classes'], 'device': device,
                     'amp_dtype': 'fp16' if device.startswith('cuda') else None})
     model.train(**options)
     best = output / 'checkpoint_best_total.pth'
     if not best.is_file():
         raise RuntimeError('Training returned without its selected best checkpoint')
-    write_json(output / 'run_summary_symbols.json', {'pipeline': PIPELINE, 'training_finished': True,
+    write_json(output / 'run_summary_symbols.json', {'pipeline': plan['pipeline'], 'training_finished': True,
                'best_checkpoint': str(best), 'scope': config['scope'],
                'note': 'Detection mAP selects this checkpoint. Run image-only equation evaluation before claiming OCR accuracy.'})
     return best

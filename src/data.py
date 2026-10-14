@@ -10,16 +10,16 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 from PIL import Image
+from .profiles import SYMBOLS, SMALL_PIPELINE, profile_for
 
 
-SYMBOLS = tuple('0123456789xyzab+-=×')
 TERMINALS = {'leaf', 'symbol'}
 SUPPORTED_KINDS = TERMINALS | {'binary', 'power', 'product', 'number', 'unary'}
 
 
-def canonical_symbol(text):
+def canonical_symbol(text, classes=SYMBOLS):
     value = str(text or '').strip().replace('−', '-').replace('*', '×')
-    if value not in SYMBOLS:
+    if value not in classes:
         raise ValueError(f'Unsupported or combined symbol: {text!r}')
     return value
 
@@ -118,13 +118,14 @@ def partition_records(records, seed=42):
     return result
 
 
-def export_records(records, out, side=512, seed=42):
+def export_records(records, out, side=512, seed=42, pipeline=SMALL_PIPELINE):
+    classes = profile_for(pipeline)['classes']
     out = Path(out).resolve()
     if out.exists() and any(out.iterdir()):
         raise FileExistsError(f'Refusing to overwrite nonempty dataset: {out}')
     splits = partition_records(records, seed)
-    categories = [{'id': i, 'name': symbol, 'supercategory': 'math_symbol'} for i, symbol in enumerate(SYMBOLS)]
-    report = {'pipeline': 'rf-detr-small-equations-v1', 'classes': list(SYMBOLS), 'resolution': side,
+    categories = [{'id': i, 'name': symbol, 'supercategory': 'math_symbol'} for i, symbol in enumerate(classes)]
+    report = {'pipeline': pipeline, 'classes': list(classes), 'resolution': side,
               'split_seed': seed, 'split_policy': 'equation/content groups; glyph calibration in training only',
               'splits': {}, 'training_started': False}
     out.mkdir(parents=True, exist_ok=True)
@@ -148,12 +149,12 @@ def export_records(records, out, side=512, seed=42):
             filename = f'{index:06d}.png'
             annotations = []
             for glyph in record['symbols']:
-                text = canonical_symbol(glyph['text'])
+                text = canonical_symbol(glyph['text'], classes)
                 x1, y1, x2, y2 = transform_box(glyph['bbox'], geometry)
                 if not (0 <= x1 < x2 <= side + 1e-4 and 0 <= y1 < y2 <= side + 1e-4):
                     raise ValueError('Symbol extends outside the prepared image')
                 annotation = {'id': len(coco['annotations']) + len(annotations) + 1, 'image_id': index,
-                              'category_id': SYMBOLS.index(text), 'bbox': [x1, y1, x2 - x1, y2 - y1],
+                              'category_id': classes.index(text), 'bbox': [x1, y1, x2 - x1, y2 - y1],
                               'area': (x2 - x1) * (y2 - y1), 'iscrowd': 0}
                 annotations.append(annotation)
                 counts[text] += 1
@@ -168,7 +169,7 @@ def export_records(records, out, side=512, seed=42):
         write_json(folder / 'references.json', references)
         report['splits'][split] = {'images': len(examples), 'symbols': len(coco['annotations']),
                                     'class_counts': dict(counts)}
-    report['missing_training_classes'] = sorted(set(SYMBOLS) - set(report['splits']['train']['class_counts']))
+    report['missing_training_classes'] = sorted(set(classes) - set(report['splits']['train']['class_counts']))
     write_json(out / 'symbol_dataset.json', report)
     return report
 
@@ -209,14 +210,16 @@ def validate_export(data):
     """Read-only validation, including disjoint images and training vocabulary."""
     data = Path(data)
     metadata = json.loads((data / 'symbol_dataset.json').read_text(encoding='utf-8'))
-    if metadata['classes'] != list(SYMBOLS) or metadata['pipeline'] != 'rf-detr-small-equations-v1':
+    profile = profile_for(metadata['pipeline'])
+    classes = profile['classes']
+    if metadata['classes'] != list(classes):
         raise ValueError('Unsupported symbol dataset schema')
     hashes, groups, counts = {}, {}, {}
     training_classes = set()
     for split in ('train', 'valid', 'test'):
         folder = data / split
         coco = json.loads((folder / '_annotations.coco.json').read_text(encoding='utf-8'))
-        if [(c['id'], c['name']) for c in coco['categories']] != list(enumerate(SYMBOLS)):
+        if [(c['id'], c['name']) for c in coco['categories']] != list(enumerate(classes)):
             raise ValueError('Class IDs differ between splits')
         images = {i['id']: i for i in coco['images']}
         if len(images) != len(coco['images']) or not images:
@@ -226,7 +229,7 @@ def validate_export(data):
         for annotation in coco['annotations']:
             image = images.get(annotation['image_id'])
             cid = annotation['category_id']
-            if not image or annotation['id'] in ids or cid not in range(len(SYMBOLS)):
+            if not image or annotation['id'] in ids or cid not in range(len(classes)):
                 raise ValueError('Invalid COCO annotation reference')
             ids.add(annotation['id'])
             x, y, w, h = annotation['bbox']
@@ -236,7 +239,7 @@ def validate_export(data):
             if split == 'train':
                 training_classes.add(cid)
         for image_id, image in images.items():
-            if not 1 <= per_image[image_id] <= 24:
+            if not 1 <= per_image[image_id] <= profile['max_symbols']:
                 raise ValueError('Image has missing or excessive glyph labels')
             path = (folder / image['file_name']).resolve()
             if path.parent != folder.resolve():
@@ -257,6 +260,6 @@ def validate_export(data):
                 raise ValueError('Equation groups overlap between splits')
             groups[group] = split
         counts[split] = len(images)
-    if training_classes != set(range(len(SYMBOLS))):
+    if training_classes != set(range(len(classes))):
         raise ValueError('Training split is missing symbol classes')
-    return {'valid': True, 'splits': counts, 'classes': list(SYMBOLS), 'training_started': False}
+    return {'valid': True, 'splits': counts, 'classes': list(classes), 'training_started': False}
