@@ -216,6 +216,14 @@ def _latex(ast, parent_precedence=0):
         return r'\frac{' + _latex(children[0]) + '}{' + _latex(children[2]) + '}'
     if kind == 'sqrt':
         return r'\sqrt{' + _latex(children[1]) + '}'
+    if kind == 'parentheses':
+        return r'\left(' + _latex(children[1]) + r'\right)'
+    if kind == 'function_name':
+        return ast['text']
+    if kind == 'function':
+        return '\\' + children[0]['text'] + _latex(children[1])
+    if kind == 'logarithm':
+        return r'\log_{' + _latex(children[1]) + '}' + _latex(children[2])
     if kind == 'unary':
         return ast['text'] + _latex(children[1], 3)
     if kind == 'product':
@@ -249,6 +257,12 @@ def _nodes(ast):
                 child_role = ('numerator', 'operator', 'denominator')[index]
             elif item['kind'] == 'sqrt':
                 child_role = 'root' if index == 0 else 'radicand'
+            elif item['kind'] == 'parentheses':
+                child_role = 'group' if index == 1 else 'operator'
+            elif item['kind'] in {'function', 'logarithm'}:
+                child_role = 'function' if index == 0 else ('subscript' if item['kind'] == 'logarithm' and index == 1 else 'group')
+            elif item['kind'] == 'function_name':
+                child_role = 'function'
             child_id = visit(child, node_id, child_role)
             node['children'].append(child_id)
         return node_id
@@ -257,7 +271,7 @@ def _nodes(ast):
     return nodes
 
 
-def parse_small_equation(symbols, max_symbols=24, extended=False):
+def parse_small_equation(symbols, max_symbols=24, extended=False, complex_layout=False):
     """Return a labelled spatial reconstruction or an explicit rejected result."""
     empty = {'nodes': [], 'root_id': None, 'latex': '',
              'latex_metadata': {'status': 'empty', 'verified': False, 'warnings': [],
@@ -267,13 +281,14 @@ def parse_small_equation(symbols, max_symbols=24, extended=False):
     if not symbols:
         return empty
     try:
-        from .profiles import EXTENDED_SYMBOLS
-        cleaned, warnings = clean_symbols(symbols, max_symbols, EXTENDED_SYMBOLS if extended else None)
+        from .profiles import EXTENDED_SYMBOLS, COMPLEX_SYMBOLS
+        classes = COMPLEX_SYMBOLS if complex_layout else (EXTENDED_SYMBOLS if extended else None)
+        cleaned, warnings = clean_symbols(symbols, max_symbols, classes)
         if warnings:
             raise LayoutError(' '.join(warnings))
-        if extended:
+        if extended or complex_layout:
             from .structures import parse_structures
-            ast = parse_structures(cleaned)
+            ast = parse_structures(cleaned, functions=complex_layout)
         else:
             main, powers, height = _layout(cleaned)
             ast = _Parser(main, powers, height).equation()

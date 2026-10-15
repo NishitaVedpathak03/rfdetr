@@ -105,9 +105,10 @@ def predict_symbol_image(image, predictor, threshold=.5, max_symbols=24, image_n
     detections = predictor.model.predict(prepared, threshold=threshold)
     pipeline = predictor.metadata.get('pipeline', PIPELINE)
     profile = profile_for(pipeline)
-    extended = profile['name'] == 'extended' if extended_layout is None else extended_layout
+    complex_layout = profile['name'] == 'complex'
+    extended = profile['name'] in {'extended', 'complex'} if extended_layout is None else extended_layout
     raw_symbols, padding_rejections = map_detections(detections, geometry, image.size, profile['classes'])
-    parsed = parse_small_equation(raw_symbols, max_symbols, extended=extended)
+    parsed = parse_small_equation(raw_symbols, max_symbols, extended=extended, complex_layout=complex_layout)
     elapsed = time.perf_counter() - started
     from .visualize import colored_equation
     colored, colors = colored_equation(image, parsed['nodes'])
@@ -133,5 +134,12 @@ def predict_symbol_image(image, predictor, threshold=.5, max_symbols=24, image_n
             'Fractions, square roots and simple subscripts use detected symbols and geometry only.',
             'Square-root and i/j/k/n recognition require the extended trained checkpoint.',
             'Parentheses, functions and arbitrary multiline equations are not supported.',
+            'A parsed result does not establish correct symbol recognition.']
+    if complex_layout:
+        result['metadata']['layout_mode'] = 'complex'
+        result['metadata']['limitations'] = [
+            'Bounded nested fractions, roots, scripts, parentheses and sin/cos/log with parenthesized arguments.',
+            'Function letters and parentheses require the separately trained complex checkpoint.',
+            'Matrices, integrals, Greek letters and general multiline layouts are not supported.',
             'A parsed result does not establish correct symbol recognition.']
     return result, colored

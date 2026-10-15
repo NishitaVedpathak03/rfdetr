@@ -18,7 +18,7 @@ SOURCE_FILES = ('src/data.py', 'src/layout.py', 'src/model.py',
                 'src/train.py', 'src/evaluate.py', 'src/predict.py',
                 'src/__init__.py', 'src/visualize.py', 'src/validation.py',
                 'src/profiles.py', 'src/structures.py',
-                'configs/training.json', 'configs/extended.json', 'requirements-rfdetr.txt')
+                'configs/training.json', 'configs/extended.json', 'configs/complex.json', 'requirements-rfdetr.txt')
 
 RUN_TEMPLATE = '''"""Generated RF-DETR pilot; runs only in Kaggle, only when explicitly submitted."""
 import base64
@@ -122,7 +122,7 @@ def prepare(data, project=PROJECT, account='nishitavedpathak03', config=None):
     config_path = config_path.resolve()
     config_name = config_path.relative_to(project).as_posix()
     if config_name not in SOURCE_FILES:
-        raise ValueError('Kaggle packaging requires configs/training.json or configs/extended.json')
+        raise ValueError('Kaggle packaging requires a registered training config')
     config = read_config(config_path)
     profile = profile_for(config['pipeline'])
     metadata = json.loads((data / 'symbol_dataset.json').read_text(encoding='utf-8'))
@@ -131,7 +131,7 @@ def prepare(data, project=PROJECT, account='nishitavedpathak03', config=None):
     if metadata['pipeline'] != config['pipeline'] or report['classes'] != list(profile['classes']):
         raise ValueError('Dataset and selected training profile differ')
     name = profile['name']
-    slug = 'equation-ocr-small-symbols' if name == 'small' else 'equation-ocr-extended-symbols'
+    slug = 'equation-ocr-' + name + '-symbols'
     job, upload = project / f'kaggle_rfdetr_{name}', project / f'kaggle_rfdetr_{name}_upload'
     job.mkdir(parents=True, exist_ok=True)
     upload.mkdir(parents=True, exist_ok=True)
@@ -158,6 +158,8 @@ def prepare(data, project=PROJECT, account='nishitavedpathak03', config=None):
         'title': 'Equation OCR ' + name.title() + ' Symbols', 'licenses': [{'name': 'CC0-1.0'}]})
     # Never package original dataset trees or old checkpoints in this job.
     data_files = [data / 'symbol_dataset.json']
+    if (data / 'preparation_report.json').is_file():
+        data_files.append(data / 'preparation_report.json')
     for split in ('train', 'valid', 'test'):
         folder = data / split
         coco_file = folder / '_annotations.coco.json'

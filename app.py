@@ -13,6 +13,7 @@ from ui.images import render_overlay, uploaded_image
 PROJECT = Path(__file__).resolve().parent
 RFDETR_CHECKPOINT = PROJECT / 'checkpoints/rfdetr_small/checkpoint_best_total.pth'
 EXTENDED_CHECKPOINT = PROJECT / 'checkpoints/rfdetr_extended/checkpoint_best_total.pth'
+COMPLEX_CHECKPOINT = PROJECT / 'checkpoints/rfdetr_complex/checkpoint_best_total.pth'
 st.set_page_config(page_title='Equation OCR', layout='wide')
 st.markdown('''<style>
 .block-container {max-width: 1150px; padding-top: 2rem; padding-bottom: 2rem;}
@@ -90,7 +91,7 @@ def show_images_and_steps(sample):
     with right:
         st.subheader('Colored image')
         colored = render_overlay(sample['original'] if rejected else sample['colored'], sample['nodes'], {}, show_boxes=False,
-                                 active_id=step['node_id'] if step and not rejected else None, display_size=(1400, 1000))
+                                 active_id=step['node_id'] if step and not rejected else None, display_size=(520, 1000))
         st.image(colored, width='stretch')
         if rejected:
             st.caption('Coloring unavailable: recognition failed.')
@@ -153,12 +154,15 @@ def main():
         digest = hashlib.sha256(data).hexdigest()
         if st.session_state.get('upload_digest') != digest:
             st.session_state.upload_digest = digest
-        with st.expander('Advanced structures', expanded=False):
-            extended_layout = st.checkbox('Fractions, square roots and subscripts', value=False,
-                                          key='extended_layout')
-            if extended_layout and not EXTENDED_CHECKPOINT.is_file():
-                st.caption('Using the current detector with extended spatial rules. A new trained checkpoint is needed for √ and i/j/k/n.')
-        checkpoint_path = EXTENDED_CHECKPOINT if extended_layout and EXTENDED_CHECKPOINT.is_file() else RFDETR_CHECKPOINT
+        available_models = {'Basic equations': RFDETR_CHECKPOINT}
+        if EXTENDED_CHECKPOINT.is_file():
+            available_models['Fractions, roots and subscripts'] = EXTENDED_CHECKPOINT
+        if COMPLEX_CHECKPOINT.is_file():
+            available_models = {'Complex equations (latest)': COMPLEX_CHECKPOINT, **available_models}
+        with st.expander('Model', expanded=False):
+            model_name = st.selectbox('Recognition model', list(available_models), key='recognition_model')
+        checkpoint_path = available_models[model_name]
+        extended_layout = checkpoint_path != RFDETR_CHECKPOINT
         if not checkpoint_path.is_file():
             st.error(f'Model checkpoint not found: {checkpoint_path}')
             return

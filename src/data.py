@@ -118,7 +118,9 @@ def partition_records(records, seed=42):
     return result
 
 
-def export_records(records, out, side=512, seed=42, pipeline=SMALL_PIPELINE):
+def export_records(records, out, side=512, seed=42, pipeline=SMALL_PIPELINE, box_padding=0):
+    if not isinstance(box_padding, (int, float)) or not math.isfinite(box_padding) or not 0 <= box_padding <= 5:
+        raise ValueError('Box padding must be between 0 and 5 prepared-image pixels')
     classes = profile_for(pipeline)['classes']
     out = Path(out).resolve()
     if out.exists() and any(out.iterdir()):
@@ -171,7 +173,55 @@ def export_records(records, out, side=512, seed=42, pipeline=SMALL_PIPELINE):
                                     'class_counts': dict(counts)}
     report['missing_training_classes'] = sorted(set(classes) - set(report['splits']['train']['class_counts']))
     write_json(out / 'symbol_dataset.json', report)
+    if box_padding:
+        pad_symbol_boxes(out, box_padding)
+        report = json.loads((out / 'symbol_dataset.json').read_text(encoding='utf-8'))
     return report
+
+
+def pad_symbol_boxes(data, pixels=2):
+    """Enlarge annotation boxes only; preserve tight boxes for idempotent updates."""
+    if not isinstance(pixels, (int, float)) or not math.isfinite(pixels) or not 0 <= pixels <= 5:
+        raise ValueError('Box padding must be between 0 and 5 prepared-image pixels')
+    data = Path(data)
+    metadata = json.loads((data / 'symbol_dataset.json').read_text(encoding='utf-8'))
+    profile_for(metadata['pipeline'])
+    previous = metadata.get('annotation_box_padding_pixels', 0)
+    updates, counts = {}, {}
+    for split in ('train', 'valid', 'test'):
+        coco = json.loads((data / split / '_annotations.coco.json').read_text(encoding='utf-8'))
+        images = {image['id']: image for image in coco['images']}
+        for annotation in coco['annotations']:
+            if previous and 'tight_bbox' not in annotation:
+                raise ValueError('Existing padded annotations are missing their original tight boxes')
+            original = list(annotation.get('tight_bbox', annotation['bbox']))
+            x, y, width, height = original
+            image = images[annotation['image_id']]
+            if not all(math.isfinite(v) for v in original) or not (
+                    0 <= x < x + width <= image['width'] + 1e-4 and
+                    0 <= y < y + height <= image['height'] + 1e-4):
+                raise ValueError('Invalid tight annotation box')
+            left, top = max(0., x - pixels), max(0., y - pixels)
+            right, bottom = min(float(image['width']), x + width + pixels), min(float(image['height']), y + height + pixels)
+            annotation['tight_bbox'] = original
+            annotation['bbox'] = [left, top, right - left, bottom - top]
+            annotation['area'] = (right - left) * (bottom - top)
+        counts[split] = len(coco['annotations'])
+        updates[split] = coco
+    for split, coco in updates.items():
+        write_json(data / split / '_annotations.coco.json', coco)
+    metadata['annotation_box_padding_pixels'] = pixels
+    metadata['annotation_box_padding_units'] = 'per side, in prepared-image pixels; clipped to image boundaries'
+    write_json(data / 'symbol_dataset.json', metadata)
+    report_path = data / 'preparation_report.json'
+    if report_path.is_file():
+        report = json.loads(report_path.read_text(encoding='utf-8'))
+        report['annotation_box_padding_pixels'] = pixels
+        report['annotation_box_padding_units'] = metadata['annotation_box_padding_units']
+        report['image_pixels_changed_by_box_padding'] = False
+        write_json(report_path, report)
+    return {'annotation_box_padding_pixels': pixels, 'annotations': counts,
+            'images_changed': False, 'training_started': False, 'uploaded': False}
 
 
 def export_existing(data, out, limit=2000, side=512, seed=42):

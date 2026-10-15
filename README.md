@@ -190,3 +190,25 @@ The completed extended run is on Kaggle under
 packaging bug used a source filename for the notebook name. The bug is fixed for
 future packages, which use `equation-ocr-rfdetr-extended`; the completed run has
 not been renamed or restarted.
+
+## Trained complex equation model
+
+The separate 31-class complex profile adds parentheses and `sin`, `cos`, `log`
+with parenthesized arguments, including integer logarithm bases. It combines
+these with nested fractions, roots and scripts, and includes Computer Modern
+math italic variables and generated screenshot-like degradation. The existing
+24 class IDs and trained models are preserved.
+
+The downloaded best checkpoint is
+`checkpoints/rfdetr_complex/checkpoint_best_total.pth`, selected from epoch 30
+with validation mAP@0.50:0.95 **0.9837**. On 588 held-out synthetic equations,
+symbol F1 was **0.999828** and exact equation accuracy **1.0**. The previously
+failing nested-root/fraction screenshot was recognized correctly in a CPU UI test.
+
+The UI defaults to **Complex equations (latest)**. Older models are selectable
+under the collapsed **Model** control. See [COMPLEX_TRAINING.md](COMPLEX_TRAINING.md)
+for the 6,000-image dataset, configuration, saved evaluation and terminal commands.
+Synthetic metrics and one screenshot do not establish arbitrary real-image accuracy.
+
+Confidence filtering uses the checkpoint's inference setting (default `0.50`),
+without a UI control. Ordinary parentheses retain slightly taller script digits.

@@ -18,13 +18,15 @@ def paste(canvas, drawing, x, y):
              for i, v in enumerate(s['bbox'])]} for s in drawing.symbols]
 
 
-def text(value, font_path, size=54):
+def text(value, font_path, size=54, math_italic=None):
     font = ImageFont.truetype(str(font_path), size)
+    italic = ImageFont.truetype(str(math_italic), size) if math_italic else None
     glyphs = []
     for letter in str(value):
-        box = font.getbbox(letter)
+        selected = italic if italic and letter in 'xyzabijkn' else font
+        box = selected.getbbox(letter)
         tile = Image.new('RGBA', (box[2] - box[0] + 8, box[3] - box[1] + 8))
-        ImageDraw.Draw(tile).text((4 - box[0], 4 - box[1]), letter, font=font, fill='black')
+        ImageDraw.Draw(tile).text((4 - box[0], 4 - box[1]), letter, font=selected, fill='black')
         if tile.getbbox() is None:
             raise ValueError(f'Font cannot draw {letter}')
         glyphs.append((letter, tile.crop(tile.getbbox())))
@@ -77,11 +79,11 @@ def square_root(body, stroke=2):
     return Drawing(canvas, symbols, r'\sqrt{' + body.latex + '}', body.axis + 8)
 
 
-def scripts(base, font_path, size=54, sub=None, sup=None):
+def scripts(base, font_path, size=54, sub=None, sup=None, math_italic=None):
     if sub is None and sup is None:
         return base
-    sub_draw = text(sub, font_path, round(size * .55)) if sub is not None else None
-    sup_draw = text(sup, font_path, round(size * .55)) if sup is not None else None
+    sub_draw = text(sub, font_path, round(size * .55), math_italic) if sub is not None else None
+    sup_draw = text(sup, font_path, round(size * .55), math_italic) if sup is not None else None
     last = base.symbols[-1]['bbox']
     top_y = round(last[1] - sup_draw.image.height * .65) if sup_draw else 0
     pad_top = max(0, -top_y)
@@ -97,3 +99,29 @@ def scripts(base, font_path, size=54, sub=None, sup=None):
     latex = base.latex + ('_{' + str(sub) + '}' if sub is not None else '')
     latex += '^{' + str(sup) + '}' if sup is not None else ''
     return Drawing(canvas, symbols, latex, base.axis + pad_top)
+
+
+def parentheses(body, font_path, size=54):
+    """Stretch two separately labelled parentheses around a compound body."""
+    parts = []
+    for mark in '()':
+        glyph = text(mark, font_path, size)
+        box = glyph.symbols[0]['bbox']
+        tile = glyph.image.crop(tuple(round(v) for v in box))
+        tile = tile.resize((tile.width, body.image.height), Image.Resampling.LANCZOS)
+        parts.append(Drawing(tile, [{'text': mark, 'bbox': [0, 0, *tile.size]}], mark, body.axis))
+    result = join(parts[0], body, parts[1], gap=3)
+    result.latex = r'\left(' + body.latex + r'\right)'
+    return result
+
+
+def function(name, body, font_path, size=54, base=None):
+    if name not in {'sin', 'cos', 'log'} or (base is not None and name != 'log'):
+        raise ValueError('Supported functions are sin, cos and optionally base-labelled log')
+    label = text(name, font_path, size)
+    if base is not None:
+        label = scripts(label, font_path, size, sub=base)
+    argument = parentheses(body, font_path, size)
+    result = join(label, argument)
+    result.latex = '\\' + name + ('_{' + str(base) + '}' if base is not None else '') + argument.latex
+    return result

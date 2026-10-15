@@ -1,0 +1,5882 @@
+[
+  {
+    "file": "000000.png",
+    "predicted_latex": "\\frac{\\sin\\left(a\\right) + 19}{\\log_{2}\\left(a^{3} + 4\\right)} = 8",
+    "reference_latex": "\\frac{\\sin\\left(a\\right) + 19}{\\log_{2}\\left(a^{3} + 4\\right)} = 8",
+    "exact_equation_correct": true,
+    "symbol_tp": 22,
+    "predicted_symbols": 22,
+    "actual_symbols": 22,
+    "warnings": []
+  },
+  {
+    "file": "000001.png",
+    "predicted_latex": "\\sin\\left(b\\right) + \\cos\\left(b^{2}\\right) - \\frac{b_{3}}{6} = -1",
+    "reference_latex": "\\sin\\left(b\\right) + \\cos\\left(b^{2}\\right) - \\frac{b_{3}}{6} = -1",
+    "exact_equation_correct": true,
+    "symbol_tp": 22,
+    "predicted_symbols": 22,
+    "actual_symbols": 22,
+    "warnings": []
+  },
+  {
+    "file": "000002.png",
+    "predicted_latex": "\\sqrt{\\sqrt{b_{n} + 12} + 2} = 8",
+    "reference_latex": "\\sqrt{\\sqrt{b_{n} + 12} + 2} = 8",
+    "exact_equation_correct": true,
+    "symbol_tp": 11,
+    "predicted_symbols": 11,
+    "actual_symbols": 11,
+    "warnings": []
+  },
+  {
+    "file": "000003.png",
+    "predicted_latex": "\\sqrt{\\frac{a_{2} + 2}{a^{3} - 6}} = 6",
+    "reference_latex": "\\sqrt{\\frac{a_{2} + 2}{a^{3} - 6}} = 6",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000004.png",
+    "predicted_latex": "\\sin\\left(y\\right) + \\cos\\left(y^{3}\\right) - \\frac{y_{j}}{8} = 1",
+    "reference_latex": "\\sin\\left(y\\right) + \\cos\\left(y^{3}\\right) - \\frac{y_{j}}{8} = 1",
+    "exact_equation_correct": true,
+    "symbol_tp": 21,
+    "predicted_symbols": 21,
+    "actual_symbols": 21,
+    "warnings": []
+  },
+  {
+    "file": "000005.png",
+    "predicted_latex": "\\sin\\left(\\frac{a_{k} + 19}{6}\\right) = 5",
+    "reference_latex": "\\sin\\left(\\frac{a_{k} + 19}{6}\\right) = 5",
+    "exact_equation_correct": true,
+    "symbol_tp": 14,
+    "predicted_symbols": 14,
+    "actual_symbols": 14,
+    "warnings": []
+  },
+  {
+    "file": "000006.png",
+    "predicted_latex": "\\sqrt{\\frac{x_{i} + 19}{x^{3} - 5}} = 9",
+    "reference_latex": "\\sqrt{\\frac{x_{i} + 19}{x^{3} - 5}} = 9",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000007.png",
+    "predicted_latex": "\\frac{\\frac{z + 15}{3} + 15}{z^{4} - 3} = 2",
+    "reference_latex": "\\frac{\\frac{z + 15}{3} + 15}{z^{4} - 3} = 2",
+    "exact_equation_correct": true,
+    "symbol_tp": 16,
+    "predicted_symbols": 16,
+    "actual_symbols": 16,
+    "warnings": []
+  },
+  {
+    "file": "000008.png",
+    "predicted_latex": "\\log_{6}\\left(b^{4} + 13\\right) = 18",
+    "reference_latex": "\\log_{6}\\left(b^{4} + 13\\right) = 18",
+    "exact_equation_correct": true,
+    "symbol_tp": 14,
+    "predicted_symbols": 14,
+    "actual_symbols": 14,
+    "warnings": []
+  },
+  {
+    "file": "000009.png",
+    "predicted_latex": "8 b - 14 = 12",
+    "reference_latex": "8 b - 14 = 12",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000010.png",
+    "predicted_latex": "\\frac{x_{j} + 8}{x^{3} - 7} = 7",
+    "reference_latex": "\\frac{x_{j} + 8}{x^{3} - 7} = 7",
+    "exact_equation_correct": true,
+    "symbol_tp": 11,
+    "predicted_symbols": 11,
+    "actual_symbols": 11,
+    "warnings": []
+  },
+  {
+    "file": "000011.png",
+    "predicted_latex": "\\sin\\left(\\frac{a_{k} + 12}{7}\\right) = 17",
+    "reference_latex": "\\sin\\left(\\frac{a_{k} + 12}{7}\\right) = 17",
+    "exact_equation_correct": true,
+    "symbol_tp": 15,
+    "predicted_symbols": 15,
+    "actual_symbols": 15,
+    "warnings": []
+  },
+  {
+    "file": "000012.png",
+    "predicted_latex": "\\sin\\left(\\frac{b_{2} + 1}{4}\\right) = 12",
+    "reference_latex": "\\sin\\left(\\frac{b_{2} + 1}{4}\\right) = 12",
+    "exact_equation_correct": true,
+    "symbol_tp": 14,
+    "predicted_symbols": 14,
+    "actual_symbols": 14,
+    "warnings": []
+  },
+  {
+    "file": "000013.png",
+    "predicted_latex": "4 b \\times 5 = 8",
+    "reference_latex": "4 b \\times 5 = 8",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000014.png",
+    "predicted_latex": "\\sqrt{\\sqrt{z_{3} + 17} + 2} = 13",
+    "reference_latex": "\\sqrt{\\sqrt{z_{3} + 17} + 2} = 13",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000015.png",
+    "predicted_latex": "\\frac{b^{4} + 8}{\\left(b - 3\\right)} + \\sqrt{b + 8} = 18",
+    "reference_latex": "\\frac{b^{4} + 8}{\\left(b - 3\\right)} + \\sqrt{b + 8} = 18",
+    "exact_equation_correct": true,
+    "symbol_tp": 18,
+    "predicted_symbols": 18,
+    "actual_symbols": 18,
+    "warnings": []
+  },
+  {
+    "file": "000016.png",
+    "predicted_latex": "6 a - 4 = 14",
+    "reference_latex": "6 a - 4 = 14",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000017.png",
+    "predicted_latex": "\\frac{a_{j} + 13}{a^{3} - 6} = 18",
+    "reference_latex": "\\frac{a_{j} + 13}{a^{3} - 6} = 18",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000018.png",
+    "predicted_latex": "\\log_{9}\\left(b^{4} + 12\\right) = 6",
+    "reference_latex": "\\log_{9}\\left(b^{4} + 12\\right) = 6",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000019.png",
+    "predicted_latex": "5 z \\times 9 = -4",
+    "reference_latex": "5 z \\times 9 = -4",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000020.png",
+    "predicted_latex": "\\frac{\\frac{a + 19}{5} + 19}{a^{3} - 5} = -9",
+    "reference_latex": "\\frac{\\frac{a + 19}{5} + 19}{a^{3} - 5} = -9",
+    "exact_equation_correct": true,
+    "symbol_tp": 17,
+    "predicted_symbols": 17,
+    "actual_symbols": 17,
+    "warnings": []
+  },
+  {
+    "file": "000021.png",
+    "predicted_latex": "\\log_{4}\\left(x^{2} + 1\\right) = -9",
+    "reference_latex": "\\log_{4}\\left(x^{2} + 1\\right) = -9",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000022.png",
+    "predicted_latex": "\\sqrt{\\frac{a_{i} + 9}{a^{3} - 8}} = 15",
+    "reference_latex": "\\sqrt{\\frac{a_{i} + 9}{a^{3} - 8}} = 15",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000023.png",
+    "predicted_latex": "\\cos\\left(\\frac{z_{j} + 18}{6}\\right) = 9",
+    "reference_latex": "\\cos\\left(\\frac{z_{j} + 18}{6}\\right) = 9",
+    "exact_equation_correct": true,
+    "symbol_tp": 14,
+    "predicted_symbols": 14,
+    "actual_symbols": 14,
+    "warnings": []
+  },
+  {
+    "file": "000024.png",
+    "predicted_latex": "\\frac{y^{4} + 2}{\\left(y - 7\\right)} + \\sqrt{y + 2} = 13",
+    "reference_latex": "\\frac{y^{4} + 2}{\\left(y - 7\\right)} + \\sqrt{y + 2} = 13",
+    "exact_equation_correct": true,
+    "symbol_tp": 18,
+    "predicted_symbols": 18,
+    "actual_symbols": 18,
+    "warnings": []
+  },
+  {
+    "file": "000025.png",
+    "predicted_latex": "\\frac{\\sin\\left(y\\right) + 7}{\\log_{2}\\left(y^{4} + 5\\right)} = 9",
+    "reference_latex": "\\frac{\\sin\\left(y\\right) + 7}{\\log_{2}\\left(y^{4} + 5\\right)} = 9",
+    "exact_equation_correct": true,
+    "symbol_tp": 21,
+    "predicted_symbols": 21,
+    "actual_symbols": 21,
+    "warnings": []
+  },
+  {
+    "file": "000026.png",
+    "predicted_latex": "\\frac{\\frac{x + 7}{2} + 7}{x^{2} - 2} = -2",
+    "reference_latex": "\\frac{\\frac{x + 7}{2} + 7}{x^{2} - 2} = -2",
+    "exact_equation_correct": true,
+    "symbol_tp": 15,
+    "predicted_symbols": 15,
+    "actual_symbols": 15,
+    "warnings": []
+  },
+  {
+    "file": "000027.png",
+    "predicted_latex": "\\left(b^{2} + 8 b + 4\\right)^{2} = -3",
+    "reference_latex": "\\left(b^{2} + 8 b + 4\\right)^{2} = -3",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000028.png",
+    "predicted_latex": "\\cos\\left(\\frac{x_{n} + 18}{5}\\right) = 15",
+    "reference_latex": "\\cos\\left(\\frac{x_{n} + 18}{5}\\right) = 15",
+    "exact_equation_correct": true,
+    "symbol_tp": 15,
+    "predicted_symbols": 15,
+    "actual_symbols": 15,
+    "warnings": []
+  },
+  {
+    "file": "000029.png",
+    "predicted_latex": "\\sin\\left(a\\right) + \\cos\\left(a^{3}\\right) - \\frac{a_{12}}{4} = -6",
+    "reference_latex": "\\sin\\left(a\\right) + \\cos\\left(a^{3}\\right) - \\frac{a_{12}}{4} = -6",
+    "exact_equation_correct": true,
+    "symbol_tp": 23,
+    "predicted_symbols": 23,
+    "actual_symbols": 23,
+    "warnings": []
+  },
+  {
+    "file": "000030.png",
+    "predicted_latex": "\\sqrt{\\sqrt{a_{3} + 19} + 9} = 2",
+    "reference_latex": "\\sqrt{\\sqrt{a_{3} + 19} + 9} = 2",
+    "exact_equation_correct": true,
+    "symbol_tp": 11,
+    "predicted_symbols": 11,
+    "actual_symbols": 11,
+    "warnings": []
+  },
+  {
+    "file": "000031.png",
+    "predicted_latex": "\\log_{5}\\left(a^{3} + 16\\right) = 9",
+    "reference_latex": "\\log_{5}\\left(a^{3} + 16\\right) = 9",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000032.png",
+    "predicted_latex": "\\sin\\left(\\frac{b_{12} + 1}{5}\\right) = -6",
+    "reference_latex": "\\sin\\left(\\frac{b_{12} + 1}{5}\\right) = -6",
+    "exact_equation_correct": true,
+    "symbol_tp": 15,
+    "predicted_symbols": 15,
+    "actual_symbols": 15,
+    "warnings": []
+  },
+  {
+    "file": "000033.png",
+    "predicted_latex": "\\cos\\left(\\frac{b_{n} + 14}{9}\\right) = 10",
+    "reference_latex": "\\cos\\left(\\frac{b_{n} + 14}{9}\\right) = 10",
+    "exact_equation_correct": true,
+    "symbol_tp": 15,
+    "predicted_symbols": 15,
+    "actual_symbols": 15,
+    "warnings": []
+  },
+  {
+    "file": "000034.png",
+    "predicted_latex": "\\sin\\left(a\\right) + \\cos\\left(a^{3}\\right) - \\frac{a_{k}}{6} = 7",
+    "reference_latex": "\\sin\\left(a\\right) + \\cos\\left(a^{3}\\right) - \\frac{a_{k}}{6} = 7",
+    "exact_equation_correct": true,
+    "symbol_tp": 21,
+    "predicted_symbols": 21,
+    "actual_symbols": 21,
+    "warnings": []
+  },
+  {
+    "file": "000035.png",
+    "predicted_latex": "\\frac{\\sin\\left(z\\right) + 12}{\\log_{2}\\left(z^{4} + 4\\right)} = 4",
+    "reference_latex": "\\frac{\\sin\\left(z\\right) + 12}{\\log_{2}\\left(z^{4} + 4\\right)} = 4",
+    "exact_equation_correct": true,
+    "symbol_tp": 22,
+    "predicted_symbols": 22,
+    "actual_symbols": 22,
+    "warnings": []
+  },
+  {
+    "file": "000036.png",
+    "predicted_latex": "\\sqrt{\\frac{x_{k} + 17}{x^{2} - 4}} = 17",
+    "reference_latex": "\\sqrt{\\frac{x_{k} + 17}{x^{2} - 4}} = 17",
+    "exact_equation_correct": true,
+    "symbol_tp": 14,
+    "predicted_symbols": 14,
+    "actual_symbols": 14,
+    "warnings": []
+  },
+  {
+    "file": "000037.png",
+    "predicted_latex": "\\sin\\left(y\\right) + \\cos\\left(y^{3}\\right) - \\frac{y_{n}}{5} = -3",
+    "reference_latex": "\\sin\\left(y\\right) + \\cos\\left(y^{3}\\right) - \\frac{y_{n}}{5} = -3",
+    "exact_equation_correct": true,
+    "symbol_tp": 22,
+    "predicted_symbols": 22,
+    "actual_symbols": 22,
+    "warnings": []
+  },
+  {
+    "file": "000038.png",
+    "predicted_latex": "\\frac{\\sin\\left(a\\right) + 16}{\\log_{2}\\left(a^{4} + 4\\right)} = 19",
+    "reference_latex": "\\frac{\\sin\\left(a\\right) + 16}{\\log_{2}\\left(a^{4} + 4\\right)} = 19",
+    "exact_equation_correct": true,
+    "symbol_tp": 23,
+    "predicted_symbols": 23,
+    "actual_symbols": 23,
+    "warnings": []
+  },
+  {
+    "file": "000039.png",
+    "predicted_latex": "\\frac{\\frac{b + 8}{9} + 8}{b^{2} - 9} = 2",
+    "reference_latex": "\\frac{\\frac{b + 8}{9} + 8}{b^{2} - 9} = 2",
+    "exact_equation_correct": true,
+    "symbol_tp": 14,
+    "predicted_symbols": 14,
+    "actual_symbols": 14,
+    "warnings": []
+  },
+  {
+    "file": "000040.png",
+    "predicted_latex": "\\sqrt{\\frac{x_{k} + 15}{x^{3} - 3}} = 4",
+    "reference_latex": "\\sqrt{\\frac{x_{k} + 15}{x^{3} - 3}} = 4",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000041.png",
+    "predicted_latex": "\\log_{8}\\left(b^{3} + 2\\right) = 15",
+    "reference_latex": "\\log_{8}\\left(b^{3} + 2\\right) = 15",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000042.png",
+    "predicted_latex": "\\sqrt{\\frac{b_{3} + 11}{b^{2} - 5}} = 8",
+    "reference_latex": "\\sqrt{\\frac{b_{3} + 11}{b^{2} - 5}} = 8",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000043.png",
+    "predicted_latex": "\\left(b^{4} + 7 b + 14\\right)^{2} = 12",
+    "reference_latex": "\\left(b^{4} + 7 b + 14\\right)^{2} = 12",
+    "exact_equation_correct": true,
+    "symbol_tp": 14,
+    "predicted_symbols": 14,
+    "actual_symbols": 14,
+    "warnings": []
+  },
+  {
+    "file": "000044.png",
+    "predicted_latex": "\\left(x^{4} + 4 x + 13\\right)^{2} = 12",
+    "reference_latex": "\\left(x^{4} + 4 x + 13\\right)^{2} = 12",
+    "exact_equation_correct": true,
+    "symbol_tp": 14,
+    "predicted_symbols": 14,
+    "actual_symbols": 14,
+    "warnings": []
+  },
+  {
+    "file": "000045.png",
+    "predicted_latex": "\\sin\\left(x\\right) + \\cos\\left(x^{3}\\right) - \\frac{x_{k}}{8} = 10",
+    "reference_latex": "\\sin\\left(x\\right) + \\cos\\left(x^{3}\\right) - \\frac{x_{k}}{8} = 10",
+    "exact_equation_correct": true,
+    "symbol_tp": 22,
+    "predicted_symbols": 22,
+    "actual_symbols": 22,
+    "warnings": []
+  },
+  {
+    "file": "000046.png",
+    "predicted_latex": "\\log_{2}\\left(b^{3} + 19\\right) = 0",
+    "reference_latex": "\\log_{2}\\left(b^{3} + 19\\right) = 0",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000047.png",
+    "predicted_latex": "x_{i}^{3} + x - a + n = 15",
+    "reference_latex": "x_{i}^{3} + x - a + n = 15",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000048.png",
+    "predicted_latex": "\\sin\\left(x\\right) + \\cos\\left(x^{4}\\right) - \\frac{x_{k}}{4} = 3",
+    "reference_latex": "\\sin\\left(x\\right) + \\cos\\left(x^{4}\\right) - \\frac{x_{k}}{4} = 3",
+    "exact_equation_correct": true,
+    "symbol_tp": 21,
+    "predicted_symbols": 21,
+    "actual_symbols": 21,
+    "warnings": []
+  },
+  {
+    "file": "000049.png",
+    "predicted_latex": "\\sin\\left(x\\right) + \\cos\\left(x^{3}\\right) - \\frac{x_{2}}{7} = 3",
+    "reference_latex": "\\sin\\left(x\\right) + \\cos\\left(x^{3}\\right) - \\frac{x_{2}}{7} = 3",
+    "exact_equation_correct": true,
+    "symbol_tp": 21,
+    "predicted_symbols": 21,
+    "actual_symbols": 21,
+    "warnings": []
+  },
+  {
+    "file": "000050.png",
+    "predicted_latex": "\\frac{y^{2} + 17}{\\left(y - 2\\right)} + \\sqrt{y + 17} = -9",
+    "reference_latex": "\\frac{y^{2} + 17}{\\left(y - 2\\right)} + \\sqrt{y + 17} = -9",
+    "exact_equation_correct": true,
+    "symbol_tp": 20,
+    "predicted_symbols": 20,
+    "actual_symbols": 20,
+    "warnings": []
+  },
+  {
+    "file": "000051.png",
+    "predicted_latex": "\\sin\\left(\\frac{a_{2} + 9}{5}\\right) = 4",
+    "reference_latex": "\\sin\\left(\\frac{a_{2} + 9}{5}\\right) = 4",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000052.png",
+    "predicted_latex": "\\sqrt{\\sqrt{a_{n} + 10} + 7} = -6",
+    "reference_latex": "\\sqrt{\\sqrt{a_{n} + 10} + 7} = -6",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000053.png",
+    "predicted_latex": "\\frac{\\frac{b + 12}{9} + 12}{b^{2} - 9} = 14",
+    "reference_latex": "\\frac{\\frac{b + 12}{9} + 12}{b^{2} - 9} = 14",
+    "exact_equation_correct": true,
+    "symbol_tp": 17,
+    "predicted_symbols": 17,
+    "actual_symbols": 17,
+    "warnings": []
+  },
+  {
+    "file": "000054.png",
+    "predicted_latex": "\\sqrt{\\sqrt{x_{12} + 2} + 8} = 12",
+    "reference_latex": "\\sqrt{\\sqrt{x_{12} + 2} + 8} = 12",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000055.png",
+    "predicted_latex": "6 a \\times 10 = 15",
+    "reference_latex": "6 a \\times 10 = 15",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000056.png",
+    "predicted_latex": "\\sqrt{\\frac{b_{12} + 4}{b^{4} - 3}} = -3",
+    "reference_latex": "\\sqrt{\\frac{b_{12} + 4}{b^{4} - 3}} = -3",
+    "exact_equation_correct": true,
+    "symbol_tp": 14,
+    "predicted_symbols": 14,
+    "actual_symbols": 14,
+    "warnings": []
+  },
+  {
+    "file": "000057.png",
+    "predicted_latex": "\\frac{\\sin\\left(b\\right) + 15}{\\log_{2}\\left(b^{3} + 2\\right)} = -7",
+    "reference_latex": "\\frac{\\sin\\left(b\\right) + 15}{\\log_{2}\\left(b^{3} + 2\\right)} = -7",
+    "exact_equation_correct": true,
+    "symbol_tp": 23,
+    "predicted_symbols": 23,
+    "actual_symbols": 23,
+    "warnings": []
+  },
+  {
+    "file": "000058.png",
+    "predicted_latex": "\\log_{9}\\left(y^{4} + 13\\right) = 1",
+    "reference_latex": "\\log_{9}\\left(y^{4} + 13\\right) = 1",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000059.png",
+    "predicted_latex": "8 z \\times 13 = 14",
+    "reference_latex": "8 z \\times 13 = 14",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000060.png",
+    "predicted_latex": "\\sqrt{\\frac{a_{n} + 5}{a^{2} - 2}} = 4",
+    "reference_latex": "\\sqrt{\\frac{a_{n} + 5}{a^{2} - 2}} = 4",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000061.png",
+    "predicted_latex": "4 a - 10 = 12",
+    "reference_latex": "4 a - 10 = 12",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000062.png",
+    "predicted_latex": "\\frac{a_{3} + 17}{a^{3} - 5} = 7",
+    "reference_latex": "\\frac{a_{3} + 17}{a^{3} - 5} = 7",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000063.png",
+    "predicted_latex": "\\sin\\left(y\\right) + \\cos\\left(y^{2}\\right) - \\frac{y_{2}}{8} = 5",
+    "reference_latex": "\\sin\\left(y\\right) + \\cos\\left(y^{2}\\right) - \\frac{y_{2}}{8} = 5",
+    "exact_equation_correct": true,
+    "symbol_tp": 21,
+    "predicted_symbols": 21,
+    "actual_symbols": 21,
+    "warnings": []
+  },
+  {
+    "file": "000064.png",
+    "predicted_latex": "\\frac{\\frac{z + 15}{2} + 15}{z^{2} - 2} = 14",
+    "reference_latex": "\\frac{\\frac{z + 15}{2} + 15}{z^{2} - 2} = 14",
+    "exact_equation_correct": true,
+    "symbol_tp": 17,
+    "predicted_symbols": 17,
+    "actual_symbols": 17,
+    "warnings": []
+  },
+  {
+    "file": "000065.png",
+    "predicted_latex": "\\frac{\\sin\\left(b\\right) + 12}{\\log_{2}\\left(b^{3} + 9\\right)} = -1",
+    "reference_latex": "\\frac{\\sin\\left(b\\right) + 12}{\\log_{2}\\left(b^{3} + 9\\right)} = -1",
+    "exact_equation_correct": true,
+    "symbol_tp": 23,
+    "predicted_symbols": 23,
+    "actual_symbols": 23,
+    "warnings": []
+  },
+  {
+    "file": "000066.png",
+    "predicted_latex": "\\frac{y_{k} + 19}{y^{3} - 3} = 5",
+    "reference_latex": "\\frac{y_{k} + 19}{y^{3} - 3} = 5",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000067.png",
+    "predicted_latex": "\\sin\\left(\\frac{y_{i} + 6}{3}\\right) = 18",
+    "reference_latex": "\\sin\\left(\\frac{y_{i} + 6}{3}\\right) = 18",
+    "exact_equation_correct": true,
+    "symbol_tp": 14,
+    "predicted_symbols": 14,
+    "actual_symbols": 14,
+    "warnings": []
+  },
+  {
+    "file": "000068.png",
+    "predicted_latex": "\\frac{z^{3} + 13}{\\left(z - 5\\right)} + \\sqrt{z + 13} = 14",
+    "reference_latex": "\\frac{z^{3} + 13}{\\left(z - 5\\right)} + \\sqrt{z + 13} = 14",
+    "exact_equation_correct": true,
+    "symbol_tp": 20,
+    "predicted_symbols": 20,
+    "actual_symbols": 20,
+    "warnings": []
+  },
+  {
+    "file": "000069.png",
+    "predicted_latex": "a_{n}^{3} + x - a + n = -2",
+    "reference_latex": "a_{n}^{3} + x - a + n = -2",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000070.png",
+    "predicted_latex": "\\sin\\left(x\\right) + \\cos\\left(x^{4}\\right) - \\frac{x_{12}}{5} = 15",
+    "reference_latex": "\\sin\\left(x\\right) + \\cos\\left(x^{4}\\right) - \\frac{x_{12}}{5} = 15",
+    "exact_equation_correct": true,
+    "symbol_tp": 23,
+    "predicted_symbols": 23,
+    "actual_symbols": 23,
+    "warnings": []
+  },
+  {
+    "file": "000071.png",
+    "predicted_latex": "4 x - 13 = 16",
+    "reference_latex": "4 x - 13 = 16",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000072.png",
+    "predicted_latex": "\\frac{b_{12} + 19}{b^{3} - 2} = 17",
+    "reference_latex": "\\frac{b_{12} + 19}{b^{3} - 2} = 17",
+    "exact_equation_correct": true,
+    "symbol_tp": 14,
+    "predicted_symbols": 14,
+    "actual_symbols": 14,
+    "warnings": []
+  },
+  {
+    "file": "000073.png",
+    "predicted_latex": "\\frac{a^{4} + 7}{\\left(a - 6\\right)} + \\sqrt{a + 7} = 16",
+    "reference_latex": "\\frac{a^{4} + 7}{\\left(a - 6\\right)} + \\sqrt{a + 7} = 16",
+    "exact_equation_correct": true,
+    "symbol_tp": 18,
+    "predicted_symbols": 18,
+    "actual_symbols": 18,
+    "warnings": []
+  },
+  {
+    "file": "000074.png",
+    "predicted_latex": "8 z - 12 = -9",
+    "reference_latex": "8 z - 12 = -9",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000075.png",
+    "predicted_latex": "\\frac{\\frac{z + 19}{8} + 19}{z^{2} - 8} = 7",
+    "reference_latex": "\\frac{\\frac{z + 19}{8} + 19}{z^{2} - 8} = 7",
+    "exact_equation_correct": true,
+    "symbol_tp": 16,
+    "predicted_symbols": 16,
+    "actual_symbols": 16,
+    "warnings": []
+  },
+  {
+    "file": "000076.png",
+    "predicted_latex": "\\sin\\left(b\\right) + \\cos\\left(b^{4}\\right) - \\frac{b_{2}}{4} = 13",
+    "reference_latex": "\\sin\\left(b\\right) + \\cos\\left(b^{4}\\right) - \\frac{b_{2}}{4} = 13",
+    "exact_equation_correct": true,
+    "symbol_tp": 22,
+    "predicted_symbols": 22,
+    "actual_symbols": 22,
+    "warnings": []
+  },
+  {
+    "file": "000077.png",
+    "predicted_latex": "\\sin\\left(\\frac{y_{k} + 5}{3}\\right) = 5",
+    "reference_latex": "\\sin\\left(\\frac{y_{k} + 5}{3}\\right) = 5",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000078.png",
+    "predicted_latex": "\\log_{3}\\left(b^{3} + 5\\right) = 5",
+    "reference_latex": "\\log_{3}\\left(b^{3} + 5\\right) = 5",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000079.png",
+    "predicted_latex": "\\sqrt{\\frac{x_{2} + 12}{x^{4} - 4}} = -3",
+    "reference_latex": "\\sqrt{\\frac{x_{2} + 12}{x^{4} - 4}} = -3",
+    "exact_equation_correct": true,
+    "symbol_tp": 14,
+    "predicted_symbols": 14,
+    "actual_symbols": 14,
+    "warnings": []
+  },
+  {
+    "file": "000080.png",
+    "predicted_latex": "\\sin\\left(\\frac{b_{i} + 15}{2}\\right) = 10",
+    "reference_latex": "\\sin\\left(\\frac{b_{i} + 15}{2}\\right) = 10",
+    "exact_equation_correct": true,
+    "symbol_tp": 15,
+    "predicted_symbols": 15,
+    "actual_symbols": 15,
+    "warnings": []
+  },
+  {
+    "file": "000081.png",
+    "predicted_latex": "x_{i}^{2} + x - a + n = 13",
+    "reference_latex": "x_{i}^{2} + x - a + n = 13",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000082.png",
+    "predicted_latex": "\\frac{y_{12} + 19}{y^{4} - 9} = 16",
+    "reference_latex": "\\frac{y_{12} + 19}{y^{4} - 9} = 16",
+    "exact_equation_correct": true,
+    "symbol_tp": 14,
+    "predicted_symbols": 14,
+    "actual_symbols": 14,
+    "warnings": []
+  },
+  {
+    "file": "000083.png",
+    "predicted_latex": "\\sqrt{\\frac{x_{3} + 18}{x^{3} - 9}} = 2",
+    "reference_latex": "\\sqrt{\\frac{x_{3} + 18}{x^{3} - 9}} = 2",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000084.png",
+    "predicted_latex": "8 a + 15 = 2",
+    "reference_latex": "8 a + 15 = 2",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000085.png",
+    "predicted_latex": "\\frac{\\sin\\left(b\\right) + 8}{\\log_{2}\\left(b^{2} + 3\\right)} = -8",
+    "reference_latex": "\\frac{\\sin\\left(b\\right) + 8}{\\log_{2}\\left(b^{2} + 3\\right)} = -8",
+    "exact_equation_correct": true,
+    "symbol_tp": 22,
+    "predicted_symbols": 22,
+    "actual_symbols": 22,
+    "warnings": []
+  },
+  {
+    "file": "000086.png",
+    "predicted_latex": "\\frac{z_{12} + 7}{z^{3} - 6} = 6",
+    "reference_latex": "\\frac{z_{12} + 7}{z^{3} - 6} = 6",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000087.png",
+    "predicted_latex": "\\frac{\\frac{a + 10}{6} + 10}{a^{3} - 6} = 0",
+    "reference_latex": "\\frac{\\frac{a + 10}{6} + 10}{a^{3} - 6} = 0",
+    "exact_equation_correct": true,
+    "symbol_tp": 16,
+    "predicted_symbols": 16,
+    "actual_symbols": 16,
+    "warnings": []
+  },
+  {
+    "file": "000088.png",
+    "predicted_latex": "\\sin\\left(z\\right) + \\cos\\left(z^{2}\\right) - \\frac{z_{i}}{6} = -6",
+    "reference_latex": "\\sin\\left(z\\right) + \\cos\\left(z^{2}\\right) - \\frac{z_{i}}{6} = -6",
+    "exact_equation_correct": true,
+    "symbol_tp": 22,
+    "predicted_symbols": 22,
+    "actual_symbols": 22,
+    "warnings": []
+  },
+  {
+    "file": "000089.png",
+    "predicted_latex": "\\frac{\\sin\\left(x\\right) + 8}{\\log_{2}\\left(x^{2} + 8\\right)} = 7",
+    "reference_latex": "\\frac{\\sin\\left(x\\right) + 8}{\\log_{2}\\left(x^{2} + 8\\right)} = 7",
+    "exact_equation_correct": true,
+    "symbol_tp": 21,
+    "predicted_symbols": 21,
+    "actual_symbols": 21,
+    "warnings": []
+  },
+  {
+    "file": "000090.png",
+    "predicted_latex": "\\log_{9}\\left(y^{3} + 5\\right) = 14",
+    "reference_latex": "\\log_{9}\\left(y^{3} + 5\\right) = 14",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000091.png",
+    "predicted_latex": "\\left(z^{3} + 9 z + 15\\right)^{2} = -9",
+    "reference_latex": "\\left(z^{3} + 9 z + 15\\right)^{2} = -9",
+    "exact_equation_correct": true,
+    "symbol_tp": 14,
+    "predicted_symbols": 14,
+    "actual_symbols": 14,
+    "warnings": []
+  },
+  {
+    "file": "000092.png",
+    "predicted_latex": "8 z + 7 = 18",
+    "reference_latex": "8 z + 7 = 18",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000093.png",
+    "predicted_latex": "6 z + 10 = -9",
+    "reference_latex": "6 z + 10 = -9",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000094.png",
+    "predicted_latex": "\\sqrt{\\sqrt{y_{j} + 4} + 4} = 9",
+    "reference_latex": "\\sqrt{\\sqrt{y_{j} + 4} + 4} = 9",
+    "exact_equation_correct": true,
+    "symbol_tp": 10,
+    "predicted_symbols": 10,
+    "actual_symbols": 10,
+    "warnings": []
+  },
+  {
+    "file": "000095.png",
+    "predicted_latex": "\\frac{\\sin\\left(b\\right) + 4}{\\log_{2}\\left(b^{4} + 5\\right)} = 15",
+    "reference_latex": "\\frac{\\sin\\left(b\\right) + 4}{\\log_{2}\\left(b^{4} + 5\\right)} = 15",
+    "exact_equation_correct": true,
+    "symbol_tp": 22,
+    "predicted_symbols": 22,
+    "actual_symbols": 22,
+    "warnings": []
+  },
+  {
+    "file": "000096.png",
+    "predicted_latex": "\\frac{\\frac{a + 19}{2} + 19}{a^{4} - 2} = -4",
+    "reference_latex": "\\frac{\\frac{a + 19}{2} + 19}{a^{4} - 2} = -4",
+    "exact_equation_correct": true,
+    "symbol_tp": 17,
+    "predicted_symbols": 17,
+    "actual_symbols": 17,
+    "warnings": []
+  },
+  {
+    "file": "000097.png",
+    "predicted_latex": "\\sin\\left(b\\right) + \\cos\\left(b^{2}\\right) - \\frac{b_{12}}{7} = 3",
+    "reference_latex": "\\sin\\left(b\\right) + \\cos\\left(b^{2}\\right) - \\frac{b_{12}}{7} = 3",
+    "exact_equation_correct": true,
+    "symbol_tp": 22,
+    "predicted_symbols": 22,
+    "actual_symbols": 22,
+    "warnings": []
+  },
+  {
+    "file": "000098.png",
+    "predicted_latex": "\\cos\\left(\\frac{x_{12} + 12}{8}\\right) = 3",
+    "reference_latex": "\\cos\\left(\\frac{x_{12} + 12}{8}\\right) = 3",
+    "exact_equation_correct": true,
+    "symbol_tp": 15,
+    "predicted_symbols": 15,
+    "actual_symbols": 15,
+    "warnings": []
+  },
+  {
+    "file": "000099.png",
+    "predicted_latex": "\\log_{2}\\left(x^{4} + 12\\right) = -3",
+    "reference_latex": "\\log_{2}\\left(x^{4} + 12\\right) = -3",
+    "exact_equation_correct": true,
+    "symbol_tp": 14,
+    "predicted_symbols": 14,
+    "actual_symbols": 14,
+    "warnings": []
+  },
+  {
+    "file": "000100.png",
+    "predicted_latex": "\\left(b^{3} + 8 b + 2\\right)^{2} = -9",
+    "reference_latex": "\\left(b^{3} + 8 b + 2\\right)^{2} = -9",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000101.png",
+    "predicted_latex": "\\sin\\left(x\\right) + \\cos\\left(x^{4}\\right) - \\frac{x_{12}}{8} = 10",
+    "reference_latex": "\\sin\\left(x\\right) + \\cos\\left(x^{4}\\right) - \\frac{x_{12}}{8} = 10",
+    "exact_equation_correct": true,
+    "symbol_tp": 23,
+    "predicted_symbols": 23,
+    "actual_symbols": 23,
+    "warnings": []
+  },
+  {
+    "file": "000102.png",
+    "predicted_latex": "4 b \\times 18 = -5",
+    "reference_latex": "4 b \\times 18 = -5",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000103.png",
+    "predicted_latex": "6 z \\times 2 = 8",
+    "reference_latex": "6 z \\times 2 = 8",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000104.png",
+    "predicted_latex": "\\sqrt{\\sqrt{x_{n} + 15} + 4} = 15",
+    "reference_latex": "\\sqrt{\\sqrt{x_{n} + 15} + 4} = 15",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000105.png",
+    "predicted_latex": "\\frac{b_{n} + 14}{b^{4} - 4} = -1",
+    "reference_latex": "\\frac{b_{n} + 14}{b^{4} - 4} = -1",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000106.png",
+    "predicted_latex": "\\frac{y_{2} + 1}{y^{4} - 9} = 1",
+    "reference_latex": "\\frac{y_{2} + 1}{y^{4} - 9} = 1",
+    "exact_equation_correct": true,
+    "symbol_tp": 11,
+    "predicted_symbols": 11,
+    "actual_symbols": 11,
+    "warnings": []
+  },
+  {
+    "file": "000107.png",
+    "predicted_latex": "\\sqrt{\\frac{a_{3} + 18}{a^{3} - 9}} = 12",
+    "reference_latex": "\\sqrt{\\frac{a_{3} + 18}{a^{3} - 9}} = 12",
+    "exact_equation_correct": true,
+    "symbol_tp": 14,
+    "predicted_symbols": 14,
+    "actual_symbols": 14,
+    "warnings": []
+  },
+  {
+    "file": "000108.png",
+    "predicted_latex": "\\sin\\left(\\frac{a_{k} + 19}{4}\\right) = 1",
+    "reference_latex": "\\sin\\left(\\frac{a_{k} + 19}{4}\\right) = 1",
+    "exact_equation_correct": true,
+    "symbol_tp": 14,
+    "predicted_symbols": 14,
+    "actual_symbols": 14,
+    "warnings": []
+  },
+  {
+    "file": "000109.png",
+    "predicted_latex": "\\frac{b_{k} + 18}{b^{4} - 5} = 16",
+    "reference_latex": "\\frac{b_{k} + 18}{b^{4} - 5} = 16",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000110.png",
+    "predicted_latex": "\\sin\\left(b\\right) + \\cos\\left(b^{3}\\right) - \\frac{b_{k}}{9} = -5",
+    "reference_latex": "\\sin\\left(b\\right) + \\cos\\left(b^{3}\\right) - \\frac{b_{k}}{9} = -5",
+    "exact_equation_correct": true,
+    "symbol_tp": 22,
+    "predicted_symbols": 22,
+    "actual_symbols": 22,
+    "warnings": []
+  },
+  {
+    "file": "000111.png",
+    "predicted_latex": "\\cos\\left(\\frac{y_{2} + 9}{7}\\right) = 8",
+    "reference_latex": "\\cos\\left(\\frac{y_{2} + 9}{7}\\right) = 8",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000112.png",
+    "predicted_latex": "y_{2}^{2} + x - a + n = -2",
+    "reference_latex": "y_{2}^{2} + x - a + n = -2",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000113.png",
+    "predicted_latex": "\\log_{7}\\left(x^{3} + 4\\right) = 15",
+    "reference_latex": "\\log_{7}\\left(x^{3} + 4\\right) = 15",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000114.png",
+    "predicted_latex": "\\log_{7}\\left(z^{4} + 2\\right) = 2",
+    "reference_latex": "\\log_{7}\\left(z^{4} + 2\\right) = 2",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000115.png",
+    "predicted_latex": "\\sin\\left(x\\right) + \\cos\\left(x^{2}\\right) - \\frac{x_{12}}{3} = 12",
+    "reference_latex": "\\sin\\left(x\\right) + \\cos\\left(x^{2}\\right) - \\frac{x_{12}}{3} = 12",
+    "exact_equation_correct": true,
+    "symbol_tp": 23,
+    "predicted_symbols": 23,
+    "actual_symbols": 23,
+    "warnings": []
+  },
+  {
+    "file": "000116.png",
+    "predicted_latex": "\\sin\\left(\\frac{a_{i} + 17}{9}\\right) = 9",
+    "reference_latex": "\\sin\\left(\\frac{a_{i} + 17}{9}\\right) = 9",
+    "exact_equation_correct": true,
+    "symbol_tp": 14,
+    "predicted_symbols": 14,
+    "actual_symbols": 14,
+    "warnings": []
+  },
+  {
+    "file": "000117.png",
+    "predicted_latex": "\\sqrt{\\sqrt{y_{k} + 16} + 5} = -7",
+    "reference_latex": "\\sqrt{\\sqrt{y_{k} + 16} + 5} = -7",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000118.png",
+    "predicted_latex": "\\frac{\\frac{b + 13}{8} + 13}{b^{2} - 8} = 2",
+    "reference_latex": "\\frac{\\frac{b + 13}{8} + 13}{b^{2} - 8} = 2",
+    "exact_equation_correct": true,
+    "symbol_tp": 16,
+    "predicted_symbols": 16,
+    "actual_symbols": 16,
+    "warnings": []
+  },
+  {
+    "file": "000119.png",
+    "predicted_latex": "\\log_{9}\\left(y^{4} + 19\\right) = -2",
+    "reference_latex": "\\log_{9}\\left(y^{4} + 19\\right) = -2",
+    "exact_equation_correct": true,
+    "symbol_tp": 14,
+    "predicted_symbols": 14,
+    "actual_symbols": 14,
+    "warnings": []
+  },
+  {
+    "file": "000120.png",
+    "predicted_latex": "\\left(y^{3} + 7 y + 19\\right)^{2} = 16",
+    "reference_latex": "\\left(y^{3} + 7 y + 19\\right)^{2} = 16",
+    "exact_equation_correct": true,
+    "symbol_tp": 14,
+    "predicted_symbols": 14,
+    "actual_symbols": 14,
+    "warnings": []
+  },
+  {
+    "file": "000121.png",
+    "predicted_latex": "\\sqrt{\\sqrt{a_{3} + 14} + 6} = 3",
+    "reference_latex": "\\sqrt{\\sqrt{a_{3} + 14} + 6} = 3",
+    "exact_equation_correct": true,
+    "symbol_tp": 11,
+    "predicted_symbols": 11,
+    "actual_symbols": 11,
+    "warnings": []
+  },
+  {
+    "file": "000122.png",
+    "predicted_latex": "\\frac{a^{2} + 14}{\\left(a - 5\\right)} + \\sqrt{a + 14} = -6",
+    "reference_latex": "\\frac{a^{2} + 14}{\\left(a - 5\\right)} + \\sqrt{a + 14} = -6",
+    "exact_equation_correct": true,
+    "symbol_tp": 20,
+    "predicted_symbols": 20,
+    "actual_symbols": 20,
+    "warnings": []
+  },
+  {
+    "file": "000123.png",
+    "predicted_latex": "\\sin\\left(b\\right) + \\cos\\left(b^{4}\\right) - \\frac{b_{k}}{6} = 4",
+    "reference_latex": "\\sin\\left(b\\right) + \\cos\\left(b^{4}\\right) - \\frac{b_{k}}{6} = 4",
+    "exact_equation_correct": true,
+    "symbol_tp": 21,
+    "predicted_symbols": 21,
+    "actual_symbols": 21,
+    "warnings": []
+  },
+  {
+    "file": "000124.png",
+    "predicted_latex": "\\frac{x^{4} + 5}{\\left(x - 2\\right)} + \\sqrt{x + 5} = 8",
+    "reference_latex": "\\frac{x^{4} + 5}{\\left(x - 2\\right)} + \\sqrt{x + 5} = 8",
+    "exact_equation_correct": true,
+    "symbol_tp": 17,
+    "predicted_symbols": 17,
+    "actual_symbols": 17,
+    "warnings": []
+  },
+  {
+    "file": "000125.png",
+    "predicted_latex": "3 b - 18 = -7",
+    "reference_latex": "3 b - 18 = -7",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000126.png",
+    "predicted_latex": "\\frac{x_{2} + 12}{x^{4} - 4} = -6",
+    "reference_latex": "\\frac{x_{2} + 12}{x^{4} - 4} = -6",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000127.png",
+    "predicted_latex": "\\frac{\\frac{x + 10}{7} + 10}{x^{3} - 7} = -4",
+    "reference_latex": "\\frac{\\frac{x + 10}{7} + 10}{x^{3} - 7} = -4",
+    "exact_equation_correct": true,
+    "symbol_tp": 17,
+    "predicted_symbols": 17,
+    "actual_symbols": 17,
+    "warnings": []
+  },
+  {
+    "file": "000128.png",
+    "predicted_latex": "\\left(y^{3} + 8 y + 6\\right)^{2} = -1",
+    "reference_latex": "\\left(y^{3} + 8 y + 6\\right)^{2} = -1",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000129.png",
+    "predicted_latex": "7 x \\times 14 = 15",
+    "reference_latex": "7 x \\times 14 = 15",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000130.png",
+    "predicted_latex": "9 a \\times 10 = 19",
+    "reference_latex": "9 a \\times 10 = 19",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000131.png",
+    "predicted_latex": "\\sqrt{\\frac{y_{k} + 2}{y^{2} - 5}} = -7",
+    "reference_latex": "\\sqrt{\\frac{y_{k} + 2}{y^{2} - 5}} = -7",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000132.png",
+    "predicted_latex": "\\cos\\left(\\frac{a_{k} + 8}{8}\\right) = -3",
+    "reference_latex": "\\cos\\left(\\frac{a_{k} + 8}{8}\\right) = -3",
+    "exact_equation_correct": true,
+    "symbol_tp": 14,
+    "predicted_symbols": 14,
+    "actual_symbols": 14,
+    "warnings": []
+  },
+  {
+    "file": "000133.png",
+    "predicted_latex": "\\left(x^{2} + 9 x + 13\\right)^{2} = 7",
+    "reference_latex": "\\left(x^{2} + 9 x + 13\\right)^{2} = 7",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000134.png",
+    "predicted_latex": "b_{2}^{2} + x - a + n = 12",
+    "reference_latex": "b_{2}^{2} + x - a + n = 12",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000135.png",
+    "predicted_latex": "\\sin\\left(b\\right) + \\cos\\left(b^{2}\\right) - \\frac{b_{j}}{3} = 0",
+    "reference_latex": "\\sin\\left(b\\right) + \\cos\\left(b^{2}\\right) - \\frac{b_{j}}{3} = 0",
+    "exact_equation_correct": true,
+    "symbol_tp": 21,
+    "predicted_symbols": 21,
+    "actual_symbols": 21,
+    "warnings": []
+  },
+  {
+    "file": "000136.png",
+    "predicted_latex": "\\frac{b^{4} + 19}{\\left(b - 5\\right)} + \\sqrt{b + 19} = 15",
+    "reference_latex": "\\frac{b^{4} + 19}{\\left(b - 5\\right)} + \\sqrt{b + 19} = 15",
+    "exact_equation_correct": true,
+    "symbol_tp": 20,
+    "predicted_symbols": 20,
+    "actual_symbols": 20,
+    "warnings": []
+  },
+  {
+    "file": "000137.png",
+    "predicted_latex": "\\sin\\left(y\\right) + \\cos\\left(y^{3}\\right) - \\frac{y_{12}}{6} = 14",
+    "reference_latex": "\\sin\\left(y\\right) + \\cos\\left(y^{3}\\right) - \\frac{y_{12}}{6} = 14",
+    "exact_equation_correct": true,
+    "symbol_tp": 23,
+    "predicted_symbols": 23,
+    "actual_symbols": 23,
+    "warnings": []
+  },
+  {
+    "file": "000138.png",
+    "predicted_latex": "a_{i}^{3} + x - a + n = 9",
+    "reference_latex": "a_{i}^{3} + x - a + n = 9",
+    "exact_equation_correct": true,
+    "symbol_tp": 11,
+    "predicted_symbols": 11,
+    "actual_symbols": 11,
+    "warnings": []
+  },
+  {
+    "file": "000139.png",
+    "predicted_latex": "2 b - 11 = -9",
+    "reference_latex": "2 b - 11 = -9",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000140.png",
+    "predicted_latex": "\\sin\\left(y\\right) + \\cos\\left(y^{3}\\right) - \\frac{y_{2}}{4} = 7",
+    "reference_latex": "\\sin\\left(y\\right) + \\cos\\left(y^{3}\\right) - \\frac{y_{2}}{4} = 7",
+    "exact_equation_correct": true,
+    "symbol_tp": 21,
+    "predicted_symbols": 21,
+    "actual_symbols": 21,
+    "warnings": []
+  },
+  {
+    "file": "000141.png",
+    "predicted_latex": "\\sqrt{\\frac{x_{i} + 13}{x^{3} - 9}} = -3",
+    "reference_latex": "\\sqrt{\\frac{x_{i} + 13}{x^{3} - 9}} = -3",
+    "exact_equation_correct": true,
+    "symbol_tp": 14,
+    "predicted_symbols": 14,
+    "actual_symbols": 14,
+    "warnings": []
+  },
+  {
+    "file": "000142.png",
+    "predicted_latex": "x_{n}^{2} + x - a + n = 13",
+    "reference_latex": "x_{n}^{2} + x - a + n = 13",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000143.png",
+    "predicted_latex": "y_{12}^{3} + x - a + n = 2",
+    "reference_latex": "y_{12}^{3} + x - a + n = 2",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000144.png",
+    "predicted_latex": "\\sqrt{\\frac{x_{2} + 7}{x^{3} - 4}} = 8",
+    "reference_latex": "\\sqrt{\\frac{x_{2} + 7}{x^{3} - 4}} = 8",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000145.png",
+    "predicted_latex": "\\log_{2}\\left(x^{3} + 5\\right) = 2",
+    "reference_latex": "\\log_{2}\\left(x^{3} + 5\\right) = 2",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000146.png",
+    "predicted_latex": "\\sin\\left(\\frac{b_{j} + 4}{4}\\right) = 4",
+    "reference_latex": "\\sin\\left(\\frac{b_{j} + 4}{4}\\right) = 4",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000147.png",
+    "predicted_latex": "\\left(b^{2} + 3 b + 19\\right)^{2} = 16",
+    "reference_latex": "\\left(b^{2} + 3 b + 19\\right)^{2} = 16",
+    "exact_equation_correct": true,
+    "symbol_tp": 14,
+    "predicted_symbols": 14,
+    "actual_symbols": 14,
+    "warnings": []
+  },
+  {
+    "file": "000148.png",
+    "predicted_latex": "5 b - 17 = 14",
+    "reference_latex": "5 b - 17 = 14",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000149.png",
+    "predicted_latex": "\\log_{2}\\left(y^{4} + 5\\right) = 17",
+    "reference_latex": "\\log_{2}\\left(y^{4} + 5\\right) = 17",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000150.png",
+    "predicted_latex": "\\sin\\left(x\\right) + \\cos\\left(x^{3}\\right) - \\frac{x_{i}}{4} = 2",
+    "reference_latex": "\\sin\\left(x\\right) + \\cos\\left(x^{3}\\right) - \\frac{x_{i}}{4} = 2",
+    "exact_equation_correct": true,
+    "symbol_tp": 21,
+    "predicted_symbols": 21,
+    "actual_symbols": 21,
+    "warnings": []
+  },
+  {
+    "file": "000151.png",
+    "predicted_latex": "x_{n}^{4} + x - a + n = -4",
+    "reference_latex": "x_{n}^{4} + x - a + n = -4",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000152.png",
+    "predicted_latex": "\\frac{z^{3} + 2}{\\left(z - 2\\right)} + \\sqrt{z + 2} = -1",
+    "reference_latex": "\\frac{z^{3} + 2}{\\left(z - 2\\right)} + \\sqrt{z + 2} = -1",
+    "exact_equation_correct": true,
+    "symbol_tp": 18,
+    "predicted_symbols": 18,
+    "actual_symbols": 18,
+    "warnings": []
+  },
+  {
+    "file": "000153.png",
+    "predicted_latex": "\\cos\\left(\\frac{y_{j} + 17}{3}\\right) = 18",
+    "reference_latex": "\\cos\\left(\\frac{y_{j} + 17}{3}\\right) = 18",
+    "exact_equation_correct": true,
+    "symbol_tp": 15,
+    "predicted_symbols": 15,
+    "actual_symbols": 15,
+    "warnings": []
+  },
+  {
+    "file": "000154.png",
+    "predicted_latex": "\\sqrt{\\frac{y_{12} + 12}{y^{4} - 2}} = 6",
+    "reference_latex": "\\sqrt{\\frac{y_{12} + 12}{y^{4} - 2}} = 6",
+    "exact_equation_correct": true,
+    "symbol_tp": 14,
+    "predicted_symbols": 14,
+    "actual_symbols": 14,
+    "warnings": []
+  },
+  {
+    "file": "000155.png",
+    "predicted_latex": "\\frac{\\frac{x + 10}{6} + 10}{x^{4} - 6} = 4",
+    "reference_latex": "\\frac{\\frac{x + 10}{6} + 10}{x^{4} - 6} = 4",
+    "exact_equation_correct": true,
+    "symbol_tp": 16,
+    "predicted_symbols": 16,
+    "actual_symbols": 16,
+    "warnings": []
+  },
+  {
+    "file": "000156.png",
+    "predicted_latex": "\\frac{\\frac{a + 8}{2} + 8}{a^{2} - 2} = 19",
+    "reference_latex": "\\frac{\\frac{a + 8}{2} + 8}{a^{2} - 2} = 19",
+    "exact_equation_correct": true,
+    "symbol_tp": 15,
+    "predicted_symbols": 15,
+    "actual_symbols": 15,
+    "warnings": []
+  },
+  {
+    "file": "000157.png",
+    "predicted_latex": "\\cos\\left(\\frac{b_{n} + 10}{4}\\right) = -6",
+    "reference_latex": "\\cos\\left(\\frac{b_{n} + 10}{4}\\right) = -6",
+    "exact_equation_correct": true,
+    "symbol_tp": 15,
+    "predicted_symbols": 15,
+    "actual_symbols": 15,
+    "warnings": []
+  },
+  {
+    "file": "000158.png",
+    "predicted_latex": "6 x - 16 = 8",
+    "reference_latex": "6 x - 16 = 8",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000159.png",
+    "predicted_latex": "8 x \\times 6 = 0",
+    "reference_latex": "8 x \\times 6 = 0",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000160.png",
+    "predicted_latex": "\\left(z^{2} + 7 z + 17\\right)^{2} = 14",
+    "reference_latex": "\\left(z^{2} + 7 z + 17\\right)^{2} = 14",
+    "exact_equation_correct": true,
+    "symbol_tp": 14,
+    "predicted_symbols": 14,
+    "actual_symbols": 14,
+    "warnings": []
+  },
+  {
+    "file": "000161.png",
+    "predicted_latex": "\\sqrt{\\frac{z_{n} + 3}{z^{4} - 3}} = -3",
+    "reference_latex": "\\sqrt{\\frac{z_{n} + 3}{z^{4} - 3}} = -3",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000162.png",
+    "predicted_latex": "2 y + 19 = 11",
+    "reference_latex": "2 y + 19 = 11",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000163.png",
+    "predicted_latex": "\\sin\\left(b\\right) + \\cos\\left(b^{3}\\right) - \\frac{b_{i}}{8} = -6",
+    "reference_latex": "\\sin\\left(b\\right) + \\cos\\left(b^{3}\\right) - \\frac{b_{i}}{8} = -6",
+    "exact_equation_correct": true,
+    "symbol_tp": 22,
+    "predicted_symbols": 22,
+    "actual_symbols": 22,
+    "warnings": []
+  },
+  {
+    "file": "000164.png",
+    "predicted_latex": "\\log_{4}\\left(z^{2} + 11\\right) = 18",
+    "reference_latex": "\\log_{4}\\left(z^{2} + 11\\right) = 18",
+    "exact_equation_correct": true,
+    "symbol_tp": 14,
+    "predicted_symbols": 14,
+    "actual_symbols": 14,
+    "warnings": []
+  },
+  {
+    "file": "000165.png",
+    "predicted_latex": "\\frac{x_{j} + 13}{x^{3} - 2} = -9",
+    "reference_latex": "\\frac{x_{j} + 13}{x^{3} - 2} = -9",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000166.png",
+    "predicted_latex": "\\frac{\\frac{b + 6}{5} + 6}{b^{4} - 5} = -7",
+    "reference_latex": "\\frac{\\frac{b + 6}{5} + 6}{b^{4} - 5} = -7",
+    "exact_equation_correct": true,
+    "symbol_tp": 15,
+    "predicted_symbols": 15,
+    "actual_symbols": 15,
+    "warnings": []
+  },
+  {
+    "file": "000167.png",
+    "predicted_latex": "\\frac{\\frac{b + 2}{9} + 2}{b^{4} - 9} = -8",
+    "reference_latex": "\\frac{\\frac{b + 2}{9} + 2}{b^{4} - 9} = -8",
+    "exact_equation_correct": true,
+    "symbol_tp": 15,
+    "predicted_symbols": 15,
+    "actual_symbols": 15,
+    "warnings": []
+  },
+  {
+    "file": "000168.png",
+    "predicted_latex": "\\frac{\\sin\\left(z\\right) + 11}{\\log_{2}\\left(z^{2} + 4\\right)} = -2",
+    "reference_latex": "\\frac{\\sin\\left(z\\right) + 11}{\\log_{2}\\left(z^{2} + 4\\right)} = -2",
+    "exact_equation_correct": true,
+    "symbol_tp": 23,
+    "predicted_symbols": 23,
+    "actual_symbols": 23,
+    "warnings": []
+  },
+  {
+    "file": "000169.png",
+    "predicted_latex": "\\frac{a_{k} + 9}{a^{3} - 8} = 9",
+    "reference_latex": "\\frac{a_{k} + 9}{a^{3} - 8} = 9",
+    "exact_equation_correct": true,
+    "symbol_tp": 11,
+    "predicted_symbols": 11,
+    "actual_symbols": 11,
+    "warnings": []
+  },
+  {
+    "file": "000170.png",
+    "predicted_latex": "x_{k}^{4} + x - a + n = 0",
+    "reference_latex": "x_{k}^{4} + x - a + n = 0",
+    "exact_equation_correct": true,
+    "symbol_tp": 11,
+    "predicted_symbols": 11,
+    "actual_symbols": 11,
+    "warnings": []
+  },
+  {
+    "file": "000171.png",
+    "predicted_latex": "\\frac{\\frac{b + 18}{5} + 18}{b^{2} - 5} = -1",
+    "reference_latex": "\\frac{\\frac{b + 18}{5} + 18}{b^{2} - 5} = -1",
+    "exact_equation_correct": true,
+    "symbol_tp": 17,
+    "predicted_symbols": 17,
+    "actual_symbols": 17,
+    "warnings": []
+  },
+  {
+    "file": "000172.png",
+    "predicted_latex": "\\cos\\left(\\frac{a_{i} + 18}{4}\\right) = 16",
+    "reference_latex": "\\cos\\left(\\frac{a_{i} + 18}{4}\\right) = 16",
+    "exact_equation_correct": true,
+    "symbol_tp": 15,
+    "predicted_symbols": 15,
+    "actual_symbols": 15,
+    "warnings": []
+  },
+  {
+    "file": "000173.png",
+    "predicted_latex": "\\sqrt{\\sqrt{x_{j} + 5} + 4} = 9",
+    "reference_latex": "\\sqrt{\\sqrt{x_{j} + 5} + 4} = 9",
+    "exact_equation_correct": true,
+    "symbol_tp": 10,
+    "predicted_symbols": 10,
+    "actual_symbols": 10,
+    "warnings": []
+  },
+  {
+    "file": "000174.png",
+    "predicted_latex": "\\frac{\\sin\\left(x\\right) + 13}{\\log_{2}\\left(x^{3} + 4\\right)} = 9",
+    "reference_latex": "\\frac{\\sin\\left(x\\right) + 13}{\\log_{2}\\left(x^{3} + 4\\right)} = 9",
+    "exact_equation_correct": true,
+    "symbol_tp": 22,
+    "predicted_symbols": 22,
+    "actual_symbols": 22,
+    "warnings": []
+  },
+  {
+    "file": "000175.png",
+    "predicted_latex": "\\sin\\left(\\frac{x_{k} + 19}{6}\\right) = -6",
+    "reference_latex": "\\sin\\left(\\frac{x_{k} + 19}{6}\\right) = -6",
+    "exact_equation_correct": true,
+    "symbol_tp": 15,
+    "predicted_symbols": 15,
+    "actual_symbols": 15,
+    "warnings": []
+  },
+  {
+    "file": "000176.png",
+    "predicted_latex": "\\cos\\left(\\frac{x_{2} + 15}{8}\\right) = 16",
+    "reference_latex": "\\cos\\left(\\frac{x_{2} + 15}{8}\\right) = 16",
+    "exact_equation_correct": true,
+    "symbol_tp": 15,
+    "predicted_symbols": 15,
+    "actual_symbols": 15,
+    "warnings": []
+  },
+  {
+    "file": "000177.png",
+    "predicted_latex": "\\cos\\left(\\frac{a_{j} + 15}{7}\\right) = -4",
+    "reference_latex": "\\cos\\left(\\frac{a_{j} + 15}{7}\\right) = -4",
+    "exact_equation_correct": true,
+    "symbol_tp": 15,
+    "predicted_symbols": 15,
+    "actual_symbols": 15,
+    "warnings": []
+  },
+  {
+    "file": "000178.png",
+    "predicted_latex": "\\frac{\\sin\\left(a\\right) + 15}{\\log_{2}\\left(a^{4} + 9\\right)} = 16",
+    "reference_latex": "\\frac{\\sin\\left(a\\right) + 15}{\\log_{2}\\left(a^{4} + 9\\right)} = 16",
+    "exact_equation_correct": true,
+    "symbol_tp": 23,
+    "predicted_symbols": 23,
+    "actual_symbols": 23,
+    "warnings": []
+  },
+  {
+    "file": "000179.png",
+    "predicted_latex": "2 y - 15 = 14",
+    "reference_latex": "2 y - 15 = 14",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000180.png",
+    "predicted_latex": "\\frac{y^{4} + 14}{\\left(y - 4\\right)} + \\sqrt{y + 14} = 2",
+    "reference_latex": "\\frac{y^{4} + 14}{\\left(y - 4\\right)} + \\sqrt{y + 14} = 2",
+    "exact_equation_correct": true,
+    "symbol_tp": 19,
+    "predicted_symbols": 19,
+    "actual_symbols": 19,
+    "warnings": []
+  },
+  {
+    "file": "000181.png",
+    "predicted_latex": "\\left(x^{2} + 9 x + 9\\right)^{2} = -9",
+    "reference_latex": "\\left(x^{2} + 9 x + 9\\right)^{2} = -9",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000182.png",
+    "predicted_latex": "\\left(z^{2} + 2 z + 18\\right)^{2} = 16",
+    "reference_latex": "\\left(z^{2} + 2 z + 18\\right)^{2} = 16",
+    "exact_equation_correct": true,
+    "symbol_tp": 14,
+    "predicted_symbols": 14,
+    "actual_symbols": 14,
+    "warnings": []
+  },
+  {
+    "file": "000183.png",
+    "predicted_latex": "\\sqrt{\\sqrt{b_{2} + 6} + 2} = 10",
+    "reference_latex": "\\sqrt{\\sqrt{b_{2} + 6} + 2} = 10",
+    "exact_equation_correct": true,
+    "symbol_tp": 11,
+    "predicted_symbols": 11,
+    "actual_symbols": 11,
+    "warnings": []
+  },
+  {
+    "file": "000184.png",
+    "predicted_latex": "\\frac{z^{2} + 14}{\\left(z - 8\\right)} + \\sqrt{z + 14} = 16",
+    "reference_latex": "\\frac{z^{2} + 14}{\\left(z - 8\\right)} + \\sqrt{z + 14} = 16",
+    "exact_equation_correct": true,
+    "symbol_tp": 20,
+    "predicted_symbols": 20,
+    "actual_symbols": 20,
+    "warnings": []
+  },
+  {
+    "file": "000185.png",
+    "predicted_latex": "\\left(z^{4} + 6 z + 7\\right)^{2} = -8",
+    "reference_latex": "\\left(z^{4} + 6 z + 7\\right)^{2} = -8",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000186.png",
+    "predicted_latex": "\\sqrt{\\frac{x_{k} + 10}{x^{2} - 6}} = 17",
+    "reference_latex": "\\sqrt{\\frac{x_{k} + 10}{x^{2} - 6}} = 17",
+    "exact_equation_correct": true,
+    "symbol_tp": 14,
+    "predicted_symbols": 14,
+    "actual_symbols": 14,
+    "warnings": []
+  },
+  {
+    "file": "000187.png",
+    "predicted_latex": "\\frac{\\frac{z + 17}{7} + 17}{z^{4} - 7} = 19",
+    "reference_latex": "\\frac{\\frac{z + 17}{7} + 17}{z^{4} - 7} = 19",
+    "exact_equation_correct": true,
+    "symbol_tp": 17,
+    "predicted_symbols": 17,
+    "actual_symbols": 17,
+    "warnings": []
+  },
+  {
+    "file": "000188.png",
+    "predicted_latex": "\\frac{\\frac{z + 14}{3} + 14}{z^{4} - 3} = 2",
+    "reference_latex": "\\frac{\\frac{z + 14}{3} + 14}{z^{4} - 3} = 2",
+    "exact_equation_correct": true,
+    "symbol_tp": 16,
+    "predicted_symbols": 16,
+    "actual_symbols": 16,
+    "warnings": []
+  },
+  {
+    "file": "000189.png",
+    "predicted_latex": "\\cos\\left(\\frac{b_{i} + 17}{5}\\right) = -1",
+    "reference_latex": "\\cos\\left(\\frac{b_{i} + 17}{5}\\right) = -1",
+    "exact_equation_correct": true,
+    "symbol_tp": 15,
+    "predicted_symbols": 15,
+    "actual_symbols": 15,
+    "warnings": []
+  },
+  {
+    "file": "000190.png",
+    "predicted_latex": "\\left(y^{4} + 6 y + 11\\right)^{2} = 2",
+    "reference_latex": "\\left(y^{4} + 6 y + 11\\right)^{2} = 2",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000191.png",
+    "predicted_latex": "4 b + 16 = 1",
+    "reference_latex": "4 b + 16 = 1",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000192.png",
+    "predicted_latex": "\\frac{\\frac{x + 7}{6} + 7}{x^{2} - 6} = 10",
+    "reference_latex": "\\frac{\\frac{x + 7}{6} + 7}{x^{2} - 6} = 10",
+    "exact_equation_correct": true,
+    "symbol_tp": 15,
+    "predicted_symbols": 15,
+    "actual_symbols": 15,
+    "warnings": []
+  },
+  {
+    "file": "000193.png",
+    "predicted_latex": "\\frac{\\sin\\left(z\\right) + 15}{\\log_{2}\\left(z^{2} + 6\\right)} = 18",
+    "reference_latex": "\\frac{\\sin\\left(z\\right) + 15}{\\log_{2}\\left(z^{2} + 6\\right)} = 18",
+    "exact_equation_correct": true,
+    "symbol_tp": 23,
+    "predicted_symbols": 23,
+    "actual_symbols": 23,
+    "warnings": []
+  },
+  {
+    "file": "000194.png",
+    "predicted_latex": "\\frac{a^{3} + 7}{\\left(a - 9\\right)} + \\sqrt{a + 7} = 15",
+    "reference_latex": "\\frac{a^{3} + 7}{\\left(a - 9\\right)} + \\sqrt{a + 7} = 15",
+    "exact_equation_correct": true,
+    "symbol_tp": 18,
+    "predicted_symbols": 18,
+    "actual_symbols": 18,
+    "warnings": []
+  },
+  {
+    "file": "000195.png",
+    "predicted_latex": "\\frac{x^{3} + 1}{\\left(x - 6\\right)} + \\sqrt{x + 1} = -5",
+    "reference_latex": "\\frac{x^{3} + 1}{\\left(x - 6\\right)} + \\sqrt{x + 1} = -5",
+    "exact_equation_correct": true,
+    "symbol_tp": 18,
+    "predicted_symbols": 18,
+    "actual_symbols": 18,
+    "warnings": []
+  },
+  {
+    "file": "000196.png",
+    "predicted_latex": "\\sin\\left(y\\right) + \\cos\\left(y^{4}\\right) - \\frac{y_{2}}{8} = 19",
+    "reference_latex": "\\sin\\left(y\\right) + \\cos\\left(y^{4}\\right) - \\frac{y_{2}}{8} = 19",
+    "exact_equation_correct": true,
+    "symbol_tp": 22,
+    "predicted_symbols": 22,
+    "actual_symbols": 22,
+    "warnings": []
+  },
+  {
+    "file": "000197.png",
+    "predicted_latex": "\\sin\\left(b\\right) + \\cos\\left(b^{4}\\right) - \\frac{b_{i}}{4} = 8",
+    "reference_latex": "\\sin\\left(b\\right) + \\cos\\left(b^{4}\\right) - \\frac{b_{i}}{4} = 8",
+    "exact_equation_correct": true,
+    "symbol_tp": 21,
+    "predicted_symbols": 21,
+    "actual_symbols": 21,
+    "warnings": []
+  },
+  {
+    "file": "000198.png",
+    "predicted_latex": "\\sin\\left(x\\right) + \\cos\\left(x^{2}\\right) - \\frac{x_{3}}{2} = -1",
+    "reference_latex": "\\sin\\left(x\\right) + \\cos\\left(x^{2}\\right) - \\frac{x_{3}}{2} = -1",
+    "exact_equation_correct": true,
+    "symbol_tp": 22,
+    "predicted_symbols": 22,
+    "actual_symbols": 22,
+    "warnings": []
+  },
+  {
+    "file": "000199.png",
+    "predicted_latex": "\\sin\\left(\\frac{x_{j} + 13}{7}\\right) = -3",
+    "reference_latex": "\\sin\\left(\\frac{x_{j} + 13}{7}\\right) = -3",
+    "exact_equation_correct": true,
+    "symbol_tp": 15,
+    "predicted_symbols": 15,
+    "actual_symbols": 15,
+    "warnings": []
+  },
+  {
+    "file": "000200.png",
+    "predicted_latex": "\\frac{a^{3} + 6}{\\left(a - 2\\right)} + \\sqrt{a + 6} = -9",
+    "reference_latex": "\\frac{a^{3} + 6}{\\left(a - 2\\right)} + \\sqrt{a + 6} = -9",
+    "exact_equation_correct": true,
+    "symbol_tp": 18,
+    "predicted_symbols": 18,
+    "actual_symbols": 18,
+    "warnings": []
+  },
+  {
+    "file": "000201.png",
+    "predicted_latex": "\\sqrt{\\frac{z_{i} + 13}{z^{2} - 5}} = 10",
+    "reference_latex": "\\sqrt{\\frac{z_{i} + 13}{z^{2} - 5}} = 10",
+    "exact_equation_correct": true,
+    "symbol_tp": 14,
+    "predicted_symbols": 14,
+    "actual_symbols": 14,
+    "warnings": []
+  },
+  {
+    "file": "000202.png",
+    "predicted_latex": "\\sin\\left(\\frac{a_{3} + 12}{6}\\right) = -1",
+    "reference_latex": "\\sin\\left(\\frac{a_{3} + 12}{6}\\right) = -1",
+    "exact_equation_correct": true,
+    "symbol_tp": 15,
+    "predicted_symbols": 15,
+    "actual_symbols": 15,
+    "warnings": []
+  },
+  {
+    "file": "000203.png",
+    "predicted_latex": "\\frac{b_{12} + 2}{b^{2} - 3} = 1",
+    "reference_latex": "\\frac{b_{12} + 2}{b^{2} - 3} = 1",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000204.png",
+    "predicted_latex": "\\frac{z^{4} + 9}{\\left(z - 5\\right)} + \\sqrt{z + 9} = -1",
+    "reference_latex": "\\frac{z^{4} + 9}{\\left(z - 5\\right)} + \\sqrt{z + 9} = -1",
+    "exact_equation_correct": true,
+    "symbol_tp": 18,
+    "predicted_symbols": 18,
+    "actual_symbols": 18,
+    "warnings": []
+  },
+  {
+    "file": "000205.png",
+    "predicted_latex": "\\sin\\left(\\frac{a_{i} + 12}{7}\\right) = 0",
+    "reference_latex": "\\sin\\left(\\frac{a_{i} + 12}{7}\\right) = 0",
+    "exact_equation_correct": true,
+    "symbol_tp": 14,
+    "predicted_symbols": 14,
+    "actual_symbols": 14,
+    "warnings": []
+  },
+  {
+    "file": "000206.png",
+    "predicted_latex": "\\sin\\left(z\\right) + \\cos\\left(z^{3}\\right) - \\frac{z_{12}}{5} = 18",
+    "reference_latex": "\\sin\\left(z\\right) + \\cos\\left(z^{3}\\right) - \\frac{z_{12}}{5} = 18",
+    "exact_equation_correct": true,
+    "symbol_tp": 23,
+    "predicted_symbols": 23,
+    "actual_symbols": 23,
+    "warnings": []
+  },
+  {
+    "file": "000207.png",
+    "predicted_latex": "\\left(y^{3} + 2 y + 12\\right)^{2} = 14",
+    "reference_latex": "\\left(y^{3} + 2 y + 12\\right)^{2} = 14",
+    "exact_equation_correct": true,
+    "symbol_tp": 14,
+    "predicted_symbols": 14,
+    "actual_symbols": 14,
+    "warnings": []
+  },
+  {
+    "file": "000208.png",
+    "predicted_latex": "\\sin\\left(\\frac{b_{j} + 13}{9}\\right) = 1",
+    "reference_latex": "\\sin\\left(\\frac{b_{j} + 13}{9}\\right) = 1",
+    "exact_equation_correct": true,
+    "symbol_tp": 14,
+    "predicted_symbols": 14,
+    "actual_symbols": 14,
+    "warnings": []
+  },
+  {
+    "file": "000209.png",
+    "predicted_latex": "\\left(b^{2} + 4 b + 9\\right)^{2} = -8",
+    "reference_latex": "\\left(b^{2} + 4 b + 9\\right)^{2} = -8",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000210.png",
+    "predicted_latex": "\\frac{\\sin\\left(y\\right) + 12}{\\log_{2}\\left(y^{4} + 3\\right)} = 1",
+    "reference_latex": "\\frac{\\sin\\left(y\\right) + 12}{\\log_{2}\\left(y^{4} + 3\\right)} = 1",
+    "exact_equation_correct": true,
+    "symbol_tp": 22,
+    "predicted_symbols": 22,
+    "actual_symbols": 22,
+    "warnings": []
+  },
+  {
+    "file": "000211.png",
+    "predicted_latex": "\\sin\\left(a\\right) + \\cos\\left(a^{3}\\right) - \\frac{a_{12}}{4} = 18",
+    "reference_latex": "\\sin\\left(a\\right) + \\cos\\left(a^{3}\\right) - \\frac{a_{12}}{4} = 18",
+    "exact_equation_correct": true,
+    "symbol_tp": 23,
+    "predicted_symbols": 23,
+    "actual_symbols": 23,
+    "warnings": []
+  },
+  {
+    "file": "000212.png",
+    "predicted_latex": "\\sqrt{\\sqrt{a_{k} + 19} + 5} = 9",
+    "reference_latex": "\\sqrt{\\sqrt{a_{k} + 19} + 5} = 9",
+    "exact_equation_correct": true,
+    "symbol_tp": 11,
+    "predicted_symbols": 11,
+    "actual_symbols": 11,
+    "warnings": []
+  },
+  {
+    "file": "000213.png",
+    "predicted_latex": "5 a + 3 = 4",
+    "reference_latex": "5 a + 3 = 4",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000214.png",
+    "predicted_latex": "a_{j}^{4} + x - a + n = 6",
+    "reference_latex": "a_{j}^{4} + x - a + n = 6",
+    "exact_equation_correct": true,
+    "symbol_tp": 11,
+    "predicted_symbols": 11,
+    "actual_symbols": 11,
+    "warnings": []
+  },
+  {
+    "file": "000215.png",
+    "predicted_latex": "\\frac{z^{2} + 11}{\\left(z - 5\\right)} + \\sqrt{z + 11} = -3",
+    "reference_latex": "\\frac{z^{2} + 11}{\\left(z - 5\\right)} + \\sqrt{z + 11} = -3",
+    "exact_equation_correct": true,
+    "symbol_tp": 20,
+    "predicted_symbols": 20,
+    "actual_symbols": 20,
+    "warnings": []
+  },
+  {
+    "file": "000216.png",
+    "predicted_latex": "\\log_{7}\\left(b^{2} + 19\\right) = 9",
+    "reference_latex": "\\log_{7}\\left(b^{2} + 19\\right) = 9",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000217.png",
+    "predicted_latex": "\\frac{z^{2} + 14}{\\left(z - 3\\right)} + \\sqrt{z + 14} = 15",
+    "reference_latex": "\\frac{z^{2} + 14}{\\left(z - 3\\right)} + \\sqrt{z + 14} = 15",
+    "exact_equation_correct": true,
+    "symbol_tp": 20,
+    "predicted_symbols": 20,
+    "actual_symbols": 20,
+    "warnings": []
+  },
+  {
+    "file": "000218.png",
+    "predicted_latex": "2 z + 8 = 17",
+    "reference_latex": "2 z + 8 = 17",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000219.png",
+    "predicted_latex": "\\frac{\\frac{b + 8}{4} + 8}{b^{3} - 4} = -1",
+    "reference_latex": "\\frac{\\frac{b + 8}{4} + 8}{b^{3} - 4} = -1",
+    "exact_equation_correct": true,
+    "symbol_tp": 15,
+    "predicted_symbols": 15,
+    "actual_symbols": 15,
+    "warnings": []
+  },
+  {
+    "file": "000220.png",
+    "predicted_latex": "\\log_{8}\\left(b^{3} + 7\\right) = 10",
+    "reference_latex": "\\log_{8}\\left(b^{3} + 7\\right) = 10",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000221.png",
+    "predicted_latex": "7 z + 17 = 15",
+    "reference_latex": "7 z + 17 = 15",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000222.png",
+    "predicted_latex": "\\sqrt{\\frac{x_{3} + 2}{x^{4} - 2}} = -2",
+    "reference_latex": "\\sqrt{\\frac{x_{3} + 2}{x^{4} - 2}} = -2",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000223.png",
+    "predicted_latex": "\\frac{y_{i} + 4}{y^{2} - 3} = 0",
+    "reference_latex": "\\frac{y_{i} + 4}{y^{2} - 3} = 0",
+    "exact_equation_correct": true,
+    "symbol_tp": 11,
+    "predicted_symbols": 11,
+    "actual_symbols": 11,
+    "warnings": []
+  },
+  {
+    "file": "000224.png",
+    "predicted_latex": "\\frac{\\frac{y + 15}{3} + 15}{y^{2} - 3} = -4",
+    "reference_latex": "\\frac{\\frac{y + 15}{3} + 15}{y^{2} - 3} = -4",
+    "exact_equation_correct": true,
+    "symbol_tp": 17,
+    "predicted_symbols": 17,
+    "actual_symbols": 17,
+    "warnings": []
+  },
+  {
+    "file": "000225.png",
+    "predicted_latex": "\\left(b^{4} + 5 b + 17\\right)^{2} = -2",
+    "reference_latex": "\\left(b^{4} + 5 b + 17\\right)^{2} = -2",
+    "exact_equation_correct": true,
+    "symbol_tp": 14,
+    "predicted_symbols": 14,
+    "actual_symbols": 14,
+    "warnings": []
+  },
+  {
+    "file": "000226.png",
+    "predicted_latex": "x_{2}^{2} + x - a + n = -8",
+    "reference_latex": "x_{2}^{2} + x - a + n = -8",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000227.png",
+    "predicted_latex": "z_{12}^{4} + x - a + n = 4",
+    "reference_latex": "z_{12}^{4} + x - a + n = 4",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000228.png",
+    "predicted_latex": "\\sin\\left(a\\right) + \\cos\\left(a^{2}\\right) - \\frac{a_{n}}{9} = 4",
+    "reference_latex": "\\sin\\left(a\\right) + \\cos\\left(a^{2}\\right) - \\frac{a_{n}}{9} = 4",
+    "exact_equation_correct": true,
+    "symbol_tp": 21,
+    "predicted_symbols": 21,
+    "actual_symbols": 21,
+    "warnings": []
+  },
+  {
+    "file": "000229.png",
+    "predicted_latex": "\\frac{y^{2} + 8}{\\left(y - 2\\right)} + \\sqrt{y + 8} = -3",
+    "reference_latex": "\\frac{y^{2} + 8}{\\left(y - 2\\right)} + \\sqrt{y + 8} = -3",
+    "exact_equation_correct": true,
+    "symbol_tp": 18,
+    "predicted_symbols": 18,
+    "actual_symbols": 18,
+    "warnings": []
+  },
+  {
+    "file": "000230.png",
+    "predicted_latex": "\\sqrt{\\sqrt{x_{12} + 3} + 4} = 9",
+    "reference_latex": "\\sqrt{\\sqrt{x_{12} + 3} + 4} = 9",
+    "exact_equation_correct": true,
+    "symbol_tp": 11,
+    "predicted_symbols": 11,
+    "actual_symbols": 11,
+    "warnings": []
+  },
+  {
+    "file": "000231.png",
+    "predicted_latex": "\\frac{b_{2} + 12}{b^{2} - 5} = 2",
+    "reference_latex": "\\frac{b_{2} + 12}{b^{2} - 5} = 2",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000232.png",
+    "predicted_latex": "\\frac{b_{n} + 19}{b^{3} - 4} = -9",
+    "reference_latex": "\\frac{b_{n} + 19}{b^{3} - 4} = -9",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000233.png",
+    "predicted_latex": "\\sqrt{\\frac{b_{2} + 4}{b^{4} - 5}} = -8",
+    "reference_latex": "\\sqrt{\\frac{b_{2} + 4}{b^{4} - 5}} = -8",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000234.png",
+    "predicted_latex": "8 x \\times 3 = -9",
+    "reference_latex": "8 x \\times 3 = -9",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000235.png",
+    "predicted_latex": "\\sqrt{\\sqrt{z_{j} + 2} + 8} = 11",
+    "reference_latex": "\\sqrt{\\sqrt{z_{j} + 2} + 8} = 11",
+    "exact_equation_correct": true,
+    "symbol_tp": 11,
+    "predicted_symbols": 11,
+    "actual_symbols": 11,
+    "warnings": []
+  },
+  {
+    "file": "000236.png",
+    "predicted_latex": "\\frac{b^{2} + 19}{\\left(b - 5\\right)} + \\sqrt{b + 19} = 15",
+    "reference_latex": "\\frac{b^{2} + 19}{\\left(b - 5\\right)} + \\sqrt{b + 19} = 15",
+    "exact_equation_correct": true,
+    "symbol_tp": 20,
+    "predicted_symbols": 20,
+    "actual_symbols": 20,
+    "warnings": []
+  },
+  {
+    "file": "000237.png",
+    "predicted_latex": "\\frac{\\sin\\left(y\\right) + 18}{\\log_{2}\\left(y^{3} + 4\\right)} = 13",
+    "reference_latex": "\\frac{\\sin\\left(y\\right) + 18}{\\log_{2}\\left(y^{3} + 4\\right)} = 13",
+    "exact_equation_correct": true,
+    "symbol_tp": 23,
+    "predicted_symbols": 23,
+    "actual_symbols": 23,
+    "warnings": []
+  },
+  {
+    "file": "000238.png",
+    "predicted_latex": "\\left(b^{2} + 4 b + 16\\right)^{2} = 2",
+    "reference_latex": "\\left(b^{2} + 4 b + 16\\right)^{2} = 2",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000239.png",
+    "predicted_latex": "\\sqrt{\\frac{z_{2} + 2}{z^{3} - 5}} = 19",
+    "reference_latex": "\\sqrt{\\frac{z_{2} + 2}{z^{3} - 5}} = 19",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000240.png",
+    "predicted_latex": "\\sin\\left(a\\right) + \\cos\\left(a^{3}\\right) - \\frac{a_{2}}{8} = 0",
+    "reference_latex": "\\sin\\left(a\\right) + \\cos\\left(a^{3}\\right) - \\frac{a_{2}}{8} = 0",
+    "exact_equation_correct": true,
+    "symbol_tp": 21,
+    "predicted_symbols": 21,
+    "actual_symbols": 21,
+    "warnings": []
+  },
+  {
+    "file": "000241.png",
+    "predicted_latex": "\\sqrt{\\frac{a_{j} + 13}{a^{2} - 4}} = 8",
+    "reference_latex": "\\sqrt{\\frac{a_{j} + 13}{a^{2} - 4}} = 8",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000242.png",
+    "predicted_latex": "\\log_{4}\\left(x^{4} + 13\\right) = 0",
+    "reference_latex": "\\log_{4}\\left(x^{4} + 13\\right) = 0",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000243.png",
+    "predicted_latex": "\\frac{y_{2} + 19}{y^{4} - 6} = 15",
+    "reference_latex": "\\frac{y_{2} + 19}{y^{4} - 6} = 15",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000244.png",
+    "predicted_latex": "y_{2}^{4} + x - a + n = 16",
+    "reference_latex": "y_{2}^{4} + x - a + n = 16",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000245.png",
+    "predicted_latex": "\\cos\\left(\\frac{z_{i} + 6}{9}\\right) = 15",
+    "reference_latex": "\\cos\\left(\\frac{z_{i} + 6}{9}\\right) = 15",
+    "exact_equation_correct": true,
+    "symbol_tp": 14,
+    "predicted_symbols": 14,
+    "actual_symbols": 14,
+    "warnings": []
+  },
+  {
+    "file": "000246.png",
+    "predicted_latex": "\\frac{\\frac{y + 8}{5} + 8}{y^{3} - 5} = -6",
+    "reference_latex": "\\frac{\\frac{y + 8}{5} + 8}{y^{3} - 5} = -6",
+    "exact_equation_correct": true,
+    "symbol_tp": 15,
+    "predicted_symbols": 15,
+    "actual_symbols": 15,
+    "warnings": []
+  },
+  {
+    "file": "000247.png",
+    "predicted_latex": "4 x + 10 = 15",
+    "reference_latex": "4 x + 10 = 15",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000248.png",
+    "predicted_latex": "\\left(z^{2} + 4 z + 11\\right)^{2} = 18",
+    "reference_latex": "\\left(z^{2} + 4 z + 11\\right)^{2} = 18",
+    "exact_equation_correct": true,
+    "symbol_tp": 14,
+    "predicted_symbols": 14,
+    "actual_symbols": 14,
+    "warnings": []
+  },
+  {
+    "file": "000249.png",
+    "predicted_latex": "\\sqrt{\\frac{b_{n} + 13}{b^{2} - 4}} = 8",
+    "reference_latex": "\\sqrt{\\frac{b_{n} + 13}{b^{2} - 4}} = 8",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000250.png",
+    "predicted_latex": "\\sqrt{\\sqrt{y_{k} + 9} + 9} = 6",
+    "reference_latex": "\\sqrt{\\sqrt{y_{k} + 9} + 9} = 6",
+    "exact_equation_correct": true,
+    "symbol_tp": 10,
+    "predicted_symbols": 10,
+    "actual_symbols": 10,
+    "warnings": []
+  },
+  {
+    "file": "000251.png",
+    "predicted_latex": "\\left(b^{3} + 9 b + 17\\right)^{2} = 6",
+    "reference_latex": "\\left(b^{3} + 9 b + 17\\right)^{2} = 6",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000252.png",
+    "predicted_latex": "\\cos\\left(\\frac{z_{k} + 14}{8}\\right) = 2",
+    "reference_latex": "\\cos\\left(\\frac{z_{k} + 14}{8}\\right) = 2",
+    "exact_equation_correct": true,
+    "symbol_tp": 14,
+    "predicted_symbols": 14,
+    "actual_symbols": 14,
+    "warnings": []
+  },
+  {
+    "file": "000253.png",
+    "predicted_latex": "\\sqrt{\\sqrt{b_{i} + 14} + 4} = -2",
+    "reference_latex": "\\sqrt{\\sqrt{b_{i} + 14} + 4} = -2",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000254.png",
+    "predicted_latex": "\\sqrt{\\frac{z_{2} + 15}{z^{2} - 5}} = 15",
+    "reference_latex": "\\sqrt{\\frac{z_{2} + 15}{z^{2} - 5}} = 15",
+    "exact_equation_correct": true,
+    "symbol_tp": 14,
+    "predicted_symbols": 14,
+    "actual_symbols": 14,
+    "warnings": []
+  },
+  {
+    "file": "000255.png",
+    "predicted_latex": "\\sin\\left(z\\right) + \\cos\\left(z^{2}\\right) - \\frac{z_{n}}{2} = 12",
+    "reference_latex": "\\sin\\left(z\\right) + \\cos\\left(z^{2}\\right) - \\frac{z_{n}}{2} = 12",
+    "exact_equation_correct": true,
+    "symbol_tp": 22,
+    "predicted_symbols": 22,
+    "actual_symbols": 22,
+    "warnings": []
+  },
+  {
+    "file": "000256.png",
+    "predicted_latex": "\\left(a^{2} + 2 a + 2\\right)^{2} = 15",
+    "reference_latex": "\\left(a^{2} + 2 a + 2\\right)^{2} = 15",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000257.png",
+    "predicted_latex": "\\frac{x_{2} + 10}{x^{4} - 4} = -3",
+    "reference_latex": "\\frac{x_{2} + 10}{x^{4} - 4} = -3",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000258.png",
+    "predicted_latex": "\\log_{9}\\left(x^{2} + 9\\right) = 10",
+    "reference_latex": "\\log_{9}\\left(x^{2} + 9\\right) = 10",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000259.png",
+    "predicted_latex": "\\log_{2}\\left(b^{2} + 5\\right) = 18",
+    "reference_latex": "\\log_{2}\\left(b^{2} + 5\\right) = 18",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000260.png",
+    "predicted_latex": "\\frac{z^{3} + 1}{\\left(z - 6\\right)} + \\sqrt{z + 1} = -8",
+    "reference_latex": "\\frac{z^{3} + 1}{\\left(z - 6\\right)} + \\sqrt{z + 1} = -8",
+    "exact_equation_correct": true,
+    "symbol_tp": 18,
+    "predicted_symbols": 18,
+    "actual_symbols": 18,
+    "warnings": []
+  },
+  {
+    "file": "000261.png",
+    "predicted_latex": "\\log_{6}\\left(x^{4} + 4\\right) = 1",
+    "reference_latex": "\\log_{6}\\left(x^{4} + 4\\right) = 1",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000262.png",
+    "predicted_latex": "8 b - 2 = -5",
+    "reference_latex": "8 b - 2 = -5",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000263.png",
+    "predicted_latex": "\\sin\\left(\\frac{x_{3} + 10}{9}\\right) = 6",
+    "reference_latex": "\\sin\\left(\\frac{x_{3} + 10}{9}\\right) = 6",
+    "exact_equation_correct": true,
+    "symbol_tp": 14,
+    "predicted_symbols": 14,
+    "actual_symbols": 14,
+    "warnings": []
+  },
+  {
+    "file": "000264.png",
+    "predicted_latex": "\\sin\\left(y\\right) + \\cos\\left(y^{3}\\right) - \\frac{y_{2}}{2} = -1",
+    "reference_latex": "\\sin\\left(y\\right) + \\cos\\left(y^{3}\\right) - \\frac{y_{2}}{2} = -1",
+    "exact_equation_correct": true,
+    "symbol_tp": 22,
+    "predicted_symbols": 22,
+    "actual_symbols": 22,
+    "warnings": []
+  },
+  {
+    "file": "000265.png",
+    "predicted_latex": "\\left(a^{3} + 4 a + 15\\right)^{2} = 6",
+    "reference_latex": "\\left(a^{3} + 4 a + 15\\right)^{2} = 6",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000266.png",
+    "predicted_latex": "\\sin\\left(\\frac{x_{n} + 3}{2}\\right) = 9",
+    "reference_latex": "\\sin\\left(\\frac{x_{n} + 3}{2}\\right) = 9",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000267.png",
+    "predicted_latex": "\\frac{a^{3} + 18}{\\left(a - 8\\right)} + \\sqrt{a + 18} = 16",
+    "reference_latex": "\\frac{a^{3} + 18}{\\left(a - 8\\right)} + \\sqrt{a + 18} = 16",
+    "exact_equation_correct": true,
+    "symbol_tp": 20,
+    "predicted_symbols": 20,
+    "actual_symbols": 20,
+    "warnings": []
+  },
+  {
+    "file": "000268.png",
+    "predicted_latex": "\\frac{b_{2} + 17}{b^{3} - 9} = 18",
+    "reference_latex": "\\frac{b_{2} + 17}{b^{3} - 9} = 18",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000269.png",
+    "predicted_latex": "\\cos\\left(\\frac{a_{j} + 11}{7}\\right) = 17",
+    "reference_latex": "\\cos\\left(\\frac{a_{j} + 11}{7}\\right) = 17",
+    "exact_equation_correct": true,
+    "symbol_tp": 15,
+    "predicted_symbols": 15,
+    "actual_symbols": 15,
+    "warnings": []
+  },
+  {
+    "file": "000270.png",
+    "predicted_latex": "\\sqrt{\\frac{b_{2} + 12}{b^{3} - 2}} = 14",
+    "reference_latex": "\\sqrt{\\frac{b_{2} + 12}{b^{3} - 2}} = 14",
+    "exact_equation_correct": true,
+    "symbol_tp": 14,
+    "predicted_symbols": 14,
+    "actual_symbols": 14,
+    "warnings": []
+  },
+  {
+    "file": "000271.png",
+    "predicted_latex": "\\sin\\left(z\\right) + \\cos\\left(z^{4}\\right) - \\frac{z_{12}}{3} = 12",
+    "reference_latex": "\\sin\\left(z\\right) + \\cos\\left(z^{4}\\right) - \\frac{z_{12}}{3} = 12",
+    "exact_equation_correct": true,
+    "symbol_tp": 23,
+    "predicted_symbols": 23,
+    "actual_symbols": 23,
+    "warnings": []
+  },
+  {
+    "file": "000272.png",
+    "predicted_latex": "\\frac{z_{j} + 5}{z^{4} - 8} = 16",
+    "reference_latex": "\\frac{z_{j} + 5}{z^{4} - 8} = 16",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000273.png",
+    "predicted_latex": "\\log_{2}\\left(b^{4} + 3\\right) = 1",
+    "reference_latex": "\\log_{2}\\left(b^{4} + 3\\right) = 1",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000274.png",
+    "predicted_latex": "\\frac{b_{12} + 19}{b^{3} - 4} = 0",
+    "reference_latex": "\\frac{b_{12} + 19}{b^{3} - 4} = 0",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000275.png",
+    "predicted_latex": "\\cos\\left(\\frac{y_{k} + 9}{3}\\right) = 14",
+    "reference_latex": "\\cos\\left(\\frac{y_{k} + 9}{3}\\right) = 14",
+    "exact_equation_correct": true,
+    "symbol_tp": 14,
+    "predicted_symbols": 14,
+    "actual_symbols": 14,
+    "warnings": []
+  },
+  {
+    "file": "000276.png",
+    "predicted_latex": "\\sqrt{\\sqrt{y_{n} + 13} + 3} = 4",
+    "reference_latex": "\\sqrt{\\sqrt{y_{n} + 13} + 3} = 4",
+    "exact_equation_correct": true,
+    "symbol_tp": 11,
+    "predicted_symbols": 11,
+    "actual_symbols": 11,
+    "warnings": []
+  },
+  {
+    "file": "000277.png",
+    "predicted_latex": "\\log_{8}\\left(x^{4} + 9\\right) = 6",
+    "reference_latex": "\\log_{8}\\left(x^{4} + 9\\right) = 6",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000278.png",
+    "predicted_latex": "a_{12}^{3} + x - a + n = -3",
+    "reference_latex": "a_{12}^{3} + x - a + n = -3",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000279.png",
+    "predicted_latex": "\\sin\\left(y\\right) + \\cos\\left(y^{2}\\right) - \\frac{y_{12}}{6} = 19",
+    "reference_latex": "\\sin\\left(y\\right) + \\cos\\left(y^{2}\\right) - \\frac{y_{12}}{6} = 19",
+    "exact_equation_correct": true,
+    "symbol_tp": 23,
+    "predicted_symbols": 23,
+    "actual_symbols": 23,
+    "warnings": []
+  },
+  {
+    "file": "000280.png",
+    "predicted_latex": "\\frac{\\frac{y + 17}{2} + 17}{y^{2} - 2} = -9",
+    "reference_latex": "\\frac{\\frac{y + 17}{2} + 17}{y^{2} - 2} = -9",
+    "exact_equation_correct": true,
+    "symbol_tp": 17,
+    "predicted_symbols": 17,
+    "actual_symbols": 17,
+    "warnings": []
+  },
+  {
+    "file": "000281.png",
+    "predicted_latex": "\\frac{b^{4} + 9}{\\left(b - 3\\right)} + \\sqrt{b + 9} = 1",
+    "reference_latex": "\\frac{b^{4} + 9}{\\left(b - 3\\right)} + \\sqrt{b + 9} = 1",
+    "exact_equation_correct": true,
+    "symbol_tp": 17,
+    "predicted_symbols": 17,
+    "actual_symbols": 17,
+    "warnings": []
+  },
+  {
+    "file": "000282.png",
+    "predicted_latex": "b_{12}^{2} + x - a + n = -4",
+    "reference_latex": "b_{12}^{2} + x - a + n = -4",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000283.png",
+    "predicted_latex": "\\frac{x_{j} + 13}{x^{4} - 9} = 3",
+    "reference_latex": "\\frac{x_{j} + 13}{x^{4} - 9} = 3",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000284.png",
+    "predicted_latex": "a_{k}^{3} + x - a + n = 3",
+    "reference_latex": "a_{k}^{3} + x - a + n = 3",
+    "exact_equation_correct": true,
+    "symbol_tp": 11,
+    "predicted_symbols": 11,
+    "actual_symbols": 11,
+    "warnings": []
+  },
+  {
+    "file": "000285.png",
+    "predicted_latex": "a_{k}^{3} + x - a + n = 3",
+    "reference_latex": "a_{k}^{3} + x - a + n = 3",
+    "exact_equation_correct": true,
+    "symbol_tp": 11,
+    "predicted_symbols": 11,
+    "actual_symbols": 11,
+    "warnings": []
+  },
+  {
+    "file": "000286.png",
+    "predicted_latex": "\\sin\\left(y\\right) + \\cos\\left(y^{3}\\right) - \\frac{y_{2}}{4} = -3",
+    "reference_latex": "\\sin\\left(y\\right) + \\cos\\left(y^{3}\\right) - \\frac{y_{2}}{4} = -3",
+    "exact_equation_correct": true,
+    "symbol_tp": 22,
+    "predicted_symbols": 22,
+    "actual_symbols": 22,
+    "warnings": []
+  },
+  {
+    "file": "000287.png",
+    "predicted_latex": "5 b \\times 1 = -2",
+    "reference_latex": "5 b \\times 1 = -2",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000288.png",
+    "predicted_latex": "\\frac{a^{4} + 9}{\\left(a - 8\\right)} + \\sqrt{a + 9} = -3",
+    "reference_latex": "\\frac{a^{4} + 9}{\\left(a - 8\\right)} + \\sqrt{a + 9} = -3",
+    "exact_equation_correct": true,
+    "symbol_tp": 18,
+    "predicted_symbols": 18,
+    "actual_symbols": 18,
+    "warnings": []
+  },
+  {
+    "file": "000289.png",
+    "predicted_latex": "\\frac{z_{i} + 9}{z^{3} - 2} = 7",
+    "reference_latex": "\\frac{z_{i} + 9}{z^{3} - 2} = 7",
+    "exact_equation_correct": true,
+    "symbol_tp": 11,
+    "predicted_symbols": 11,
+    "actual_symbols": 11,
+    "warnings": []
+  },
+  {
+    "file": "000290.png",
+    "predicted_latex": "\\log_{9}\\left(x^{3} + 13\\right) = -9",
+    "reference_latex": "\\log_{9}\\left(x^{3} + 13\\right) = -9",
+    "exact_equation_correct": true,
+    "symbol_tp": 14,
+    "predicted_symbols": 14,
+    "actual_symbols": 14,
+    "warnings": []
+  },
+  {
+    "file": "000291.png",
+    "predicted_latex": "x_{12}^{2} + x - a + n = 7",
+    "reference_latex": "x_{12}^{2} + x - a + n = 7",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000292.png",
+    "predicted_latex": "\\cos\\left(\\frac{b_{i} + 17}{3}\\right) = 7",
+    "reference_latex": "\\cos\\left(\\frac{b_{i} + 17}{3}\\right) = 7",
+    "exact_equation_correct": true,
+    "symbol_tp": 14,
+    "predicted_symbols": 14,
+    "actual_symbols": 14,
+    "warnings": []
+  },
+  {
+    "file": "000293.png",
+    "predicted_latex": "\\sin\\left(x\\right) + \\cos\\left(x^{3}\\right) - \\frac{x_{n}}{4} = -8",
+    "reference_latex": "\\sin\\left(x\\right) + \\cos\\left(x^{3}\\right) - \\frac{x_{n}}{4} = -8",
+    "exact_equation_correct": true,
+    "symbol_tp": 22,
+    "predicted_symbols": 22,
+    "actual_symbols": 22,
+    "warnings": []
+  },
+  {
+    "file": "000294.png",
+    "predicted_latex": "\\log_{2}\\left(a^{4} + 4\\right) = 11",
+    "reference_latex": "\\log_{2}\\left(a^{4} + 4\\right) = 11",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000295.png",
+    "predicted_latex": "\\frac{y^{4} + 5}{\\left(y - 3\\right)} + \\sqrt{y + 5} = -9",
+    "reference_latex": "\\frac{y^{4} + 5}{\\left(y - 3\\right)} + \\sqrt{y + 5} = -9",
+    "exact_equation_correct": true,
+    "symbol_tp": 18,
+    "predicted_symbols": 18,
+    "actual_symbols": 18,
+    "warnings": []
+  },
+  {
+    "file": "000296.png",
+    "predicted_latex": "\\frac{\\frac{z + 12}{3} + 12}{z^{4} - 3} = 1",
+    "reference_latex": "\\frac{\\frac{z + 12}{3} + 12}{z^{4} - 3} = 1",
+    "exact_equation_correct": true,
+    "symbol_tp": 16,
+    "predicted_symbols": 16,
+    "actual_symbols": 16,
+    "warnings": []
+  },
+  {
+    "file": "000297.png",
+    "predicted_latex": "\\sin\\left(a\\right) + \\cos\\left(a^{4}\\right) - \\frac{a_{2}}{7} = 8",
+    "reference_latex": "\\sin\\left(a\\right) + \\cos\\left(a^{4}\\right) - \\frac{a_{2}}{7} = 8",
+    "exact_equation_correct": true,
+    "symbol_tp": 21,
+    "predicted_symbols": 21,
+    "actual_symbols": 21,
+    "warnings": []
+  },
+  {
+    "file": "000298.png",
+    "predicted_latex": "\\frac{a_{12} + 2}{a^{3} - 2} = -5",
+    "reference_latex": "\\frac{a_{12} + 2}{a^{3} - 2} = -5",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000299.png",
+    "predicted_latex": "\\frac{\\sin\\left(z\\right) + 18}{\\log_{2}\\left(z^{3} + 6\\right)} = -7",
+    "reference_latex": "\\frac{\\sin\\left(z\\right) + 18}{\\log_{2}\\left(z^{3} + 6\\right)} = -7",
+    "exact_equation_correct": true,
+    "symbol_tp": 23,
+    "predicted_symbols": 23,
+    "actual_symbols": 23,
+    "warnings": []
+  },
+  {
+    "file": "000300.png",
+    "predicted_latex": "\\frac{\\sin\\left(y\\right) + 17}{\\log_{2}\\left(y^{3} + 6\\right)} = 5",
+    "reference_latex": "\\frac{\\sin\\left(y\\right) + 17}{\\log_{2}\\left(y^{3} + 6\\right)} = 5",
+    "exact_equation_correct": true,
+    "symbol_tp": 22,
+    "predicted_symbols": 22,
+    "actual_symbols": 22,
+    "warnings": []
+  },
+  {
+    "file": "000301.png",
+    "predicted_latex": "\\log_{2}\\left(y^{3} + 8\\right) = -2",
+    "reference_latex": "\\log_{2}\\left(y^{3} + 8\\right) = -2",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000302.png",
+    "predicted_latex": "7 x - 19 = 13",
+    "reference_latex": "7 x - 19 = 13",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000303.png",
+    "predicted_latex": "\\cos\\left(\\frac{x_{12} + 10}{4}\\right) = 6",
+    "reference_latex": "\\cos\\left(\\frac{x_{12} + 10}{4}\\right) = 6",
+    "exact_equation_correct": true,
+    "symbol_tp": 15,
+    "predicted_symbols": 15,
+    "actual_symbols": 15,
+    "warnings": []
+  },
+  {
+    "file": "000304.png",
+    "predicted_latex": "\\frac{z^{3} + 19}{\\left(z - 5\\right)} + \\sqrt{z + 19} = -1",
+    "reference_latex": "\\frac{z^{3} + 19}{\\left(z - 5\\right)} + \\sqrt{z + 19} = -1",
+    "exact_equation_correct": true,
+    "symbol_tp": 20,
+    "predicted_symbols": 20,
+    "actual_symbols": 20,
+    "warnings": []
+  },
+  {
+    "file": "000305.png",
+    "predicted_latex": "\\sqrt{\\frac{y_{j} + 16}{y^{2} - 7}} = 16",
+    "reference_latex": "\\sqrt{\\frac{y_{j} + 16}{y^{2} - 7}} = 16",
+    "exact_equation_correct": true,
+    "symbol_tp": 14,
+    "predicted_symbols": 14,
+    "actual_symbols": 14,
+    "warnings": []
+  },
+  {
+    "file": "000306.png",
+    "predicted_latex": "\\sin\\left(y\\right) + \\cos\\left(y^{3}\\right) - \\frac{y_{2}}{2} = -9",
+    "reference_latex": "\\sin\\left(y\\right) + \\cos\\left(y^{3}\\right) - \\frac{y_{2}}{2} = -9",
+    "exact_equation_correct": true,
+    "symbol_tp": 22,
+    "predicted_symbols": 22,
+    "actual_symbols": 22,
+    "warnings": []
+  },
+  {
+    "file": "000307.png",
+    "predicted_latex": "\\frac{\\sin\\left(x\\right) + 12}{\\log_{2}\\left(x^{2} + 2\\right)} = 19",
+    "reference_latex": "\\frac{\\sin\\left(x\\right) + 12}{\\log_{2}\\left(x^{2} + 2\\right)} = 19",
+    "exact_equation_correct": true,
+    "symbol_tp": 23,
+    "predicted_symbols": 23,
+    "actual_symbols": 23,
+    "warnings": []
+  },
+  {
+    "file": "000308.png",
+    "predicted_latex": "6 a \\times 15 = -6",
+    "reference_latex": "6 a \\times 15 = -6",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000309.png",
+    "predicted_latex": "\\frac{\\sin\\left(z\\right) + 7}{\\log_{2}\\left(z^{2} + 8\\right)} = 15",
+    "reference_latex": "\\frac{\\sin\\left(z\\right) + 7}{\\log_{2}\\left(z^{2} + 8\\right)} = 15",
+    "exact_equation_correct": true,
+    "symbol_tp": 22,
+    "predicted_symbols": 22,
+    "actual_symbols": 22,
+    "warnings": []
+  },
+  {
+    "file": "000310.png",
+    "predicted_latex": "z_{j}^{2} + x - a + n = 11",
+    "reference_latex": "z_{j}^{2} + x - a + n = 11",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000311.png",
+    "predicted_latex": "\\log_{6}\\left(y^{3} + 9\\right) = 5",
+    "reference_latex": "\\log_{6}\\left(y^{3} + 9\\right) = 5",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000312.png",
+    "predicted_latex": "\\sin\\left(b\\right) + \\cos\\left(b^{2}\\right) - \\frac{b_{3}}{7} = 4",
+    "reference_latex": "\\sin\\left(b\\right) + \\cos\\left(b^{2}\\right) - \\frac{b_{3}}{7} = 4",
+    "exact_equation_correct": true,
+    "symbol_tp": 21,
+    "predicted_symbols": 21,
+    "actual_symbols": 21,
+    "warnings": []
+  },
+  {
+    "file": "000313.png",
+    "predicted_latex": "\\frac{y^{3} + 8}{\\left(y - 7\\right)} + \\sqrt{y + 8} = -5",
+    "reference_latex": "\\frac{y^{3} + 8}{\\left(y - 7\\right)} + \\sqrt{y + 8} = -5",
+    "exact_equation_correct": true,
+    "symbol_tp": 18,
+    "predicted_symbols": 18,
+    "actual_symbols": 18,
+    "warnings": []
+  },
+  {
+    "file": "000314.png",
+    "predicted_latex": "\\frac{\\frac{a + 12}{9} + 12}{a^{3} - 9} = 12",
+    "reference_latex": "\\frac{\\frac{a + 12}{9} + 12}{a^{3} - 9} = 12",
+    "exact_equation_correct": true,
+    "symbol_tp": 17,
+    "predicted_symbols": 17,
+    "actual_symbols": 17,
+    "warnings": []
+  },
+  {
+    "file": "000315.png",
+    "predicted_latex": "z_{j}^{3} + x - a + n = 18",
+    "reference_latex": "z_{j}^{3} + x - a + n = 18",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000316.png",
+    "predicted_latex": "6 y \\times 8 = 11",
+    "reference_latex": "6 y \\times 8 = 11",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000317.png",
+    "predicted_latex": "\\frac{z^{4} + 18}{\\left(z - 5\\right)} + \\sqrt{z + 18} = 3",
+    "reference_latex": "\\frac{z^{4} + 18}{\\left(z - 5\\right)} + \\sqrt{z + 18} = 3",
+    "exact_equation_correct": true,
+    "symbol_tp": 19,
+    "predicted_symbols": 19,
+    "actual_symbols": 19,
+    "warnings": []
+  },
+  {
+    "file": "000318.png",
+    "predicted_latex": "a_{j}^{2} + x - a + n = 15",
+    "reference_latex": "a_{j}^{2} + x - a + n = 15",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000319.png",
+    "predicted_latex": "\\sin\\left(b\\right) + \\cos\\left(b^{2}\\right) - \\frac{b_{i}}{8} = 5",
+    "reference_latex": "\\sin\\left(b\\right) + \\cos\\left(b^{2}\\right) - \\frac{b_{i}}{8} = 5",
+    "exact_equation_correct": true,
+    "symbol_tp": 21,
+    "predicted_symbols": 21,
+    "actual_symbols": 21,
+    "warnings": []
+  },
+  {
+    "file": "000320.png",
+    "predicted_latex": "\\sqrt{\\frac{b_{k} + 8}{b^{2} - 6}} = 9",
+    "reference_latex": "\\sqrt{\\frac{b_{k} + 8}{b^{2} - 6}} = 9",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000321.png",
+    "predicted_latex": "\\sqrt{\\frac{y_{3} + 9}{y^{2} - 6}} = 16",
+    "reference_latex": "\\sqrt{\\frac{y_{3} + 9}{y^{2} - 6}} = 16",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000322.png",
+    "predicted_latex": "\\log_{9}\\left(b^{2} + 10\\right) = 16",
+    "reference_latex": "\\log_{9}\\left(b^{2} + 10\\right) = 16",
+    "exact_equation_correct": true,
+    "symbol_tp": 14,
+    "predicted_symbols": 14,
+    "actual_symbols": 14,
+    "warnings": []
+  },
+  {
+    "file": "000323.png",
+    "predicted_latex": "\\left(y^{4} + 5 y + 6\\right)^{2} = 18",
+    "reference_latex": "\\left(y^{4} + 5 y + 6\\right)^{2} = 18",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000324.png",
+    "predicted_latex": "\\cos\\left(\\frac{x_{3} + 3}{9}\\right) = 3",
+    "reference_latex": "\\cos\\left(\\frac{x_{3} + 3}{9}\\right) = 3",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000325.png",
+    "predicted_latex": "a_{2}^{2} + x - a + n = -3",
+    "reference_latex": "a_{2}^{2} + x - a + n = -3",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000326.png",
+    "predicted_latex": "\\frac{\\frac{y + 15}{2} + 15}{y^{2} - 2} = 16",
+    "reference_latex": "\\frac{\\frac{y + 15}{2} + 15}{y^{2} - 2} = 16",
+    "exact_equation_correct": true,
+    "symbol_tp": 17,
+    "predicted_symbols": 17,
+    "actual_symbols": 17,
+    "warnings": []
+  },
+  {
+    "file": "000327.png",
+    "predicted_latex": "z_{2}^{3} + x - a + n = -6",
+    "reference_latex": "z_{2}^{3} + x - a + n = -6",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000328.png",
+    "predicted_latex": "y_{i}^{3} + x - a + n = -3",
+    "reference_latex": "y_{i}^{3} + x - a + n = -3",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000329.png",
+    "predicted_latex": "\\sqrt{\\frac{b_{i} + 9}{b^{3} - 7}} = 8",
+    "reference_latex": "\\sqrt{\\frac{b_{i} + 9}{b^{3} - 7}} = 8",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000330.png",
+    "predicted_latex": "b_{n}^{3} + x - a + n = 8",
+    "reference_latex": "b_{n}^{3} + x - a + n = 8",
+    "exact_equation_correct": true,
+    "symbol_tp": 11,
+    "predicted_symbols": 11,
+    "actual_symbols": 11,
+    "warnings": []
+  },
+  {
+    "file": "000331.png",
+    "predicted_latex": "\\frac{y^{2} + 7}{\\left(y - 7\\right)} + \\sqrt{y + 7} = 17",
+    "reference_latex": "\\frac{y^{2} + 7}{\\left(y - 7\\right)} + \\sqrt{y + 7} = 17",
+    "exact_equation_correct": true,
+    "symbol_tp": 18,
+    "predicted_symbols": 18,
+    "actual_symbols": 18,
+    "warnings": []
+  },
+  {
+    "file": "000332.png",
+    "predicted_latex": "\\left(y^{4} + 6 y + 15\\right)^{2} = 3",
+    "reference_latex": "\\left(y^{4} + 6 y + 15\\right)^{2} = 3",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000333.png",
+    "predicted_latex": "x_{i}^{2} + x - a + n = 19",
+    "reference_latex": "x_{i}^{2} + x - a + n = 19",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000334.png",
+    "predicted_latex": "b_{k}^{4} + x - a + n = 16",
+    "reference_latex": "b_{k}^{4} + x - a + n = 16",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000335.png",
+    "predicted_latex": "\\frac{\\frac{x + 10}{6} + 10}{x^{3} - 6} = 3",
+    "reference_latex": "\\frac{\\frac{x + 10}{6} + 10}{x^{3} - 6} = 3",
+    "exact_equation_correct": true,
+    "symbol_tp": 16,
+    "predicted_symbols": 17,
+    "actual_symbols": 16,
+    "warnings": []
+  },
+  {
+    "file": "000336.png",
+    "predicted_latex": "\\sin\\left(y\\right) + \\cos\\left(y^{4}\\right) - \\frac{y_{3}}{8} = 13",
+    "reference_latex": "\\sin\\left(y\\right) + \\cos\\left(y^{4}\\right) - \\frac{y_{3}}{8} = 13",
+    "exact_equation_correct": true,
+    "symbol_tp": 22,
+    "predicted_symbols": 22,
+    "actual_symbols": 22,
+    "warnings": []
+  },
+  {
+    "file": "000337.png",
+    "predicted_latex": "\\log_{4}\\left(a^{4} + 2\\right) = -8",
+    "reference_latex": "\\log_{4}\\left(a^{4} + 2\\right) = -8",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000338.png",
+    "predicted_latex": "\\sin\\left(a\\right) + \\cos\\left(a^{4}\\right) - \\frac{a_{n}}{7} = -4",
+    "reference_latex": "\\sin\\left(a\\right) + \\cos\\left(a^{4}\\right) - \\frac{a_{n}}{7} = -4",
+    "exact_equation_correct": true,
+    "symbol_tp": 22,
+    "predicted_symbols": 22,
+    "actual_symbols": 22,
+    "warnings": []
+  },
+  {
+    "file": "000339.png",
+    "predicted_latex": "\\frac{\\frac{z + 11}{8} + 11}{z^{2} - 8} = 12",
+    "reference_latex": "\\frac{\\frac{z + 11}{8} + 11}{z^{2} - 8} = 12",
+    "exact_equation_correct": true,
+    "symbol_tp": 17,
+    "predicted_symbols": 17,
+    "actual_symbols": 17,
+    "warnings": []
+  },
+  {
+    "file": "000340.png",
+    "predicted_latex": "\\frac{\\frac{a + 15}{6} + 15}{a^{4} - 6} = 3",
+    "reference_latex": "\\frac{\\frac{a + 15}{6} + 15}{a^{4} - 6} = 3",
+    "exact_equation_correct": true,
+    "symbol_tp": 16,
+    "predicted_symbols": 16,
+    "actual_symbols": 16,
+    "warnings": []
+  },
+  {
+    "file": "000341.png",
+    "predicted_latex": "\\log_{5}\\left(z^{3} + 10\\right) = 10",
+    "reference_latex": "\\log_{5}\\left(z^{3} + 10\\right) = 10",
+    "exact_equation_correct": true,
+    "symbol_tp": 14,
+    "predicted_symbols": 14,
+    "actual_symbols": 14,
+    "warnings": []
+  },
+  {
+    "file": "000342.png",
+    "predicted_latex": "8 a + 1 = 3",
+    "reference_latex": "8 a + 1 = 3",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000343.png",
+    "predicted_latex": "\\sin\\left(z\\right) + \\cos\\left(z^{4}\\right) - \\frac{z_{12}}{7} = 13",
+    "reference_latex": "\\sin\\left(z\\right) + \\cos\\left(z^{4}\\right) - \\frac{z_{12}}{7} = 13",
+    "exact_equation_correct": true,
+    "symbol_tp": 23,
+    "predicted_symbols": 23,
+    "actual_symbols": 23,
+    "warnings": []
+  },
+  {
+    "file": "000344.png",
+    "predicted_latex": "x_{3}^{4} + x - a + n = 3",
+    "reference_latex": "x_{3}^{4} + x - a + n = 3",
+    "exact_equation_correct": true,
+    "symbol_tp": 11,
+    "predicted_symbols": 11,
+    "actual_symbols": 11,
+    "warnings": []
+  },
+  {
+    "file": "000345.png",
+    "predicted_latex": "\\sin\\left(a\\right) + \\cos\\left(a^{3}\\right) - \\frac{a_{12}}{3} = 10",
+    "reference_latex": "\\sin\\left(a\\right) + \\cos\\left(a^{3}\\right) - \\frac{a_{12}}{3} = 10",
+    "exact_equation_correct": true,
+    "symbol_tp": 23,
+    "predicted_symbols": 23,
+    "actual_symbols": 23,
+    "warnings": []
+  },
+  {
+    "file": "000346.png",
+    "predicted_latex": "\\sqrt{\\frac{b_{3} + 18}{b^{2} - 8}} = 9",
+    "reference_latex": "\\sqrt{\\frac{b_{3} + 18}{b^{2} - 8}} = 9",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000347.png",
+    "predicted_latex": "\\frac{y_{k} + 10}{y^{2} - 3} = -2",
+    "reference_latex": "\\frac{y_{k} + 10}{y^{2} - 3} = -2",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000348.png",
+    "predicted_latex": "\\left(b^{2} + 9 b + 12\\right)^{2} = 0",
+    "reference_latex": "\\left(b^{2} + 9 b + 12\\right)^{2} = 0",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000349.png",
+    "predicted_latex": "\\sin\\left(a\\right) + \\cos\\left(a^{2}\\right) - \\frac{a_{k}}{6} = 7",
+    "reference_latex": "\\sin\\left(a\\right) + \\cos\\left(a^{2}\\right) - \\frac{a_{k}}{6} = 7",
+    "exact_equation_correct": true,
+    "symbol_tp": 21,
+    "predicted_symbols": 21,
+    "actual_symbols": 21,
+    "warnings": []
+  },
+  {
+    "file": "000350.png",
+    "predicted_latex": "\\sqrt{\\frac{b_{j} + 14}{b^{3} - 3}} = 2",
+    "reference_latex": "\\sqrt{\\frac{b_{j} + 14}{b^{3} - 3}} = 2",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000351.png",
+    "predicted_latex": "\\frac{\\frac{b + 9}{4} + 9}{b^{2} - 4} = -4",
+    "reference_latex": "\\frac{\\frac{b + 9}{4} + 9}{b^{2} - 4} = -4",
+    "exact_equation_correct": true,
+    "symbol_tp": 15,
+    "predicted_symbols": 15,
+    "actual_symbols": 15,
+    "warnings": []
+  },
+  {
+    "file": "000352.png",
+    "predicted_latex": "\\left(y^{2} + 2 y + 19\\right)^{2} = 7",
+    "reference_latex": "\\left(y^{2} + 2 y + 19\\right)^{2} = 7",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000353.png",
+    "predicted_latex": "\\sqrt{\\frac{a_{12} + 3}{a^{4} - 8}} = 2",
+    "reference_latex": "\\sqrt{\\frac{a_{12} + 3}{a^{4} - 8}} = 2",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000354.png",
+    "predicted_latex": "\\frac{y^{2} + 2}{\\left(y - 4\\right)} + \\sqrt{y + 2} = 15",
+    "reference_latex": "\\frac{y^{2} + 2}{\\left(y - 4\\right)} + \\sqrt{y + 2} = 15",
+    "exact_equation_correct": true,
+    "symbol_tp": 18,
+    "predicted_symbols": 18,
+    "actual_symbols": 18,
+    "warnings": []
+  },
+  {
+    "file": "000355.png",
+    "predicted_latex": "\\log_{8}\\left(y^{4} + 4\\right) = -7",
+    "reference_latex": "\\log_{8}\\left(y^{4} + 4\\right) = -7",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000356.png",
+    "predicted_latex": "\\frac{b^{3} + 14}{\\left(b - 2\\right)} + \\sqrt{b + 14} = 6",
+    "reference_latex": "\\frac{b^{3} + 14}{\\left(b - 2\\right)} + \\sqrt{b + 14} = 6",
+    "exact_equation_correct": true,
+    "symbol_tp": 19,
+    "predicted_symbols": 19,
+    "actual_symbols": 19,
+    "warnings": []
+  },
+  {
+    "file": "000357.png",
+    "predicted_latex": "\\cos\\left(\\frac{x_{j} + 8}{3}\\right) = 9",
+    "reference_latex": "\\cos\\left(\\frac{x_{j} + 8}{3}\\right) = 9",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000358.png",
+    "predicted_latex": "\\frac{\\sin\\left(x\\right) + 13}{\\log_{2}\\left(x^{2} + 8\\right)} = 3",
+    "reference_latex": "\\frac{\\sin\\left(x\\right) + 13}{\\log_{2}\\left(x^{2} + 8\\right)} = 3",
+    "exact_equation_correct": true,
+    "symbol_tp": 22,
+    "predicted_symbols": 22,
+    "actual_symbols": 22,
+    "warnings": []
+  },
+  {
+    "file": "000359.png",
+    "predicted_latex": "\\frac{\\frac{b + 11}{8} + 11}{b^{2} - 8} = 15",
+    "reference_latex": "\\frac{\\frac{b + 11}{8} + 11}{b^{2} - 8} = 15",
+    "exact_equation_correct": true,
+    "symbol_tp": 17,
+    "predicted_symbols": 17,
+    "actual_symbols": 17,
+    "warnings": []
+  },
+  {
+    "file": "000360.png",
+    "predicted_latex": "\\frac{\\frac{y + 9}{2} + 9}{y^{3} - 2} = -1",
+    "reference_latex": "\\frac{\\frac{y + 9}{2} + 9}{y^{3} - 2} = -1",
+    "exact_equation_correct": true,
+    "symbol_tp": 15,
+    "predicted_symbols": 15,
+    "actual_symbols": 15,
+    "warnings": []
+  },
+  {
+    "file": "000361.png",
+    "predicted_latex": "\\sin\\left(\\frac{x_{i} + 7}{8}\\right) = 16",
+    "reference_latex": "\\sin\\left(\\frac{x_{i} + 7}{8}\\right) = 16",
+    "exact_equation_correct": true,
+    "symbol_tp": 14,
+    "predicted_symbols": 14,
+    "actual_symbols": 14,
+    "warnings": []
+  },
+  {
+    "file": "000362.png",
+    "predicted_latex": "\\sqrt{\\frac{x_{12} + 3}{x^{2} - 3}} = 7",
+    "reference_latex": "\\sqrt{\\frac{x_{12} + 3}{x^{2} - 3}} = 7",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000363.png",
+    "predicted_latex": "\\sin\\left(x\\right) + \\cos\\left(x^{2}\\right) - \\frac{x_{k}}{5} = 3",
+    "reference_latex": "\\sin\\left(x\\right) + \\cos\\left(x^{2}\\right) - \\frac{x_{k}}{5} = 3",
+    "exact_equation_correct": true,
+    "symbol_tp": 21,
+    "predicted_symbols": 21,
+    "actual_symbols": 21,
+    "warnings": []
+  },
+  {
+    "file": "000364.png",
+    "predicted_latex": "\\sqrt{\\sqrt{z_{3} + 12} + 3} = 4",
+    "reference_latex": "\\sqrt{\\sqrt{z_{3} + 12} + 3} = 4",
+    "exact_equation_correct": true,
+    "symbol_tp": 11,
+    "predicted_symbols": 11,
+    "actual_symbols": 11,
+    "warnings": []
+  },
+  {
+    "file": "000365.png",
+    "predicted_latex": "y_{k}^{2} + x - a + n = 2",
+    "reference_latex": "y_{k}^{2} + x - a + n = 2",
+    "exact_equation_correct": true,
+    "symbol_tp": 11,
+    "predicted_symbols": 11,
+    "actual_symbols": 11,
+    "warnings": []
+  },
+  {
+    "file": "000366.png",
+    "predicted_latex": "\\frac{b^{2} + 4}{\\left(b - 8\\right)} + \\sqrt{b + 4} = -8",
+    "reference_latex": "\\frac{b^{2} + 4}{\\left(b - 8\\right)} + \\sqrt{b + 4} = -8",
+    "exact_equation_correct": true,
+    "symbol_tp": 18,
+    "predicted_symbols": 18,
+    "actual_symbols": 18,
+    "warnings": []
+  },
+  {
+    "file": "000367.png",
+    "predicted_latex": "\\frac{b^{2} + 8}{\\left(b - 4\\right)} + \\sqrt{b + 8} = 1",
+    "reference_latex": "\\frac{b^{2} + 8}{\\left(b - 4\\right)} + \\sqrt{b + 8} = 1",
+    "exact_equation_correct": true,
+    "symbol_tp": 17,
+    "predicted_symbols": 17,
+    "actual_symbols": 17,
+    "warnings": []
+  },
+  {
+    "file": "000368.png",
+    "predicted_latex": "4 b \\times 10 = 16",
+    "reference_latex": "4 b \\times 10 = 16",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000369.png",
+    "predicted_latex": "\\sqrt{\\frac{b_{i} + 4}{b^{4} - 8}} = 15",
+    "reference_latex": "\\sqrt{\\frac{b_{i} + 4}{b^{4} - 8}} = 15",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000370.png",
+    "predicted_latex": "\\sqrt{\\sqrt{y_{i} + 10} + 2} = -7",
+    "reference_latex": "\\sqrt{\\sqrt{y_{i} + 10} + 2} = -7",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000371.png",
+    "predicted_latex": "\\frac{a_{12} + 14}{a^{3} - 5} = 0",
+    "reference_latex": "\\frac{a_{12} + 14}{a^{3} - 5} = 0",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000372.png",
+    "predicted_latex": "\\sin\\left(z\\right) + \\cos\\left(z^{4}\\right) - \\frac{z_{2}}{3} = 5",
+    "reference_latex": "\\sin\\left(z\\right) + \\cos\\left(z^{4}\\right) - \\frac{z_{2}}{3} = 5",
+    "exact_equation_correct": true,
+    "symbol_tp": 21,
+    "predicted_symbols": 21,
+    "actual_symbols": 21,
+    "warnings": []
+  },
+  {
+    "file": "000373.png",
+    "predicted_latex": "\\sqrt{\\frac{z_{n} + 11}{z^{4} - 5}} = -5",
+    "reference_latex": "\\sqrt{\\frac{z_{n} + 11}{z^{4} - 5}} = -5",
+    "exact_equation_correct": true,
+    "symbol_tp": 14,
+    "predicted_symbols": 14,
+    "actual_symbols": 14,
+    "warnings": []
+  },
+  {
+    "file": "000374.png",
+    "predicted_latex": "\\sqrt{\\frac{y_{i} + 18}{y^{2} - 5}} = 3",
+    "reference_latex": "\\sqrt{\\frac{y_{i} + 18}{y^{2} - 5}} = 3",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000375.png",
+    "predicted_latex": "x_{i}^{4} + x - a + n = 18",
+    "reference_latex": "x_{i}^{4} + x - a + n = 18",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000376.png",
+    "predicted_latex": "\\frac{b_{2} + 13}{b^{2} - 7} = 8",
+    "reference_latex": "\\frac{b_{2} + 13}{b^{2} - 7} = 8",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000377.png",
+    "predicted_latex": "\\frac{\\frac{y + 16}{5} + 16}{y^{3} - 5} = -5",
+    "reference_latex": "\\frac{\\frac{y + 16}{5} + 16}{y^{3} - 5} = -5",
+    "exact_equation_correct": true,
+    "symbol_tp": 17,
+    "predicted_symbols": 17,
+    "actual_symbols": 17,
+    "warnings": []
+  },
+  {
+    "file": "000378.png",
+    "predicted_latex": "\\frac{\\frac{x + 17}{4} + 17}{x^{3} - 4} = 15",
+    "reference_latex": "\\frac{\\frac{x + 17}{4} + 17}{x^{3} - 4} = 15",
+    "exact_equation_correct": true,
+    "symbol_tp": 17,
+    "predicted_symbols": 17,
+    "actual_symbols": 17,
+    "warnings": []
+  },
+  {
+    "file": "000379.png",
+    "predicted_latex": "y_{j}^{2} + x - a + n = 13",
+    "reference_latex": "y_{j}^{2} + x - a + n = 13",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000380.png",
+    "predicted_latex": "\\sqrt{\\sqrt{y_{i} + 7} + 5} = 4",
+    "reference_latex": "\\sqrt{\\sqrt{y_{i} + 7} + 5} = 4",
+    "exact_equation_correct": true,
+    "symbol_tp": 10,
+    "predicted_symbols": 10,
+    "actual_symbols": 10,
+    "warnings": []
+  },
+  {
+    "file": "000381.png",
+    "predicted_latex": "\\sqrt{\\sqrt{z_{j} + 7} + 4} = 2",
+    "reference_latex": "\\sqrt{\\sqrt{z_{j} + 7} + 4} = 2",
+    "exact_equation_correct": true,
+    "symbol_tp": 10,
+    "predicted_symbols": 10,
+    "actual_symbols": 10,
+    "warnings": []
+  },
+  {
+    "file": "000382.png",
+    "predicted_latex": "\\sqrt{\\sqrt{b_{12} + 6} + 8} = 3",
+    "reference_latex": "\\sqrt{\\sqrt{b_{12} + 6} + 8} = 3",
+    "exact_equation_correct": true,
+    "symbol_tp": 11,
+    "predicted_symbols": 11,
+    "actual_symbols": 11,
+    "warnings": []
+  },
+  {
+    "file": "000383.png",
+    "predicted_latex": "\\frac{\\sin\\left(a\\right) + 7}{\\log_{2}\\left(a^{2} + 9\\right)} = 10",
+    "reference_latex": "\\frac{\\sin\\left(a\\right) + 7}{\\log_{2}\\left(a^{2} + 9\\right)} = 10",
+    "exact_equation_correct": true,
+    "symbol_tp": 22,
+    "predicted_symbols": 22,
+    "actual_symbols": 22,
+    "warnings": []
+  },
+  {
+    "file": "000384.png",
+    "predicted_latex": "\\left(z^{4} + 5 z + 18\\right)^{2} = 11",
+    "reference_latex": "\\left(z^{4} + 5 z + 18\\right)^{2} = 11",
+    "exact_equation_correct": true,
+    "symbol_tp": 14,
+    "predicted_symbols": 14,
+    "actual_symbols": 14,
+    "warnings": []
+  },
+  {
+    "file": "000385.png",
+    "predicted_latex": "\\cos\\left(\\frac{a_{2} + 5}{4}\\right) = -2",
+    "reference_latex": "\\cos\\left(\\frac{a_{2} + 5}{4}\\right) = -2",
+    "exact_equation_correct": true,
+    "symbol_tp": 14,
+    "predicted_symbols": 14,
+    "actual_symbols": 14,
+    "warnings": []
+  },
+  {
+    "file": "000386.png",
+    "predicted_latex": "\\sqrt{\\sqrt{a_{i} + 2} + 4} = -5",
+    "reference_latex": "\\sqrt{\\sqrt{a_{i} + 2} + 4} = -5",
+    "exact_equation_correct": true,
+    "symbol_tp": 11,
+    "predicted_symbols": 11,
+    "actual_symbols": 11,
+    "warnings": []
+  },
+  {
+    "file": "000387.png",
+    "predicted_latex": "\\frac{b^{2} + 3}{\\left(b - 5\\right)} + \\sqrt{b + 3} = 17",
+    "reference_latex": "\\frac{b^{2} + 3}{\\left(b - 5\\right)} + \\sqrt{b + 3} = 17",
+    "exact_equation_correct": true,
+    "symbol_tp": 18,
+    "predicted_symbols": 18,
+    "actual_symbols": 18,
+    "warnings": []
+  },
+  {
+    "file": "000388.png",
+    "predicted_latex": "7 x + 13 = 15",
+    "reference_latex": "7 x + 13 = 15",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000389.png",
+    "predicted_latex": "z_{k}^{4} + x - a + n = 10",
+    "reference_latex": "z_{k}^{4} + x - a + n = 10",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000390.png",
+    "predicted_latex": "9 a + 1 = 3",
+    "reference_latex": "9 a + 1 = 3",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000391.png",
+    "predicted_latex": "\\frac{y^{3} + 14}{\\left(y - 6\\right)} + \\sqrt{y + 14} = 11",
+    "reference_latex": "\\frac{y^{3} + 14}{\\left(y - 6\\right)} + \\sqrt{y + 14} = 11",
+    "exact_equation_correct": true,
+    "symbol_tp": 20,
+    "predicted_symbols": 20,
+    "actual_symbols": 20,
+    "warnings": []
+  },
+  {
+    "file": "000392.png",
+    "predicted_latex": "\\frac{\\sin\\left(z\\right) + 10}{\\log_{2}\\left(z^{4} + 8\\right)} = 0",
+    "reference_latex": "\\frac{\\sin\\left(z\\right) + 10}{\\log_{2}\\left(z^{4} + 8\\right)} = 0",
+    "exact_equation_correct": true,
+    "symbol_tp": 22,
+    "predicted_symbols": 22,
+    "actual_symbols": 22,
+    "warnings": []
+  },
+  {
+    "file": "000393.png",
+    "predicted_latex": "\\sin\\left(y\\right) + \\cos\\left(y^{2}\\right) - \\frac{y_{12}}{6} = -2",
+    "reference_latex": "\\sin\\left(y\\right) + \\cos\\left(y^{2}\\right) - \\frac{y_{12}}{6} = -2",
+    "exact_equation_correct": true,
+    "symbol_tp": 23,
+    "predicted_symbols": 23,
+    "actual_symbols": 23,
+    "warnings": []
+  },
+  {
+    "file": "000394.png",
+    "predicted_latex": "\\sin\\left(z\\right) + \\cos\\left(z^{3}\\right) - \\frac{z_{k}}{3} = -3",
+    "reference_latex": "\\sin\\left(z\\right) + \\cos\\left(z^{3}\\right) - \\frac{z_{k}}{3} = -3",
+    "exact_equation_correct": true,
+    "symbol_tp": 22,
+    "predicted_symbols": 22,
+    "actual_symbols": 22,
+    "warnings": []
+  },
+  {
+    "file": "000395.png",
+    "predicted_latex": "\\frac{\\frac{z + 14}{9} + 14}{z^{2} - 9} = 7",
+    "reference_latex": "\\frac{\\frac{z + 14}{9} + 14}{z^{2} - 9} = 7",
+    "exact_equation_correct": true,
+    "symbol_tp": 16,
+    "predicted_symbols": 16,
+    "actual_symbols": 16,
+    "warnings": []
+  },
+  {
+    "file": "000396.png",
+    "predicted_latex": "z_{n}^{2} + x - a + n = -6",
+    "reference_latex": "z_{n}^{2} + x - a + n = -6",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000397.png",
+    "predicted_latex": "\\sqrt{\\frac{b_{3} + 8}{b^{4} - 2}} = 5",
+    "reference_latex": "\\sqrt{\\frac{b_{3} + 8}{b^{4} - 2}} = 5",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000398.png",
+    "predicted_latex": "\\sin\\left(a\\right) + \\cos\\left(a^{2}\\right) - \\frac{a_{12}}{9} = 6",
+    "reference_latex": "\\sin\\left(a\\right) + \\cos\\left(a^{2}\\right) - \\frac{a_{12}}{9} = 6",
+    "exact_equation_correct": true,
+    "symbol_tp": 22,
+    "predicted_symbols": 22,
+    "actual_symbols": 22,
+    "warnings": []
+  },
+  {
+    "file": "000399.png",
+    "predicted_latex": "\\frac{y^{3} + 9}{\\left(y - 8\\right)} + \\sqrt{y + 9} = -5",
+    "reference_latex": "\\frac{y^{3} + 9}{\\left(y - 8\\right)} + \\sqrt{y + 9} = -5",
+    "exact_equation_correct": true,
+    "symbol_tp": 18,
+    "predicted_symbols": 18,
+    "actual_symbols": 18,
+    "warnings": []
+  },
+  {
+    "file": "000400.png",
+    "predicted_latex": "\\cos\\left(\\frac{b_{3} + 13}{9}\\right) = 11",
+    "reference_latex": "\\cos\\left(\\frac{b_{3} + 13}{9}\\right) = 11",
+    "exact_equation_correct": true,
+    "symbol_tp": 15,
+    "predicted_symbols": 15,
+    "actual_symbols": 15,
+    "warnings": []
+  },
+  {
+    "file": "000401.png",
+    "predicted_latex": "\\sin\\left(y\\right) + \\cos\\left(y^{2}\\right) - \\frac{y_{3}}{6} = -9",
+    "reference_latex": "\\sin\\left(y\\right) + \\cos\\left(y^{2}\\right) - \\frac{y_{3}}{6} = -9",
+    "exact_equation_correct": true,
+    "symbol_tp": 22,
+    "predicted_symbols": 22,
+    "actual_symbols": 22,
+    "warnings": []
+  },
+  {
+    "file": "000402.png",
+    "predicted_latex": "\\sin\\left(\\frac{b_{k} + 18}{9}\\right) = 10",
+    "reference_latex": "\\sin\\left(\\frac{b_{k} + 18}{9}\\right) = 10",
+    "exact_equation_correct": true,
+    "symbol_tp": 15,
+    "predicted_symbols": 15,
+    "actual_symbols": 15,
+    "warnings": []
+  },
+  {
+    "file": "000403.png",
+    "predicted_latex": "5 x + 4 = 10",
+    "reference_latex": "5 x + 4 = 10",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000404.png",
+    "predicted_latex": "\\frac{a^{3} + 5}{\\left(a - 6\\right)} + \\sqrt{a + 5} = 19",
+    "reference_latex": "\\frac{a^{3} + 5}{\\left(a - 6\\right)} + \\sqrt{a + 5} = 19",
+    "exact_equation_correct": true,
+    "symbol_tp": 18,
+    "predicted_symbols": 18,
+    "actual_symbols": 18,
+    "warnings": []
+  },
+  {
+    "file": "000405.png",
+    "predicted_latex": "\\sqrt{\\sqrt{b_{i} + 19} + 2} = 7",
+    "reference_latex": "\\sqrt{\\sqrt{b_{i} + 19} + 2} = 7",
+    "exact_equation_correct": true,
+    "symbol_tp": 11,
+    "predicted_symbols": 11,
+    "actual_symbols": 11,
+    "warnings": []
+  },
+  {
+    "file": "000406.png",
+    "predicted_latex": "\\sin\\left(z\\right) + \\cos\\left(z^{3}\\right) - \\frac{z_{k}}{8} = 16",
+    "reference_latex": "\\sin\\left(z\\right) + \\cos\\left(z^{3}\\right) - \\frac{z_{k}}{8} = 16",
+    "exact_equation_correct": true,
+    "symbol_tp": 22,
+    "predicted_symbols": 22,
+    "actual_symbols": 22,
+    "warnings": []
+  },
+  {
+    "file": "000407.png",
+    "predicted_latex": "6 y - 2 = -2",
+    "reference_latex": "6 y - 2 = -2",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000408.png",
+    "predicted_latex": "\\sqrt{\\frac{z_{k} + 15}{z^{4} - 3}} = 19",
+    "reference_latex": "\\sqrt{\\frac{z_{k} + 15}{z^{4} - 3}} = 19",
+    "exact_equation_correct": true,
+    "symbol_tp": 14,
+    "predicted_symbols": 14,
+    "actual_symbols": 14,
+    "warnings": []
+  },
+  {
+    "file": "000409.png",
+    "predicted_latex": "\\frac{\\frac{a + 10}{6} + 10}{a^{4} - 6} = 19",
+    "reference_latex": "\\frac{\\frac{a + 10}{6} + 10}{a^{4} - 6} = 19",
+    "exact_equation_correct": true,
+    "symbol_tp": 17,
+    "predicted_symbols": 17,
+    "actual_symbols": 17,
+    "warnings": []
+  },
+  {
+    "file": "000410.png",
+    "predicted_latex": "\\frac{\\frac{z + 9}{8} + 9}{z^{4} - 8} = 18",
+    "reference_latex": "\\frac{\\frac{z + 9}{8} + 9}{z^{4} - 8} = 18",
+    "exact_equation_correct": true,
+    "symbol_tp": 15,
+    "predicted_symbols": 15,
+    "actual_symbols": 15,
+    "warnings": []
+  },
+  {
+    "file": "000411.png",
+    "predicted_latex": "\\sqrt{\\frac{b_{i} + 15}{b^{3} - 2}} = -3",
+    "reference_latex": "\\sqrt{\\frac{b_{i} + 15}{b^{3} - 2}} = -3",
+    "exact_equation_correct": true,
+    "symbol_tp": 14,
+    "predicted_symbols": 14,
+    "actual_symbols": 14,
+    "warnings": []
+  },
+  {
+    "file": "000412.png",
+    "predicted_latex": "\\log_{9}\\left(a^{4} + 2\\right) = 4",
+    "reference_latex": "\\log_{9}\\left(a^{4} + 2\\right) = 4",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000413.png",
+    "predicted_latex": "\\sin\\left(y\\right) + \\cos\\left(y^{3}\\right) - \\frac{y_{12}}{6} = 2",
+    "reference_latex": "\\sin\\left(y\\right) + \\cos\\left(y^{3}\\right) - \\frac{y_{12}}{6} = 2",
+    "exact_equation_correct": true,
+    "symbol_tp": 22,
+    "predicted_symbols": 22,
+    "actual_symbols": 22,
+    "warnings": []
+  },
+  {
+    "file": "000414.png",
+    "predicted_latex": "\\frac{\\frac{z + 19}{4} + 19}{z^{2} - 4} = -1",
+    "reference_latex": "\\frac{\\frac{z + 19}{4} + 19}{z^{2} - 4} = -1",
+    "exact_equation_correct": true,
+    "symbol_tp": 17,
+    "predicted_symbols": 17,
+    "actual_symbols": 17,
+    "warnings": []
+  },
+  {
+    "file": "000415.png",
+    "predicted_latex": "\\sqrt{\\sqrt{b_{n} + 2} + 7} = 8",
+    "reference_latex": "\\sqrt{\\sqrt{b_{n} + 2} + 7} = 8",
+    "exact_equation_correct": true,
+    "symbol_tp": 10,
+    "predicted_symbols": 10,
+    "actual_symbols": 10,
+    "warnings": []
+  },
+  {
+    "file": "000416.png",
+    "predicted_latex": "\\frac{\\frac{x + 3}{9} + 3}{x^{3} - 9} = 16",
+    "reference_latex": "\\frac{\\frac{x + 3}{9} + 3}{x^{3} - 9} = 16",
+    "exact_equation_correct": true,
+    "symbol_tp": 15,
+    "predicted_symbols": 15,
+    "actual_symbols": 15,
+    "warnings": []
+  },
+  {
+    "file": "000417.png",
+    "predicted_latex": "\\cos\\left(\\frac{x_{i} + 17}{4}\\right) = 15",
+    "reference_latex": "\\cos\\left(\\frac{x_{i} + 17}{4}\\right) = 15",
+    "exact_equation_correct": true,
+    "symbol_tp": 15,
+    "predicted_symbols": 15,
+    "actual_symbols": 15,
+    "warnings": []
+  },
+  {
+    "file": "000418.png",
+    "predicted_latex": "\\sin\\left(y\\right) + \\cos\\left(y^{2}\\right) - \\frac{y_{k}}{4} = 7",
+    "reference_latex": "\\sin\\left(y\\right) + \\cos\\left(y^{2}\\right) - \\frac{y_{k}}{4} = 7",
+    "exact_equation_correct": true,
+    "symbol_tp": 21,
+    "predicted_symbols": 21,
+    "actual_symbols": 21,
+    "warnings": []
+  },
+  {
+    "file": "000419.png",
+    "predicted_latex": "\\frac{y^{3} + 9}{\\left(y - 7\\right)} + \\sqrt{y + 9} = 8",
+    "reference_latex": "\\frac{y^{3} + 9}{\\left(y - 7\\right)} + \\sqrt{y + 9} = 8",
+    "exact_equation_correct": true,
+    "symbol_tp": 17,
+    "predicted_symbols": 17,
+    "actual_symbols": 17,
+    "warnings": []
+  },
+  {
+    "file": "000420.png",
+    "predicted_latex": "\\sqrt{\\sqrt{b_{i} + 10} + 4} = 7",
+    "reference_latex": "\\sqrt{\\sqrt{b_{i} + 10} + 4} = 7",
+    "exact_equation_correct": true,
+    "symbol_tp": 11,
+    "predicted_symbols": 11,
+    "actual_symbols": 11,
+    "warnings": []
+  },
+  {
+    "file": "000421.png",
+    "predicted_latex": "\\left(z^{2} + 9 z + 9\\right)^{2} = -6",
+    "reference_latex": "\\left(z^{2} + 9 z + 9\\right)^{2} = -6",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000422.png",
+    "predicted_latex": "\\frac{z^{2} + 11}{\\left(z - 4\\right)} + \\sqrt{z + 11} = 7",
+    "reference_latex": "\\frac{z^{2} + 11}{\\left(z - 4\\right)} + \\sqrt{z + 11} = 7",
+    "exact_equation_correct": true,
+    "symbol_tp": 19,
+    "predicted_symbols": 19,
+    "actual_symbols": 19,
+    "warnings": []
+  },
+  {
+    "file": "000423.png",
+    "predicted_latex": "\\frac{\\frac{a + 17}{8} + 17}{a^{3} - 8} = 15",
+    "reference_latex": "\\frac{\\frac{a + 17}{8} + 17}{a^{3} - 8} = 15",
+    "exact_equation_correct": true,
+    "symbol_tp": 17,
+    "predicted_symbols": 17,
+    "actual_symbols": 17,
+    "warnings": []
+  },
+  {
+    "file": "000424.png",
+    "predicted_latex": "\\sqrt{\\sqrt{z_{k} + 14} + 2} = -8",
+    "reference_latex": "\\sqrt{\\sqrt{z_{k} + 14} + 2} = -8",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000425.png",
+    "predicted_latex": "\\frac{a^{3} + 17}{\\left(a - 9\\right)} + \\sqrt{a + 17} = 17",
+    "reference_latex": "\\frac{a^{3} + 17}{\\left(a - 9\\right)} + \\sqrt{a + 17} = 17",
+    "exact_equation_correct": true,
+    "symbol_tp": 20,
+    "predicted_symbols": 20,
+    "actual_symbols": 20,
+    "warnings": []
+  },
+  {
+    "file": "000426.png",
+    "predicted_latex": "\\left(y^{2} + 2 y + 19\\right)^{2} = -5",
+    "reference_latex": "\\left(y^{2} + 2 y + 19\\right)^{2} = -5",
+    "exact_equation_correct": true,
+    "symbol_tp": 14,
+    "predicted_symbols": 14,
+    "actual_symbols": 14,
+    "warnings": []
+  },
+  {
+    "file": "000427.png",
+    "predicted_latex": "\\sqrt{\\frac{b_{3} + 18}{b^{4} - 7}} = 1",
+    "reference_latex": "\\sqrt{\\frac{b_{3} + 18}{b^{4} - 7}} = 1",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000428.png",
+    "predicted_latex": "\\sqrt{\\sqrt{b_{n} + 19} + 4} = 6",
+    "reference_latex": "\\sqrt{\\sqrt{b_{n} + 19} + 4} = 6",
+    "exact_equation_correct": true,
+    "symbol_tp": 11,
+    "predicted_symbols": 11,
+    "actual_symbols": 11,
+    "warnings": []
+  },
+  {
+    "file": "000429.png",
+    "predicted_latex": "\\sin\\left(\\frac{z_{12} + 9}{3}\\right) = -4",
+    "reference_latex": "\\sin\\left(\\frac{z_{12} + 9}{3}\\right) = -4",
+    "exact_equation_correct": true,
+    "symbol_tp": 15,
+    "predicted_symbols": 15,
+    "actual_symbols": 15,
+    "warnings": []
+  },
+  {
+    "file": "000430.png",
+    "predicted_latex": "\\frac{b^{4} + 2}{\\left(b - 8\\right)} + \\sqrt{b + 2} = -3",
+    "reference_latex": "\\frac{b^{4} + 2}{\\left(b - 8\\right)} + \\sqrt{b + 2} = -3",
+    "exact_equation_correct": true,
+    "symbol_tp": 18,
+    "predicted_symbols": 18,
+    "actual_symbols": 18,
+    "warnings": []
+  },
+  {
+    "file": "000431.png",
+    "predicted_latex": "\\frac{\\frac{z + 18}{9} + 18}{z^{4} - 9} = 18",
+    "reference_latex": "\\frac{\\frac{z + 18}{9} + 18}{z^{4} - 9} = 18",
+    "exact_equation_correct": true,
+    "symbol_tp": 17,
+    "predicted_symbols": 17,
+    "actual_symbols": 17,
+    "warnings": []
+  },
+  {
+    "file": "000432.png",
+    "predicted_latex": "\\sin\\left(\\frac{b_{12} + 8}{4}\\right) = -7",
+    "reference_latex": "\\sin\\left(\\frac{b_{12} + 8}{4}\\right) = -7",
+    "exact_equation_correct": true,
+    "symbol_tp": 15,
+    "predicted_symbols": 15,
+    "actual_symbols": 15,
+    "warnings": []
+  },
+  {
+    "file": "000433.png",
+    "predicted_latex": "a_{k}^{2} + x - a + n = -7",
+    "reference_latex": "a_{k}^{2} + x - a + n = -7",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000434.png",
+    "predicted_latex": "\\frac{\\sin\\left(y\\right) + 15}{\\log_{2}\\left(y^{2} + 4\\right)} = 3",
+    "reference_latex": "\\frac{\\sin\\left(y\\right) + 15}{\\log_{2}\\left(y^{2} + 4\\right)} = 3",
+    "exact_equation_correct": true,
+    "symbol_tp": 22,
+    "predicted_symbols": 22,
+    "actual_symbols": 22,
+    "warnings": []
+  },
+  {
+    "file": "000435.png",
+    "predicted_latex": "5 y \\times 9 = -8",
+    "reference_latex": "5 y \\times 9 = -8",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000436.png",
+    "predicted_latex": "\\frac{a^{4} + 19}{\\left(a - 2\\right)} + \\sqrt{a + 19} = 10",
+    "reference_latex": "\\frac{a^{4} + 19}{\\left(a - 2\\right)} + \\sqrt{a + 19} = 10",
+    "exact_equation_correct": true,
+    "symbol_tp": 20,
+    "predicted_symbols": 20,
+    "actual_symbols": 20,
+    "warnings": []
+  },
+  {
+    "file": "000437.png",
+    "predicted_latex": "\\frac{\\sin\\left(z\\right) + 9}{\\log_{2}\\left(z^{3} + 2\\right)} = -6",
+    "reference_latex": "\\frac{\\sin\\left(z\\right) + 9}{\\log_{2}\\left(z^{3} + 2\\right)} = -6",
+    "exact_equation_correct": true,
+    "symbol_tp": 22,
+    "predicted_symbols": 22,
+    "actual_symbols": 22,
+    "warnings": []
+  },
+  {
+    "file": "000438.png",
+    "predicted_latex": "\\sqrt{\\frac{x_{2} + 7}{x^{4} - 3}} = -1",
+    "reference_latex": "\\sqrt{\\frac{x_{2} + 7}{x^{4} - 3}} = -1",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000439.png",
+    "predicted_latex": "\\sqrt{\\sqrt{y_{i} + 1} + 7} = -8",
+    "reference_latex": "\\sqrt{\\sqrt{y_{i} + 1} + 7} = -8",
+    "exact_equation_correct": true,
+    "symbol_tp": 11,
+    "predicted_symbols": 11,
+    "actual_symbols": 11,
+    "warnings": []
+  },
+  {
+    "file": "000440.png",
+    "predicted_latex": "4 b \\times 17 = -1",
+    "reference_latex": "4 b \\times 17 = -1",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000441.png",
+    "predicted_latex": "\\log_{8}\\left(y^{4} + 13\\right) = 13",
+    "reference_latex": "\\log_{8}\\left(y^{4} + 13\\right) = 13",
+    "exact_equation_correct": true,
+    "symbol_tp": 14,
+    "predicted_symbols": 14,
+    "actual_symbols": 14,
+    "warnings": []
+  },
+  {
+    "file": "000442.png",
+    "predicted_latex": "\\frac{x_{3} + 2}{x^{2} - 7} = 14",
+    "reference_latex": "\\frac{x_{3} + 2}{x^{2} - 7} = 14",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000443.png",
+    "predicted_latex": "\\sin\\left(x\\right) + \\cos\\left(x^{4}\\right) - \\frac{x_{3}}{8} = 4",
+    "reference_latex": "\\sin\\left(x\\right) + \\cos\\left(x^{4}\\right) - \\frac{x_{3}}{8} = 4",
+    "exact_equation_correct": true,
+    "symbol_tp": 21,
+    "predicted_symbols": 21,
+    "actual_symbols": 21,
+    "warnings": []
+  },
+  {
+    "file": "000444.png",
+    "predicted_latex": "\\left(z^{4} + 2 z + 1\\right)^{2} = -4",
+    "reference_latex": "\\left(z^{4} + 2 z + 1\\right)^{2} = -4",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000445.png",
+    "predicted_latex": "\\frac{b_{i} + 5}{b^{3} - 3} = 12",
+    "reference_latex": "\\frac{b_{i} + 5}{b^{3} - 3} = 12",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000446.png",
+    "predicted_latex": "\\frac{x_{j} + 15}{x^{2} - 2} = 12",
+    "reference_latex": "\\frac{x_{j} + 15}{x^{2} - 2} = 12",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000447.png",
+    "predicted_latex": "\\sqrt{\\sqrt{z_{2} + 10} + 4} = 9",
+    "reference_latex": "\\sqrt{\\sqrt{z_{2} + 10} + 4} = 9",
+    "exact_equation_correct": true,
+    "symbol_tp": 11,
+    "predicted_symbols": 11,
+    "actual_symbols": 11,
+    "warnings": []
+  },
+  {
+    "file": "000448.png",
+    "predicted_latex": "\\frac{\\sin\\left(a\\right) + 8}{\\log_{2}\\left(a^{4} + 9\\right)} = 14",
+    "reference_latex": "\\frac{\\sin\\left(a\\right) + 8}{\\log_{2}\\left(a^{4} + 9\\right)} = 14",
+    "exact_equation_correct": true,
+    "symbol_tp": 22,
+    "predicted_symbols": 22,
+    "actual_symbols": 22,
+    "warnings": []
+  },
+  {
+    "file": "000449.png",
+    "predicted_latex": "\\frac{\\frac{x + 13}{3} + 13}{x^{2} - 3} = 7",
+    "reference_latex": "\\frac{\\frac{x + 13}{3} + 13}{x^{2} - 3} = 7",
+    "exact_equation_correct": true,
+    "symbol_tp": 16,
+    "predicted_symbols": 16,
+    "actual_symbols": 16,
+    "warnings": []
+  },
+  {
+    "file": "000450.png",
+    "predicted_latex": "\\sin\\left(b\\right) + \\cos\\left(b^{2}\\right) - \\frac{b_{j}}{2} = -7",
+    "reference_latex": "\\sin\\left(b\\right) + \\cos\\left(b^{2}\\right) - \\frac{b_{j}}{2} = -7",
+    "exact_equation_correct": true,
+    "symbol_tp": 22,
+    "predicted_symbols": 22,
+    "actual_symbols": 22,
+    "warnings": []
+  },
+  {
+    "file": "000451.png",
+    "predicted_latex": "\\log_{4}\\left(x^{3} + 6\\right) = -3",
+    "reference_latex": "\\log_{4}\\left(x^{3} + 6\\right) = -3",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000452.png",
+    "predicted_latex": "\\sqrt{\\sqrt{a_{j} + 2} + 3} = -4",
+    "reference_latex": "\\sqrt{\\sqrt{a_{j} + 2} + 3} = -4",
+    "exact_equation_correct": true,
+    "symbol_tp": 11,
+    "predicted_symbols": 11,
+    "actual_symbols": 11,
+    "warnings": []
+  },
+  {
+    "file": "000453.png",
+    "predicted_latex": "\\frac{a^{3} + 3}{\\left(a - 9\\right)} + \\sqrt{a + 3} = 3",
+    "reference_latex": "\\frac{a^{3} + 3}{\\left(a - 9\\right)} + \\sqrt{a + 3} = 3",
+    "exact_equation_correct": true,
+    "symbol_tp": 17,
+    "predicted_symbols": 17,
+    "actual_symbols": 17,
+    "warnings": []
+  },
+  {
+    "file": "000454.png",
+    "predicted_latex": "8 y - 17 = 4",
+    "reference_latex": "8 y - 17 = 4",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000455.png",
+    "predicted_latex": "\\frac{z^{4} + 3}{\\left(z - 7\\right)} + \\sqrt{z + 3} = 19",
+    "reference_latex": "\\frac{z^{4} + 3}{\\left(z - 7\\right)} + \\sqrt{z + 3} = 19",
+    "exact_equation_correct": true,
+    "symbol_tp": 18,
+    "predicted_symbols": 18,
+    "actual_symbols": 18,
+    "warnings": []
+  },
+  {
+    "file": "000456.png",
+    "predicted_latex": "\\sqrt{\\frac{x_{j} + 15}{x^{3} - 4}} = 0",
+    "reference_latex": "\\sqrt{\\frac{x_{j} + 15}{x^{3} - 4}} = 0",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000457.png",
+    "predicted_latex": "\\frac{\\sin\\left(x\\right) + 13}{\\log_{2}\\left(x^{4} + 5\\right)} = 18",
+    "reference_latex": "\\frac{\\sin\\left(x\\right) + 13}{\\log_{2}\\left(x^{4} + 5\\right)} = 18",
+    "exact_equation_correct": true,
+    "symbol_tp": 23,
+    "predicted_symbols": 23,
+    "actual_symbols": 23,
+    "warnings": []
+  },
+  {
+    "file": "000458.png",
+    "predicted_latex": "\\frac{b_{k} + 12}{b^{3} - 5} = 14",
+    "reference_latex": "\\frac{b_{k} + 12}{b^{3} - 5} = 14",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000459.png",
+    "predicted_latex": "\\frac{\\sin\\left(x\\right) + 6}{\\log_{2}\\left(x^{3} + 2\\right)} = 15",
+    "reference_latex": "\\frac{\\sin\\left(x\\right) + 6}{\\log_{2}\\left(x^{3} + 2\\right)} = 15",
+    "exact_equation_correct": true,
+    "symbol_tp": 22,
+    "predicted_symbols": 22,
+    "actual_symbols": 22,
+    "warnings": []
+  },
+  {
+    "file": "000460.png",
+    "predicted_latex": "\\left(y^{2} + 2 y + 18\\right)^{2} = 2",
+    "reference_latex": "\\left(y^{2} + 2 y + 18\\right)^{2} = 2",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000461.png",
+    "predicted_latex": "\\log_{2}\\left(a^{4} + 9\\right) = 7",
+    "reference_latex": "\\log_{2}\\left(a^{4} + 9\\right) = 7",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000462.png",
+    "predicted_latex": "\\log_{2}\\left(a^{4} + 9\\right) = 7",
+    "reference_latex": "\\log_{2}\\left(a^{4} + 9\\right) = 7",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000463.png",
+    "predicted_latex": "\\frac{\\frac{z + 15}{9} + 15}{z^{4} - 9} = 1",
+    "reference_latex": "\\frac{\\frac{z + 15}{9} + 15}{z^{4} - 9} = 1",
+    "exact_equation_correct": true,
+    "symbol_tp": 16,
+    "predicted_symbols": 16,
+    "actual_symbols": 16,
+    "warnings": []
+  },
+  {
+    "file": "000464.png",
+    "predicted_latex": "2 a - 9 = -2",
+    "reference_latex": "2 a - 9 = -2",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000465.png",
+    "predicted_latex": "\\frac{\\sin\\left(z\\right) + 16}{\\log_{2}\\left(z^{4} + 9\\right)} = -5",
+    "reference_latex": "\\frac{\\sin\\left(z\\right) + 16}{\\log_{2}\\left(z^{4} + 9\\right)} = -5",
+    "exact_equation_correct": true,
+    "symbol_tp": 23,
+    "predicted_symbols": 23,
+    "actual_symbols": 23,
+    "warnings": []
+  },
+  {
+    "file": "000466.png",
+    "predicted_latex": "\\frac{\\sin\\left(y\\right) + 10}{\\log_{2}\\left(y^{2} + 6\\right)} = -1",
+    "reference_latex": "\\frac{\\sin\\left(y\\right) + 10}{\\log_{2}\\left(y^{2} + 6\\right)} = -1",
+    "exact_equation_correct": true,
+    "symbol_tp": 23,
+    "predicted_symbols": 23,
+    "actual_symbols": 23,
+    "warnings": []
+  },
+  {
+    "file": "000467.png",
+    "predicted_latex": "\\sin\\left(x\\right) + \\cos\\left(x^{4}\\right) - \\frac{x_{j}}{4} = -8",
+    "reference_latex": "\\sin\\left(x\\right) + \\cos\\left(x^{4}\\right) - \\frac{x_{j}}{4} = -8",
+    "exact_equation_correct": true,
+    "symbol_tp": 22,
+    "predicted_symbols": 22,
+    "actual_symbols": 22,
+    "warnings": []
+  },
+  {
+    "file": "000468.png",
+    "predicted_latex": "8 x \\times 13 = 1",
+    "reference_latex": "8 x \\times 13 = 1",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000469.png",
+    "predicted_latex": "\\left(y^{2} + 2 y + 7\\right)^{2} = 11",
+    "reference_latex": "\\left(y^{2} + 2 y + 7\\right)^{2} = 11",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000470.png",
+    "predicted_latex": "\\sqrt{\\sqrt{b_{12} + 2} + 6} = 8",
+    "reference_latex": "\\sqrt{\\sqrt{b_{12} + 2} + 6} = 8",
+    "exact_equation_correct": true,
+    "symbol_tp": 11,
+    "predicted_symbols": 11,
+    "actual_symbols": 11,
+    "warnings": []
+  },
+  {
+    "file": "000471.png",
+    "predicted_latex": "\\frac{z^{4} + 8}{\\left(z - 2\\right)} + \\sqrt{z + 8} = 2",
+    "reference_latex": "\\frac{z^{4} + 8}{\\left(z - 2\\right)} + \\sqrt{z + 8} = 2",
+    "exact_equation_correct": true,
+    "symbol_tp": 17,
+    "predicted_symbols": 17,
+    "actual_symbols": 17,
+    "warnings": []
+  },
+  {
+    "file": "000472.png",
+    "predicted_latex": "\\frac{b_{2} + 1}{b^{4} - 4} = 14",
+    "reference_latex": "\\frac{b_{2} + 1}{b^{4} - 4} = 14",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000473.png",
+    "predicted_latex": "9 a - 5 = -7",
+    "reference_latex": "9 a - 5 = -7",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000474.png",
+    "predicted_latex": "\\frac{b^{4} + 16}{\\left(b - 4\\right)} + \\sqrt{b + 16} = 14",
+    "reference_latex": "\\frac{b^{4} + 16}{\\left(b - 4\\right)} + \\sqrt{b + 16} = 14",
+    "exact_equation_correct": true,
+    "symbol_tp": 20,
+    "predicted_symbols": 20,
+    "actual_symbols": 20,
+    "warnings": []
+  },
+  {
+    "file": "000475.png",
+    "predicted_latex": "\\frac{\\sin\\left(a\\right) + 9}{\\log_{2}\\left(a^{2} + 8\\right)} = -4",
+    "reference_latex": "\\frac{\\sin\\left(a\\right) + 9}{\\log_{2}\\left(a^{2} + 8\\right)} = -4",
+    "exact_equation_correct": true,
+    "symbol_tp": 22,
+    "predicted_symbols": 22,
+    "actual_symbols": 22,
+    "warnings": []
+  },
+  {
+    "file": "000476.png",
+    "predicted_latex": "\\left(a^{3} + 5 a + 8\\right)^{2} = -2",
+    "reference_latex": "\\left(a^{3} + 5 a + 8\\right)^{2} = -2",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000477.png",
+    "predicted_latex": "\\cos\\left(\\frac{b_{2} + 3}{3}\\right) = 17",
+    "reference_latex": "\\cos\\left(\\frac{b_{2} + 3}{3}\\right) = 17",
+    "exact_equation_correct": true,
+    "symbol_tp": 14,
+    "predicted_symbols": 14,
+    "actual_symbols": 14,
+    "warnings": []
+  },
+  {
+    "file": "000478.png",
+    "predicted_latex": "3 y - 3 = 3",
+    "reference_latex": "3 y - 3 = 3",
+    "exact_equation_correct": true,
+    "symbol_tp": 6,
+    "predicted_symbols": 6,
+    "actual_symbols": 6,
+    "warnings": []
+  },
+  {
+    "file": "000479.png",
+    "predicted_latex": "\\frac{\\sin\\left(b\\right) + 6}{\\log_{2}\\left(b^{4} + 3\\right)} = 14",
+    "reference_latex": "\\frac{\\sin\\left(b\\right) + 6}{\\log_{2}\\left(b^{4} + 3\\right)} = 14",
+    "exact_equation_correct": true,
+    "symbol_tp": 22,
+    "predicted_symbols": 22,
+    "actual_symbols": 22,
+    "warnings": []
+  },
+  {
+    "file": "000480.png",
+    "predicted_latex": "\\frac{a^{2} + 8}{\\left(a - 5\\right)} + \\sqrt{a + 8} = 6",
+    "reference_latex": "\\frac{a^{2} + 8}{\\left(a - 5\\right)} + \\sqrt{a + 8} = 6",
+    "exact_equation_correct": true,
+    "symbol_tp": 17,
+    "predicted_symbols": 17,
+    "actual_symbols": 17,
+    "warnings": []
+  },
+  {
+    "file": "000481.png",
+    "predicted_latex": "9 a \\times 5 = 18",
+    "reference_latex": "9 a \\times 5 = 18",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000482.png",
+    "predicted_latex": "\\sqrt{\\frac{a_{k} + 12}{a^{3} - 5}} = 9",
+    "reference_latex": "\\sqrt{\\frac{a_{k} + 12}{a^{3} - 5}} = 9",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000483.png",
+    "predicted_latex": "\\frac{\\sin\\left(y\\right) + 9}{\\log_{2}\\left(y^{4} + 3\\right)} = 3",
+    "reference_latex": "\\frac{\\sin\\left(y\\right) + 9}{\\log_{2}\\left(y^{4} + 3\\right)} = 3",
+    "exact_equation_correct": true,
+    "symbol_tp": 21,
+    "predicted_symbols": 21,
+    "actual_symbols": 21,
+    "warnings": []
+  },
+  {
+    "file": "000484.png",
+    "predicted_latex": "\\frac{\\frac{z + 8}{5} + 8}{z^{3} - 5} = 12",
+    "reference_latex": "\\frac{\\frac{z + 8}{5} + 8}{z^{3} - 5} = 12",
+    "exact_equation_correct": true,
+    "symbol_tp": 15,
+    "predicted_symbols": 15,
+    "actual_symbols": 15,
+    "warnings": []
+  },
+  {
+    "file": "000485.png",
+    "predicted_latex": "\\frac{a_{12} + 13}{a^{3} - 6} = -2",
+    "reference_latex": "\\frac{a_{12} + 13}{a^{3} - 6} = -2",
+    "exact_equation_correct": true,
+    "symbol_tp": 14,
+    "predicted_symbols": 14,
+    "actual_symbols": 14,
+    "warnings": []
+  },
+  {
+    "file": "000486.png",
+    "predicted_latex": "7 a \\times 13 = 16",
+    "reference_latex": "7 a \\times 13 = 16",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000487.png",
+    "predicted_latex": "\\cos\\left(\\frac{x_{12} + 2}{3}\\right) = -8",
+    "reference_latex": "\\cos\\left(\\frac{x_{12} + 2}{3}\\right) = -8",
+    "exact_equation_correct": true,
+    "symbol_tp": 15,
+    "predicted_symbols": 15,
+    "actual_symbols": 15,
+    "warnings": []
+  },
+  {
+    "file": "000488.png",
+    "predicted_latex": "\\sqrt{\\sqrt{a_{j} + 7} + 4} = 13",
+    "reference_latex": "\\sqrt{\\sqrt{a_{j} + 7} + 4} = 13",
+    "exact_equation_correct": true,
+    "symbol_tp": 11,
+    "predicted_symbols": 11,
+    "actual_symbols": 11,
+    "warnings": []
+  },
+  {
+    "file": "000489.png",
+    "predicted_latex": "z_{12}^{3} + x - a + n = 0",
+    "reference_latex": "z_{12}^{3} + x - a + n = 0",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000490.png",
+    "predicted_latex": "z_{12}^{3} + x - a + n = 0",
+    "reference_latex": "z_{12}^{3} + x - a + n = 0",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000491.png",
+    "predicted_latex": "\\sqrt{\\frac{z_{12} + 11}{z^{3} - 5}} = 12",
+    "reference_latex": "\\sqrt{\\frac{z_{12} + 11}{z^{3} - 5}} = 12",
+    "exact_equation_correct": true,
+    "symbol_tp": 15,
+    "predicted_symbols": 15,
+    "actual_symbols": 15,
+    "warnings": []
+  },
+  {
+    "file": "000492.png",
+    "predicted_latex": "\\cos\\left(\\frac{y_{i} + 12}{3}\\right) = 18",
+    "reference_latex": "\\cos\\left(\\frac{y_{i} + 12}{3}\\right) = 18",
+    "exact_equation_correct": true,
+    "symbol_tp": 15,
+    "predicted_symbols": 15,
+    "actual_symbols": 15,
+    "warnings": []
+  },
+  {
+    "file": "000493.png",
+    "predicted_latex": "\\sin\\left(z\\right) + \\cos\\left(z^{3}\\right) - \\frac{z_{k}}{8} = 4",
+    "reference_latex": "\\sin\\left(z\\right) + \\cos\\left(z^{3}\\right) - \\frac{z_{k}}{8} = 4",
+    "exact_equation_correct": true,
+    "symbol_tp": 21,
+    "predicted_symbols": 21,
+    "actual_symbols": 21,
+    "warnings": []
+  },
+  {
+    "file": "000494.png",
+    "predicted_latex": "\\cos\\left(\\frac{y_{12} + 13}{9}\\right) = 11",
+    "reference_latex": "\\cos\\left(\\frac{y_{12} + 13}{9}\\right) = 11",
+    "exact_equation_correct": true,
+    "symbol_tp": 16,
+    "predicted_symbols": 16,
+    "actual_symbols": 16,
+    "warnings": []
+  },
+  {
+    "file": "000495.png",
+    "predicted_latex": "\\log_{4}\\left(z^{3} + 2\\right) = -3",
+    "reference_latex": "\\log_{4}\\left(z^{3} + 2\\right) = -3",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000496.png",
+    "predicted_latex": "\\frac{b^{3} + 10}{\\left(b - 8\\right)} + \\sqrt{b + 10} = 14",
+    "reference_latex": "\\frac{b^{3} + 10}{\\left(b - 8\\right)} + \\sqrt{b + 10} = 14",
+    "exact_equation_correct": true,
+    "symbol_tp": 20,
+    "predicted_symbols": 20,
+    "actual_symbols": 20,
+    "warnings": []
+  },
+  {
+    "file": "000497.png",
+    "predicted_latex": "\\frac{a^{3} + 15}{\\left(a - 8\\right)} + \\sqrt{a + 15} = -8",
+    "reference_latex": "\\frac{a^{3} + 15}{\\left(a - 8\\right)} + \\sqrt{a + 15} = -8",
+    "exact_equation_correct": true,
+    "symbol_tp": 20,
+    "predicted_symbols": 20,
+    "actual_symbols": 20,
+    "warnings": []
+  },
+  {
+    "file": "000498.png",
+    "predicted_latex": "\\frac{\\sin\\left(y\\right) + 6}{\\log_{2}\\left(y^{4} + 3\\right)} = 10",
+    "reference_latex": "\\frac{\\sin\\left(y\\right) + 6}{\\log_{2}\\left(y^{4} + 3\\right)} = 10",
+    "exact_equation_correct": true,
+    "symbol_tp": 22,
+    "predicted_symbols": 22,
+    "actual_symbols": 22,
+    "warnings": []
+  },
+  {
+    "file": "000499.png",
+    "predicted_latex": "2 a - 14 = 18",
+    "reference_latex": "2 a - 14 = 18",
+    "exact_equation_correct": true,
+    "symbol_tp": 8,
+    "predicted_symbols": 8,
+    "actual_symbols": 8,
+    "warnings": []
+  },
+  {
+    "file": "000500.png",
+    "predicted_latex": "\\sqrt{\\frac{b_{k} + 5}{b^{3} - 5}} = -6",
+    "reference_latex": "\\sqrt{\\frac{b_{k} + 5}{b^{3} - 5}} = -6",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000501.png",
+    "predicted_latex": "x_{12}^{3} + x - a + n = 4",
+    "reference_latex": "x_{12}^{3} + x - a + n = 4",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000502.png",
+    "predicted_latex": "2 b - 6 = 15",
+    "reference_latex": "2 b - 6 = 15",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000503.png",
+    "predicted_latex": "\\sin\\left(z\\right) + \\cos\\left(z^{3}\\right) - \\frac{z_{j}}{7} = 10",
+    "reference_latex": "\\sin\\left(z\\right) + \\cos\\left(z^{3}\\right) - \\frac{z_{j}}{7} = 10",
+    "exact_equation_correct": true,
+    "symbol_tp": 22,
+    "predicted_symbols": 22,
+    "actual_symbols": 22,
+    "warnings": []
+  },
+  {
+    "file": "000504.png",
+    "predicted_latex": "\\frac{z^{4} + 13}{\\left(z - 5\\right)} + \\sqrt{z + 13} = -7",
+    "reference_latex": "\\frac{z^{4} + 13}{\\left(z - 5\\right)} + \\sqrt{z + 13} = -7",
+    "exact_equation_correct": true,
+    "symbol_tp": 20,
+    "predicted_symbols": 20,
+    "actual_symbols": 20,
+    "warnings": []
+  },
+  {
+    "file": "000505.png",
+    "predicted_latex": "a_{3}^{3} + x - a + n = -9",
+    "reference_latex": "a_{3}^{3} + x - a + n = -9",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000506.png",
+    "predicted_latex": "y_{12}^{3} + x - a + n = -5",
+    "reference_latex": "y_{12}^{3} + x - a + n = -5",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000507.png",
+    "predicted_latex": "\\frac{z_{3} + 4}{z^{4} - 7} = 1",
+    "reference_latex": "\\frac{z_{3} + 4}{z^{4} - 7} = 1",
+    "exact_equation_correct": true,
+    "symbol_tp": 11,
+    "predicted_symbols": 11,
+    "actual_symbols": 11,
+    "warnings": []
+  },
+  {
+    "file": "000508.png",
+    "predicted_latex": "\\cos\\left(\\frac{x_{i} + 9}{5}\\right) = 0",
+    "reference_latex": "\\cos\\left(\\frac{x_{i} + 9}{5}\\right) = 0",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000509.png",
+    "predicted_latex": "\\sqrt{\\frac{b_{12} + 7}{b^{3} - 4}} = 1",
+    "reference_latex": "\\sqrt{\\frac{b_{12} + 7}{b^{3} - 4}} = 1",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000510.png",
+    "predicted_latex": "\\frac{\\frac{z + 2}{6} + 2}{z^{4} - 6} = -2",
+    "reference_latex": "\\frac{\\frac{z + 2}{6} + 2}{z^{4} - 6} = -2",
+    "exact_equation_correct": true,
+    "symbol_tp": 15,
+    "predicted_symbols": 15,
+    "actual_symbols": 15,
+    "warnings": []
+  },
+  {
+    "file": "000511.png",
+    "predicted_latex": "\\log_{5}\\left(z^{2} + 9\\right) = 13",
+    "reference_latex": "\\log_{5}\\left(z^{2} + 9\\right) = 13",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000512.png",
+    "predicted_latex": "\\frac{y_{2} + 12}{y^{3} - 9} = -1",
+    "reference_latex": "\\frac{y_{2} + 12}{y^{3} - 9} = -1",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000513.png",
+    "predicted_latex": "\\sin\\left(\\frac{b_{k} + 10}{3}\\right) = -7",
+    "reference_latex": "\\sin\\left(\\frac{b_{k} + 10}{3}\\right) = -7",
+    "exact_equation_correct": true,
+    "symbol_tp": 15,
+    "predicted_symbols": 15,
+    "actual_symbols": 15,
+    "warnings": []
+  },
+  {
+    "file": "000514.png",
+    "predicted_latex": "\\sqrt{\\sqrt{y_{12} + 16} + 5} = -4",
+    "reference_latex": "\\sqrt{\\sqrt{y_{12} + 16} + 5} = -4",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000515.png",
+    "predicted_latex": "\\log_{4}\\left(y^{4} + 8\\right) = 16",
+    "reference_latex": "\\log_{4}\\left(y^{4} + 8\\right) = 16",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000516.png",
+    "predicted_latex": "\\sin\\left(b\\right) + \\cos\\left(b^{2}\\right) - \\frac{b_{k}}{5} = 1",
+    "reference_latex": "\\sin\\left(b\\right) + \\cos\\left(b^{2}\\right) - \\frac{b_{k}}{5} = 1",
+    "exact_equation_correct": true,
+    "symbol_tp": 21,
+    "predicted_symbols": 21,
+    "actual_symbols": 21,
+    "warnings": []
+  },
+  {
+    "file": "000517.png",
+    "predicted_latex": "\\frac{\\sin\\left(y\\right) + 7}{\\log_{2}\\left(y^{3} + 6\\right)} = -9",
+    "reference_latex": "\\frac{\\sin\\left(y\\right) + 7}{\\log_{2}\\left(y^{3} + 6\\right)} = -9",
+    "exact_equation_correct": true,
+    "symbol_tp": 22,
+    "predicted_symbols": 22,
+    "actual_symbols": 22,
+    "warnings": []
+  },
+  {
+    "file": "000518.png",
+    "predicted_latex": "\\frac{y_{12} + 13}{y^{2} - 8} = 15",
+    "reference_latex": "\\frac{y_{12} + 13}{y^{2} - 8} = 15",
+    "exact_equation_correct": true,
+    "symbol_tp": 14,
+    "predicted_symbols": 14,
+    "actual_symbols": 14,
+    "warnings": []
+  },
+  {
+    "file": "000519.png",
+    "predicted_latex": "\\frac{\\frac{y + 14}{7} + 14}{y^{3} - 7} = 5",
+    "reference_latex": "\\frac{\\frac{y + 14}{7} + 14}{y^{3} - 7} = 5",
+    "exact_equation_correct": true,
+    "symbol_tp": 16,
+    "predicted_symbols": 17,
+    "actual_symbols": 16,
+    "warnings": []
+  },
+  {
+    "file": "000520.png",
+    "predicted_latex": "\\sqrt{\\sqrt{y_{k} + 14} + 3} = 12",
+    "reference_latex": "\\sqrt{\\sqrt{y_{k} + 14} + 3} = 12",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000521.png",
+    "predicted_latex": "\\frac{y^{2} + 2}{\\left(y - 9\\right)} + \\sqrt{y + 2} = -3",
+    "reference_latex": "\\frac{y^{2} + 2}{\\left(y - 9\\right)} + \\sqrt{y + 2} = -3",
+    "exact_equation_correct": true,
+    "symbol_tp": 18,
+    "predicted_symbols": 18,
+    "actual_symbols": 18,
+    "warnings": []
+  },
+  {
+    "file": "000522.png",
+    "predicted_latex": "\\sqrt{\\sqrt{b_{k} + 9} + 2} = 17",
+    "reference_latex": "\\sqrt{\\sqrt{b_{k} + 9} + 2} = 17",
+    "exact_equation_correct": true,
+    "symbol_tp": 11,
+    "predicted_symbols": 11,
+    "actual_symbols": 11,
+    "warnings": []
+  },
+  {
+    "file": "000523.png",
+    "predicted_latex": "\\left(a^{3} + 2 a + 14\\right)^{2} = 9",
+    "reference_latex": "\\left(a^{3} + 2 a + 14\\right)^{2} = 9",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000524.png",
+    "predicted_latex": "\\frac{\\frac{b + 11}{7} + 11}{b^{2} - 7} = 5",
+    "reference_latex": "\\frac{\\frac{b + 11}{7} + 11}{b^{2} - 7} = 5",
+    "exact_equation_correct": true,
+    "symbol_tp": 16,
+    "predicted_symbols": 16,
+    "actual_symbols": 16,
+    "warnings": []
+  },
+  {
+    "file": "000525.png",
+    "predicted_latex": "z_{n}^{2} + x - a + n = 12",
+    "reference_latex": "z_{n}^{2} + x - a + n = 12",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000526.png",
+    "predicted_latex": "\\log_{7}\\left(y^{3} + 10\\right) = 14",
+    "reference_latex": "\\log_{7}\\left(y^{3} + 10\\right) = 14",
+    "exact_equation_correct": true,
+    "symbol_tp": 14,
+    "predicted_symbols": 14,
+    "actual_symbols": 14,
+    "warnings": []
+  },
+  {
+    "file": "000527.png",
+    "predicted_latex": "\\log_{7}\\left(z^{2} + 17\\right) = 19",
+    "reference_latex": "\\log_{7}\\left(z^{2} + 17\\right) = 19",
+    "exact_equation_correct": true,
+    "symbol_tp": 14,
+    "predicted_symbols": 14,
+    "actual_symbols": 14,
+    "warnings": []
+  },
+  {
+    "file": "000528.png",
+    "predicted_latex": "\\sqrt{\\sqrt{b_{3} + 1} + 4} = -4",
+    "reference_latex": "\\sqrt{\\sqrt{b_{3} + 1} + 4} = -4",
+    "exact_equation_correct": true,
+    "symbol_tp": 11,
+    "predicted_symbols": 11,
+    "actual_symbols": 11,
+    "warnings": []
+  },
+  {
+    "file": "000529.png",
+    "predicted_latex": "\\frac{b^{3} + 11}{\\left(b - 9\\right)} + \\sqrt{b + 11} = 8",
+    "reference_latex": "\\frac{b^{3} + 11}{\\left(b - 9\\right)} + \\sqrt{b + 11} = 8",
+    "exact_equation_correct": true,
+    "symbol_tp": 19,
+    "predicted_symbols": 19,
+    "actual_symbols": 19,
+    "warnings": []
+  },
+  {
+    "file": "000530.png",
+    "predicted_latex": "\\frac{b_{n} + 10}{b^{3} - 9} = -6",
+    "reference_latex": "\\frac{b_{n} + 10}{b^{3} - 9} = -6",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000531.png",
+    "predicted_latex": "\\frac{x_{j} + 3}{x^{4} - 6} = 10",
+    "reference_latex": "\\frac{x_{j} + 3}{x^{4} - 6} = 10",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000532.png",
+    "predicted_latex": "\\frac{a^{3} + 14}{\\left(a - 8\\right)} + \\sqrt{a + 14} = -1",
+    "reference_latex": "\\frac{a^{3} + 14}{\\left(a - 8\\right)} + \\sqrt{a + 14} = -1",
+    "exact_equation_correct": true,
+    "symbol_tp": 20,
+    "predicted_symbols": 20,
+    "actual_symbols": 20,
+    "warnings": []
+  },
+  {
+    "file": "000533.png",
+    "predicted_latex": "\\sin\\left(\\frac{x_{i} + 10}{6}\\right) = 11",
+    "reference_latex": "\\sin\\left(\\frac{x_{i} + 10}{6}\\right) = 11",
+    "exact_equation_correct": true,
+    "symbol_tp": 15,
+    "predicted_symbols": 15,
+    "actual_symbols": 15,
+    "warnings": []
+  },
+  {
+    "file": "000534.png",
+    "predicted_latex": "\\frac{\\sin\\left(y\\right) + 1}{\\log_{2}\\left(y^{4} + 5\\right)} = 6",
+    "reference_latex": "\\frac{\\sin\\left(y\\right) + 1}{\\log_{2}\\left(y^{4} + 5\\right)} = 6",
+    "exact_equation_correct": true,
+    "symbol_tp": 21,
+    "predicted_symbols": 21,
+    "actual_symbols": 21,
+    "warnings": []
+  },
+  {
+    "file": "000535.png",
+    "predicted_latex": "\\sqrt{\\sqrt{b_{12} + 14} + 4} = 4",
+    "reference_latex": "\\sqrt{\\sqrt{b_{12} + 14} + 4} = 4",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000536.png",
+    "predicted_latex": "\\sqrt{\\sqrt{x_{k} + 7} + 8} = 15",
+    "reference_latex": "\\sqrt{\\sqrt{x_{k} + 7} + 8} = 15",
+    "exact_equation_correct": true,
+    "symbol_tp": 11,
+    "predicted_symbols": 11,
+    "actual_symbols": 11,
+    "warnings": []
+  },
+  {
+    "file": "000537.png",
+    "predicted_latex": "\\sqrt{\\sqrt{z_{j} + 2} + 9} = -5",
+    "reference_latex": "\\sqrt{\\sqrt{z_{j} + 2} + 9} = -5",
+    "exact_equation_correct": true,
+    "symbol_tp": 11,
+    "predicted_symbols": 11,
+    "actual_symbols": 11,
+    "warnings": []
+  },
+  {
+    "file": "000538.png",
+    "predicted_latex": "\\log_{4}\\left(x^{3} + 8\\right) = -4",
+    "reference_latex": "\\log_{4}\\left(x^{3} + 8\\right) = -4",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000539.png",
+    "predicted_latex": "a_{n}^{2} + x - a + n = 18",
+    "reference_latex": "a_{n}^{2} + x - a + n = 18",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000540.png",
+    "predicted_latex": "b_{3}^{3} + x - a + n = 7",
+    "reference_latex": "b_{3}^{3} + x - a + n = 7",
+    "exact_equation_correct": true,
+    "symbol_tp": 11,
+    "predicted_symbols": 11,
+    "actual_symbols": 11,
+    "warnings": []
+  },
+  {
+    "file": "000541.png",
+    "predicted_latex": "\\frac{\\sin\\left(x\\right) + 8}{\\log_{2}\\left(x^{3} + 6\\right)} = -8",
+    "reference_latex": "\\frac{\\sin\\left(x\\right) + 8}{\\log_{2}\\left(x^{3} + 6\\right)} = -8",
+    "exact_equation_correct": true,
+    "symbol_tp": 22,
+    "predicted_symbols": 22,
+    "actual_symbols": 22,
+    "warnings": []
+  },
+  {
+    "file": "000542.png",
+    "predicted_latex": "9 y - 8 = 17",
+    "reference_latex": "9 y - 8 = 17",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000543.png",
+    "predicted_latex": "\\frac{z^{3} + 7}{\\left(z - 6\\right)} + \\sqrt{z + 7} = 15",
+    "reference_latex": "\\frac{z^{3} + 7}{\\left(z - 6\\right)} + \\sqrt{z + 7} = 15",
+    "exact_equation_correct": true,
+    "symbol_tp": 18,
+    "predicted_symbols": 18,
+    "actual_symbols": 18,
+    "warnings": []
+  },
+  {
+    "file": "000544.png",
+    "predicted_latex": "a_{i}^{3} + x - a + n = -2",
+    "reference_latex": "a_{i}^{3} + x - a + n = -2",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000545.png",
+    "predicted_latex": "\\frac{\\frac{z + 13}{2} + 13}{z^{4} - 2} = -4",
+    "reference_latex": "\\frac{\\frac{z + 13}{2} + 13}{z^{4} - 2} = -4",
+    "exact_equation_correct": true,
+    "symbol_tp": 17,
+    "predicted_symbols": 18,
+    "actual_symbols": 17,
+    "warnings": []
+  },
+  {
+    "file": "000546.png",
+    "predicted_latex": "2 x \\times 9 = 11",
+    "reference_latex": "2 x \\times 9 = 11",
+    "exact_equation_correct": true,
+    "symbol_tp": 7,
+    "predicted_symbols": 7,
+    "actual_symbols": 7,
+    "warnings": []
+  },
+  {
+    "file": "000547.png",
+    "predicted_latex": "\\cos\\left(\\frac{b_{3} + 1}{2}\\right) = 5",
+    "reference_latex": "\\cos\\left(\\frac{b_{3} + 1}{2}\\right) = 5",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000548.png",
+    "predicted_latex": "\\left(y^{2} + 7 y + 2\\right)^{2} = 14",
+    "reference_latex": "\\left(y^{2} + 7 y + 2\\right)^{2} = 14",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000549.png",
+    "predicted_latex": "\\sqrt{\\sqrt{a_{i} + 3} + 9} = -3",
+    "reference_latex": "\\sqrt{\\sqrt{a_{i} + 3} + 9} = -3",
+    "exact_equation_correct": true,
+    "symbol_tp": 11,
+    "predicted_symbols": 11,
+    "actual_symbols": 11,
+    "warnings": []
+  },
+  {
+    "file": "000550.png",
+    "predicted_latex": "\\frac{a^{2} + 2}{\\left(a - 7\\right)} + \\sqrt{a + 2} = -2",
+    "reference_latex": "\\frac{a^{2} + 2}{\\left(a - 7\\right)} + \\sqrt{a + 2} = -2",
+    "exact_equation_correct": true,
+    "symbol_tp": 18,
+    "predicted_symbols": 18,
+    "actual_symbols": 18,
+    "warnings": []
+  },
+  {
+    "file": "000551.png",
+    "predicted_latex": "\\frac{\\frac{a + 17}{9} + 17}{a^{4} - 9} = 3",
+    "reference_latex": "\\frac{\\frac{a + 17}{9} + 17}{a^{4} - 9} = 3",
+    "exact_equation_correct": true,
+    "symbol_tp": 16,
+    "predicted_symbols": 16,
+    "actual_symbols": 16,
+    "warnings": []
+  },
+  {
+    "file": "000552.png",
+    "predicted_latex": "\\sqrt{\\sqrt{x_{k} + 2} + 6} = 7",
+    "reference_latex": "\\sqrt{\\sqrt{x_{k} + 2} + 6} = 7",
+    "exact_equation_correct": true,
+    "symbol_tp": 10,
+    "predicted_symbols": 10,
+    "actual_symbols": 10,
+    "warnings": []
+  },
+  {
+    "file": "000553.png",
+    "predicted_latex": "\\frac{\\sin\\left(a\\right) + 4}{\\log_{2}\\left(a^{3} + 2\\right)} = 13",
+    "reference_latex": "\\frac{\\sin\\left(a\\right) + 4}{\\log_{2}\\left(a^{3} + 2\\right)} = 13",
+    "exact_equation_correct": true,
+    "symbol_tp": 22,
+    "predicted_symbols": 22,
+    "actual_symbols": 22,
+    "warnings": []
+  },
+  {
+    "file": "000554.png",
+    "predicted_latex": "\\log_{6}\\left(x^{3} + 12\\right) = -2",
+    "reference_latex": "\\log_{6}\\left(x^{3} + 12\\right) = -2",
+    "exact_equation_correct": true,
+    "symbol_tp": 14,
+    "predicted_symbols": 14,
+    "actual_symbols": 14,
+    "warnings": []
+  },
+  {
+    "file": "000555.png",
+    "predicted_latex": "\\left(a^{2} + 2 a + 6\\right)^{2} = -2",
+    "reference_latex": "\\left(a^{2} + 2 a + 6\\right)^{2} = -2",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000556.png",
+    "predicted_latex": "\\sqrt{\\sqrt{x_{3} + 12} + 5} = -5",
+    "reference_latex": "\\sqrt{\\sqrt{x_{3} + 12} + 5} = -5",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000557.png",
+    "predicted_latex": "\\cos\\left(\\frac{y_{j} + 10}{9}\\right) = 4",
+    "reference_latex": "\\cos\\left(\\frac{y_{j} + 10}{9}\\right) = 4",
+    "exact_equation_correct": true,
+    "symbol_tp": 14,
+    "predicted_symbols": 14,
+    "actual_symbols": 14,
+    "warnings": []
+  },
+  {
+    "file": "000558.png",
+    "predicted_latex": "\\frac{\\sin\\left(a\\right) + 16}{\\log_{2}\\left(a^{2} + 9\\right)} = 1",
+    "reference_latex": "\\frac{\\sin\\left(a\\right) + 16}{\\log_{2}\\left(a^{2} + 9\\right)} = 1",
+    "exact_equation_correct": true,
+    "symbol_tp": 22,
+    "predicted_symbols": 22,
+    "actual_symbols": 22,
+    "warnings": []
+  },
+  {
+    "file": "000559.png",
+    "predicted_latex": "\\frac{\\sin\\left(b\\right) + 12}{\\log_{2}\\left(b^{3} + 2\\right)} = -9",
+    "reference_latex": "\\frac{\\sin\\left(b\\right) + 12}{\\log_{2}\\left(b^{3} + 2\\right)} = -9",
+    "exact_equation_correct": true,
+    "symbol_tp": 23,
+    "predicted_symbols": 23,
+    "actual_symbols": 23,
+    "warnings": []
+  },
+  {
+    "file": "000560.png",
+    "predicted_latex": "\\log_{7}\\left(b^{4} + 16\\right) = 16",
+    "reference_latex": "\\log_{7}\\left(b^{4} + 16\\right) = 16",
+    "exact_equation_correct": true,
+    "symbol_tp": 14,
+    "predicted_symbols": 14,
+    "actual_symbols": 14,
+    "warnings": []
+  },
+  {
+    "file": "000561.png",
+    "predicted_latex": "\\sqrt{\\sqrt{x_{k} + 1} + 5} = -6",
+    "reference_latex": "\\sqrt{\\sqrt{x_{k} + 1} + 5} = -6",
+    "exact_equation_correct": true,
+    "symbol_tp": 11,
+    "predicted_symbols": 11,
+    "actual_symbols": 11,
+    "warnings": []
+  },
+  {
+    "file": "000562.png",
+    "predicted_latex": "x_{3}^{3} + x - a + n = -8",
+    "reference_latex": "x_{3}^{3} + x - a + n = -8",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000563.png",
+    "predicted_latex": "\\left(x^{2} + 8 x + 2\\right)^{2} = 12",
+    "reference_latex": "\\left(x^{2} + 8 x + 2\\right)^{2} = 12",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000564.png",
+    "predicted_latex": "\\frac{\\frac{a + 9}{9} + 9}{a^{4} - 9} = 13",
+    "reference_latex": "\\frac{\\frac{a + 9}{9} + 9}{a^{4} - 9} = 13",
+    "exact_equation_correct": true,
+    "symbol_tp": 15,
+    "predicted_symbols": 15,
+    "actual_symbols": 15,
+    "warnings": []
+  },
+  {
+    "file": "000565.png",
+    "predicted_latex": "\\frac{\\frac{z + 17}{8} + 17}{z^{3} - 8} = 10",
+    "reference_latex": "\\frac{\\frac{z + 17}{8} + 17}{z^{3} - 8} = 10",
+    "exact_equation_correct": true,
+    "symbol_tp": 17,
+    "predicted_symbols": 17,
+    "actual_symbols": 17,
+    "warnings": []
+  },
+  {
+    "file": "000566.png",
+    "predicted_latex": "\\frac{x^{3} + 9}{\\left(x - 4\\right)} + \\sqrt{x + 9} = -6",
+    "reference_latex": "\\frac{x^{3} + 9}{\\left(x - 4\\right)} + \\sqrt{x + 9} = -6",
+    "exact_equation_correct": true,
+    "symbol_tp": 18,
+    "predicted_symbols": 18,
+    "actual_symbols": 18,
+    "warnings": []
+  },
+  {
+    "file": "000567.png",
+    "predicted_latex": "a_{12}^{4} + x - a + n = 7",
+    "reference_latex": "a_{12}^{4} + x - a + n = 7",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000568.png",
+    "predicted_latex": "\\sin\\left(a\\right) + \\cos\\left(a^{4}\\right) - \\frac{a_{3}}{8} = -4",
+    "reference_latex": "\\sin\\left(a\\right) + \\cos\\left(a^{4}\\right) - \\frac{a_{3}}{8} = -4",
+    "exact_equation_correct": true,
+    "symbol_tp": 22,
+    "predicted_symbols": 22,
+    "actual_symbols": 22,
+    "warnings": []
+  },
+  {
+    "file": "000569.png",
+    "predicted_latex": "\\frac{\\sin\\left(y\\right) + 17}{\\log_{2}\\left(y^{3} + 6\\right)} = -9",
+    "reference_latex": "\\frac{\\sin\\left(y\\right) + 17}{\\log_{2}\\left(y^{3} + 6\\right)} = -9",
+    "exact_equation_correct": true,
+    "symbol_tp": 23,
+    "predicted_symbols": 23,
+    "actual_symbols": 23,
+    "warnings": []
+  },
+  {
+    "file": "000570.png",
+    "predicted_latex": "\\cos\\left(\\frac{x_{2} + 5}{2}\\right) = -4",
+    "reference_latex": "\\cos\\left(\\frac{x_{2} + 5}{2}\\right) = -4",
+    "exact_equation_correct": true,
+    "symbol_tp": 14,
+    "predicted_symbols": 14,
+    "actual_symbols": 14,
+    "warnings": []
+  },
+  {
+    "file": "000571.png",
+    "predicted_latex": "\\frac{a_{j} + 18}{a^{3} - 5} = -3",
+    "reference_latex": "\\frac{a_{j} + 18}{a^{3} - 5} = -3",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000572.png",
+    "predicted_latex": "\\log_{2}\\left(y^{4} + 13\\right) = 7",
+    "reference_latex": "\\log_{2}\\left(y^{4} + 13\\right) = 7",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000573.png",
+    "predicted_latex": "\\sqrt{\\frac{b_{k} + 13}{b^{2} - 2}} = 19",
+    "reference_latex": "\\sqrt{\\frac{b_{k} + 13}{b^{2} - 2}} = 19",
+    "exact_equation_correct": true,
+    "symbol_tp": 14,
+    "predicted_symbols": 14,
+    "actual_symbols": 14,
+    "warnings": []
+  },
+  {
+    "file": "000574.png",
+    "predicted_latex": "\\frac{b^{3} + 18}{\\left(b - 9\\right)} + \\sqrt{b + 18} = -1",
+    "reference_latex": "\\frac{b^{3} + 18}{\\left(b - 9\\right)} + \\sqrt{b + 18} = -1",
+    "exact_equation_correct": true,
+    "symbol_tp": 20,
+    "predicted_symbols": 20,
+    "actual_symbols": 20,
+    "warnings": []
+  },
+  {
+    "file": "000575.png",
+    "predicted_latex": "\\left(a^{4} + 7 a + 14\\right)^{2} = 14",
+    "reference_latex": "\\left(a^{4} + 7 a + 14\\right)^{2} = 14",
+    "exact_equation_correct": true,
+    "symbol_tp": 14,
+    "predicted_symbols": 14,
+    "actual_symbols": 14,
+    "warnings": []
+  },
+  {
+    "file": "000576.png",
+    "predicted_latex": "\\cos\\left(\\frac{x_{j} + 16}{8}\\right) = -6",
+    "reference_latex": "\\cos\\left(\\frac{x_{j} + 16}{8}\\right) = -6",
+    "exact_equation_correct": true,
+    "symbol_tp": 15,
+    "predicted_symbols": 15,
+    "actual_symbols": 15,
+    "warnings": []
+  },
+  {
+    "file": "000577.png",
+    "predicted_latex": "\\sin\\left(b\\right) + \\cos\\left(b^{4}\\right) - \\frac{b_{2}}{9} = -7",
+    "reference_latex": "\\sin\\left(b\\right) + \\cos\\left(b^{4}\\right) - \\frac{b_{2}}{9} = -7",
+    "exact_equation_correct": true,
+    "symbol_tp": 22,
+    "predicted_symbols": 22,
+    "actual_symbols": 22,
+    "warnings": []
+  },
+  {
+    "file": "000578.png",
+    "predicted_latex": "\\sqrt{\\sqrt{z_{i} + 18} + 3} = 19",
+    "reference_latex": "\\sqrt{\\sqrt{z_{i} + 18} + 3} = 19",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000579.png",
+    "predicted_latex": "\\left(z^{2} + 2 z + 11\\right)^{2} = 6",
+    "reference_latex": "\\left(z^{2} + 2 z + 11\\right)^{2} = 6",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000580.png",
+    "predicted_latex": "\\log_{6}\\left(y^{3} + 8\\right) = 8",
+    "reference_latex": "\\log_{6}\\left(y^{3} + 8\\right) = 8",
+    "exact_equation_correct": true,
+    "symbol_tp": 12,
+    "predicted_symbols": 12,
+    "actual_symbols": 12,
+    "warnings": []
+  },
+  {
+    "file": "000581.png",
+    "predicted_latex": "\\sin\\left(z\\right) + \\cos\\left(z^{4}\\right) - \\frac{z_{12}}{9} = -2",
+    "reference_latex": "\\sin\\left(z\\right) + \\cos\\left(z^{4}\\right) - \\frac{z_{12}}{9} = -2",
+    "exact_equation_correct": true,
+    "symbol_tp": 23,
+    "predicted_symbols": 23,
+    "actual_symbols": 23,
+    "warnings": []
+  },
+  {
+    "file": "000582.png",
+    "predicted_latex": "\\frac{a^{2} + 18}{\\left(a - 9\\right)} + \\sqrt{a + 18} = 5",
+    "reference_latex": "\\frac{a^{2} + 18}{\\left(a - 9\\right)} + \\sqrt{a + 18} = 5",
+    "exact_equation_correct": true,
+    "symbol_tp": 19,
+    "predicted_symbols": 19,
+    "actual_symbols": 19,
+    "warnings": []
+  },
+  {
+    "file": "000583.png",
+    "predicted_latex": "\\frac{x^{3} + 10}{\\left(x - 9\\right)} + \\sqrt{x + 10} = 10",
+    "reference_latex": "\\frac{x^{3} + 10}{\\left(x - 9\\right)} + \\sqrt{x + 10} = 10",
+    "exact_equation_correct": true,
+    "symbol_tp": 20,
+    "predicted_symbols": 20,
+    "actual_symbols": 20,
+    "warnings": []
+  },
+  {
+    "file": "000584.png",
+    "predicted_latex": "\\cos\\left(\\frac{a_{j} + 1}{7}\\right) = 17",
+    "reference_latex": "\\cos\\left(\\frac{a_{j} + 1}{7}\\right) = 17",
+    "exact_equation_correct": true,
+    "symbol_tp": 14,
+    "predicted_symbols": 14,
+    "actual_symbols": 14,
+    "warnings": []
+  },
+  {
+    "file": "000585.png",
+    "predicted_latex": "\\frac{b^{3} + 7}{\\left(b - 8\\right)} + \\sqrt{b + 7} = 18",
+    "reference_latex": "\\frac{b^{3} + 7}{\\left(b - 8\\right)} + \\sqrt{b + 7} = 18",
+    "exact_equation_correct": true,
+    "symbol_tp": 18,
+    "predicted_symbols": 18,
+    "actual_symbols": 18,
+    "warnings": []
+  },
+  {
+    "file": "000586.png",
+    "predicted_latex": "\\sin\\left(\\frac{b_{i} + 7}{6}\\right) = 4",
+    "reference_latex": "\\sin\\left(\\frac{b_{i} + 7}{6}\\right) = 4",
+    "exact_equation_correct": true,
+    "symbol_tp": 13,
+    "predicted_symbols": 13,
+    "actual_symbols": 13,
+    "warnings": []
+  },
+  {
+    "file": "000587.png",
+    "predicted_latex": "\\frac{\\sin\\left(x\\right) + 9}{\\log_{2}\\left(x^{3} + 3\\right)} = 19",
+    "reference_latex": "\\frac{\\sin\\left(x\\right) + 9}{\\log_{2}\\left(x^{3} + 3\\right)} = 19",
+    "exact_equation_correct": true,
+    "symbol_tp": 22,
+    "predicted_symbols": 22,
+    "actual_symbols": 22,
+    "warnings": []
+  }
+]

@@ -219,6 +219,11 @@ class AdapterAndStartupTests(unittest.TestCase):
         self.assertEqual(sample['prediction']['latex'], 'z')
         self.assertEqual(len(sample['steps']), 1)
         self.assertEqual(sample['source'], 'model prediction')
+        predictor.metadata['inference_threshold'] = .7
+        sample = analyze_image(image, predictor, 'mocked_symbol_image')
+        self.assertEqual(sample['prediction']['metadata']['threshold'], .7)
+        sample = analyze_image(image, predictor, 'mocked_symbol_image', threshold=.33)
+        self.assertEqual(sample['prediction']['metadata']['threshold'], .33)
 
     def test_matching_penalizes_duplicate_predictions(self):
         truth = [symbol('x', 0)]

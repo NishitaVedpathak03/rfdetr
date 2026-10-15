@@ -1,0 +1,7 @@
+{
+  "pipeline": "rf-detr-complex-equations-v3",
+  "training_finished": true,
+  "best_checkpoint": "/kaggle/working/rfdetr_complex/checkpoint_best_total.pth",
+  "scope": "Single-line compound equations with nested fractions, square roots, simple subscripts, integer powers, parentheses and sin/cos/log with parenthesized arguments; nesting bounded to eight parsing levels. No integrals, matrices, Greek letters or arbitrary multiline layouts.",
+  "note": "Detection mAP selects this checkpoint. Run image-only equation evaluation before claiming OCR accuracy."
+}
