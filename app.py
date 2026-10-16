@@ -14,6 +14,7 @@ PROJECT = Path(__file__).resolve().parent
 RFDETR_CHECKPOINT = PROJECT / 'checkpoints/rfdetr_small/checkpoint_best_total.pth'
 EXTENDED_CHECKPOINT = PROJECT / 'checkpoints/rfdetr_extended/checkpoint_best_total.pth'
 COMPLEX_CHECKPOINT = PROJECT / 'checkpoints/rfdetr_complex/checkpoint_best_total.pth'
+CALCULUS_CHECKPOINT = PROJECT / 'checkpoints/rfdetr_calculus/checkpoint_best_total.pth'
 st.set_page_config(page_title='Equation OCR', layout='wide')
 st.markdown('''<style>
 .block-container {max-width: 1150px; padding-top: 2rem; padding-bottom: 2rem;}
@@ -159,6 +160,8 @@ def main():
             available_models['Fractions, roots and subscripts'] = EXTENDED_CHECKPOINT
         if COMPLEX_CHECKPOINT.is_file():
             available_models = {'Complex equations (latest)': COMPLEX_CHECKPOINT, **available_models}
+        if CALCULUS_CHECKPOINT.is_file():
+            available_models = {'Calculus equations': CALCULUS_CHECKPOINT, **available_models}
         with st.expander('Model', expanded=False):
             model_name = st.selectbox('Recognition model', list(available_models), key='recognition_model')
         checkpoint_path = available_models[model_name]
@@ -174,6 +177,7 @@ def main():
                  (PROJECT / 'src/model.py').stat().st_mtime_ns,
                  (PROJECT / 'src/layout.py').stat().st_mtime_ns,
                  (PROJECT / 'src/structures.py').stat().st_mtime_ns,
+                 (PROJECT / 'src/calculus.py').stat().st_mtime_ns,
                  (PROJECT / 'src/profiles.py').stat().st_mtime_ns,
                  ((checkpoint_path.parent / 'symbol_pipeline.json').stat().st_mtime_ns
                   if checkpoint_path.suffix == '.pth' and (checkpoint_path.parent / 'symbol_pipeline.json').is_file() else None))

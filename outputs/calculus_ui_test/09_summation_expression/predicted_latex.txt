@@ -1,0 +1,1 @@
+\sum_{k = 2}^{n} \left(k^{4} + 4\right)

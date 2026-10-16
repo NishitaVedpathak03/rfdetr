@@ -1,0 +1,678 @@
+{
+  "schema_version": 1,
+  "image": "000032",
+  "image_size": [
+    768,
+    768
+  ],
+  "coordinate_format": "xyxy in original-image pixels; right/bottom exclusive",
+  "nodes": [
+    {
+      "kind": "binary",
+      "text": "=",
+      "bbox": [
+        2.9906466603279114,
+        293.13009932668587,
+        750.4195721944172,
+        459.7191123560855
+      ],
+      "confidence": null,
+      "geometry_derived": true,
+      "baseline_center": 379.0257940995066,
+      "id": 0,
+      "parent_id": null,
+      "role": "group",
+      "children": [
+        1,
+        17,
+        18
+      ],
+      "terminal": false,
+      "relationship_source": "spatial grammar",
+      "relationship_confidence": null
+    },
+    {
+      "kind": "product",
+      "text": null,
+      "bbox": [
+        2.9906466603279114,
+        293.13009932668587,
+        493.45366954803467,
+        459.7191123560855
+      ],
+      "confidence": null,
+      "geometry_derived": true,
+      "id": 1,
+      "parent_id": 0,
+      "role": "group",
+      "children": [
+        2,
+        8
+      ],
+      "terminal": false,
+      "relationship_source": "spatial grammar",
+      "relationship_confidence": null
+    },
+    {
+      "kind": "fraction",
+      "text": null,
+      "bbox": [
+        2.9906466603279114,
+        293.13009932668587,
+        155.40497541427612,
+        459.7191123560855
+      ],
+      "confidence": null,
+      "geometry_derived": true,
+      "id": 2,
+      "parent_id": 1,
+      "role": "group",
+      "children": [
+        3,
+        4,
+        5
+      ],
+      "terminal": false,
+      "relationship_source": "spatial grammar",
+      "relationship_confidence": null
+    },
+    {
+      "kind": "leaf",
+      "text": "d",
+      "bbox": [
+        51.0626494884491,
+        293.13009932668587,
+        101.26182198524475,
+        358.52504561574835
+      ],
+      "confidence": 0.9715067148208618,
+      "detection_index": 9,
+      "baseline_center": 325.8275724712171,
+      "id": 3,
+      "parent_id": 2,
+      "role": "numerator",
+      "children": [],
+      "terminal": true,
+      "relationship_source": "spatial grammar",
+      "relationship_confidence": null
+    },
+    {
+      "kind": "symbol",
+      "text": "-",
+      "bbox": [
+        2.9906466603279114,
+        374.58167788856906,
+        155.40497541427612,
+        381.5020751953125
+      ],
+      "confidence": 0.9728134274482727,
+      "detection_index": 8,
+      "id": 4,
+      "parent_id": 2,
+      "role": "operator",
+      "children": [],
+      "terminal": true,
+      "relationship_source": "spatial grammar",
+      "relationship_confidence": null
+    },
+    {
+      "kind": "product",
+      "text": null,
+      "bbox": [
+        15.322308391332626,
+        394.21373804995886,
+        137.71208127339682,
+        459.7191123560855
+      ],
+      "confidence": null,
+      "geometry_derived": true,
+      "baseline_center": 426.96642520302214,
+      "id": 5,
+      "parent_id": 2,
+      "role": "denominator",
+      "children": [
+        6,
+        7
+      ],
+      "terminal": false,
+      "relationship_source": "spatial grammar",
+      "relationship_confidence": null
+    },
+    {
+      "kind": "leaf",
+      "text": "d",
+      "bbox": [
+        15.322308391332626,
+        394.21373804995886,
+        65.15650351842244,
+        459.7191123560855
+      ],
+      "confidence": 0.9857124090194702,
+      "detection_index": 0,
+      "id": 6,
+      "parent_id": 5,
+      "role": "group",
+      "children": [],
+      "terminal": true,
+      "relationship_source": "spatial grammar",
+      "relationship_confidence": null
+    },
+    {
+      "kind": "leaf",
+      "text": "x",
+      "bbox": [
+        88.42081705729166,
+        416.44660901521377,
+        137.71208127339682,
+        459.63927323190785
+      ],
+      "confidence": 0.9814791679382324,
+      "detection_index": 3,
+      "id": 7,
+      "parent_id": 5,
+      "role": "group",
+      "children": [],
+      "terminal": true,
+      "relationship_source": "spatial grammar",
+      "relationship_confidence": null
+    },
+    {
+      "kind": "parentheses",
+      "text": null,
+      "bbox": [
+        166.35886987050372,
+        331.99897974917764,
+        493.45366954803467,
+        426.5970484683388
+      ],
+      "confidence": null,
+      "geometry_derived": true,
+      "id": 8,
+      "parent_id": 1,
+      "role": "group",
+      "children": [
+        9,
+        10,
+        16
+      ],
+      "terminal": false,
+      "relationship_source": "spatial grammar",
+      "relationship_confidence": null
+    },
+    {
+      "kind": "leaf",
+      "text": "(",
+      "bbox": [
+        166.35886987050372,
+        332.1197047183388,
+        192.15559323628742,
+        426.05212530838816
+      ],
+      "confidence": 0.9597804546356201,
+      "detection_index": 12,
+      "id": 9,
+      "parent_id": 8,
+      "role": "operator",
+      "children": [],
+      "terminal": true,
+      "relationship_source": "spatial grammar",
+      "relationship_confidence": null
+    },
+    {
+      "kind": "binary",
+      "text": "+",
+      "bbox": [
+        200.4795479774475,
+        341.6091764751234,
+        452.5528144836426,
+        411.7064780787417
+      ],
+      "confidence": null,
+      "geometry_derived": true,
+      "baseline_center": 379.0257940995066,
+      "id": 10,
+      "parent_id": 8,
+      "role": "group",
+      "children": [
+        11,
+        14,
+        15
+      ],
+      "terminal": false,
+      "relationship_source": "spatial grammar",
+      "relationship_confidence": null
+    },
+    {
+      "kind": "power",
+      "text": null,
+      "bbox": [
+        200.4795479774475,
+        341.6091764751234,
+        286.8526299794515,
+        411.1364013671875
+      ],
+      "confidence": null,
+      "geometry_derived": true,
+      "id": 11,
+      "parent_id": 10,
+      "role": "group",
+      "children": [
+        12,
+        13
+      ],
+      "terminal": false,
+      "relationship_source": "spatial grammar",
+      "relationship_confidence": null
+    },
+    {
+      "kind": "leaf",
+      "text": "x",
+      "bbox": [
+        200.4795479774475,
+        367.97034012643917,
+        249.4625186920166,
+        411.1364013671875
+      ],
+      "confidence": 0.9804880023002625,
+      "detection_index": 4,
+      "id": 12,
+      "parent_id": 11,
+      "role": "base",
+      "children": [],
+      "terminal": true,
+      "relationship_source": "spatial grammar",
+      "relationship_confidence": null
+    },
+    {
+      "kind": "leaf",
+      "text": "2",
+      "bbox": [
+        262.64456113179523,
+        341.6091764751234,
+        286.8526299794515,
+        378.5921746504934
+      ],
+      "confidence": 0.9670655727386475,
+      "detection_index": 10,
+      "id": 13,
+      "parent_id": 11,
+      "role": "superscript",
+      "children": [],
+      "terminal": true,
+      "relationship_source": "spatial grammar",
+      "relationship_confidence": null
+    },
+    {
+      "kind": "symbol",
+      "text": "+",
+      "bbox": [
+        317.8253984451294,
+        346.3421810752467,
+        382.50977516174316,
+        411.7064780787417
+      ],
+      "confidence": 0.9756622314453125,
+      "detection_index": 6,
+      "id": 14,
+      "parent_id": 10,
+      "role": "operator",
+      "children": [],
+      "terminal": true,
+      "relationship_source": "spatial grammar",
+      "relationship_confidence": null
+    },
+    {
+      "kind": "leaf",
+      "text": "6",
+      "bbox": [
+        409.36995029449463,
+        346.81753186677633,
+        452.5528144836426,
+        411.23405633223683
+      ],
+      "confidence": 0.9762577414512634,
+      "detection_index": 5,
+      "id": 15,
+      "parent_id": 10,
+      "role": "group",
+      "children": [],
+      "terminal": true,
+      "relationship_source": "spatial grammar",
+      "relationship_confidence": null
+    },
+    {
+      "kind": "leaf",
+      "text": ")",
+      "bbox": [
+        466.9002628326416,
+        331.99897974917764,
+        493.45366954803467,
+        426.5970484683388
+      ],
+      "confidence": 0.9651873111724854,
+      "detection_index": 11,
+      "id": 16,
+      "parent_id": 8,
+      "role": "operator",
+      "children": [],
+      "terminal": true,
+      "relationship_source": "spatial grammar",
+      "relationship_confidence": null
+    },
+    {
+      "kind": "symbol",
+      "text": "=",
+      "bbox": [
+        506.0634581247965,
+        366.6535381116365,
+        570.4550488789877,
+        390.9706812808388
+      ],
+      "confidence": 0.9731202721595764,
+      "detection_index": 7,
+      "id": 17,
+      "parent_id": 0,
+      "role": "operator",
+      "children": [],
+      "terminal": true,
+      "relationship_source": "spatial grammar",
+      "relationship_confidence": null
+    },
+    {
+      "kind": "product",
+      "text": null,
+      "bbox": [
+        598.7804222106934,
+        340.90587350945725,
+        750.4195721944172,
+        411.2422697368421
+      ],
+      "confidence": null,
+      "geometry_derived": true,
+      "id": 18,
+      "parent_id": 0,
+      "role": "group",
+      "children": [
+        19,
+        20
+      ],
+      "terminal": false,
+      "relationship_source": "spatial grammar",
+      "relationship_confidence": null
+    },
+    {
+      "kind": "leaf",
+      "text": "2",
+      "bbox": [
+        598.7804222106934,
+        347.96058413856906,
+        639.7186946868896,
+        411.2422697368421
+      ],
+      "confidence": 0.9826000332832336,
+      "detection_index": 1,
+      "id": 19,
+      "parent_id": 18,
+      "role": "group",
+      "children": [],
+      "terminal": true,
+      "relationship_source": "spatial grammar",
+      "relationship_confidence": null
+    },
+    {
+      "kind": "power",
+      "text": null,
+      "bbox": [
+        666.3605562845866,
+        340.90587350945725,
+        750.4195721944172,
+        411.139058645148
+      ],
+      "confidence": null,
+      "geometry_derived": true,
+      "id": 20,
+      "parent_id": 18,
+      "role": "group",
+      "children": [
+        21,
+        22
+      ],
+      "terminal": false,
+      "relationship_source": "spatial grammar",
+      "relationship_confidence": null
+    },
+    {
+      "kind": "leaf",
+      "text": "x",
+      "bbox": [
+        666.3605562845866,
+        368.17368228310033,
+        716.1954148610432,
+        411.139058645148
+      ],
+      "confidence": 0.9814992547035217,
+      "detection_index": 2,
+      "id": 21,
+      "parent_id": 20,
+      "role": "base",
+      "children": [],
+      "terminal": true,
+      "relationship_source": "spatial grammar",
+      "relationship_confidence": null
+    },
+    {
+      "kind": "leaf",
+      "text": "1",
+      "bbox": [
+        728.6124992370605,
+        340.90587350945725,
+        750.4195721944172,
+        378.6320942125822
+      ],
+      "confidence": 0.9340544939041138,
+      "detection_index": 13,
+      "id": 22,
+      "parent_id": 20,
+      "role": "superscript",
+      "children": [],
+      "terminal": true,
+      "relationship_source": "spatial grammar",
+      "relationship_confidence": null
+    }
+  ],
+  "root_id": 0,
+  "raw_symbols": [
+    {
+      "text": "d",
+      "bbox": [
+        15.322308391332626,
+        394.21373804995886,
+        65.15650351842244,
+        459.7191123560855
+      ],
+      "confidence": 0.9857124090194702
+    },
+    {
+      "text": "2",
+      "bbox": [
+        598.7804222106934,
+        347.96058413856906,
+        639.7186946868896,
+        411.2422697368421
+      ],
+      "confidence": 0.9826000332832336
+    },
+    {
+      "text": "x",
+      "bbox": [
+        666.3605562845866,
+        368.17368228310033,
+        716.1954148610432,
+        411.139058645148
+      ],
+      "confidence": 0.9814992547035217
+    },
+    {
+      "text": "x",
+      "bbox": [
+        88.42081705729166,
+        416.44660901521377,
+        137.71208127339682,
+        459.63927323190785
+      ],
+      "confidence": 0.9814791679382324
+    },
+    {
+      "text": "x",
+      "bbox": [
+        200.4795479774475,
+        367.97034012643917,
+        249.4625186920166,
+        411.1364013671875
+      ],
+      "confidence": 0.9804880023002625
+    },
+    {
+      "text": "6",
+      "bbox": [
+        409.36995029449463,
+        346.81753186677633,
+        452.5528144836426,
+        411.23405633223683
+      ],
+      "confidence": 0.9762577414512634
+    },
+    {
+      "text": "+",
+      "bbox": [
+        317.8253984451294,
+        346.3421810752467,
+        382.50977516174316,
+        411.7064780787417
+      ],
+      "confidence": 0.9756622314453125
+    },
+    {
+      "text": "=",
+      "bbox": [
+        506.0634581247965,
+        366.6535381116365,
+        570.4550488789877,
+        390.9706812808388
+      ],
+      "confidence": 0.9731202721595764
+    },
+    {
+      "text": "-",
+      "bbox": [
+        2.9906466603279114,
+        374.58167788856906,
+        155.40497541427612,
+        381.5020751953125
+      ],
+      "confidence": 0.9728134274482727
+    },
+    {
+      "text": "d",
+      "bbox": [
+        51.0626494884491,
+        293.13009932668587,
+        101.26182198524475,
+        358.52504561574835
+      ],
+      "confidence": 0.9715067148208618
+    },
+    {
+      "text": "2",
+      "bbox": [
+        262.64456113179523,
+        341.6091764751234,
+        286.8526299794515,
+        378.5921746504934
+      ],
+      "confidence": 0.9670655727386475
+    },
+    {
+      "text": ")",
+      "bbox": [
+        466.9002628326416,
+        331.99897974917764,
+        493.45366954803467,
+        426.5970484683388
+      ],
+      "confidence": 0.9651873111724854
+    },
+    {
+      "text": "(",
+      "bbox": [
+        166.35886987050372,
+        332.1197047183388,
+        192.15559323628742,
+        426.05212530838816
+      ],
+      "confidence": 0.9597804546356201
+    },
+    {
+      "text": "1",
+      "bbox": [
+        728.6124992370605,
+        340.90587350945725,
+        750.4195721944172,
+        378.6320942125822
+      ],
+      "confidence": 0.9340544939041138
+    }
+  ],
+  "latex": "\\frac{d}{d x} \\left(x^{2} + 6\\right) = 2 x^{1}",
+  "latex_metadata": {
+    "status": "parsed",
+    "verified": false,
+    "warnings": [],
+    "unresolved_node_ids": [],
+    "max_depth": 5,
+    "source": "detected symbol identities and spatial grammar"
+  },
+  "metadata": {
+    "backend": "rf-detr",
+    "pipeline": "rf-detr-calculus-equations-v4",
+    "checkpoint_path": "D:\\eq_ocr\\checkpoints\\rfdetr_calculus\\checkpoint_best_total.pth",
+    "checkpoint_epoch": null,
+    "inference_seconds": 2.700907400008873,
+    "threshold": 0.5,
+    "max_symbols": 128,
+    "raw_symbol_count": 14,
+    "node_limit_reached": false,
+    "layout_valid": true,
+    "layout_source": "spatial grammar; not a learned container detector",
+    "preprocessing": {
+      "crop": [
+        0,
+        282,
+        760,
+        470
+      ],
+      "sx": 1.0105263157894737,
+      "sy": 1.0106382978723405,
+      "left": 0,
+      "top": 289,
+      "width": 768,
+      "height": 190,
+      "side": 768
+    },
+    "padding_rejections": 0,
+    "visualization": {
+      "ink_components": 15,
+      "colored_components": 15,
+      "ambiguous_components_left_unchanged": 0
+    },
+    "confidence_note": "uncalibrated symbol confidence; geometry has no learned confidence",
+    "limitations": [
+      "Reads sin/cos/tan/log, bounded single integrals with differentials, Leibniz/partial derivative fractions and summations.",
+      "Summation bodies must be parenthesized expressions or single scripted variables/numbers.",
+      "Only simple integral/sum limits and single-line equations; no solving, proofs, matrices or general multiline layouts.",
+      "New glyphs require the separately trained calculus checkpoint; existing checkpoints do not gain classes.",
+      "A parsed result does not establish correct symbol recognition."
+    ],
+    "layout_mode": "calculus"
+  }
+}

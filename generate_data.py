@@ -150,13 +150,17 @@ def extended_example(index, rng, font, size):
 
 
 def generate(out, count=2000, seed=20261013, side=512, profile='small', box_padding=None):
-    if profile not in {'small', 'extended', 'complex'}:
-        raise ValueError('Profile must be small, extended or complex')
+    if profile not in {'small', 'extended', 'complex', 'calculus'}:
+        raise ValueError('Profile must be small, extended, complex or calculus')
     if count < 100:
         raise ValueError('At least 100 images are needed for calibration and disjoint equation splits')
     if Path(out).exists() and any(Path(out).iterdir()):
         raise FileExistsError(f'Refusing to overwrite dataset: {out}')
     fonts, math_italic = installed_fonts()
+    if profile == 'calculus':
+        from src.calculus_data import generate_calculus
+        return generate_calculus(out, count, seed, side, fonts, math_italic,
+                                 box_padding=2 if box_padding is None else box_padding)
     if profile == 'complex':
         from src.curriculum import generate_complex
         return generate_complex(out, count, seed, side, fonts, math_italic,
@@ -186,12 +190,12 @@ if __name__ == '__main__':
     parser.add_argument('--out', default='dataset_symbols_small')
     parser.add_argument('--count', type=int, default=2000)
     parser.add_argument('--seed', type=int, default=20261013)
-    parser.add_argument('--profile', choices=('small', 'extended', 'complex'), default='small')
-    parser.add_argument('--side', type=int, default=512, help='Prepared square image size; complex config uses 768')
+    parser.add_argument('--profile', choices=('small', 'extended', 'complex', 'calculus'), default='small')
+    parser.add_argument('--side', type=int, default=512, help='Prepared square image size; complex and calculus configs use 768')
     parser.add_argument('--box-padding', type=float, help='Per-side annotation margin in prepared-image pixels; complex default is 2')
     args = parser.parse_args()
     if args.profile != 'small' and args.out == 'dataset_symbols_small':
-        parser.error('Choose a separate --out directory, such as dataset_extended or dataset_complex')
+        parser.error('Choose a separate --out directory, such as dataset_extended, dataset_complex or dataset_calculus')
     if args.side < 128 or args.side % 32:
         parser.error('--side must be a multiple of 32 and at least 128')
     print(json.dumps(generate(args.out, args.count, args.seed, side=args.side, profile=args.profile,

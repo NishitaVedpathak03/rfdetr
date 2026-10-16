@@ -205,10 +205,23 @@ with validation mAP@0.50:0.95 **0.9837**. On 588 held-out synthetic equations,
 symbol F1 was **0.999828** and exact equation accuracy **1.0**. The previously
 failing nested-root/fraction screenshot was recognized correctly in a CPU UI test.
 
-The UI defaults to **Complex equations (latest)**. Older models are selectable
+The complex model is available under **Complex equations (latest)**. Older models are selectable
 under the collapsed **Model** control. See [COMPLEX_TRAINING.md](COMPLEX_TRAINING.md)
 for the 6,000-image dataset, configuration, saved evaluation and terminal commands.
 Synthetic metrics and one screenshot do not establish arbitrary real-image accuracy.
 
 Confidence filtering uses the checkpoint's inference setting (default `0.50`),
 without a UI control. Ordinary parentheses retain slightly taller script digits.
+
+## Trained calculus model
+
+A separate trained 39-class profile reads `sin`, `cos`, `tan`, integral notation,
+Leibniz/partial derivative fractions, and summations. The best EMA checkpoint from
+epoch 30 is installed at `checkpoints/rfdetr_calculus/checkpoint_best_total.pth`.
+Validation mAP@0.50:0.95 is **0.986153**; the saved 816-image synthetic held-out
+evaluation reports symbol F1 **0.999949** and exact equation accuracy **1.0**.
+
+The UI defaults to **Calculus equations** for new sessions. Older trained models
+remain selectable under **Model**. See [CALCULUS_TRAINING.md](CALCULUS_TRAINING.md)
+for scope, dataset, checkpoint details and usage. Synthetic metrics do not
+establish accuracy on arbitrary screenshots or handwriting.

@@ -1,0 +1,1 @@
+\frac{\partial}{\partial z} f\left(z + 16\right)

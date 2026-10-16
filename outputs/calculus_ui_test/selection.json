@@ -1,0 +1,106 @@
+{
+  "selection_rule": "First test image per listed family, preferring Computer Modern; chosen before inference.",
+  "split": "test",
+  "images": [
+    {
+      "family": "trig_mixed",
+      "file": "000420.png",
+      "image_id": 420,
+      "source": "calculus_trig_mixed_computer_modern_math_italic_002009",
+      "group": "\\sin\\left(z\\right) + \\cos\\left(z^{3}\\right) - \\tan\\left(z\\right)",
+      "image_sha256": "e71f0aad447443537600b8ce7f51264aeeb20f0ba688d589184ea4ee62a90c66",
+      "latex": "\\sin\\left(z\\right) + \\cos\\left(z^{3}\\right) - \\tan\\left(z\\right)",
+      "calibration": false
+    },
+    {
+      "family": "trig_fraction",
+      "file": "000030.png",
+      "image_id": 30,
+      "source": "calculus_trig_fraction_computer_modern_math_italic_000282",
+      "group": "\\tan\\left(\\frac{x^{3} + 1}{7}\\right)",
+      "image_sha256": "29f2ca790fd685006ed7a6b5334c3f4996cab867f3d8a35cca8054debd529f5b",
+      "latex": "\\tan\\left(\\frac{x^{3} + 1}{7}\\right)",
+      "calibration": false
+    },
+    {
+      "family": "fraction_root_replay",
+      "file": "000040.png",
+      "image_id": 40,
+      "source": "calculus_fraction_root_replay_computer_modern_math_italic_007798",
+      "group": "\\sqrt{\\sqrt{x_{j} + 18} + 9} = 2",
+      "image_sha256": "f9187977289633c261d6c7e4acb015d79dbe17223daca456c0d29260c1bd984e",
+      "latex": "\\sqrt{\\sqrt{x_{j} + 18} + 9} = 2",
+      "calibration": false
+    },
+    {
+      "family": "integral_trig",
+      "file": "000474.png",
+      "image_id": 474,
+      "source": "calculus_integral_trig_computer_modern_math_italic_000428",
+      "group": "\\int \\tan\\left(z\\right)\\,\\mathrm{d} z",
+      "image_sha256": "75c9fc7d108f1a21c6b2c11da4db3ae2abd2b9162bb05a08063b21d4d4dac09d",
+      "latex": "\\int \\tan\\left(z\\right)\\,\\mathrm{d} z",
+      "calibration": false
+    },
+    {
+      "family": "definite_integral",
+      "file": "000006.png",
+      "image_id": 6,
+      "source": "calculus_definite_integral_computer_modern_math_italic_000125",
+      "group": "\\int_{0}^{9} x\\,\\mathrm{d} x = \\frac{81}{2}",
+      "image_sha256": "745214a90beff5f8e52bb34ab0ed64ba778e1aa3fbdc8c0c743ef885c8c14935",
+      "latex": "\\int_{0}^{9} x\\,\\mathrm{d} x = \\frac{81}{2}",
+      "calibration": false
+    },
+    {
+      "family": "derivative_operator",
+      "file": "000032.png",
+      "image_id": 32,
+      "source": "calculus_derivative_operator_computer_modern_math_italic_000750",
+      "group": "\\frac{d}{d x} \\left(x^{2} + 6\\right) = 2 x^{1}",
+      "image_sha256": "09b6d59ef28d3181966d854b1b5f47e4784466baaa162e3ff2366b0df549dcb1",
+      "latex": "\\frac{d}{d x} \\left(x^{2} + 6\\right) = 2 x^{1}",
+      "calibration": false
+    },
+    {
+      "family": "second_derivative",
+      "file": "000064.png",
+      "image_id": 64,
+      "source": "calculus_second_derivative_computer_modern_math_italic_000176",
+      "group": "\\frac{d^{2} y}{d z^{2}} = 5 z",
+      "image_sha256": "37898c4aa8a11e3720e7eb111a49ac00e02d790f0c66137ff66077a4bee23ef0",
+      "latex": "\\frac{d^{2} y}{d z^{2}} = 5 z",
+      "calibration": false
+    },
+    {
+      "family": "partial_derivative",
+      "file": "000107.png",
+      "image_id": 107,
+      "source": "calculus_partial_derivative_computer_modern_math_italic_001777",
+      "group": "\\frac{\\partial}{\\partial z} f\\left(z + 16\\right)",
+      "image_sha256": "e826902b8874ca6d47dfc8e89bc37d6a5fac9da96af7e2859487cf55f2657408",
+      "latex": "\\frac{\\partial}{\\partial z} f\\left(z + 16\\right)",
+      "calibration": false
+    },
+    {
+      "family": "summation_expression",
+      "file": "000034.png",
+      "image_id": 34,
+      "source": "calculus_summation_expression_computer_modern_math_italic_004227",
+      "group": "\\sum_{k = 2}^{n} \\left(k^{4} + 4\\right)",
+      "image_sha256": "45fbcde2a39934d1203e3f3a1eecf869532b92334abd1b6c4ae1399a87de29a4",
+      "latex": "\\sum_{k = 2}^{n} \\left(k^{4} + 4\\right)",
+      "calibration": false
+    },
+    {
+      "family": "infinite_sum",
+      "file": "000797.png",
+      "image_id": 797,
+      "source": "calculus_infinite_sum_computer_modern_math_italic_000532",
+      "group": "\\sum_{j = 1}^{\\infty} \\left(\\frac{1}{j^{3}}\\right)",
+      "image_sha256": "1dd66df127a81557a78f1221e06a8514cc23d13551eeaefbafb35eeb2d1ab408",
+      "latex": "\\sum_{j = 1}^{\\infty} \\left(\\frac{1}{j^{3}}\\right)",
+      "calibration": false
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "images": 8000,
+  "seed": 20261015,
+  "resolution": 768,
+  "families": {
+    "calibration": 117,
+    "basic_replay": 493,
+    "fraction_root_replay": 493,
+    "complex_replay": 493,
+    "trig_single": 493,
+    "trig_mixed": 493,
+    "trig_fraction": 493,
+    "integral_power": 493,
+    "integral_trig": 493,
+    "definite_integral": 493,
+    "derivative_operator": 493,
+    "derivative_fraction": 493,
+    "second_derivative": 492,
+    "partial_derivative": 492,
+    "summation_power": 492,
+    "summation_expression": 492,
+    "infinite_sum": 492
+  },
+  "font_styles": {
+    "computer_modern_math_italic": 5376,
+    "times.ttf": 605,
+    "timesi.ttf": 275,
+    "cambriai.ttf": 605,
+    "arial.ttf": 275,
+    "DejaVuSerif-Italic.ttf": 594,
+    "STIXGeneral.ttf": 270
+  },
+  "family_font_styles": {
+    "calibration": {
+      "computer_modern_math_italic": 117
+    },
+    "basic_replay": {
+      "computer_modern_math_italic": 329,
+      "times.ttf": 55,
+      "cambriai.ttf": 55,
+      "DejaVuSerif-Italic.ttf": 54
+    },
+    "fraction_root_replay": {
+      "computer_modern_math_italic": 329,
+      "times.ttf": 55,
+      "cambriai.ttf": 55,
+      "DejaVuSerif-Italic.ttf": 54
+    },
+    "complex_replay": {
+      "computer_modern_math_italic": 329,
+      "times.ttf": 55,
+      "cambriai.ttf": 55,
+      "DejaVuSerif-Italic.ttf": 54
+    },
+    "trig_single": {
+      "computer_modern_math_italic": 329,
+      "times.ttf": 55,
+      "cambriai.ttf": 55,
+      "DejaVuSerif-Italic.ttf": 54
+    },
+    "trig_mixed": {
+      "computer_modern_math_italic": 329,
+      "times.ttf": 55,
+      "cambriai.ttf": 55,
+      "DejaVuSerif-Italic.ttf": 54
+    },
+    "trig_fraction": {
+      "computer_modern_math_italic": 329,
+      "times.ttf": 55,
+      "cambriai.ttf": 55,
+      "DejaVuSerif-Italic.ttf": 54
+    },
+    "integral_power": {
+      "computer_modern_math_italic": 329,
+      "times.ttf": 55,
+      "cambriai.ttf": 55,
+      "DejaVuSerif-Italic.ttf": 54
+    },
+    "integral_trig": {
+      "computer_modern_math_italic": 329,
+      "times.ttf": 55,
+      "cambriai.ttf": 55,
+      "DejaVuSerif-Italic.ttf": 54
+    },
+    "definite_integral": {
+      "computer_modern_math_italic": 329,
+      "times.ttf": 55,
+      "cambriai.ttf": 55,
+      "DejaVuSerif-Italic.ttf": 54
+    },
+    "derivative_operator": {
+      "computer_modern_math_italic": 329,
+      "times.ttf": 55,
+      "cambriai.ttf": 55,
+      "DejaVuSerif-Italic.ttf": 54
+    },
+    "derivative_fraction": {
+      "computer_modern_math_italic": 329,
+      "times.ttf": 55,
+      "cambriai.ttf": 55,
+      "DejaVuSerif-Italic.ttf": 54
+    },
+    "second_derivative": {
+      "computer_modern_math_italic": 328,
+      "timesi.ttf": 55,
+      "arial.ttf": 55,
+      "STIXGeneral.ttf": 54
+    },
+    "partial_derivative": {
+      "computer_modern_math_italic": 328,
+      "timesi.ttf": 55,
+      "arial.ttf": 55,
+      "STIXGeneral.ttf": 54
+    },
+    "summation_power": {
+      "computer_modern_math_italic": 328,
+      "timesi.ttf": 55,
+      "arial.ttf": 55,
+      "STIXGeneral.ttf": 54
+    },
+    "summation_expression": {
+      "computer_modern_math_italic": 328,
+      "timesi.ttf": 55,
+      "arial.ttf": 55,
+      "STIXGeneral.ttf": 54
+    },
+    "infinite_sum": {
+      "computer_modern_math_italic": 328,
+      "timesi.ttf": 55,
+      "arial.ttf": 55,
+      "STIXGeneral.ttf": 54
+    }
+  },
+  "geometry_reference_checks": 7883,
+  "font_family_coverage_verified": true,
+  "special_glyph_font": "STIXGeneral.ttf",
+  "special_glyph_coverage_verified": true,
+  "annotation_box_padding_pixels": 2,
+  "image_pixels_changed_by_box_padding": false,
+  "source_screenshot_added": false,
+  "training_started": false,
+  "uploaded": false,
+  "note": "OCR notation only; generated geometry checks are not neural-model accuracy.",
+  "heldout_new_class_coverage_verified": true
+}

@@ -1,0 +1,1 @@
+\sin\left(z\right) + \cos\left(z^{3}\right) - \tan\left(z\right)

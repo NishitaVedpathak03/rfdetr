@@ -1,0 +1,1 @@
+\frac{d}{d x} \left(x^{2} + 6\right) = 2 x^{1}

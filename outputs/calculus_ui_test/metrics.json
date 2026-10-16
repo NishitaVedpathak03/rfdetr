@@ -1,0 +1,15 @@
+{
+  "scope": "10 predetermined synthetic held-out test uploads through Streamlit AppTest; actual CPU neural inference",
+  "checkpoint": "D:\\eq_ocr\\checkpoints\\rfdetr_calculus\\checkpoint_best_total.pth",
+  "threshold": 0.5,
+  "requested_images": 10,
+  "successful_ui_uploads": 10,
+  "exact_equations": 10,
+  "layout_valid": 10,
+  "symbol_precision_iou_50": 1.0,
+  "symbol_recall_iou_50": 1.0,
+  "symbol_f1_iou_50": 1.0,
+  "inference_calls": 10,
+  "training_started": false,
+  "note": "Synthetic test results do not establish accuracy on arbitrary screenshots or handwriting."
+}

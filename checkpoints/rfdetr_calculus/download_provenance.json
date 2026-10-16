@@ -1,0 +1,43 @@
+{
+  "source_kernel": "nishitavedpathak/equation-ocr-rfdetr-calculus",
+  "downloaded_at_utc": "2026-10-16T04:42:02.276073+00:00",
+  "checkpoint": "checkpoint_best_total.pth",
+  "checkpoint_sha256": "db3aab7a63a3b26396c64609ed91eb17f34801adfed31883e76f17a6b463497f",
+  "checkpoint_bytes": 124097187,
+  "best_epoch": 30,
+  "epoch_index": 29,
+  "weight_source": "ema",
+  "validation_map_50_95": 0.986152708530426,
+  "epochs_completed": 30,
+  "classes": 39,
+  "resolution": 768,
+  "kaggle_test_evaluation": {
+    "split": "test",
+    "scope": "full_split",
+    "images": 816,
+    "symbol_precision": 0.9998974358974358,
+    "symbol_recall": 1.0,
+    "symbol_f1": 0.9999487153187343,
+    "complete_equation_accuracy": 1.0,
+    "equations_with_reference": 816,
+    "layout_valid_rate": 1.0,
+    "note": "Layout validity alone is not correct OCR; exact comparison uses held-out references.",
+    "training_started": false
+  },
+  "local_ui_test": {
+    "scope": "10 predetermined synthetic held-out test uploads through Streamlit AppTest; actual CPU neural inference",
+    "checkpoint": "D:\\eq_ocr\\checkpoints\\rfdetr_calculus\\checkpoint_best_total.pth",
+    "threshold": 0.5,
+    "requested_images": 10,
+    "successful_ui_uploads": 10,
+    "exact_equations": 10,
+    "layout_valid": 10,
+    "symbol_precision_iou_50": 1.0,
+    "symbol_recall_iou_50": 1.0,
+    "symbol_f1_iou_50": 1.0,
+    "inference_calls": 10,
+    "training_started": false,
+    "note": "Synthetic test results do not establish accuracy on arbitrary screenshots or handwriting."
+  },
+  "download_note": "Checkpoint and metadata downloaded successfully. Kaggle CLI failed only while writing the optional Unicode notebook log; training.log was downloaded separately."
+}

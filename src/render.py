@@ -41,7 +41,11 @@ def text(value, font_path, size=54, math_italic=None):
     canvas = Image.new('RGB', (x + 5, bottom + 8), 'white')
     for tile, x, y in placements:
         canvas.paste(tile, (x, y), tile)
-    return Drawing(canvas, symbols, str(value).replace('×', r'\times'), axis)
+    latex = str(value)
+    for glyph, command in {'×': r'\times', '∂': r'\partial', '∞': r'\infty',
+                           '∫': r'\int', '∑': r'\sum'}.items():
+        latex = latex.replace(glyph, command)
+    return Drawing(canvas, symbols, latex, axis)
 
 
 def join(*parts, gap=6):
@@ -116,12 +120,54 @@ def parentheses(body, font_path, size=54):
 
 
 def function(name, body, font_path, size=54, base=None):
-    if name not in {'sin', 'cos', 'log'} or (base is not None and name != 'log'):
-        raise ValueError('Supported functions are sin, cos and optionally base-labelled log')
+    if name not in {'sin', 'cos', 'tan', 'log', 'f'} or (base is not None and name != 'log'):
+        raise ValueError('Supported functions are sin, cos, tan, log and f; only log takes a base')
     label = text(name, font_path, size)
     if base is not None:
         label = scripts(label, font_path, size, sub=base)
     argument = parentheses(body, font_path, size)
     result = join(label, argument)
-    result.latex = '\\' + name + ('_{' + str(base) + '}' if base is not None else '') + argument.latex
+    result.latex = (name if name == 'f' else '\\' + name) + ('_{' + str(base) + '}' if base is not None else '') + argument.latex
+    return result
+
+
+def large_operator(mark, body, font_path, size=54, lower=None, upper=None, differential=None):
+    """Draw one separately annotated integral/sum sign and its optional limits."""
+    if mark not in {'∫', '∑'} or (lower is None) != (upper is None):
+        raise ValueError('Use an integral/sum with both limits or neither')
+    if mark == '∑' and (lower is None or differential is not None):
+        raise ValueError('A sum needs both limits and no differential')
+    if mark == '∫' and differential is None:
+        raise ValueError('An integral needs a differential')
+    sign = text(mark, font_path, round(size * (1.7 if mark == '∫' else 1.3)))
+    tile = sign.image.crop(tuple(round(v) for v in sign.symbols[0]['bbox']))
+    if mark == '∑':
+        width = max(tile.width, lower.image.width, upper.image.width) + 8
+        y = upper.image.height + 5
+        bottom = y + tile.height + 5
+        canvas = Image.new('RGB', (width, bottom + lower.image.height), 'white')
+        x = (width - tile.width) // 2
+        symbols = paste(canvas, upper, (width - upper.image.width) // 2, 0)
+        symbols += paste(canvas, lower, (width - lower.image.width) // 2, bottom)
+    else:
+        width = tile.width + (max(lower.image.width, upper.image.width) + 8 if lower else 4)
+        y = round(upper.image.height * .5) if upper else 0
+        bottom = y + tile.height - round(lower.image.height * .4) if lower else y + tile.height
+        height = max(y + tile.height, bottom + lower.image.height if lower else 0)
+        canvas = Image.new('RGB', (width, height), 'white')
+        x, symbols = 0, []
+        if lower:
+            symbols += paste(canvas, upper, tile.width + 4, 0)
+            symbols += paste(canvas, lower, tile.width + 4, bottom)
+    canvas.paste(tile, (x, y))
+    symbols.insert(0, {'text': mark, 'bbox': [x, y, x + tile.width, y + tile.height]})
+    prefix = r'\int' if mark == '∫' else r'\sum'
+    if lower:
+        prefix += '_{' + lower.latex + '}^{' + upper.latex + '}'
+    block = Drawing(canvas, symbols, prefix, y + tile.height / 2)
+    result = join(block, body, *([differential] if differential else []), gap=10)
+    if differential:
+        if not differential.latex.startswith('d '):
+            raise ValueError('Differential must be drawn as a separate d and variable')
+        result.latex = prefix + ' ' + body.latex + r'\,\mathrm{d} ' + differential.latex.removeprefix('d ')
     return result

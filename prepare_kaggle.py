@@ -17,8 +17,9 @@ PROJECT = Path(__file__).resolve().parent
 SOURCE_FILES = ('src/data.py', 'src/layout.py', 'src/model.py',
                 'src/train.py', 'src/evaluate.py', 'src/predict.py',
                 'src/__init__.py', 'src/visualize.py', 'src/validation.py',
-                'src/profiles.py', 'src/structures.py',
-                'configs/training.json', 'configs/extended.json', 'configs/complex.json', 'requirements-rfdetr.txt')
+                'src/profiles.py', 'src/structures.py', 'src/calculus.py',
+                'configs/training.json', 'configs/extended.json', 'configs/complex.json',
+                'configs/calculus.json', 'requirements-rfdetr.txt')
 
 RUN_TEMPLATE = '''"""Generated RF-DETR pilot; runs only in Kaggle, only when explicitly submitted."""
 import base64
@@ -61,7 +62,7 @@ def locate_dataset():
                 return candidate
     matches = [p.parent for p in root.rglob('symbol_dataset.json') if DATASET_SLUG in str(p)]
     if len(matches) != 1:
-        raise FileNotFoundError('Attach the prepared small-symbol dataset; no unique dataset mount found.')
+        raise FileNotFoundError('Attach the prepared symbol dataset; no unique dataset mount found.')
     return matches[0]
 
 def main():
@@ -72,7 +73,7 @@ def main():
     with (working / 'training.log').open('w', encoding='utf-8', buffering=1) as log:
         sys.stdout, sys.stderr = Tee(original_out, log), Tee(original_err, log)
         try:
-            print('RF-DETR small-equation pilot starting', flush=True)
+            print('RF-DETR equation training starting:', CONFIG_FILE, flush=True)
             bundle = base64.b64decode(SOURCE_B64)
             if hashlib.sha256(bundle).hexdigest() != SOURCE_HASH:
                 raise ValueError('Source bundle checksum mismatch')
@@ -182,7 +183,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--data', default=str(PROJECT / 'dataset_symbols_small'))
     parser.add_argument('--account', default='nishitavedpathak03')
-    parser.add_argument('--config', help='Use configs/extended.json for the new structures')
+    parser.add_argument('--config', help='Select a registered config, e.g. configs/complex.json or configs/calculus.json')
     parser.add_argument('--prepare', action='store_true', help='Write local job/ZIP files; does not upload or train')
     args = parser.parse_args()
     if args.prepare:

@@ -201,7 +201,18 @@ class _Parser:
 def _latex(ast, parent_precedence=0):
     kind, children = ast['kind'], ast['children']
     if not children:
-        return r'\times' if ast['text'] == '×' else ast['text']
+        return {'×': r'\times', '∂': r'\partial', '∞': r'\infty'}.get(ast['text'], ast['text'])
+    if kind in {'integral', 'summation'}:
+        parts = dict(zip(ast['child_roles'], children))
+        value = r'\int' if kind == 'integral' else r'\sum'
+        if 'lower_limit' in parts:
+            value += '_{' + _latex(parts['lower_limit']) + '}^{' + _latex(parts['upper_limit']) + '}'
+        value += ' ' + _latex(parts['body'])
+        if 'differential' in parts:
+            value += r'\,' + _latex(parts['differential'])
+        return value
+    if kind == 'differential':
+        return r'\mathrm{d} ' + _latex(children[1])
     if kind == 'number':
         return ''.join(_latex(c) for c in children)
     if kind == 'power':
@@ -221,7 +232,8 @@ def _latex(ast, parent_precedence=0):
     if kind == 'function_name':
         return ast['text']
     if kind == 'function':
-        return '\\' + children[0]['text'] + _latex(children[1])
+        name = children[0]['text']
+        return (name if name == 'f' else '\\' + name) + _latex(children[1])
     if kind == 'logarithm':
         return r'\log_{' + _latex(children[1]) + '}' + _latex(children[2])
     if kind == 'unary':
@@ -263,6 +275,10 @@ def _nodes(ast):
                 child_role = 'function' if index == 0 else ('subscript' if item['kind'] == 'logarithm' and index == 1 else 'group')
             elif item['kind'] == 'function_name':
                 child_role = 'function'
+            elif item['kind'] in {'integral', 'summation'}:
+                child_role = item['child_roles'][index]
+            elif item['kind'] == 'differential':
+                child_role = 'operator' if index == 0 else 'base'
             child_id = visit(child, node_id, child_role)
             node['children'].append(child_id)
         return node_id
@@ -271,7 +287,7 @@ def _nodes(ast):
     return nodes
 
 
-def parse_small_equation(symbols, max_symbols=24, extended=False, complex_layout=False):
+def parse_small_equation(symbols, max_symbols=24, extended=False, complex_layout=False, calculus_layout=False):
     """Return a labelled spatial reconstruction or an explicit rejected result."""
     empty = {'nodes': [], 'root_id': None, 'latex': '',
              'latex_metadata': {'status': 'empty', 'verified': False, 'warnings': [],
@@ -281,14 +297,14 @@ def parse_small_equation(symbols, max_symbols=24, extended=False, complex_layout
     if not symbols:
         return empty
     try:
-        from .profiles import EXTENDED_SYMBOLS, COMPLEX_SYMBOLS
-        classes = COMPLEX_SYMBOLS if complex_layout else (EXTENDED_SYMBOLS if extended else None)
+        from .profiles import EXTENDED_SYMBOLS, COMPLEX_SYMBOLS, CALCULUS_SYMBOLS
+        classes = CALCULUS_SYMBOLS if calculus_layout else (COMPLEX_SYMBOLS if complex_layout else (EXTENDED_SYMBOLS if extended else None))
         cleaned, warnings = clean_symbols(symbols, max_symbols, classes)
         if warnings:
             raise LayoutError(' '.join(warnings))
-        if extended or complex_layout:
+        if extended or complex_layout or calculus_layout:
             from .structures import parse_structures
-            ast = parse_structures(cleaned, functions=complex_layout)
+            ast = parse_structures(cleaned, functions=complex_layout or calculus_layout, calculus=calculus_layout)
         else:
             main, powers, height = _layout(cleaned)
             ast = _Parser(main, powers, height).equation()

@@ -1,0 +1,513 @@
+{
+  "schema_version": 1,
+  "image": "000797",
+  "image_size": [
+    768,
+    768
+  ],
+  "coordinate_format": "xyxy in original-image pixels; right/bottom exclusive",
+  "nodes": [
+    {
+      "kind": "summation",
+      "text": null,
+      "bbox": [
+        27.707779824733734,
+        129.36127007757867,
+        767.8755124409994,
+        669.6074423623252
+      ],
+      "confidence": null,
+      "geometry_derived": true,
+      "child_roles": [
+        "operator",
+        "lower_limit",
+        "upper_limit",
+        "body"
+      ],
+      "baseline_center": 360.9230658257758,
+      "id": 0,
+      "parent_id": null,
+      "role": "group",
+      "children": [
+        1,
+        2,
+        6,
+        7
+      ],
+      "terminal": false,
+      "relationship_source": "spatial grammar",
+      "relationship_confidence": null
+    },
+    {
+      "kind": "leaf",
+      "text": "\u2211",
+      "bbox": [
+        64.7694878578186,
+        224.56329217657344,
+        280.7192980448405,
+        497.625592425153
+      ],
+      "confidence": 0.9833686947822571,
+      "detection_index": 1,
+      "id": 1,
+      "parent_id": 0,
+      "role": "operator",
+      "children": [],
+      "terminal": true,
+      "relationship_source": "spatial grammar",
+      "relationship_confidence": null
+    },
+    {
+      "kind": "binary",
+      "text": "=",
+      "bbox": [
+        27.707779824733734,
+        527.6987577851836,
+        302.4437516530355,
+        628.8472686980988
+      ],
+      "confidence": null,
+      "geometry_derived": true,
+      "baseline_center": 577.9414045427229,
+      "id": 2,
+      "parent_id": 0,
+      "role": "lower_limit",
+      "children": [
+        3,
+        4,
+        5
+      ],
+      "terminal": false,
+      "relationship_source": "spatial grammar",
+      "relationship_confidence": null
+    },
+    {
+      "kind": "leaf",
+      "text": "j",
+      "bbox": [
+        27.707779824733734,
+        527.6987577851836,
+        81.77528476715088,
+        628.1840513002622
+      ],
+      "confidence": 0.9687318801879883,
+      "detection_index": 6,
+      "id": 3,
+      "parent_id": 2,
+      "role": "group",
+      "children": [],
+      "terminal": true,
+      "relationship_source": "spatial grammar",
+      "relationship_confidence": null
+    },
+    {
+      "kind": "symbol",
+      "text": "=",
+      "bbox": [
+        128.2236220041911,
+        574.0908117761146,
+        210.13664499918622,
+        601.1616620684003
+      ],
+      "confidence": 0.9592249989509583,
+      "detection_index": 8,
+      "id": 4,
+      "parent_id": 2,
+      "role": "operator",
+      "children": [],
+      "terminal": true,
+      "relationship_source": "spatial grammar",
+      "relationship_confidence": null
+    },
+    {
+      "kind": "leaf",
+      "text": "1",
+      "bbox": [
+        257.3380482991537,
+        549.1529651988637,
+        302.4437516530355,
+        628.8472686980988
+      ],
+      "confidence": 0.9576635360717773,
+      "detection_index": 9,
+      "id": 5,
+      "parent_id": 2,
+      "role": "group",
+      "children": [],
+      "terminal": true,
+      "relationship_source": "spatial grammar",
+      "relationship_confidence": null
+    },
+    {
+      "kind": "leaf",
+      "text": "\u221e",
+      "bbox": [
+        116.46943855285646,
+        129.36127007757867,
+        210.8676732381185,
+        183.49225963245738
+      ],
+      "confidence": 0.9665096402168274,
+      "detection_index": 7,
+      "baseline_center": 156.426764855018,
+      "id": 6,
+      "parent_id": 0,
+      "role": "upper_limit",
+      "children": [],
+      "terminal": true,
+      "relationship_source": "spatial grammar",
+      "relationship_confidence": null
+    },
+    {
+      "kind": "parentheses",
+      "text": null,
+      "bbox": [
+        377.2419490814209,
+        149.47616555807474,
+        767.8755124409994,
+        669.6074423623252
+      ],
+      "confidence": null,
+      "geometry_derived": true,
+      "baseline_center": 360.9230658257758,
+      "id": 7,
+      "parent_id": 0,
+      "role": "body",
+      "children": [
+        8,
+        9,
+        15
+      ],
+      "terminal": false,
+      "relationship_source": "spatial grammar",
+      "relationship_confidence": null
+    },
+    {
+      "kind": "leaf",
+      "text": "(",
+      "bbox": [
+        377.2419490814209,
+        149.47616555807474,
+        430.87427330017096,
+        669.6074423623252
+      ],
+      "confidence": 0.9549462795257568,
+      "detection_index": 10,
+      "id": 8,
+      "parent_id": 7,
+      "role": "operator",
+      "children": [],
+      "terminal": true,
+      "relationship_source": "spatial grammar",
+      "relationship_confidence": null
+    },
+    {
+      "kind": "fraction",
+      "text": null,
+      "bbox": [
+        448.4223874409994,
+        174.33869133795892,
+        700.1987444559734,
+        635.0231557992789
+      ],
+      "confidence": null,
+      "geometry_derived": true,
+      "baseline_center": 360.9230658257758,
+      "id": 9,
+      "parent_id": 7,
+      "role": "group",
+      "children": [
+        10,
+        11,
+        12
+      ],
+      "terminal": false,
+      "relationship_source": "spatial grammar",
+      "relationship_confidence": null
+    },
+    {
+      "kind": "leaf",
+      "text": "1",
+      "bbox": [
+        530.1893781026205,
+        174.33869133795892,
+        604.8730684916179,
+        316.1324078753278
+      ],
+      "confidence": 0.9694315195083618,
+      "detection_index": 5,
+      "baseline_center": 245.23554960664336,
+      "id": 10,
+      "parent_id": 9,
+      "role": "numerator",
+      "children": [],
+      "terminal": true,
+      "relationship_source": "spatial grammar",
+      "relationship_confidence": null
+    },
+    {
+      "kind": "symbol",
+      "text": "-",
+      "bbox": [
+        448.4223874409994,
+        355.62043388740165,
+        700.1987444559734,
+        366.2256977641499
+      ],
+      "confidence": 0.9721349477767944,
+      "detection_index": 3,
+      "id": 11,
+      "parent_id": 9,
+      "role": "operator",
+      "children": [],
+      "terminal": true,
+      "relationship_source": "spatial grammar",
+      "relationship_confidence": null
+    },
+    {
+      "kind": "power",
+      "text": null,
+      "bbox": [
+        474.6732158660889,
+        399.06571480277535,
+        650.8013280232748,
+        635.0231557992789
+      ],
+      "confidence": null,
+      "geometry_derived": true,
+      "baseline_center": 546.9246228624891,
+      "id": 12,
+      "parent_id": 9,
+      "role": "denominator",
+      "children": [
+        13,
+        14
+      ],
+      "terminal": false,
+      "relationship_source": "spatial grammar",
+      "relationship_confidence": null
+    },
+    {
+      "kind": "leaf",
+      "text": "j",
+      "bbox": [
+        474.6732158660889,
+        458.8260899256993,
+        564.9790191650391,
+        635.0231557992789
+      ],
+      "confidence": 0.9884111881256104,
+      "detection_index": 0,
+      "id": 13,
+      "parent_id": 12,
+      "role": "base",
+      "children": [],
+      "terminal": true,
+      "relationship_source": "spatial grammar",
+      "relationship_confidence": null
+    },
+    {
+      "kind": "leaf",
+      "text": "3",
+      "bbox": [
+        597.4710489908855,
+        399.06571480277535,
+        650.8013280232748,
+        479.0988274420892
+      ],
+      "confidence": 0.9709383249282837,
+      "detection_index": 4,
+      "id": 14,
+      "parent_id": 12,
+      "role": "superscript",
+      "children": [],
+      "terminal": true,
+      "relationship_source": "spatial grammar",
+      "relationship_confidence": null
+    },
+    {
+      "kind": "leaf",
+      "text": ")",
+      "bbox": [
+        715.6710001627605,
+        151.0396173650568,
+        767.8755124409994,
+        668.061767578125
+      ],
+      "confidence": 0.9756671786308289,
+      "detection_index": 2,
+      "id": 15,
+      "parent_id": 7,
+      "role": "operator",
+      "children": [],
+      "terminal": true,
+      "relationship_source": "spatial grammar",
+      "relationship_confidence": null
+    }
+  ],
+  "root_id": 0,
+  "raw_symbols": [
+    {
+      "text": "j",
+      "bbox": [
+        474.6732158660889,
+        458.8260899256993,
+        564.9790191650391,
+        635.0231557992789
+      ],
+      "confidence": 0.9884111881256104
+    },
+    {
+      "text": "\u2211",
+      "bbox": [
+        64.7694878578186,
+        224.56329217657344,
+        280.7192980448405,
+        497.625592425153
+      ],
+      "confidence": 0.9833686947822571
+    },
+    {
+      "text": ")",
+      "bbox": [
+        715.6710001627605,
+        151.0396173650568,
+        767.8755124409994,
+        668.061767578125
+      ],
+      "confidence": 0.9756671786308289
+    },
+    {
+      "text": "-",
+      "bbox": [
+        448.4223874409994,
+        355.62043388740165,
+        700.1987444559734,
+        366.2256977641499
+      ],
+      "confidence": 0.9721349477767944
+    },
+    {
+      "text": "3",
+      "bbox": [
+        597.4710489908855,
+        399.06571480277535,
+        650.8013280232748,
+        479.0988274420892
+      ],
+      "confidence": 0.9709383249282837
+    },
+    {
+      "text": "1",
+      "bbox": [
+        530.1893781026205,
+        174.33869133795892,
+        604.8730684916179,
+        316.1324078753278
+      ],
+      "confidence": 0.9694315195083618
+    },
+    {
+      "text": "j",
+      "bbox": [
+        27.707779824733734,
+        527.6987577851836,
+        81.77528476715088,
+        628.1840513002622
+      ],
+      "confidence": 0.9687318801879883
+    },
+    {
+      "text": "\u221e",
+      "bbox": [
+        116.46943855285646,
+        129.36127007757867,
+        210.8676732381185,
+        183.49225963245738
+      ],
+      "confidence": 0.9665096402168274
+    },
+    {
+      "text": "=",
+      "bbox": [
+        128.2236220041911,
+        574.0908117761146,
+        210.13664499918622,
+        601.1616620684003
+      ],
+      "confidence": 0.9592249989509583
+    },
+    {
+      "text": "1",
+      "bbox": [
+        257.3380482991537,
+        549.1529651988637,
+        302.4437516530355,
+        628.8472686980988
+      ],
+      "confidence": 0.9576635360717773
+    },
+    {
+      "text": "(",
+      "bbox": [
+        377.2419490814209,
+        149.47616555807474,
+        430.87427330017096,
+        669.6074423623252
+      ],
+      "confidence": 0.9549462795257568
+    }
+  ],
+  "latex": "\\sum_{j = 1}^{\\infty} \\left(\\frac{1}{j^{3}}\\right)",
+  "latex_metadata": {
+    "status": "parsed",
+    "verified": false,
+    "warnings": [],
+    "unresolved_node_ids": [],
+    "max_depth": 4,
+    "source": "detected symbol identities and spatial grammar"
+  },
+  "metadata": {
+    "backend": "rf-detr",
+    "pipeline": "rf-detr-calculus-equations-v4",
+    "checkpoint_path": "D:\\eq_ocr\\checkpoints\\rfdetr_calculus\\checkpoint_best_total.pth",
+    "checkpoint_epoch": null,
+    "inference_seconds": 2.7709289000049466,
+    "threshold": 0.5,
+    "max_symbols": 128,
+    "raw_symbol_count": 11,
+    "node_limit_reached": false,
+    "layout_valid": true,
+    "layout_source": "spatial grammar; not a learned container detector",
+    "preprocessing": {
+      "crop": [
+        16,
+        116,
+        768,
+        676
+      ],
+      "sx": 1.0212765957446808,
+      "sy": 1.0214285714285714,
+      "left": 0,
+      "top": 98,
+      "width": 768,
+      "height": 572,
+      "side": 768
+    },
+    "padding_rejections": 0,
+    "visualization": {
+      "ink_components": 14,
+      "colored_components": 11,
+      "ambiguous_components_left_unchanged": 0
+    },
+    "confidence_note": "uncalibrated symbol confidence; geometry has no learned confidence",
+    "limitations": [
+      "Reads sin/cos/tan/log, bounded single integrals with differentials, Leibniz/partial derivative fractions and summations.",
+      "Summation bodies must be parenthesized expressions or single scripted variables/numbers.",
+      "Only simple integral/sum limits and single-line equations; no solving, proofs, matrices or general multiline layouts.",
+      "New glyphs require the separately trained calculus checkpoint; existing checkpoints do not gain classes.",
+      "A parsed result does not establish correct symbol recognition."
+    ],
+    "layout_mode": "calculus"
+  }
+}

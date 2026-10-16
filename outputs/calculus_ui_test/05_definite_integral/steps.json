@@ -1,0 +1,330 @@
+{
+  "schema_version": 1,
+  "root_id": 0,
+  "steps": [
+    {
+      "step": 0,
+      "node_id": 0,
+      "parent_id": null,
+      "depth": 0,
+      "action": "divide_region",
+      "kind": "binary",
+      "role": "group",
+      "text": "=",
+      "bbox": [
+        0.0,
+        234.05355834960938,
+        764.8546142578125,
+        521.1614990234375
+      ],
+      "child_ids": [
+        1,
+        9,
+        10
+      ],
+      "confidence": null,
+      "color": "#666666"
+    },
+    {
+      "step": 1,
+      "node_id": 1,
+      "parent_id": 0,
+      "depth": 1,
+      "action": "divide_region",
+      "kind": "integral",
+      "role": "group",
+      "text": null,
+      "bbox": [
+        0.0,
+        234.05355834960938,
+        477.56396484375,
+        521.1614990234375
+      ],
+      "child_ids": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "confidence": null,
+      "color": "#666666"
+    },
+    {
+      "step": 2,
+      "node_id": 2,
+      "parent_id": 1,
+      "depth": 2,
+      "action": "mark_leaf",
+      "kind": "leaf",
+      "role": "operator",
+      "text": "\u222b",
+      "bbox": [
+        0.0,
+        259.39166259765625,
+        126.1820297241211,
+        492.7678527832031
+      ],
+      "child_ids": [],
+      "confidence": 0.9880512952804565,
+      "color": "#E53935"
+    },
+    {
+      "step": 3,
+      "node_id": 3,
+      "parent_id": 1,
+      "depth": 2,
+      "action": "mark_leaf",
+      "kind": "leaf",
+      "role": "lower_limit",
+      "text": "0",
+      "bbox": [
+        138.1564178466797,
+        471.5023498535156,
+        172.10952758789062,
+        521.1614990234375
+      ],
+      "child_ids": [],
+      "confidence": 0.9647638201713562,
+      "color": "#A855F7"
+    },
+    {
+      "step": 4,
+      "node_id": 4,
+      "parent_id": 1,
+      "depth": 2,
+      "action": "mark_leaf",
+      "kind": "leaf",
+      "role": "upper_limit",
+      "text": "9",
+      "bbox": [
+        138.69549560546875,
+        234.05355834960938,
+        171.59764099121094,
+        283.24945068359375
+      ],
+      "child_ids": [],
+      "confidence": 0.9733317494392395,
+      "color": "#24A46B"
+    },
+    {
+      "step": 5,
+      "node_id": 5,
+      "parent_id": 1,
+      "depth": 2,
+      "action": "mark_leaf",
+      "kind": "leaf",
+      "role": "body",
+      "text": "x",
+      "bbox": [
+        217.19439697265625,
+        362.8548278808594,
+        282.5669860839844,
+        419.56787109375
+      ],
+      "child_ids": [],
+      "confidence": 0.9826073050498962,
+      "color": "#2878D0"
+    },
+    {
+      "step": 6,
+      "node_id": 6,
+      "parent_id": 1,
+      "depth": 2,
+      "action": "divide_region",
+      "kind": "differential",
+      "role": "differential",
+      "text": null,
+      "bbox": [
+        322.4959411621094,
+        335.67401123046875,
+        477.56396484375,
+        419.9444274902344
+      ],
+      "child_ids": [
+        7,
+        8
+      ],
+      "confidence": null,
+      "color": "#159EAD"
+    },
+    {
+      "step": 7,
+      "node_id": 7,
+      "parent_id": 6,
+      "depth": 3,
+      "action": "mark_leaf",
+      "kind": "leaf",
+      "role": "operator",
+      "text": "d",
+      "bbox": [
+        322.4959411621094,
+        335.67401123046875,
+        386.4154357910156,
+        419.9444274902344
+      ],
+      "child_ids": [],
+      "confidence": 0.982628583908081,
+      "color": "#E53935"
+    },
+    {
+      "step": 8,
+      "node_id": 8,
+      "parent_id": 6,
+      "depth": 3,
+      "action": "mark_leaf",
+      "kind": "leaf",
+      "role": "base",
+      "text": "x",
+      "bbox": [
+        412.3648681640625,
+        362.8712158203125,
+        477.56396484375,
+        419.6728515625
+      ],
+      "child_ids": [],
+      "confidence": 0.9801009893417358,
+      "color": "#2878D0"
+    },
+    {
+      "step": 9,
+      "node_id": 9,
+      "parent_id": 0,
+      "depth": 1,
+      "action": "mark_leaf",
+      "kind": "symbol",
+      "role": "operator",
+      "text": "=",
+      "bbox": [
+        510.71405029296875,
+        359.4564208984375,
+        595.3373413085938,
+        392.316162109375
+      ],
+      "child_ids": [],
+      "confidence": 0.9813225269317627,
+      "color": "#E53935"
+    },
+    {
+      "step": 10,
+      "node_id": 10,
+      "parent_id": 0,
+      "depth": 1,
+      "action": "divide_region",
+      "kind": "fraction",
+      "role": "group",
+      "text": null,
+      "bbox": [
+        623.5654907226562,
+        270.38140869140625,
+        764.8546142578125,
+        483.20074462890625
+      ],
+      "child_ids": [
+        11,
+        14,
+        15
+      ],
+      "confidence": null,
+      "color": "#666666"
+    },
+    {
+      "step": 11,
+      "node_id": 11,
+      "parent_id": 10,
+      "depth": 2,
+      "action": "divide_region",
+      "kind": "number",
+      "role": "numerator",
+      "text": null,
+      "bbox": [
+        638.4591674804688,
+        270.38140869140625,
+        741.0939331054688,
+        354.27288818359375
+      ],
+      "child_ids": [
+        12,
+        13
+      ],
+      "confidence": null,
+      "color": "#9348BD"
+    },
+    {
+      "step": 12,
+      "node_id": 12,
+      "parent_id": 11,
+      "depth": 3,
+      "action": "mark_leaf",
+      "kind": "leaf",
+      "role": "group",
+      "text": "8",
+      "bbox": [
+        638.4591674804688,
+        270.38140869140625,
+        693.9833374023438,
+        354.27288818359375
+      ],
+      "child_ids": [],
+      "confidence": 0.9834269285202026,
+      "color": "#666666"
+    },
+    {
+      "step": 13,
+      "node_id": 13,
+      "parent_id": 11,
+      "depth": 3,
+      "action": "mark_leaf",
+      "kind": "leaf",
+      "role": "group",
+      "text": "1",
+      "bbox": [
+        696.8243408203125,
+        271.2841796875,
+        741.0939331054688,
+        354.04632568359375
+      ],
+      "child_ids": [],
+      "confidence": 0.9735780954360962,
+      "color": "#666666"
+    },
+    {
+      "step": 14,
+      "node_id": 14,
+      "parent_id": 10,
+      "depth": 2,
+      "action": "mark_leaf",
+      "kind": "symbol",
+      "role": "operator",
+      "text": "-",
+      "bbox": [
+        623.5654907226562,
+        373.7081298828125,
+        764.8546142578125,
+        381.2566223144531
+      ],
+      "child_ids": [],
+      "confidence": 0.9645154476165771,
+      "color": "#E53935"
+    },
+    {
+      "step": 15,
+      "node_id": 15,
+      "parent_id": 10,
+      "depth": 2,
+      "action": "mark_leaf",
+      "kind": "leaf",
+      "role": "denominator",
+      "text": "2",
+      "bbox": [
+        663.0869750976562,
+        401.02197265625,
+        716.7086181640625,
+        483.20074462890625
+      ],
+      "child_ids": [],
+      "confidence": 0.9806917905807495,
+      "color": "#159EAD"
+    }
+  ]
+}

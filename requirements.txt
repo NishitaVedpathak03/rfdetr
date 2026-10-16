@@ -1,3 +1,4 @@
 -r requirements-rfdetr.txt
 streamlit>=1.58,<2
 matplotlib>=3.9,<4
+fonttools>=4.53,<5

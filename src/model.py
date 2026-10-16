@@ -105,10 +105,12 @@ def predict_symbol_image(image, predictor, threshold=.5, max_symbols=24, image_n
     detections = predictor.model.predict(prepared, threshold=threshold)
     pipeline = predictor.metadata.get('pipeline', PIPELINE)
     profile = profile_for(pipeline)
-    complex_layout = profile['name'] == 'complex'
-    extended = profile['name'] in {'extended', 'complex'} if extended_layout is None else extended_layout
+    calculus_layout = profile['name'] == 'calculus'
+    complex_layout = profile['name'] in {'complex', 'calculus'}
+    extended = profile['name'] in {'extended', 'complex', 'calculus'} if extended_layout is None else extended_layout
     raw_symbols, padding_rejections = map_detections(detections, geometry, image.size, profile['classes'])
-    parsed = parse_small_equation(raw_symbols, max_symbols, extended=extended, complex_layout=complex_layout)
+    parsed = parse_small_equation(raw_symbols, max_symbols, extended=extended, complex_layout=complex_layout,
+                                  calculus_layout=calculus_layout)
     elapsed = time.perf_counter() - started
     from .visualize import colored_equation
     colored, colors = colored_equation(image, parsed['nodes'])
@@ -141,5 +143,13 @@ def predict_symbol_image(image, predictor, threshold=.5, max_symbols=24, image_n
             'Bounded nested fractions, roots, scripts, parentheses and sin/cos/log with parenthesized arguments.',
             'Function letters and parentheses require the separately trained complex checkpoint.',
             'Matrices, integrals, Greek letters and general multiline layouts are not supported.',
+            'A parsed result does not establish correct symbol recognition.']
+    if calculus_layout:
+        result['metadata']['layout_mode'] = 'calculus'
+        result['metadata']['limitations'] = [
+            'Reads sin/cos/tan/log, bounded single integrals with differentials, Leibniz/partial derivative fractions and summations.',
+            'Summation bodies must be parenthesized expressions or single scripted variables/numbers.',
+            'Only simple integral/sum limits and single-line equations; no solving, proofs, matrices or general multiline layouts.',
+            'New glyphs require the separately trained calculus checkpoint; existing checkpoints do not gain classes.',
             'A parsed result does not establish correct symbol recognition.']
     return result, colored

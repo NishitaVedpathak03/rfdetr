@@ -11,7 +11,9 @@ from .validation import ink_mask, validate_hierarchy
 ROLE_COLORS = {"base": "#2878D0", "superscript": "#24A46B", "numerator": "#9348BD",
                "denominator": "#159EAD", "operator": "#E53935", "leaf": "#E5A000",
                "root": "#DB60B0", "function": "#8661C1", "group": "#666666",
-               "subscript": "#A855F7", "radicand": "#2878D0"}
+               "subscript": "#A855F7", "radicand": "#2878D0",
+               "lower_limit": "#A855F7", "upper_limit": "#24A46B",
+               "body": "#2878D0", "differential": "#159EAD"}
 
 
 def recursive_steps(nodes):
@@ -39,7 +41,8 @@ def contextual_role(node, lookup):
     parent = node["parent_id"]
     while parent is not None:
         ancestor = lookup[parent]
-        if ancestor["role"] in {"base", "superscript", "subscript", "numerator", "denominator", "radicand"}:
+        if ancestor["role"] in {"base", "superscript", "subscript", "numerator", "denominator", "radicand",
+                                "lower_limit", "upper_limit", "body", "differential"}:
             return ancestor["role"]
         parent = ancestor["parent_id"]
     return "group"

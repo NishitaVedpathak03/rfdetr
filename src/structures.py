@@ -18,7 +18,7 @@ def center(box):
 
 def leaf_height(ast):
     if not ast['children']:
-        return 0 if ast['text'] in OPERATORS | {'√'} else ast['bbox'][3] - ast['bbox'][1]
+        return 0 if ast['text'] in OPERATORS | {'√', '∫', '∑'} else ast['bbox'][3] - ast['bbox'][1]
     return max(leaf_height(child) for child in ast['children'])
 
 
@@ -27,7 +27,7 @@ def atom(ast, identity, anchor):
             '_ast': ast, '_anchor': anchor, '_height': max(1, leaf_height(ast))}
 
 
-def fraction_groups(items, depth, functions=False):
+def fraction_groups(items, depth, functions=False, calculus=False):
     """A bar needs horizontally covered operands both above and below it."""
     remaining = list(items)
     bars = sorted((s for s in items if s['text'] == '-'),
@@ -49,8 +49,8 @@ def fraction_groups(items, depth, functions=False):
         below = [s for s in covered if s['bbox'][1] >= y2 - thickness * .5]
         if not above or not below:
             continue
-        numerator = parse_region(above, depth + 1, allow_equality=False, functions=functions)
-        denominator = parse_region(below, depth + 1, allow_equality=False, functions=functions)
+        numerator = parse_region(above, depth + 1, allow_equality=False, functions=functions, calculus=calculus)
+        denominator = parse_region(below, depth + 1, allow_equality=False, functions=functions, calculus=calculus)
         node = _container('fraction', [numerator, _leaf(bar), denominator])
         selected = {s['detection_index'] for s in above + below + [bar]}
         remaining = [s for s in remaining if s['detection_index'] not in selected]
@@ -58,7 +58,7 @@ def fraction_groups(items, depth, functions=False):
     return remaining
 
 
-def root_groups(items, depth, functions=False):
+def root_groups(items, depth, functions=False, calculus=False):
     """The detected radical box must include its overbar and radicand span."""
     remaining = list(items)
     roots = sorted((s for s in items if s['text'] == '√'),
@@ -77,7 +77,7 @@ def root_groups(items, depth, functions=False):
                   s['bbox'][1] >= y1 + bar_margin and s['bbox'][3] <= y2 + .15 * height]
         if not inside:
             raise LayoutError('Square root needs a detected sign/overbar covering its radicand')
-        radicand = parse_region(inside, depth + 1, allow_equality=False, functions=functions)
+        radicand = parse_region(inside, depth + 1, allow_equality=False, functions=functions, calculus=calculus)
         node = _container('sqrt', [_leaf(root), radicand])
         selected = {s['detection_index'] for s in inside + [root]}
         remaining = [s for s in remaining if s['detection_index'] not in selected]
@@ -85,7 +85,7 @@ def root_groups(items, depth, functions=False):
     return remaining
 
 
-def parenthesis_groups(items, depth):
+def parenthesis_groups(items, depth, calculus=False):
     remaining = list(items)
     while any(s['text'] in '()' for s in remaining):
         marks = sorted((s for s in remaining if s['text'] in '()'), key=lambda s: s['bbox'][0])
@@ -112,7 +112,7 @@ def parenthesis_groups(items, depth):
                   s['bbox'][2] <= closing['bbox'][0] + .03 * height and
                   s['bbox'][1] >= opening['bbox'][1] - .2 * height and
                   s['bbox'][3] <= opening['bbox'][3] + .2 * height]
-        body = parse_region(inside, depth + 1, allow_equality=False, functions=True)
+        body = parse_region(inside, depth + 1, allow_equality=False, functions=True, calculus=calculus)
         node = _container('parentheses', [_leaf(opening), body, _leaf(closing)])
         selected = {s['detection_index'] for s in inside + [opening, closing]}
         remaining = [s for s in remaining if s['detection_index'] not in selected]
@@ -120,10 +120,10 @@ def parenthesis_groups(items, depth):
     return remaining
 
 
-def assign_scripts(items, functions=False):
+def assign_scripts(items, functions=False, calculus=False):
     """Separate small raised/lowered glyphs and require a nearby clear base."""
     if functions:
-        return assign_complex_scripts(items)
+        return assign_complex_scripts(items, calculus=calculus)
     operands = [s for s in items if s['text'] not in OPERATORS]
     if not operands:
         raise LayoutError('An expression needs an operand')
@@ -169,7 +169,7 @@ def assign_scripts(items, functions=False):
     return sorted(main, key=lambda s: s['bbox'][0]), scripts, height, baseline
 
 
-def assign_complex_scripts(items):
+def assign_complex_scripts(items, calculus=False):
     """Use local baseline offsets when italic bases are shorter than script digits."""
     operands = [s for s in items if s['text'] not in OPERATORS]
     proposed = {}
@@ -186,7 +186,7 @@ def assign_complex_scripts(items):
             bottom = baseline + height / 2
             gap = box[0] - base['bbox'][2]
             if not (box[0] >= base['bbox'][0] + .5 * (base['bbox'][2] - base['bbox'][0]) and
-                    -.15 * height <= gap <= 1.5 * height and box[3] - box[1] <= 1.8 * height):
+                    -.15 * height <= gap <= 1.5 * height and box[3] - box[1] <= (1.5 if calculus else 1.8) * height):
                 continue
             role = None
             if box[3] < bottom - .2 * height and center(box)[1] < baseline - .2 * height:
@@ -227,14 +227,19 @@ def assign_complex_scripts(items):
 
 class StructuredParser(_Parser):
     """Reuse the established operator grammar; add compound atoms and scripts."""
-    def __init__(self, main, scripts, height, functions=False):
+    def __init__(self, main, scripts, height, functions=False, calculus=False):
         super().__init__(main, {}, height)
         self.scripts = scripts
         self.functions = functions
+        self.calculus = calculus
+        self.variables = VARIABLES | (set('tdfC∂∞') if calculus else set())
+        self.function_names = {'s': 'sin', 'c': 'cos', 'l': 'log'}
+        if calculus:
+            self.function_names.update({'t': 'tan', 'f': 'f'})
 
     def term(self):
         result = self.signed_factor()
-        while self.peek() == '×' or self.peek() in VARIABLES or (self.functions and self.peek() in {'s', 'c', 'l'}) or (
+        while self.peek() == '×' or self.peek() in self.variables or (self.functions and self.peek() in self.function_names) or (
                 self.index < len(self.main) and '_ast' in self.main[self.index]):
             if self.peek() == '×':
                 op = _leaf(self.take())
@@ -249,8 +254,9 @@ class StructuredParser(_Parser):
             raise LayoutError('Missing operand')
         item = self.take()
         identity = item['detection_index']
-        if self.functions and text in {'s', 'c', 'l'}:
-            name = {'s': 'sin', 'c': 'cos', 'l': 'log'}[text]
+        has_argument = self.index < len(self.main) and self.main[self.index].get('_ast', {}).get('kind') == 'parentheses'
+        if self.functions and text in self.function_names and (text != 'f' or has_argument):
+            name = self.function_names[text]
             letters = [item]
             for letter in name[1:]:
                 if self.peek() != letter:
@@ -293,20 +299,23 @@ class StructuredParser(_Parser):
         return result
 
 
-def parse_region(items, depth=0, allow_equality=True, functions=False):
+def parse_region(items, depth=0, allow_equality=True, functions=False, calculus=False):
     if depth > (8 if functions else MAX_DEPTH):
         raise LayoutError('Structure nesting exceeds the supported depth')
     if not items:
         raise LayoutError('Missing structural operand')
+    if calculus:
+        from .calculus import operator_groups
+        items = operator_groups(items, depth)
     if not allow_equality and any(s['text'] == '=' for s in items):
         raise LayoutError('An equality cannot be a numerator, denominator or radicand')
-    grouped = parenthesis_groups(items, depth) if functions else items
-    atoms = root_groups(fraction_groups(grouped, depth, functions), depth, functions)
-    main, scripts, height, baseline = assign_scripts(atoms, functions)
-    result = StructuredParser(main, scripts, height, functions).equation()
+    grouped = parenthesis_groups(items, depth, calculus) if functions else items
+    atoms = root_groups(fraction_groups(grouped, depth, functions, calculus), depth, functions, calculus)
+    main, scripts, height, baseline = assign_scripts(atoms, functions, calculus)
+    result = StructuredParser(main, scripts, height, functions, calculus).equation()
     result['baseline_center'] = baseline
     return result
 
 
-def parse_structures(symbols, functions=False):
-    return parse_region(symbols, functions=functions)
+def parse_structures(symbols, functions=False, calculus=False):
+    return parse_region(symbols, functions=functions, calculus=calculus)

@@ -96,7 +96,7 @@ def eligible_symbols(nodes, max_symbols=24):
     return result
 
 
-def partition_records(records, seed=42):
+def partition_records(records, seed=42, required_classes=()):
     """Keep duplicate equations/fonts and identical source images in one split.
 
     Calibration glyphs go to training; validation/test assess complete equations.
@@ -113,23 +113,50 @@ def partition_records(records, seed=42):
     random.Random(seed).shuffle(keys)
     nv = nt = max(1, int(len(keys) * .1))
     key_splits = {'valid': keys[:nv], 'test': keys[nv:nv + nt], 'train': keys[nv + nt:]}
+    if required_classes:
+        required = set(required_classes)
+        group_classes = {key: {s['text'] for record in examples for s in record['symbols']} & required
+                         for key, examples in groups.items()}
+        coverage = {name: Counter(c for key in group_keys for c in group_classes[key])
+                    for name, group_keys in key_splits.items()}
+        # Move whole formula groups, preserving both disjointness and each
+        # donor's existing class coverage. Calibration glyphs never leave train.
+        for target in ('valid', 'test', 'train'):
+            for symbol in required_classes:
+                if coverage[target][symbol]:
+                    continue
+                candidates = [(len(groups[key]), donor, key)
+                              for donor in ('train', 'valid', 'test') if donor != target
+                              for key in key_splits[donor] if symbol in group_classes[key] and
+                              all(coverage[donor][c] > 1 for c in group_classes[key])]
+                if not candidates:
+                    raise ValueError(f'Need more independent formula groups to cover {symbol!r} in every split')
+                _, donor, key = min(candidates)
+                key_splits[donor].remove(key)
+                key_splits[target].append(key)
+                coverage[donor].subtract(group_classes[key])
+                coverage[target].update(group_classes[key])
     result = {name: [r for key in group_keys for r in groups[key]] for name, group_keys in key_splits.items()}
     result['train'].extend(calibration)
     return result
 
 
-def export_records(records, out, side=512, seed=42, pipeline=SMALL_PIPELINE, box_padding=0):
+def export_records(records, out, side=512, seed=42, pipeline=SMALL_PIPELINE, box_padding=0,
+                   required_classes=()):
     if not isinstance(box_padding, (int, float)) or not math.isfinite(box_padding) or not 0 <= box_padding <= 5:
         raise ValueError('Box padding must be between 0 and 5 prepared-image pixels')
     classes = profile_for(pipeline)['classes']
     out = Path(out).resolve()
     if out.exists() and any(out.iterdir()):
         raise FileExistsError(f'Refusing to overwrite nonempty dataset: {out}')
-    splits = partition_records(records, seed)
+    splits = partition_records(records, seed, required_classes)
     categories = [{'id': i, 'name': symbol, 'supercategory': 'math_symbol'} for i, symbol in enumerate(classes)]
     report = {'pipeline': pipeline, 'classes': list(classes), 'resolution': side,
               'split_seed': seed, 'split_policy': 'equation/content groups; glyph calibration in training only',
               'splits': {}, 'training_started': False}
+    if required_classes:
+        report['heldout_class_coverage_required'] = list(required_classes)
+        report['split_policy'] += '; whole-group transfers ensure required classes in every split'
     out.mkdir(parents=True, exist_ok=True)
     used_hashes = {}
     for split, examples in splits.items():

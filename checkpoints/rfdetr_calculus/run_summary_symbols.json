@@ -1,0 +1,7 @@
+{
+  "pipeline": "rf-detr-calculus-equations-v4",
+  "training_finished": true,
+  "best_checkpoint": "/kaggle/working/rfdetr_calculus/checkpoint_best_total.pth",
+  "scope": "Single-line OCR for sin/cos/tan/log, fractions, roots, scripts, integral signs with simple paired limits and d x/d y/d z differentials, Leibniz and partial derivative fractions, and finite/infinite sums with index = integer lower limits. Summation bodies are parenthesized or a single scripted variable/number. Reads notation only; no solving, prime derivatives, double integrals, proofs, matrices or general multiline layouts.",
+  "note": "Detection mAP selects this checkpoint. Run image-only equation evaluation before claiming OCR accuracy."
+}
